@@ -2,6 +2,7 @@ import random
 import os
 import datetime
 from utils.structure import *
+from utils.description import *
 
 def add_graphs(graph1, graph2):
     # 创建一个新字典来存储合并后的图
@@ -35,19 +36,7 @@ def operation(G):
         num += max(len(dependency)-1, 1)
     return num
 
-def nodetoname(node, sentence=False):
-        if node=="RNG":
-            return node
-        if isinstance(node[1], str):
-            if sentence:
-                return "each "+node[0].item_name+"'s "+node[1]
-            else:
-                return node[0].item_name+"'s "+node[1]
-        else:
-            if sentence:
-                return "each "+node[0].item_name+"'s "+node[1].item_name
-            else:
-                return node[0].item_name + "'s " + node[1].item_name
+
 
 def find_depend(abs_para, adj_list, G, category):
     index2 = category.index(abs_para[1])
@@ -264,6 +253,9 @@ def draw_necessary3(Gnece3_d, Topo, s):
 
 
 def draw_unnecessary(adj_list, Layers, G_d_nece, category):
+    # 创建一个新的图结构来存储修改后的图
+    G_d_nece_copy = {k: list(v) for k, v in G_d_nece.items()}
+    
     # Initialize the graph G_d and the IndList
     IndList = []
 
@@ -272,7 +264,7 @@ def draw_unnecessary(adj_list, Layers, G_d_nece, category):
         for v in value:
             all_instance_para.append((key, v))
     
-    left_instance_para = [para for para in all_instance_para if para not in G_d_nece]
+    left_instance_para = [para for para in all_instance_para if para not in G_d_nece_copy]
 
     # Helper function to recursively add dependencies
     # def add_dependencies(b):
@@ -289,13 +281,13 @@ def draw_unnecessary(adj_list, Layers, G_d_nece, category):
         #print(index1, index2)
         for item in adj_list[abs_para[0]]:
             instance_para = (abs_para[0], item)
-            if instance_para not in G_d_nece:
+            if instance_para not in G_d_nece_copy:
                 return False
             else:
                 depend_list.append(instance_para)
             if (index2-1)!=index1:
                 abs_para_middle = (item, abs_para[1])
-                if abs_para_middle not in G_d_nece:
+                if abs_para_middle not in G_d_nece_copy:
                     return False
                 else:
                     depend_list.append(abs_para_middle)
@@ -314,21 +306,21 @@ def draw_unnecessary(adj_list, Layers, G_d_nece, category):
             for j in range(d-i):
                 for item in Layers[j]:
                     abs_para = (item, category[i+j])
-                    if abs_para not in G_d_nece and check_depend(abs_para):
+                    if abs_para not in G_d_nece_copy and check_depend(abs_para):
                         abs_computable.append(abs_para)
         return abs_computable
                         
   
 
     # Main loop
-    while any(param not in G_d_nece for param in all_instance_para):
+    while any(param not in G_d_nece_copy for param in all_instance_para):
         # Step 3: Combine all parameters in G_d and computable parameters
-        K = set(G_d_nece.keys())
+        K = set(G_d_nece_copy.keys())
         K.update(abs_com_G())
 
         # Randomly select an instance parameter a from G_s that is not in G_d
-        a = random.choice([param for param in all_instance_para if param not in G_d_nece])
-        G_d_nece[a] = []  # Add a to G_d
+        a = random.choice([param for param in all_instance_para if param not in G_d_nece_copy])
+        G_d_nece_copy[a] = []  # Add a to G_d
 
         # Randomly decide the pool
         if random.random() < 0.5:
@@ -360,15 +352,15 @@ def draw_unnecessary(adj_list, Layers, G_d_nece, category):
 
         # Add selected dependencies to G_d
         for b in selected:
-            G_d_nece[a].append(b)
-            if b not in G_d_nece:
+            G_d_nece_copy[a].append(b)
+            if b not in G_d_nece_copy:
                 if isinstance(b[1], str):
-                    G_d_nece[b] = check_depend(b)
+                    G_d_nece_copy[b] = check_depend(b)
                 else:
-                    G_d_nece[b] = []
+                    G_d_nece_copy[b] = []
 
 
-    return G_d_nece
+    return G_d_nece_copy
 
 
 
@@ -415,42 +407,6 @@ def visualize_dependency_graph(graph, title="Dependency Graph", filename=None):
         plt.show()
     
     plt.close()
-
-
-
-def gen_sentence(G_d, a):
-    # Initialize the sentence string
-    str_sentence = f"The number of {nodetoname(a, sentence=True)} equals"
-
-    # Determine the pool of dependencies
-    pool = G_d[a]
-
-    # Check if RNG is in the pool
-    if 'RNG' in pool:
-        random_int = random.randint(0, 22)
-        str_sentence += f" {random_int}"
-        pool.remove('RNG')
-        if len(pool) > 0:
-            more_or_times = " more than" if random.random() < 0.5 else " times"
-            str_sentence += more_or_times
-
-    # Depending on the size of the pool, add to the sentence
-    if len(pool) == 1:
-        b = nodetoname(pool[0], sentence=True)
-        str_sentence += f" {b}"
-    elif len(pool) == 2:
-        b, c = nodetoname(pool[0], sentence=True), nodetoname(pool[1], sentence=True)
-        sum_or_diff = "the sum of" if random.random() < 0.5 else "the difference of"
-        str_sentence += f" {sum_or_diff} {b} and {c}"
-    else:
-        if pool:
-            pool_name_list = []
-            for i in pool:
-                pool_name_list.append(nodetoname(i, sentence=True))
-            random.shuffle(pool_name_list)
-            str_sentence += " the sum of " + ", ".join(pool_name_list[:-1]) + f", and {pool_name_list[-1]}"
-
-    return str_sentence
 
 
 
@@ -539,6 +495,15 @@ def DrawAll(op_max, ip_max, items_flatten, category, force=False):
         necessary3_file = os.path.join(log_folder, "necessary3_graph.png")
         visualize_dependency_graph(Gnece_d, title="Necessary3 Graph", filename=necessary3_file)
         write_log(f"Necessary3 graph saved to: {necessary3_file}")
+        question, solution, num_operation = question_solution(Gnece_d, Topo, category)
+        assert(num_operation==s)
+        # Write question and solution to log
+        write_log("\nQuestion:")
+        write_log(question)
+        write_log("\nSolution:")
+        write_log(solution)
+
+
 
     # Step 13: Draw Unnecessary
     G_d = draw_unnecessary(adj_list, Layers, Gnece_d, category)

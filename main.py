@@ -19,21 +19,18 @@ def read_items_from_json(filename):
 items_flatten = read_items_from_json('data/items_flatten.json')
 category = list(items_flatten.keys())
 
+"""
+    paramter:
+        iGSM-med training: op_max = 15, ip_max = 20
+        iGSM-med eval: force=True, op_max: 15,20-23, ip_max = 20
+        iGSM-hard training: op_max = 21, ip_max = 28
+        iGSM-hard eval: force=True, op_max: 21,28-32, ip_max = 28
+"""
 
-# Step 14: Generate English descriptions
-# descriptions = []
-# for key in G_d:
-#     sentence = gen_sentence(G_d, key)
-#     descriptions.append(sentence)
-
-
-# parameter setting
 
 
 
 # Example usage:
-op_max = 10
-ip_max = 8
+op_max = 15
+ip_max = 20
 G_d, Gnece_d, Topo = DrawAll(op_max, ip_max, items_flatten, category)
-
-# TODO: 1. add sentence together 2. generate solution

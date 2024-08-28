@@ -1,0 +1,17 @@
+s: 5
+n: 5
+m: 5
+d: 2
+w0: 3
+w1: 4
+e: 6
+Structure graph saved to: log/draw_all_log_20240829_060520/structure_graph.png
+Necessary1 graph saved to: log/draw_all_log_20240829_060520/necessary1_graph.png
+Necessary2 graph saved to: log/draw_all_log_20240829_060520/necessary2_graph.png
+Topological order:
+  Entertainment District's Kroger
+  Entertainment District's Shipt
+  Entertainment District's Supermarkets
+  Market District's Save-A-Lot
+  Market District's Supermarkets
+Necessary3 graph saved to: log/draw_all_log_20240829_060520/necessary3_graph.png

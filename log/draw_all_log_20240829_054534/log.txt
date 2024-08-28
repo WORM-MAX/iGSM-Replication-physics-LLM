@@ -1,0 +1,18 @@
+s: 6
+n: 6
+m: 6
+d: 3
+w0: 2
+w1: 3
+e: 7
+Structure graph saved to: log/draw_all_log_20240829_054534/structure_graph.png
+Necessary1 graph saved to: log/draw_all_log_20240829_054534/necessary1_graph.png
+Necessary2 graph saved to: log/draw_all_log_20240829_054534/necessary2_graph.png
+Topological order:
+  Dormitory District's Aldi (Germany)
+  Aldi (Germany)'s Gummy Candy
+  Aldi (Germany)'s Product
+  Dormitory District's Product
+  Amazon Fresh's Gummy Candy
+  Amazon Fresh's Product
+Necessary3 graph saved to: log/draw_all_log_20240829_054534/necessary3_graph.png

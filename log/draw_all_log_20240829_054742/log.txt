@@ -1,0 +1,16 @@
+s: 4
+n: 4
+m: 4
+d: 2
+w0: 2
+w1: 4
+e: 4
+Structure graph saved to: log/draw_all_log_20240829_054742/structure_graph.png
+Necessary1 graph saved to: log/draw_all_log_20240829_054742/necessary1_graph.png
+Necessary2 graph saved to: log/draw_all_log_20240829_054742/necessary2_graph.png
+Topological order:
+  Medical District's Publix
+  Cultural Heritage Site's Gelson's Markets
+  Cultural Heritage Site's Supermarkets
+  Housing Estate's Blue Apron
+Necessary3 graph saved to: log/draw_all_log_20240829_054742/necessary3_graph.png
