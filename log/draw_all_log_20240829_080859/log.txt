@@ -1,0 +1,36 @@
+s: 10
+n: 10
+m: 10
+d: 3
+w0: 3
+w1: 4
+e: 17
+Structure graph saved to: log/draw_all_log_20240829_080859/structure_graph.png
+Necessary1 graph saved to: log/draw_all_log_20240829_080859/necessary1_graph.png
+Necessary2 graph saved to: log/draw_all_log_20240829_080859/necessary2_graph.png
+Topological order:
+  Shipt 's Nuts
+  Shipt 's Greek Yogurt
+  Shipt 's Cupcakes
+  Shipt 's Product
+  Research Park 's Food Lion
+  Research Park 's Instacart
+  Research Park 's Shipt
+  Research Park 's Supermarkets
+Necessary3 graph saved to: log/draw_all_log_20240829_080859/necessary3_graph.png
+
+Question:
+The number of Shipt 's Cupcakes equals the difference of Shipt 's Greek Yogurt and Shipt 's Nuts. The number of Research Park 's Instacart equals the sum of Shipt 's Cupcakes and Shipt 's Nuts. The number of Shipt 's Greek Yogurt equals 18 times Shipt 's Nuts. The number of Research Park 's Food Lion equals Shipt 's Product. The number of Shipt 's Nuts equals 6. The number of Research Park 's Shipt equals Research Park 's Instacart. How many Supermarkets does Research Park have?
+
+Solution:
+Define each Shipt 's Nuts as F; So F = 6.
+Define each Shipt 's Greek Yogurt as q; So q = 18 * F = 18 * 6 = 108.
+Define each Shipt 's Cupcakes as C; So C = q - F = 108 - 6 = 102.
+Define each Shipt 's Product as D; E = F + C = 6 + 102 = 108; So D = q + E = 108 + 108 = 216.
+Define each Research Park 's Food Lion as o; So o = D = 216.
+Define each Research Park 's Instacart as e; So e = C + F = 102 + 6 = 108.
+Define each Research Park 's Shipt as n; So n = e = 108.
+Define each Research Park 's Supermarkets as b; v = o + n = 216 + 108 = 324; So b = e + v = 108 + 324 = 432.
+
+Unnecessary graph saved to: log/draw_all_log_20240829_080859/unnecessary_graph.png
+DrawAll completed successfully

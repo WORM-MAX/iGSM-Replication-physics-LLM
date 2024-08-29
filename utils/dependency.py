@@ -219,10 +219,12 @@ def draw_necessary3(Gnece3_d, Topo, s):
             return None
         a = random.choice(eligible)
         cur_op[a] += 1
+
+    G_d_nece = {k: list(v) for k, v in Gnece3_d.items()}
     
-    Gnece3_d["RNG"] = []
+    G_d_nece["RNG"] = []
     for a in Gnece3_d:
-        if (not a=="RNG") and (not isinstance(a[1], str)):
+        if not isinstance(a[1], str):
             pool = ["RNG"] + Topo[:Topo.index(a)]
             if cur_op[a] == 1:
                 dep_num = random.choice([1, 2])
@@ -230,23 +232,22 @@ def draw_necessary3(Gnece3_d, Topo, s):
                 dep_num = cur_op[a] + 1
             dep_num = min(dep_num, len(pool))
             re = [b for b in Gnece3_d[a] if b in pool]
-            if re:
-                b = re[0]
+            for r in re:
                 pool.remove(b)
                 dep_num -= 1
             if dep_num == len(pool):
-                Gnece3_d[a].extend(pool)
+                G_d_nece[a].extend(pool)
             else:
                 if np.random.uniform(0,1)>0.5:
-                    Gnece3_d[a].append("RNG")
+                    G_d_nece[a].append("RNG")
                     dep_num -= 1
                 pool.remove("RNG")
                 if dep_num > 0:
                     indexs = np.random.choice(len(pool), dep_num, replace=False)
                     for index in indexs:
-                        Gnece3_d[a].append(pool[index])
+                        G_d_nece[a].append(pool[index])
 
-    return Gnece3_d
+    return G_d_nece
 
 
 
@@ -496,12 +497,12 @@ def DrawAll(op_max, ip_max, items_flatten, category, force=False):
         visualize_dependency_graph(Gnece_d, title="Necessary3 Graph", filename=necessary3_file)
         write_log(f"Necessary3 graph saved to: {necessary3_file}")
         question, solution, num_operation = question_solution(Gnece_d, Topo, category)
-        assert(num_operation==s)
         # Write question and solution to log
         write_log("\nQuestion:")
         write_log(question)
         write_log("\nSolution:")
         write_log(solution)
+        assert(num_operation==s)
 
 
 

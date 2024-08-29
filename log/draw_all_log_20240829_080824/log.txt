@@ -1,0 +1,36 @@
+s: 8
+n: 8
+m: 8
+d: 3
+w0: 3
+w1: 4
+e: 6
+Structure graph saved to: log/draw_all_log_20240829_080824/structure_graph.png
+Necessary1 graph saved to: log/draw_all_log_20240829_080824/necessary1_graph.png
+Necessary2 graph saved to: log/draw_all_log_20240829_080824/necessary2_graph.png
+Topological order:
+  Walmart Grocery 's Flatbreads
+  Condo District 's Walmart Grocery
+  Walmart Grocery 's Product
+  Condo District 's Product
+  E.Leclerc 's Flatbreads
+  Heritage District 's E.Leclerc
+  E.Leclerc 's Product
+  Heritage District 's Product
+Necessary3 graph saved to: log/draw_all_log_20240829_080824/necessary3_graph.png
+
+Question:
+The number of Condo District 's Walmart Grocery equals 22 more than Walmart Grocery 's Flatbreads. The number of E.Leclerc 's Flatbreads equals 16 more than Condo District 's Product. The number of Heritage District 's E.Leclerc equals Condo District 's Walmart Grocery. The number of Walmart Grocery 's Flatbreads equals 13. How many Product does Heritage District have?
+
+Solution:
+Define each Walmart Grocery 's Flatbreads as W; So W = 13.
+Define each Condo District 's Walmart Grocery as D; So D = 22 + W = 22 + 13 = 35.
+Define each Walmart Grocery 's Product as g; So g = W = 13.
+Define each Condo District 's Product as N; N = D * g = 35 * 13 = 455.
+Define each E.Leclerc 's Flatbreads as a; So a = 16 + N = 16 + 455 = 471.
+Define each Heritage District 's E.Leclerc as d; So d = D = 35.
+Define each E.Leclerc 's Product as n; So n = a = 471.
+Define each Heritage District 's Product as u; u = d * n = 35 * 471 = 16485.
+
+Unnecessary graph saved to: log/draw_all_log_20240829_080824/unnecessary_graph.png
+DrawAll completed successfully

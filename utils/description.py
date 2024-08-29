@@ -6,14 +6,14 @@ def nodetoname(node, sentence=False):
         return node
     if isinstance(node[1], str):
         if sentence:
-            return "each "+node[0].item_name+"'s "+node[1]
+            return "each "+node[0].item_name+" 's "+node[1]
         else:
-            return node[0].item_name+"'s "+node[1]
+            return node[0].item_name+" 's "+node[1]
     else:
         if sentence:
-            return "each "+node[0].item_name+"'s "+node[1].item_name
+            return "each "+node[0].item_name+" 's "+node[1].item_name
         else:
-            return node[0].item_name + "'s " + node[1].item_name
+            return node[0].item_name + " 's " + node[1].item_name
 
 def generate_var(G_value):
     new_var = None
@@ -135,7 +135,7 @@ def gen_description(G_d, a, G_var, G_value):
 
 def question_solution(Gnece_d, Topo, category,front=False):
     query = nodetoname(Topo[-1])
-    a, b = query.split("'s ")
+    a, b = query.split(" 's ")
     q = "How many " + b + " does " + a + " have?"
 
     # Generate English descriptions
@@ -197,8 +197,8 @@ def question_solution(Gnece_d, Topo, category,front=False):
                         new_var_list.pop(-1)
                         new_var_list.pop(-1)
                         new_var_list.append(new_var)
-                    var_1 = G_var[new_var_list[0]]
-                    var_2 = G_var[new_var_list[1]]
+                    var_1 = new_var_list[0]
+                    var_2 = new_var_list[1]
                     G_value[var_a] = G_value[var_1] + G_value[var_2]
                     solution_abs.append("So " + var_a + " = " + var_1 + " + " + var_2 + " = " + str(G_value[var_1]) + " + " + str(G_value[var_2]) + " = " + str(G_value[var_a]))
             else:
@@ -224,8 +224,8 @@ def question_solution(Gnece_d, Topo, category,front=False):
                         new_var_list.pop(-1)
                         new_var_list.pop(-1)
                         new_var_list.append(new_var)
-                    var_1 = G_var[new_var_list[0]]
-                    var_2 = G_var[new_var_list[1]]
+                    var_1 = new_var_list[0]
+                    var_2 = new_var_list[1]
                     G_value[var_a] = G_value[var_1] + G_value[var_2]
                     solution_abs.append("So " + var_a + " = " + var_1 + " + " + var_2 + " = " + str(G_value[var_1]) + " + " + str(G_value[var_2]) + " = " + str(G_value[var_a]))
             

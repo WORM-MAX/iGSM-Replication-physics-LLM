@@ -1,0 +1,40 @@
+s: 13
+n: 9
+m: 10
+d: 3
+w0: 3
+w1: 4
+e: 10
+Structure graph saved to: log/draw_all_log_20240829_080828/structure_graph.png
+Necessary1 graph saved to: log/draw_all_log_20240829_080828/necessary1_graph.png
+Necessary2 graph saved to: log/draw_all_log_20240829_080828/necessary2_graph.png
+Topological order:
+  Tech Park 's Sam's Club
+  Tech Park 's Sprouts Farmers Market
+  Tech Park 's Supermarkets
+  Industrial District 's Sprouts Farmers Market
+  Big Lots 's Smoothies
+  Big Lots 's Product
+  Morrisons 's Smoothies
+  Courthouse District 's Morrisons
+  Morrisons 's Product
+  Courthouse District 's Product
+Necessary3 graph saved to: log/draw_all_log_20240829_080828/necessary3_graph.png
+
+Question:
+The number of Morrisons 's Smoothies equals the sum of Industrial District 's Sprouts Farmers Market, Tech Park 's Sam's Club, and Big Lots 's Product. The number of Tech Park 's Sprouts Farmers Market equals Tech Park 's Sam's Club. The number of Big Lots 's Smoothies equals the difference of Industrial District 's Sprouts Farmers Market and Tech Park 's Supermarkets. The number of Industrial District 's Sprouts Farmers Market equals 12 more than Tech Park 's Supermarkets. The number of Tech Park 's Sam's Club equals 8. The number of Courthouse District 's Morrisons equals the sum of Morrisons 's Smoothies, Tech Park 's Sam's Club, Big Lots 's Smoothies, and Tech Park 's Supermarkets. How many Product does Courthouse District have?
+
+Solution:
+Define each Tech Park 's Sam's Club as z; So z = 8.
+Define each Tech Park 's Sprouts Farmers Market as Q; So Q = z = 8.
+Define each Tech Park 's Supermarkets as b; So b = Q + z = 8 + 8 = 16.
+Define each Industrial District 's Sprouts Farmers Market as H; So H = 12 + b = 12 + 16 = 28.
+Define each Big Lots 's Smoothies as V; So V = H - b = 28 - 16 = 12.
+Define each Big Lots 's Product as v; So v = V = 12.
+Define each Morrisons 's Smoothies as I; N = H + z = 28 + 8 = 36; So I = v + N = 12 + 36 = 48.
+Define each Courthouse District 's Morrisons as l; D = I + b = 48 + 16 = 64; h = D + z = 64 + 8 = 72; So l = V + h = 12 + 72 = 84.
+Define each Morrisons 's Product as k; So k = I = 48.
+Define each Courthouse District 's Product as S; S = l * k = 84 * 48 = 4032.
+
+Unnecessary graph saved to: log/draw_all_log_20240829_080828/unnecessary_graph.png
+DrawAll completed successfully

@@ -1,0 +1,22 @@
+s: 1
+n: 1
+m: 1
+d: 4
+w0: 3
+w1: 4
+e: 11
+Structure graph saved to: log/draw_all_log_20240829_080806/structure_graph.png
+Necessary1 graph saved to: log/draw_all_log_20240829_080806/necessary1_graph.png
+Necessary2 graph saved to: log/draw_all_log_20240829_080806/necessary2_graph.png
+Topological order:
+  Business District 's The Fresh Market
+Necessary3 graph saved to: log/draw_all_log_20240829_080806/necessary3_graph.png
+
+Question:
+The number of Business District 's The Fresh Market equals 20. How many The Fresh Market does Business District have?
+
+Solution:
+Define each Business District 's The Fresh Market as p; So p = 20.
+
+Unnecessary graph saved to: log/draw_all_log_20240829_080806/unnecessary_graph.png
+DrawAll completed successfully

@@ -28,9 +28,9 @@ category = list(items_flatten.keys())
 """
 
 
-
-
 # Example usage:
 op_max = 15
 ip_max = 20
 G_d, Gnece_d, Topo = DrawAll(op_max, ip_max, items_flatten, category)
+
+# TODO: mod 23

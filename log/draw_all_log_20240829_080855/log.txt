@@ -1,0 +1,34 @@
+s: 8
+n: 7
+m: 7
+d: 4
+w0: 2
+w1: 4
+e: 16
+Structure graph saved to: log/draw_all_log_20240829_080855/structure_graph.png
+Necessary1 graph saved to: log/draw_all_log_20240829_080855/necessary1_graph.png
+Necessary2 graph saved to: log/draw_all_log_20240829_080855/necessary2_graph.png
+Topological order:
+  Preservation District 's Lidl
+  Preservation District 's Trader Joe's
+  Preservation District 's Supermarkets
+  Urban Residential Area 's Lidl
+  Canned Chili 's Pickles
+  Canned Chili 's Yeast
+  Canned Chili 's Ingredient
+Necessary3 graph saved to: log/draw_all_log_20240829_080855/necessary3_graph.png
+
+Question:
+The number of Canned Chili 's Yeast equals 13 more than Canned Chili 's Pickles. The number of Preservation District 's Trader Joe's equals 12 times Preservation District 's Lidl. The number of Preservation District 's Lidl equals 11. The number of Canned Chili 's Pickles equals the difference of Urban Residential Area 's Lidl and Preservation District 's Lidl. The number of Urban Residential Area 's Lidl equals the sum of Preservation District 's Lidl, Preservation District 's Supermarkets, and Preservation District 's Trader Joe's. How many Ingredient does Canned Chili have?
+
+Solution:
+Define each Preservation District 's Lidl as C; So C = 11.
+Define each Preservation District 's Trader Joe's as s; So s = 12 * C = 12 * 11 = 132.
+Define each Preservation District 's Supermarkets as w; So w = C + s = 11 + 132 = 143.
+Define each Urban Residential Area 's Lidl as R; K = s + C = 132 + 11 = 143; So R = w + K = 143 + 143 = 286.
+Define each Canned Chili 's Pickles as r; So r = R - C = 286 - 11 = 275.
+Define each Canned Chili 's Yeast as n; So n = 13 + r = 13 + 275 = 288.
+Define each Canned Chili 's Ingredient as H; So H = r + n = 275 + 288 = 563.
+
+Unnecessary graph saved to: log/draw_all_log_20240829_080855/unnecessary_graph.png
+DrawAll completed successfully

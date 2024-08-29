@@ -1,0 +1,28 @@
+s: 6
+n: 5
+m: 5
+d: 2
+w0: 2
+w1: 4
+e: 9
+Structure graph saved to: log/draw_all_log_20240829_080821/structure_graph.png
+Necessary1 graph saved to: log/draw_all_log_20240829_080821/necessary1_graph.png
+Necessary2 graph saved to: log/draw_all_log_20240829_080821/necessary2_graph.png
+Topological order:
+  Senior Living Community 's Sprouts Farmers Market
+  Senior Living Community 's Weis Markets
+  Senior Living Community 's Fresh Thyme Market
+  Senior Living Community 's Supermarkets
+Necessary3 graph saved to: log/draw_all_log_20240829_080821/necessary3_graph.png
+
+Question:
+The number of Senior Living Community 's Fresh Thyme Market equals 13 more than the sum of Senior Living Community 's Weis Markets and Senior Living Community 's Sprouts Farmers Market. The number of Senior Living Community 's Sprouts Farmers Market equals 16. The number of Senior Living Community 's Weis Markets equals 11 more than Senior Living Community 's Sprouts Farmers Market. How many Supermarkets does Senior Living Community have?
+
+Solution:
+Define each Senior Living Community 's Sprouts Farmers Market as u; So u = 16.
+Define each Senior Living Community 's Weis Markets as f; So f = 11 + u = 11 + 16 = 27.
+Define each Senior Living Community 's Fresh Thyme Market as T; L = f + u = 27 + 16 = 43; So T = 13 + L = 13 + 43 = 56.
+Define each Senior Living Community 's Supermarkets as U; H = u + f = 16 + 27 = 43; So U = T + H = 56 + 43 = 99.
+
+Unnecessary graph saved to: log/draw_all_log_20240829_080821/unnecessary_graph.png
+DrawAll completed successfully

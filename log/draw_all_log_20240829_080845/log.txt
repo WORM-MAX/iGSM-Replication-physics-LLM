@@ -1,0 +1,30 @@
+s: 6
+n: 1
+m: 5
+d: 3
+w0: 3
+w1: 4
+e: 10
+Structure graph saved to: log/draw_all_log_20240829_080845/structure_graph.png
+Necessary1 graph saved to: log/draw_all_log_20240829_080845/necessary1_graph.png
+Necessary2 graph saved to: log/draw_all_log_20240829_080845/necessary2_graph.png
+Topological order:
+  Amazon Fresh 's Greek Yogurt
+  Amazon Fresh 's Canned Tomatoes
+  Sprouts Farmers Market 's Yogurt Covered Raisins
+  Publix 's Greek Yogurt
+  Diplomatic Quarter 's Sprouts Farmers Market
+Necessary3 graph saved to: log/draw_all_log_20240829_080845/necessary3_graph.png
+
+Question:
+The number of Publix 's Greek Yogurt equals 11 times the sum of Sprouts Farmers Market 's Yogurt Covered Raisins and Amazon Fresh 's Canned Tomatoes. The number of Sprouts Farmers Market 's Yogurt Covered Raisins equals 8 more than Amazon Fresh 's Canned Tomatoes. The number of Amazon Fresh 's Canned Tomatoes equals Amazon Fresh 's Greek Yogurt. The number of Diplomatic Quarter 's Sprouts Farmers Market equals Publix 's Greek Yogurt. The number of Amazon Fresh 's Greek Yogurt equals 18. How many Sprouts Farmers Market does Diplomatic Quarter have?
+
+Solution:
+Define each Amazon Fresh 's Greek Yogurt as P; So P = 18.
+Define each Amazon Fresh 's Canned Tomatoes as e; So e = P = 18.
+Define each Sprouts Farmers Market 's Yogurt Covered Raisins as D; So D = 8 + e = 8 + 18 = 26.
+Define each Publix 's Greek Yogurt as N; x = D + e = 26 + 18 = 44; So N = 11 * x = 11 * 44 = 484.
+Define each Diplomatic Quarter 's Sprouts Farmers Market as R; So R = N = 484.
+
+Unnecessary graph saved to: log/draw_all_log_20240829_080845/unnecessary_graph.png
+DrawAll completed successfully

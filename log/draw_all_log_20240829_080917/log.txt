@@ -1,0 +1,28 @@
+s: 4
+n: 4
+m: 4
+d: 4
+w0: 2
+w1: 4
+e: 12
+Structure graph saved to: log/draw_all_log_20240829_080917/structure_graph.png
+Necessary1 graph saved to: log/draw_all_log_20240829_080917/necessary1_graph.png
+Necessary2 graph saved to: log/draw_all_log_20240829_080917/necessary2_graph.png
+Topological order:
+  Safeway 's Canned Peaches
+  Student Housing 's Safeway
+  Student Housing 's Kroger
+  Student Housing 's Supermarkets
+Necessary3 graph saved to: log/draw_all_log_20240829_080917/necessary3_graph.png
+
+Question:
+The number of Safeway 's Canned Peaches equals 10. The number of Student Housing 's Safeway equals 1 times Safeway 's Canned Peaches. The number of Student Housing 's Kroger equals the sum of Student Housing 's Safeway and Safeway 's Canned Peaches. How many Supermarkets does Student Housing have?
+
+Solution:
+Define each Safeway 's Canned Peaches as U; So U = 10.
+Define each Student Housing 's Safeway as s; So s = 1 * U = 1 * 10 = 10.
+Define each Student Housing 's Kroger as w; So w = s + U = 10 + 10 = 20.
+Define each Student Housing 's Supermarkets as A; So A = w + s = 20 + 10 = 30.
+
+Unnecessary graph saved to: log/draw_all_log_20240829_080917/unnecessary_graph.png
+DrawAll completed successfully

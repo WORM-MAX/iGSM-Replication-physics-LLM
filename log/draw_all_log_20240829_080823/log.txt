@@ -1,0 +1,28 @@
+s: 4
+n: 4
+m: 4
+d: 4
+w0: 2
+w1: 4
+e: 13
+Structure graph saved to: log/draw_all_log_20240829_080823/structure_graph.png
+Necessary1 graph saved to: log/draw_all_log_20240829_080823/necessary1_graph.png
+Necessary2 graph saved to: log/draw_all_log_20240829_080823/necessary2_graph.png
+Topological order:
+  The Fresh Market 's Greek Yogurt
+  Embassy Row 's The Fresh Market
+  The Fresh Market 's Cheese Puffs
+  Fruit Snacks 's Barbecue Sauce
+Necessary3 graph saved to: log/draw_all_log_20240829_080823/necessary3_graph.png
+
+Question:
+The number of The Fresh Market 's Cheese Puffs equals 14 times Embassy Row 's The Fresh Market. The number of The Fresh Market 's Greek Yogurt equals 19. The number of Embassy Row 's The Fresh Market equals The Fresh Market 's Greek Yogurt. The number of Fruit Snacks 's Barbecue Sauce equals The Fresh Market 's Cheese Puffs. How many Barbecue Sauce does Fruit Snacks have?
+
+Solution:
+Define each The Fresh Market 's Greek Yogurt as Y; So Y = 19.
+Define each Embassy Row 's The Fresh Market as c; So c = Y = 19.
+Define each The Fresh Market 's Cheese Puffs as W; So W = 14 * c = 14 * 19 = 266.
+Define each Fruit Snacks 's Barbecue Sauce as w; So w = W = 266.
+
+Unnecessary graph saved to: log/draw_all_log_20240829_080823/unnecessary_graph.png
+DrawAll completed successfully

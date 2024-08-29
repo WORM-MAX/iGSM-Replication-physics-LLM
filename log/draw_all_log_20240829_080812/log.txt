@@ -1,0 +1,30 @@
+s: 5
+n: 5
+m: 5
+d: 3
+w0: 2
+w1: 4
+e: 5
+Structure graph saved to: log/draw_all_log_20240829_080812/structure_graph.png
+Necessary1 graph saved to: log/draw_all_log_20240829_080812/necessary1_graph.png
+Necessary2 graph saved to: log/draw_all_log_20240829_080812/necessary2_graph.png
+Topological order:
+  Heritage District 's Bristol Farms
+  University Campus 's Bristol Farms
+  Bristol Farms 's Muffins
+  Bristol Farms 's Product
+  University Campus 's Product
+Necessary3 graph saved to: log/draw_all_log_20240829_080812/necessary3_graph.png
+
+Question:
+The number of Bristol Farms 's Muffins equals 12 more than University Campus 's Bristol Farms. The number of University Campus 's Bristol Farms equals Heritage District 's Bristol Farms. The number of Heritage District 's Bristol Farms equals 20. How many Product does University Campus have?
+
+Solution:
+Define each Heritage District 's Bristol Farms as X; So X = 20.
+Define each University Campus 's Bristol Farms as x; So x = X = 20.
+Define each Bristol Farms 's Muffins as M; So M = 12 + x = 12 + 20 = 32.
+Define each Bristol Farms 's Product as d; So d = M = 32.
+Define each University Campus 's Product as J; J = x * d = 20 * 32 = 640.
+
+Unnecessary graph saved to: log/draw_all_log_20240829_080812/unnecessary_graph.png
+DrawAll completed successfully

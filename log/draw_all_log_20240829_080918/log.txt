@@ -1,0 +1,34 @@
+s: 8
+n: 5
+m: 8
+d: 2
+w0: 3
+w1: 4
+e: 6
+Structure graph saved to: log/draw_all_log_20240829_080918/structure_graph.png
+Necessary1 graph saved to: log/draw_all_log_20240829_080918/necessary1_graph.png
+Necessary2 graph saved to: log/draw_all_log_20240829_080918/necessary2_graph.png
+Topological order:
+  Market District 's Mitsuwa Marketplace
+  Arts District 's The Fresh Market
+  Arts District 's Mitsuwa Marketplace
+  Suburban Neighborhood 's Mitsuwa Marketplace
+  Suburban Neighborhood 's Bristol Farms
+  Suburban Neighborhood 's Supermarkets
+  Market District 's The Fresh Market
+Necessary3 graph saved to: log/draw_all_log_20240829_080918/necessary3_graph.png
+
+Question:
+The number of Suburban Neighborhood 's Bristol Farms equals 15 times Arts District 's Mitsuwa Marketplace. The number of Market District 's The Fresh Market equals 4 more than the sum of Suburban Neighborhood 's Supermarkets and Arts District 's Mitsuwa Marketplace. The number of Arts District 's Mitsuwa Marketplace equals Arts District 's The Fresh Market. The number of Arts District 's The Fresh Market equals 10 more than Market District 's Mitsuwa Marketplace. The number of Suburban Neighborhood 's Mitsuwa Marketplace equals Arts District 's Mitsuwa Marketplace. The number of Market District 's Mitsuwa Marketplace equals 22. How many The Fresh Market does Market District have?
+
+Solution:
+Define each Market District 's Mitsuwa Marketplace as E; So E = 22.
+Define each Arts District 's The Fresh Market as p; So p = 10 + E = 10 + 22 = 32.
+Define each Arts District 's Mitsuwa Marketplace as m; So m = p = 32.
+Define each Suburban Neighborhood 's Mitsuwa Marketplace as T; So T = m = 32.
+Define each Suburban Neighborhood 's Bristol Farms as L; So L = 15 * m = 15 * 32 = 480.
+Define each Suburban Neighborhood 's Supermarkets as h; So h = L + T = 480 + 32 = 512.
+Define each Market District 's The Fresh Market as O; E = h + m = 512 + 32 = 544; So O = 4 + E = 4 + 544 = 548.
+
+Unnecessary graph saved to: log/draw_all_log_20240829_080918/unnecessary_graph.png
+DrawAll completed successfully

@@ -1,0 +1,24 @@
+s: 2
+n: 2
+m: 2
+d: 3
+w0: 3
+w1: 3
+e: 7
+Structure graph saved to: log/draw_all_log_20240829_080833/structure_graph.png
+Necessary1 graph saved to: log/draw_all_log_20240829_080833/necessary1_graph.png
+Necessary2 graph saved to: log/draw_all_log_20240829_080833/necessary2_graph.png
+Topological order:
+  Government Complex 's Loblaws
+  Automotive District 's Weis Markets
+Necessary3 graph saved to: log/draw_all_log_20240829_080833/necessary3_graph.png
+
+Question:
+The number of Automotive District 's Weis Markets equals 1 more than Government Complex 's Loblaws. The number of Government Complex 's Loblaws equals 21. How many Weis Markets does Automotive District have?
+
+Solution:
+Define each Government Complex 's Loblaws as B; So B = 21.
+Define each Automotive District 's Weis Markets as c; So c = 1 + B = 1 + 21 = 22.
+
+Unnecessary graph saved to: log/draw_all_log_20240829_080833/unnecessary_graph.png
+DrawAll completed successfully

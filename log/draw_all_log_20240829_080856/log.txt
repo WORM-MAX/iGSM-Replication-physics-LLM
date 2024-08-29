@@ -1,0 +1,32 @@
+s: 6
+n: 6
+m: 6
+d: 4
+w0: 3
+w1: 3
+e: 13
+Structure graph saved to: log/draw_all_log_20240829_080856/structure_graph.png
+Necessary1 graph saved to: log/draw_all_log_20240829_080856/necessary1_graph.png
+Necessary2 graph saved to: log/draw_all_log_20240829_080856/necessary2_graph.png
+Topological order:
+  Sprouts Farmers Market 's Yogurt
+  Single-family Homes 's Sprouts Farmers Market
+  Yogurt 's Couscous
+  Yogurt 's Ingredient
+  Sprouts Farmers Market 's Ingredient
+  Single-family Homes 's Ingredient
+Necessary3 graph saved to: log/draw_all_log_20240829_080856/necessary3_graph.png
+
+Question:
+The number of Single-family Homes 's Sprouts Farmers Market equals Sprouts Farmers Market 's Yogurt. The number of Yogurt 's Couscous equals 5 more than Single-family Homes 's Sprouts Farmers Market. The number of Sprouts Farmers Market 's Yogurt equals 20. How many Ingredient does Single-family Homes have?
+
+Solution:
+Define each Sprouts Farmers Market 's Yogurt as w; So w = 20.
+Define each Single-family Homes 's Sprouts Farmers Market as J; So J = w = 20.
+Define each Yogurt 's Couscous as Z; So Z = 5 + J = 5 + 20 = 25.
+Define each Yogurt 's Ingredient as P; So P = Z = 25.
+Define each Sprouts Farmers Market 's Ingredient as f; f = w * P = 20 * 25 = 500.
+Define each Single-family Homes 's Ingredient as o; o = f * J = 500 * 20 = 10000.
+
+Unnecessary graph saved to: log/draw_all_log_20240829_080856/unnecessary_graph.png
+DrawAll completed successfully

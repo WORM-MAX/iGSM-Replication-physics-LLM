@@ -1,0 +1,22 @@
+s: 1
+n: 1
+m: 1
+d: 2
+w0: 2
+w1: 3
+e: 4
+Structure graph saved to: log/draw_all_log_20240829_080850/structure_graph.png
+Necessary1 graph saved to: log/draw_all_log_20240829_080850/necessary1_graph.png
+Necessary2 graph saved to: log/draw_all_log_20240829_080850/necessary2_graph.png
+Topological order:
+  High School Zone 's Trader Joe's
+Necessary3 graph saved to: log/draw_all_log_20240829_080850/necessary3_graph.png
+
+Question:
+The number of High School Zone 's Trader Joe's equals 8. How many Trader Joe's does High School Zone have?
+
+Solution:
+Define each High School Zone 's Trader Joe's as U; So U = 8.
+
+Unnecessary graph saved to: log/draw_all_log_20240829_080850/unnecessary_graph.png
+DrawAll completed successfully

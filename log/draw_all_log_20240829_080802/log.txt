@@ -1,0 +1,45 @@
+s: 2
+n: 1
+m: 1
+d: 3
+w0: 3
+w1: 3
+e: 16
+Structure graph saved to: log/draw_all_log_20240829_080802/structure_graph.png
+Necessary1 graph saved to: log/draw_all_log_20240829_080802/necessary1_graph.png
+Necessary2 graph saved to: log/draw_all_log_20240829_080802/necessary2_graph.png
+Topological order:
+  Earth Fare 's Plant-based Cheese
+Retrying DrawAll due to failure in draw_necessary3
+s: 6
+n: 5
+m: 6
+d: 2
+w0: 4
+w1: 4
+e: 5
+Structure graph saved to: log/draw_all_log_20240829_080802/structure_graph.png
+Necessary1 graph saved to: log/draw_all_log_20240829_080802/necessary1_graph.png
+Necessary2 graph saved to: log/draw_all_log_20240829_080802/necessary2_graph.png
+Topological order:
+  Research Park 's Safeway
+  Housing Estate 's Safeway
+  Housing Estate 's Supermarkets
+  Learning Hub 's Safeway
+  Learning Hub 's Supermarkets
+  Tech Park 's Meijer
+Necessary3 graph saved to: log/draw_all_log_20240829_080802/necessary3_graph.png
+
+Question:
+The number of Learning Hub 's Safeway equals 22 more than Housing Estate 's Supermarkets. The number of Tech Park 's Meijer equals Learning Hub 's Supermarkets. The number of Research Park 's Safeway equals 14. The number of Housing Estate 's Safeway equals 6 more than Research Park 's Safeway. How many Meijer does Tech Park have?
+
+Solution:
+Define each Research Park 's Safeway as V; So V = 14.
+Define each Housing Estate 's Safeway as x; So x = 6 + V = 6 + 14 = 20.
+Define each Housing Estate 's Supermarkets as J; So J = x = 20.
+Define each Learning Hub 's Safeway as I; So I = 22 + J = 22 + 20 = 42.
+Define each Learning Hub 's Supermarkets as j; So j = I = 42.
+Define each Tech Park 's Meijer as N; So N = j = 42.
+
+Unnecessary graph saved to: log/draw_all_log_20240829_080802/unnecessary_graph.png
+DrawAll completed successfully

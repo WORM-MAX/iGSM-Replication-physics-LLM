@@ -1,0 +1,28 @@
+s: 4
+n: 4
+m: 4
+d: 3
+w0: 2
+w1: 3
+e: 9
+Structure graph saved to: log/draw_all_log_20240829_080915/structure_graph.png
+Necessary1 graph saved to: log/draw_all_log_20240829_080915/necessary1_graph.png
+Necessary2 graph saved to: log/draw_all_log_20240829_080915/necessary2_graph.png
+Topological order:
+  Jewelry District 's Lidl
+  Jewelry District 's Tesco
+  Jewelry District 's Supermarkets
+  Tesco 's Canned Chili
+Necessary3 graph saved to: log/draw_all_log_20240829_080915/necessary3_graph.png
+
+Question:
+The number of Tesco 's Canned Chili equals the difference of Jewelry District 's Supermarkets and Jewelry District 's Tesco. The number of Jewelry District 's Tesco equals 17 times Jewelry District 's Lidl. The number of Jewelry District 's Lidl equals 16. How many Canned Chili does Tesco have?
+
+Solution:
+Define each Jewelry District 's Lidl as A; So A = 16.
+Define each Jewelry District 's Tesco as D; So D = 17 * A = 17 * 16 = 272.
+Define each Jewelry District 's Supermarkets as P; So P = D + A = 272 + 16 = 288.
+Define each Tesco 's Canned Chili as C; So C = P - D = 288 - 272 = 16.
+
+Unnecessary graph saved to: log/draw_all_log_20240829_080915/unnecessary_graph.png
+DrawAll completed successfully

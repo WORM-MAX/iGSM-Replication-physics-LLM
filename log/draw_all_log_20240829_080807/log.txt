@@ -1,0 +1,28 @@
+s: 4
+n: 4
+m: 4
+d: 3
+w0: 2
+w1: 4
+e: 5
+Structure graph saved to: log/draw_all_log_20240829_080807/structure_graph.png
+Necessary1 graph saved to: log/draw_all_log_20240829_080807/necessary1_graph.png
+Necessary2 graph saved to: log/draw_all_log_20240829_080807/necessary2_graph.png
+Topological order:
+  Fashion District 's E.Leclerc
+  Fashion District 's Supermarkets
+  The Fresh Market 's Coffee
+  The Fresh Market 's Product
+Necessary3 graph saved to: log/draw_all_log_20240829_080807/necessary3_graph.png
+
+Question:
+The number of The Fresh Market 's Coffee equals the difference of Fashion District 's Supermarkets and Fashion District 's E.Leclerc. The number of Fashion District 's E.Leclerc equals 12. How many Product does The Fresh Market have?
+
+Solution:
+Define each Fashion District 's E.Leclerc as h; So h = 12.
+Define each Fashion District 's Supermarkets as Q; So Q = h = 12.
+Define each The Fresh Market 's Coffee as S; So S = Q - h = 12 - 12 = 0.
+Define each The Fresh Market 's Product as r; So r = S = 0.
+
+Unnecessary graph saved to: log/draw_all_log_20240829_080807/unnecessary_graph.png
+DrawAll completed successfully

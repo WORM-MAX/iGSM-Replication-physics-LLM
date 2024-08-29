@@ -1,0 +1,46 @@
+s: 8
+n: 4
+m: 7
+d: 2
+w0: 2
+w1: 4
+e: 2
+Structure graph saved to: log/draw_all_log_20240829_080903/structure_graph.png
+Necessary1 graph saved to: log/draw_all_log_20240829_080903/necessary1_graph.png
+Necessary2 graph saved to: log/draw_all_log_20240829_080903/necessary2_graph.png
+Topological order:
+  Media District 's Gelson's Markets
+  Media District 's Supermarkets
+  Research Park 's Hungryroot
+  Research Park 's Supermarkets
+Retrying DrawAll due to failure in draw_necessary3
+s: 6
+n: 5
+m: 5
+d: 4
+w0: 2
+w1: 2
+e: 12
+Structure graph saved to: log/draw_all_log_20240829_080903/structure_graph.png
+Necessary1 graph saved to: log/draw_all_log_20240829_080903/necessary1_graph.png
+Necessary2 graph saved to: log/draw_all_log_20240829_080903/necessary2_graph.png
+Topological order:
+  Fruit Snacks 's Sorghum
+  Cream Cheese 's Coconut Oil
+  Cream Cheese 's Sorghum
+  Cream Cheese 's Ingredient
+  Fruit Snacks 's Coconut Oil
+Necessary3 graph saved to: log/draw_all_log_20240829_080903/necessary3_graph.png
+
+Question:
+The number of Fruit Snacks 's Sorghum equals 7. The number of Fruit Snacks 's Coconut Oil equals the sum of Cream Cheese 's Coconut Oil, Fruit Snacks 's Sorghum, and Cream Cheese 's Ingredient. The number of Cream Cheese 's Coconut Oil equals 11 times Fruit Snacks 's Sorghum. The number of Cream Cheese 's Sorghum equals 6 times Cream Cheese 's Coconut Oil. How many Coconut Oil does Fruit Snacks have?
+
+Solution:
+Define each Fruit Snacks 's Sorghum as e; So e = 7.
+Define each Cream Cheese 's Coconut Oil as y; So y = 11 * e = 11 * 7 = 77.
+Define each Cream Cheese 's Sorghum as w; So w = 6 * y = 6 * 77 = 462.
+Define each Cream Cheese 's Ingredient as H; So H = y + w = 77 + 462 = 539.
+Define each Fruit Snacks 's Coconut Oil as p; g = y + e = 77 + 7 = 84; So p = H + g = 539 + 84 = 623.
+
+Unnecessary graph saved to: log/draw_all_log_20240829_080903/unnecessary_graph.png
+DrawAll completed successfully

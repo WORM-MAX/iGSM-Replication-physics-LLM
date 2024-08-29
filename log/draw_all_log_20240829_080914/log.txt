@@ -1,0 +1,28 @@
+s: 6
+n: 5
+m: 5
+d: 2
+w0: 2
+w1: 3
+e: 9
+Structure graph saved to: log/draw_all_log_20240829_080914/structure_graph.png
+Necessary1 graph saved to: log/draw_all_log_20240829_080914/necessary1_graph.png
+Necessary2 graph saved to: log/draw_all_log_20240829_080914/necessary2_graph.png
+Topological order:
+  Government Complex 's Family Dollar
+  Government Complex 's Shipt
+  Government Complex 's Fresh Thyme Market
+  Government Complex 's Supermarkets
+Necessary3 graph saved to: log/draw_all_log_20240829_080914/necessary3_graph.png
+
+Question:
+The number of Government Complex 's Fresh Thyme Market equals 0 more than the difference of Government Complex 's Family Dollar and Government Complex 's Shipt. The number of Government Complex 's Shipt equals 10 times Government Complex 's Family Dollar. The number of Government Complex 's Family Dollar equals 7. How many Supermarkets does Government Complex have?
+
+Solution:
+Define each Government Complex 's Family Dollar as c; So c = 7.
+Define each Government Complex 's Shipt as o; So o = 10 * c = 10 * 7 = 70.
+Define each Government Complex 's Fresh Thyme Market as l; J = c - o = 7 - 70 = -63; So l = 0 + J = 0 + -63 = -63.
+Define each Government Complex 's Supermarkets as h; x = c + l = 7 + -63 = -56; So h = o + x = 70 + -56 = 14.
+
+Unnecessary graph saved to: log/draw_all_log_20240829_080914/unnecessary_graph.png
+DrawAll completed successfully

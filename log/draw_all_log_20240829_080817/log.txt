@@ -1,0 +1,38 @@
+s: 11
+n: 9
+m: 11
+d: 3
+w0: 2
+w1: 2
+e: 5
+Structure graph saved to: log/draw_all_log_20240829_080817/structure_graph.png
+Necessary1 graph saved to: log/draw_all_log_20240829_080817/necessary1_graph.png
+Necessary2 graph saved to: log/draw_all_log_20240829_080817/necessary2_graph.png
+Topological order:
+  Big Lots 's Canned Chili
+  Big Lots 's Product
+  Urban Residential Area 's Big Lots
+  Urban Residential Area 's Product
+  Central Market 's Canned Chili
+  Central Market 's Potato Chips
+  Central Market 's Product
+  Diplomatic Quarter 's Central Market
+  Diplomatic Quarter 's Product
+Necessary3 graph saved to: log/draw_all_log_20240829_080817/necessary3_graph.png
+
+Question:
+The number of Central Market 's Potato Chips equals 5 more than Urban Residential Area 's Product. The number of Urban Residential Area 's Big Lots equals the sum of Big Lots 's Product and Big Lots 's Canned Chili. The number of Central Market 's Canned Chili equals Urban Residential Area 's Product. The number of Diplomatic Quarter 's Central Market equals 16 times the sum of Central Market 's Product, Urban Residential Area 's Product, and Big Lots 's Product. The number of Big Lots 's Canned Chili equals 6. How many Product does Diplomatic Quarter have?
+
+Solution:
+Define each Big Lots 's Canned Chili as h; So h = 6.
+Define each Big Lots 's Product as n; So n = h = 6.
+Define each Urban Residential Area 's Big Lots as Q; So Q = n + h = 6 + 6 = 12.
+Define each Urban Residential Area 's Product as L; L = Q * n = 12 * 6 = 72.
+Define each Central Market 's Canned Chili as J; So J = L = 72.
+Define each Central Market 's Potato Chips as Z; So Z = 5 + L = 5 + 72 = 77.
+Define each Central Market 's Product as d; So d = J + Z = 72 + 77 = 149.
+Define each Diplomatic Quarter 's Central Market as V; s = n + L = 6 + 72 = 78; v = d + s = 149 + 78 = 227; So V = 16 * v = 16 * 227 = 3632.
+Define each Diplomatic Quarter 's Product as K; K = V * d = 3632 * 149 = 541168.
+
+Unnecessary graph saved to: log/draw_all_log_20240829_080817/unnecessary_graph.png
+DrawAll completed successfully

@@ -1,0 +1,41 @@
+s: 4
+n: 3
+m: 3
+d: 3
+w0: 4
+w1: 4
+e: 11
+Structure graph saved to: log/draw_all_log_20240829_080831/structure_graph.png
+Necessary1 graph saved to: log/draw_all_log_20240829_080831/necessary1_graph.png
+Necessary2 graph saved to: log/draw_all_log_20240829_080831/necessary2_graph.png
+Topological order:
+  Save-A-Lot 's Herbal Tea
+  Save-A-Lot 's Plant-based Cheese
+  Save-A-Lot 's Product
+Retrying DrawAll due to failure in draw_necessary3
+s: 4
+n: 2
+m: 3
+d: 3
+w0: 2
+w1: 3
+e: 11
+Structure graph saved to: log/draw_all_log_20240829_080831/structure_graph.png
+Necessary1 graph saved to: log/draw_all_log_20240829_080831/necessary1_graph.png
+Necessary2 graph saved to: log/draw_all_log_20240829_080831/necessary2_graph.png
+Topological order:
+  Loblaws 's Canned Beans
+  Old Town 's Loblaws
+  Walmart Grocery 's Canned Chili
+Necessary3 graph saved to: log/draw_all_log_20240829_080831/necessary3_graph.png
+
+Question:
+The number of Old Town 's Loblaws equals 13 times Loblaws 's Canned Beans. The number of Loblaws 's Canned Beans equals 8. The number of Walmart Grocery 's Canned Chili equals 17 times the sum of Old Town 's Loblaws and Loblaws 's Canned Beans. How many Canned Chili does Walmart Grocery have?
+
+Solution:
+Define each Loblaws 's Canned Beans as S; So S = 8.
+Define each Old Town 's Loblaws as Y; So Y = 13 * S = 13 * 8 = 104.
+Define each Walmart Grocery 's Canned Chili as w; f = Y + S = 104 + 8 = 112; So w = 17 * f = 17 * 112 = 1904.
+
+Unnecessary graph saved to: log/draw_all_log_20240829_080831/unnecessary_graph.png
+DrawAll completed successfully

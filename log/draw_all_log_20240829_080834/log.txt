@@ -1,0 +1,17 @@
+s: 9
+n: 8
+m: 9
+d: 2
+w0: 2
+w1: 4
+e: 3
+Structure graph saved to: log/draw_all_log_20240829_080834/structure_graph.png
+Necessary1 graph saved to: log/draw_all_log_20240829_080834/necessary1_graph.png
+Necessary2 graph saved to: log/draw_all_log_20240829_080834/necessary2_graph.png
+Topological order:
+  Shopping District 's Giant Eagle
+  Shopping District 's Supermarkets
+  Industrial District 's Blue Apron
+  Industrial District 's ShopRite
+  Industrial District 's Supermarkets
+Retrying DrawAll due to failure in draw_necessary3

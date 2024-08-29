@@ -1,0 +1,48 @@
+s: 14
+n: 3
+m: 14
+d: 3
+w0: 4
+w1: 4
+e: 13
+Structure graph saved to: log/draw_all_log_20240829_080909/structure_graph.png
+Necessary1 graph saved to: log/draw_all_log_20240829_080909/necessary1_graph.png
+Necessary2 graph saved to: log/draw_all_log_20240829_080909/necessary2_graph.png
+Topological order:
+  Sainsbury's 's Plant-based Cheese
+  High School Zone 's Bristol Farms
+  Bristol Farms 's Beer
+  Whole Foods Market 's Cupcakes
+  Manufacturing District 's Whole Foods Market
+  Manufacturing District 's Sainsbury's
+  Market District 's Sainsbury's
+  Sainsbury's 's Cupcakes
+  Market District 's Whole Foods Market
+  Whole Foods Market 's Plant-based Yogurt
+  Fashion District 's Bristol Farms
+  Fashion District 's Makro
+  Fashion District 's Supermarkets
+  Makro 's Plant-based Cheese
+Necessary3 graph saved to: log/draw_all_log_20240829_080909/necessary3_graph.png
+
+Question:
+The number of Whole Foods Market 's Plant-based Yogurt equals Market District 's Whole Foods Market. The number of Bristol Farms 's Beer equals 16 times High School Zone 's Bristol Farms. The number of Sainsbury's 's Plant-based Cheese equals 13. The number of Whole Foods Market 's Cupcakes equals 2 more than Bristol Farms 's Beer. The number of Manufacturing District 's Whole Foods Market equals Whole Foods Market 's Cupcakes. The number of Market District 's Sainsbury's equals the sum of Whole Foods Market 's Cupcakes and Sainsbury's 's Plant-based Cheese. The number of Sainsbury's 's Cupcakes equals Market District 's Sainsbury's. The number of Fashion District 's Makro equals Whole Foods Market 's Plant-based Yogurt. The number of Makro 's Plant-based Cheese equals 1 more than Fashion District 's Supermarkets. The number of Fashion District 's Bristol Farms equals Manufacturing District 's Sainsbury's. The number of Manufacturing District 's Sainsbury's equals the sum of Manufacturing District 's Whole Foods Market and Bristol Farms 's Beer. The number of Market District 's Whole Foods Market equals the sum of Sainsbury's 's Cupcakes and Manufacturing District 's Sainsbury's. The number of High School Zone 's Bristol Farms equals 13 more than Sainsbury's 's Plant-based Cheese. How many Plant-based Cheese does Makro have?
+
+Solution:
+Define each Sainsbury's 's Plant-based Cheese as Q; So Q = 13.
+Define each High School Zone 's Bristol Farms as Z; So Z = 13 + Q = 13 + 13 = 26.
+Define each Bristol Farms 's Beer as r; So r = 16 * Z = 16 * 26 = 416.
+Define each Whole Foods Market 's Cupcakes as H; So H = 2 + r = 2 + 416 = 418.
+Define each Manufacturing District 's Whole Foods Market as D; So D = H = 418.
+Define each Manufacturing District 's Sainsbury's as P; So P = D + r = 418 + 416 = 834.
+Define each Market District 's Sainsbury's as t; So t = H + Q = 418 + 13 = 431.
+Define each Sainsbury's 's Cupcakes as N; So N = t = 431.
+Define each Market District 's Whole Foods Market as g; So g = N + P = 431 + 834 = 1265.
+Define each Whole Foods Market 's Plant-based Yogurt as s; So s = g = 1265.
+Define each Fashion District 's Bristol Farms as b; So b = P = 834.
+Define each Fashion District 's Makro as B; So B = s = 1265.
+Define each Fashion District 's Supermarkets as F; So F = B + b = 1265 + 834 = 2099.
+Define each Makro 's Plant-based Cheese as X; So X = 1 + F = 1 + 2099 = 2100.
+
+Unnecessary graph saved to: log/draw_all_log_20240829_080909/unnecessary_graph.png
+DrawAll completed successfully

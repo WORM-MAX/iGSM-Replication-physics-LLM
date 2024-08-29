@@ -1,0 +1,40 @@
+s: 12
+n: 12
+m: 12
+d: 4
+w0: 2
+w1: 2
+e: 9
+Structure graph saved to: log/draw_all_log_20240829_080851/structure_graph.png
+Necessary1 graph saved to: log/draw_all_log_20240829_080851/necessary1_graph.png
+Necessary2 graph saved to: log/draw_all_log_20240829_080851/necessary2_graph.png
+Topological order:
+  Cookies 's Bulgur
+  Cookies 's Evaporated Milk
+  PriceRite 's Cookies
+  Cookies 's Ingredient
+  PriceRite 's Ingredient
+  Arts District 's Hungryroot
+  Hungryroot 's Cookies
+  Hungryroot 's Ingredient
+  Arts District 's PriceRite
+  Arts District 's Ingredient
+Necessary3 graph saved to: log/draw_all_log_20240829_080851/necessary3_graph.png
+
+Question:
+The number of PriceRite 's Cookies equals 14 more than Cookies 's Evaporated Milk. The number of Arts District 's Hungryroot equals the difference of PriceRite 's Cookies and PriceRite 's Ingredient. The number of Hungryroot 's Cookies equals 0. The number of Cookies 's Evaporated Milk equals 4 more than Cookies 's Bulgur. The number of Arts District 's PriceRite equals 3. The number of Cookies 's Bulgur equals 1. How many Ingredient does Arts District have?
+
+Solution:
+Define each Cookies 's Bulgur as Z; So Z = 1.
+Define each Cookies 's Evaporated Milk as T; So T = 4 + Z = 4 + 1 = 5.
+Define each PriceRite 's Cookies as g; So g = 14 + T = 14 + 5 = 19.
+Define each Cookies 's Ingredient as m; So m = T + Z = 5 + 1 = 6.
+Define each PriceRite 's Ingredient as A; A = m * g = 6 * 19 = 114.
+Define each Arts District 's Hungryroot as N; So N = g - A = 19 - 114 = -95.
+Define each Hungryroot 's Cookies as r; So r = 0.
+Define each Hungryroot 's Ingredient as J; J = m * r = 6 * 0 = 0.
+Define each Arts District 's PriceRite as K; So K = 3.
+Define each Arts District 's Ingredient as y; d = A * N = 114 * -95 = -10830; W = J * K = 0 * 3 = 0; So y = d + W = -10830 + 0 = -10830.
+
+Unnecessary graph saved to: log/draw_all_log_20240829_080851/unnecessary_graph.png
+DrawAll completed successfully

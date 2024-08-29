@@ -1,0 +1,32 @@
+s: 6
+n: 6
+m: 6
+d: 4
+w0: 2
+w1: 3
+e: 13
+Structure graph saved to: log/draw_all_log_20240829_080816/structure_graph.png
+Necessary1 graph saved to: log/draw_all_log_20240829_080816/necessary1_graph.png
+Necessary2 graph saved to: log/draw_all_log_20240829_080816/necessary2_graph.png
+Topological order:
+  Sprouts Farmers Market 's Evaporated Milk
+  Sprouts Farmers Market 's Alcoholic Beverages
+  Sprouts Farmers Market 's Product
+  Education Park 's Sprouts Farmers Market
+  Education Park 's Product
+  Evaporated Milk 's Tahini
+Necessary3 graph saved to: log/draw_all_log_20240829_080816/necessary3_graph.png
+
+Question:
+The number of Evaporated Milk 's Tahini equals 13 times Education Park 's Product. The number of Sprouts Farmers Market 's Alcoholic Beverages equals 4. The number of Sprouts Farmers Market 's Evaporated Milk equals 19. The number of Education Park 's Sprouts Farmers Market equals the sum of Sprouts Farmers Market 's Product and Sprouts Farmers Market 's Alcoholic Beverages. How many Tahini does Evaporated Milk have?
+
+Solution:
+Define each Sprouts Farmers Market 's Evaporated Milk as j; So j = 19.
+Define each Sprouts Farmers Market 's Alcoholic Beverages as e; So e = 4.
+Define each Sprouts Farmers Market 's Product as n; So n = j + e = 19 + 4 = 23.
+Define each Education Park 's Sprouts Farmers Market as N; So N = n + e = 23 + 4 = 27.
+Define each Education Park 's Product as s; s = n * N = 23 * 27 = 621.
+Define each Evaporated Milk 's Tahini as G; So G = 13 * s = 13 * 621 = 8073.
+
+Unnecessary graph saved to: log/draw_all_log_20240829_080816/unnecessary_graph.png
+DrawAll completed successfully
