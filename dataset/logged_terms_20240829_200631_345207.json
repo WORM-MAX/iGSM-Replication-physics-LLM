@@ -1,0 +1,28 @@
+{
+  "s": 12,
+  "n": 2,
+  "m": 9,
+  "d": 2,
+  "w0": 4,
+  "w1": 4,
+  "e": 14,
+  "structure_graph": "log/draw_all_log_20240829_200630_918620/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240829_200630_918620/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240829_200630_918620/necessary2_graph.png",
+  "topological_order": [
+    "Urban Residential Area 's Whole Foods Market",
+    "Senior Living Community 's Walmart Grocery",
+    "Embassy Row 's Walmart Grocery",
+    "Urban Residential Area 's Walmart Grocery",
+    "Media District 's Whole Foods Market",
+    "Media District 's Walmart Grocery",
+    "Embassy Row 's Whole Foods Market",
+    "Senior Living Community 's Kroger",
+    "Embassy Row 's Kroger"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240829_200630_918620/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240829_200630_918620/unnecessary_graph.png",
+  "question": "District category contains Media District, Senior Living Community, Embassy Row, and Urban Residential Area.\nSupermarkets category contains H-E-B, Whole Foods Market, Walmart Grocery, and Kroger.\nThe number of each Senior Living Community 's Kroger equals 12 times the difference of each Embassy Row 's Whole Foods Market and each Urban Residential Area 's Walmart Grocery.\nThe number of each Media District 's Walmart Grocery equals each Media District 's Whole Foods Market.\nThe number of each Urban Residential Area 's Kroger equals 17 times the difference of each Embassy Row 's Whole Foods Market and each Media District 's Whole Foods Market.\nThe number of each Senior Living Community 's H-E-B equals the difference of each Embassy Row 's Walmart Grocery and each Senior Living Community 's Kroger.\nThe number of each Senior Living Community 's Whole Foods Market equals each Embassy Row 's Supermarkets.\nThe number of each Urban Residential Area 's Whole Foods Market equals 11.\nThe number of each Embassy Row 's Kroger equals each Senior Living Community 's Kroger.\nThe number of each Embassy Row 's Whole Foods Market equals 18 times each Media District 's Walmart Grocery.\nThe number of each Urban Residential Area 's Walmart Grocery equals 16 times the sum of each Senior Living Community 's Walmart Grocery, each Embassy Row 's Walmart Grocery, and each Urban Residential Area 's Whole Foods Market.\nThe number of each Media District 's H-E-B equals 22.\nThe number of each Senior Living Community 's Walmart Grocery equals each Urban Residential Area 's Whole Foods Market.\nThe number of each Embassy Row 's Walmart Grocery equals 20 more than each Senior Living Community 's Walmart Grocery.\nThe number of each Embassy Row 's H-E-B equals each Senior Living Community 's Walmart Grocery.\nThe number of each Media District 's Whole Foods Market equals the difference of each Urban Residential Area 's Walmart Grocery and each Embassy Row 's Walmart Grocery.\nHow many Kroger does Embassy Row have?",
+  "solution": "Define each Urban Residential Area 's Whole Foods Market as i; So i = 11.\nDefine each Senior Living Community 's Walmart Grocery as C; So C = i = 11.\nDefine each Embassy Row 's Walmart Grocery as x; So x = 20 + C = 20 + 11 = 8.\nDefine each Urban Residential Area 's Walmart Grocery as H; M = C + i = 11 + 11 = 22; y = x + M = 8 + 22 = 7; So H = 16 * y = 16 * 7 = 20.\nDefine each Media District 's Whole Foods Market as v; So v = H - x = 20 - 8 = 12.\nDefine each Media District 's Walmart Grocery as p; So p = v = 12.\nDefine each Embassy Row 's Whole Foods Market as c; So c = 18 * p = 18 * 12 = 9.\nDefine each Senior Living Community 's Kroger as m; C = c - H = 9 - 20 = 12; So m = 12 * C = 12 * 12 = 6.\nDefine each Embassy Row 's Kroger as Q; So Q = m = 6.\n",
+  "num_operation": 12
+}

@@ -1,0 +1,25 @@
+{
+  "s": 10,
+  "n": 6,
+  "m": 7,
+  "d": 3,
+  "w0": 2,
+  "w1": 3,
+  "e": 12,
+  "structure_graph": "log/draw_all_log_20240829_200629_724347/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240829_200629_724347/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240829_200629_724347/necessary2_graph.png",
+  "topological_order": [
+    "Landmark District 's Misfits Market",
+    "Misfits Market 's Canned Pineapple",
+    "Misfits Market 's Liquor",
+    "Misfits Market 's Pastries",
+    "Misfits Market 's Product",
+    "Lidl 's Liquor"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240829_200629_724347/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240829_200629_724347/unnecessary_graph.png",
+  "question": "District category contains Landmark District, Suburban Neighborhood, and Wall Street.\nSupermarkets category contains Misfits Market, and Lidl.\nProduct category contains Liquor, Canned Pineapple, and Pastries.\nThe number of each Lidl 's Liquor equals 22 more than each Misfits Market 's Product.\nThe number of each Misfits Market 's Liquor equals 7 times the difference of each Landmark District 's Misfits Market and each Misfits Market 's Canned Pineapple.\nThe number of each Landmark District 's Misfits Market equals 7.\nThe number of each Wall Street 's Lidl equals 0.\nThe number of each Wall Street 's Misfits Market equals each Wall Street 's Lidl.\nThe number of each Misfits Market 's Pastries equals 10 times the sum of each Misfits Market 's Canned Pineapple, each Landmark District 's Misfits Market, and each Misfits Market 's Liquor.\nThe number of each Lidl 's Pastries equals each Wall Street 's Lidl.\nThe number of each Lidl 's Canned Pineapple equals 11 more than each Wall Street 's Misfits Market.\nThe number of each Misfits Market 's Canned Pineapple equals 10 times each Landmark District 's Misfits Market.\nThe number of each Suburban Neighborhood 's Lidl equals 13 times the difference of each Misfits Market 's Product and each Wall Street 's Lidl.\nThe number of each Suburban Neighborhood 's Misfits Market equals 17 times each Lidl 's Pastries.\nThe number of each Landmark District 's Lidl equals 13.\nHow many Liquor does Lidl have?",
+  "solution": "Define each Landmark District 's Misfits Market as n; So n = 7.\nDefine each Misfits Market 's Canned Pineapple as J; So J = 10 * n = 10 * 7 = 1.\nDefine each Misfits Market 's Liquor as T; y = n - J = 7 - 1 = 6; So T = 7 * y = 7 * 6 = 19.\nDefine each Misfits Market 's Pastries as V; Q = T + J = 19 + 1 = 20; f = n + Q = 7 + 20 = 4; So V = 10 * f = 10 * 4 = 17.\nDefine each Misfits Market 's Product as P; e = V + T = 17 + 19 = 13; So P = J + e = 1 + 13 = 14.\nDefine each Lidl 's Liquor as j; So j = 22 + P = 22 + 14 = 13.\n",
+  "num_operation": 10
+}

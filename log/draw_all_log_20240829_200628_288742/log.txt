@@ -1,0 +1,43 @@
+s: 7
+n: 4
+m: 6
+d: 2
+w0: 2
+w1: 4
+e: 8
+Structure graph saved to: log/draw_all_log_20240829_200628_288742/structure_graph.png
+Necessary1 graph saved to: log/draw_all_log_20240829_200628_288742/necessary1_graph.png
+Necessary2 graph saved to: log/draw_all_log_20240829_200628_288742/necessary2_graph.png
+Topological order:
+  Administrative District 's Earth Fare
+  Automotive District 's King Soopers
+  Financial District 's Earth Fare
+  Jewelry District 's Aldi (Germany)
+  Jewelry District 's Supermarkets
+  Automotive District 's Costco
+Necessary3 graph saved to: log/draw_all_log_20240829_200628_288742/necessary3_graph.png
+Unnecessary graph saved to: log/draw_all_log_20240829_200628_288742/unnecessary_graph.png
+
+Question:
+District category contains Financial District, Automotive District, Jewelry District, and Administrative District.
+Supermarkets category contains King Soopers, Costco, Earth Fare, and Aldi (Germany).
+The number of each Financial District 's Earth Fare equals the sum of each Automotive District 's King Soopers and each Administrative District 's Earth Fare.
+The number of each Administrative District 's Earth Fare equals 14.
+The number of each Automotive District 's Costco equals 14 times the sum of each Jewelry District 's Supermarkets and each Jewelry District 's Aldi (Germany).
+The number of each Automotive District 's Earth Fare equals 22.
+The number of each Jewelry District 's Aldi (Germany) equals 1 times each Financial District 's Earth Fare.
+The number of each Automotive District 's King Soopers equals 19 more than each Administrative District 's Earth Fare.
+The number of each Financial District 's King Soopers equals each Administrative District 's Supermarkets.
+The number of each Administrative District 's Costco equals 4.
+How many Costco does Automotive District have?
+
+Solution:
+Define each Administrative District 's Earth Fare as D; So D = 14.
+Define each Automotive District 's King Soopers as N; So N = 19 + D = 19 + 14 = 10.
+Define each Financial District 's Earth Fare as q; So q = N + D = 10 + 14 = 1.
+Define each Jewelry District 's Aldi (Germany) as i; So i = 1 * q = 1 * 1 = 1.
+Define each Jewelry District 's Supermarkets as u; So u = i = 1.
+Define each Automotive District 's Costco as C; V = u + i = 1 + 1 = 2; So C = 14 * V = 14 * 2 = 5.
+
+DrawAll completed successfully
+Logged terms saved to: dataset/logged_terms_20240829_200628_796598.json

@@ -1,0 +1,29 @@
+s: 1
+n: 1
+m: 1
+d: 2
+w0: 2
+w1: 2
+e: 4
+Structure graph saved to: log/draw_all_log_20240829_200629_424459/structure_graph.png
+Necessary1 graph saved to: log/draw_all_log_20240829_200629_424459/necessary1_graph.png
+Necessary2 graph saved to: log/draw_all_log_20240829_200629_424459/necessary2_graph.png
+Topological order:
+  Automotive District 's Eataly
+Necessary3 graph saved to: log/draw_all_log_20240829_200629_424459/necessary3_graph.png
+Unnecessary graph saved to: log/draw_all_log_20240829_200629_424459/unnecessary_graph.png
+
+Question:
+District category contains Research Park, and Automotive District.
+Supermarkets category contains Family Dollar, and Eataly.
+The number of each Automotive District 's Eataly equals 1.
+The number of each Research Park 's Family Dollar equals each Automotive District 's Eataly.
+The number of each Automotive District 's Family Dollar equals each Research Park 's Eataly.
+The number of each Research Park 's Eataly equals 12.
+How many Eataly does Automotive District have?
+
+Solution:
+Define each Automotive District 's Eataly as n; So n = 1.
+
+DrawAll completed successfully
+Logged terms saved to: dataset/logged_terms_20240829_200629_724190.json

@@ -1,5 +1,9 @@
 import string
+import random
 from utils.dependency import *
+
+# Add this at the beginning of the file
+MOD_VALUE = 23  # You can change this value as needed
 
 def nodetoname(node, sentence=False):
     if node=="RNG":
@@ -21,13 +25,50 @@ def generate_var(G_value):
         new_var = random.choice(string.ascii_letters)
     return new_var
 
+
+def generate_unnecessary_description(G_d, a):
+    str_sentence = f"The number of {nodetoname(a, True)} equals"
+    pool = [val for val in G_d[a]]
+    if 'RNG' in pool:
+        random_int = random.randint(0, MOD_VALUE - 1)
+        str_sentence += f" {random_int}"
+        pool.remove('RNG')
+        if len(pool) > 0:
+            plus_times = " + " if random.random() < 0.5 else " * "
+            if plus_times == " + ":
+                str_sentence += " more than"
+            else:
+                str_sentence += " times"
+
+    if len(pool) == 1:
+        b = nodetoname(pool[0], True)
+        str_sentence += f" {b}"
+    elif len(pool) == 2:
+        b, c = nodetoname(pool[0], True), nodetoname(pool[1], True)
+        sum_or_diff = " + " if random.random() < 0.5 else " - "
+        if sum_or_diff == " + ":
+            str_sentence += f" the sum of {b} and {c}"
+        else:
+            str_sentence += f" the difference of {b} and {c}"
+    else:
+        if pool:
+            pool_name_list = []
+            for i in pool:
+                pool_name_list.append(nodetoname(i, True))
+            random.shuffle(pool_name_list)
+            str_sentence += " the sum of " + ", ".join(pool_name_list[:-1]) + f", and {pool_name_list[-1]}"
+
+    return str_sentence
+
+
+
+
 def gen_description(G_d, a, G_var, G_value):
     # Initialize the sentence string
-    str_sentence = f"The number of {nodetoname(a)} equals"
+    str_sentence = f"The number of {nodetoname(a, True)} equals"
 
     # Determine the pool of dependencies
     pool = [val for val in G_d[a]]
-    print(pool)
 
     var_a = G_var[a]
     solution = ["Define " + nodetoname(a, True) + " as " + var_a]
@@ -36,7 +77,7 @@ def gen_description(G_d, a, G_var, G_value):
 
     # Check if RNG is in the pool
     if 'RNG' in pool:
-        random_int = random.randint(0, 22)
+        random_int = random.randint(0, MOD_VALUE - 1)
         str_sentence += f" {random_int}"
         pool.remove('RNG')
         if len(pool) > 0:
@@ -49,12 +90,12 @@ def gen_description(G_d, a, G_var, G_value):
         else:
             solution.append("So "+var_a+" = " + str(random_int))
             G_value[var_a] = random_int
-            print(random_int)
+            
 
 
     # Depending on the size of the pool, add to the sentence
     if len(pool) == 1:
-        b = nodetoname(pool[0])
+        b = nodetoname(pool[0], True)
         str_sentence += f" {b}"
         var_1 = G_var[pool[0]]
         if not num_step:
@@ -62,13 +103,13 @@ def gen_description(G_d, a, G_var, G_value):
             G_value[var_a] = G_value[var_1]
         else:
             if plus_times == " + ":
-                G_value[var_a] = G_value[var_1] + random_int
+                G_value[var_a] = (G_value[var_1] + random_int) % MOD_VALUE
             else:
-                G_value[var_a] = G_value[var_1] * random_int
+                G_value[var_a] = (G_value[var_1] * random_int) % MOD_VALUE
             num_step += var_1 + " = " + str(random_int) + plus_times + str(G_value[var_1]) + " = " + str(G_value[var_a])
             solution.append(num_step)
     elif len(pool) == 2:
-        b, c = nodetoname(pool[0]), nodetoname(pool[1])
+        b, c = nodetoname(pool[0], True), nodetoname(pool[1], True)
         var_1 = G_var[pool[0]]
         var_2 = G_var[pool[1]]
 
@@ -77,10 +118,10 @@ def gen_description(G_d, a, G_var, G_value):
         sum_or_diff = " + " if random.random() < 0.5 else " - "
         if sum_or_diff == " + ":
             str_sentence += f" the sum of {b} and {c}"
-            G_value[new_var] = G_value[var_1] + G_value[var_2]
+            G_value[new_var] = (G_value[var_1] + G_value[var_2]) % MOD_VALUE
         else:
             str_sentence += f" the difference of {b} and {c}"
-            G_value[new_var] = G_value[var_1] - G_value[var_2]
+            G_value[new_var] = (G_value[var_1] - G_value[var_2]) % MOD_VALUE
 
         
         if not num_step:
@@ -89,9 +130,9 @@ def gen_description(G_d, a, G_var, G_value):
         else:
             solution.append(new_var + " = " + var_1 + sum_or_diff + var_2 + " = " + str(G_value[var_1]) + sum_or_diff + str(G_value[var_2]) + " = " + str(G_value[new_var]))
             if plus_times == " + ":
-                G_value[var_a] = G_value[new_var] + random_int
+                G_value[var_a] = (G_value[new_var] + random_int) % MOD_VALUE
             else:
-                G_value[var_a] = G_value[new_var] * random_int
+                G_value[var_a] = (G_value[new_var] * random_int) % MOD_VALUE
             num_step += new_var + " = " + str(random_int) + plus_times + str(G_value[new_var]) + " = " + str(G_value[var_a])
             solution.append(num_step)
     else:
@@ -99,13 +140,13 @@ def gen_description(G_d, a, G_var, G_value):
             pool_name_list = []
             pool_var_list = []
             for i in pool:
-                pool_name_list.append(nodetoname(i))
+                pool_name_list.append(nodetoname(i, True))
                 pool_var_list.append(G_var[i])
             while len(pool_var_list) > 2:
                 new_var = generate_var(G_value)
                 var_1 = pool_var_list[-1]
                 var_2 = pool_var_list[-2]
-                G_value[new_var] = G_value[var_1] + G_value[var_2]
+                G_value[new_var] = (G_value[var_1] + G_value[var_2]) % MOD_VALUE
                 solution.append(new_var + " = " + var_1 + " + " + var_2 + " = " + str(G_value[var_1]) + " + " + str(G_value[var_2]) + " = " + str(G_value[new_var]))
                 pool_var_list.pop(-1)
                 pool_var_list.pop(-1)
@@ -115,16 +156,16 @@ def gen_description(G_d, a, G_var, G_value):
             var_2 = pool_var_list[1]
             
             if not num_step:
-                G_value[var_a] = G_value[var_1] + G_value[var_2]
+                G_value[var_a] = (G_value[var_1] + G_value[var_2]) % MOD_VALUE
                 solution.append("So " + var_a + " = " + var_1 + " + " + var_2 + " = " + str(G_value[var_1]) + " + " + str(G_value[var_2]) + " = " + str(G_value[var_a]))
             else:
                 new_var = generate_var(G_value)
-                G_value[new_var] = G_value[var_1] + G_value[var_2]
+                G_value[new_var] = (G_value[var_1] + G_value[var_2]) % MOD_VALUE
                 solution.append(new_var + " = " + var_1 + " + " + var_2 + " = " + str(G_value[var_1]) + " + " + str(G_value[var_2]) + " = " + str(G_value[new_var]))
                 if plus_times == " + ":
-                    G_value[var_a] = G_value[new_var] + random_int
+                    G_value[var_a] = (G_value[new_var] + random_int) % MOD_VALUE
                 else:
-                    G_value[var_a] = G_value[new_var] * random_int
+                    G_value[var_a] = (G_value[new_var] * random_int) % MOD_VALUE
                 num_step += new_var + " = " + str(random_int) + plus_times + str(G_value[new_var]) + " = " + str(G_value[var_a])
                 solution.append(num_step)
 
@@ -133,7 +174,7 @@ def gen_description(G_d, a, G_var, G_value):
 
     return str_sentence, solution
 
-def question_solution(Gnece_d, Topo, category,front=False):
+def question_solution(G_d, Gnece_d, Topo, category,front=False):
     query = nodetoname(Topo[-1])
     a, b = query.split(" 's ")
     q = "How many " + b + " does " + a + " have?"
@@ -165,7 +206,7 @@ def question_solution(Gnece_d, Topo, category,front=False):
         else:
             index2 = category.index(a[1])
             index1 = a[0].layer
-            #print(index1, index2)
+
             var_a = G_var[a]
             solution_abs = ["Define " + nodetoname(a, True) + " as " + var_a]
 
@@ -177,7 +218,7 @@ def question_solution(Gnece_d, Topo, category,front=False):
                 if n == 2:
                     var_1 = G_var[Gnece_d[a][0]]
                     var_2 = G_var[Gnece_d[a][1]]
-                    G_value[var_a] = G_value[var_1] * G_value[var_2]
+                    G_value[var_a] = (G_value[var_1] * G_value[var_2]) % MOD_VALUE
                     solution_abs.append(var_a + " = " + var_1 + " * " + var_2 + " = " + str(G_value[var_1]) + " * " + str(G_value[var_2]) + " = " + str(G_value[var_a]))
                 elif n > 2:
                     new_var_list = []
@@ -185,21 +226,21 @@ def question_solution(Gnece_d, Topo, category,front=False):
                         var_1 = G_var[Gnece_d[a][2*i]]
                         var_2 = G_var[Gnece_d[a][2*i+1]]
                         new_var = generate_var(G_value)
-                        G_value[new_var] = G_value[var_1] * G_value[var_2]
+                        G_value[new_var] = (G_value[var_1] * G_value[var_2]) % MOD_VALUE
                         solution_abs.append(new_var + " = " + var_1 + " * " + var_2 + " = " + str(G_value[var_1]) + " * " + str(G_value[var_2]) + " = " + str(G_value[new_var]))
                         new_var_list.append(new_var)
                     while len(new_var_list) > 2:
                         new_var = generate_var(G_value)
                         var_1 = new_var_list[-1]
                         var_2 = new_var_list[-2]
-                        G_value[new_var] = G_value[var_1] + G_value[var_2]
+                        G_value[new_var] = (G_value[var_1] + G_value[var_2]) % MOD_VALUE
                         solution_abs.append(new_var + " = " + var_1 + " + " + var_2 + " = " + str(G_value[var_1]) + " + " + str(G_value[var_2]) + " = " + str(G_value[new_var]))
                         new_var_list.pop(-1)
                         new_var_list.pop(-1)
                         new_var_list.append(new_var)
                     var_1 = new_var_list[0]
                     var_2 = new_var_list[1]
-                    G_value[var_a] = G_value[var_1] + G_value[var_2]
+                    G_value[var_a] = (G_value[var_1] + G_value[var_2]) % MOD_VALUE
                     solution_abs.append("So " + var_a + " = " + var_1 + " + " + var_2 + " = " + str(G_value[var_1]) + " + " + str(G_value[var_2]) + " = " + str(G_value[var_a]))
             else:
                 if n==1:
@@ -209,7 +250,7 @@ def question_solution(Gnece_d, Topo, category,front=False):
                 elif n==2:
                     var_1 = G_var[Gnece_d[a][0]]
                     var_2 = G_var[Gnece_d[a][1]]
-                    G_value[var_a] = G_value[var_1] + G_value[var_2]
+                    G_value[var_a] = (G_value[var_1] + G_value[var_2]) % MOD_VALUE
                     solution_abs.append("So " + var_a + " = " + var_1 + " + " + var_2 + " = " + str(G_value[var_1]) + " + " + str(G_value[var_2]) + " = " + str(G_value[var_a]))
                 else:
                     new_var_list = []
@@ -219,31 +260,31 @@ def question_solution(Gnece_d, Topo, category,front=False):
                         new_var = generate_var(G_value)
                         var_1 = new_var_list[-1]
                         var_2 = new_var_list[-2]
-                        G_value[new_var] = G_value[var_1] + G_value[var_2]
+                        G_value[new_var] = (G_value[var_1] + G_value[var_2]) % MOD_VALUE
                         solution_abs.append(new_var + " = " + var_1 + " + " + var_2 + " = " + str(G_value[var_1]) + " + " + str(G_value[var_2]) + " = " + str(G_value[new_var]))
                         new_var_list.pop(-1)
                         new_var_list.pop(-1)
                         new_var_list.append(new_var)
                     var_1 = new_var_list[0]
                     var_2 = new_var_list[1]
-                    G_value[var_a] = G_value[var_1] + G_value[var_2]
+                    G_value[var_a] = (G_value[var_1] + G_value[var_2]) % MOD_VALUE
                     solution_abs.append("So " + var_a + " = " + var_1 + " + " + var_2 + " = " + str(G_value[var_1]) + " + " + str(G_value[var_2]) + " = " + str(G_value[var_a]))
             
             solution_descriptions.append(solution_abs)
 
-                    
 
-
-        print(G_var[a])
-        print(G_value[G_var[a]])
+    for a_unne in [b for b in G_d if b not in Gnece_d]:
+        if not isinstance(a_unne[1], str):
+            question_descriptions.append(generate_unnecessary_description(G_d, a_unne))
+        
 
 
         
     random.shuffle(question_descriptions)
     if not front:
-        question =  ". ".join(question_descriptions) + ". " + q
+        question =  ".\n".join(question_descriptions) + ".\n" + q
     else:
-        question = q + ". " + ". ".join(question_descriptions)
+        question = q + ".\n" + ".\n".join(question_descriptions)
 
     solution = ""
     num_operation = 0
@@ -251,3 +292,9 @@ def question_solution(Gnece_d, Topo, category,front=False):
         solution +=  "; ".join(item) + ".\n"
         num_operation += len(item) - 1
     return question, solution, num_operation
+
+def structure_description(Layers, category):
+    structure_description = ""
+    for i in range(len(Layers)):
+        structure_description += f"{category[i]} category contains " + ", ".join([item.item_name for item in Layers[i][:-1]]) + f", and {Layers[i][-1].item_name}.\n"
+    return structure_description

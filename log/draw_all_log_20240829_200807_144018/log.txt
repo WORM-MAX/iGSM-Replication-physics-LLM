@@ -1,0 +1,18 @@
+s: 13
+n: 5
+m: 6
+d: 2
+w0: 3
+w1: 4
+e: 5
+Structure graph saved to: log/draw_all_log_20240829_200807_144018/structure_graph.png
+Necessary1 graph saved to: log/draw_all_log_20240829_200807_144018/necessary1_graph.png
+Necessary2 graph saved to: log/draw_all_log_20240829_200807_144018/necessary2_graph.png
+Topological order:
+  Market District 's Auchan
+  Academic District 's Central Market
+  Academic District 's Meijer
+  Academic District 's Supermarkets
+  Embassy Row 's Central Market
+  Embassy Row 's Supermarkets
+Retrying DrawAll due to failure in draw_necessary3

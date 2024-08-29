@@ -3,6 +3,7 @@ import os
 import datetime
 from utils.structure import *
 from utils.description import *
+import json
 
 def add_graphs(graph1, graph2):
     # 创建一个新字典来存储合并后的图
@@ -233,7 +234,7 @@ def draw_necessary3(Gnece3_d, Topo, s):
             dep_num = min(dep_num, len(pool))
             re = [b for b in Gnece3_d[a] if b in pool]
             for r in re:
-                pool.remove(b)
+                pool.remove(r)
                 dep_num -= 1
             if dep_num == len(pool):
                 G_d_nece[a].extend(pool)
@@ -264,16 +265,6 @@ def draw_unnecessary(adj_list, Layers, G_d_nece, category):
     for key, value in adj_list.items():
         for v in value:
             all_instance_para.append((key, v))
-    
-    left_instance_para = [para for para in all_instance_para if para not in G_d_nece_copy]
-
-    # Helper function to recursively add dependencies
-    # def add_dependencies(b):
-    #     if b not in G_d:
-    #         G_d[b] = []
-    #         for dep in G_d_nece.get(b, []):
-    #             add_dependencies(dep)
-    #             G_d[b].append(dep)
 
     def check_depend(abs_para):
         index2 = category.index(abs_para[1])
@@ -311,7 +302,6 @@ def draw_unnecessary(adj_list, Layers, G_d_nece, category):
                         abs_computable.append(abs_para)
         return abs_computable
                         
-  
 
     # Main loop
     while any(param not in G_d_nece_copy for param in all_instance_para):
@@ -411,12 +401,28 @@ def visualize_dependency_graph(graph, title="Dependency Graph", filename=None):
 
 
 
+def create_unique_folder(base_path):
+    timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S_%f")
+    folder_name = f"draw_all_log_{timestamp}"
+    path = os.path.join(base_path, folder_name)
+    
+    if not os.path.exists(path):
+        os.makedirs(path)
+        return path
+    
+    index = 1
+    while True:
+        new_path = f"{path}_{index}"
+        if not os.path.exists(new_path):
+            os.makedirs(new_path)
+            return new_path
+        index += 1
+import json
+import datetime
 
 def DrawAll(op_max, ip_max, items_flatten, category, force=False):
-    # Create a log folder with timestamp
-    timestamp = datetime.datetime.now().strftime("%Y%m%d_%H%M%S")
-    log_folder = os.path.join("log", f"draw_all_log_{timestamp}")
-    os.makedirs(log_folder, exist_ok=True)
+    # 创建一个唯一的日志文件夹
+    log_folder = create_unique_folder("log")
 
     log_file = os.path.join(log_folder, "log.txt")
 
@@ -496,23 +502,58 @@ def DrawAll(op_max, ip_max, items_flatten, category, force=False):
         necessary3_file = os.path.join(log_folder, "necessary3_graph.png")
         visualize_dependency_graph(Gnece_d, title="Necessary3 Graph", filename=necessary3_file)
         write_log(f"Necessary3 graph saved to: {necessary3_file}")
-        question, solution, num_operation = question_solution(Gnece_d, Topo, category)
-        # Write question and solution to log
-        write_log("\nQuestion:")
-        write_log(question)
-        write_log("\nSolution:")
-        write_log(solution)
-        assert(num_operation==s)
-
-
-
+        
     # Step 13: Draw Unnecessary
     G_d = draw_unnecessary(adj_list, Layers, Gnece_d, category)
     unnecessary_file = os.path.join(log_folder, "unnecessary_graph.png")
     visualize_dependency_graph(G_d, title="Unnecessary Graph", filename=unnecessary_file)
     write_log(f"Unnecessary graph saved to: {unnecessary_file}")
+    structure_des = structure_description(Layers, category)
+    question, solution, num_operation = question_solution(G_d, Gnece_d, Topo, category)
+    # Write question and solution to log
+    write_log("\nQuestion:")
+    write_log(structure_des + question)
+    write_log("\nSolution:")
+    write_log(solution)
+    assert(num_operation==s)
 
     write_log("DrawAll completed successfully")
+
+    # Create a dictionary to store all logged terms
+    logged_terms = {
+        "s": int(s),
+        "n": int(n),
+        "m": int(m),
+        "d": int(d),
+        "w0": int(w0),
+        "w1": int(w1),
+        "e": int(e),
+        "structure_graph": structure_file,
+        "necessary1_graph": necessary1_file,
+        "necessary2_graph": necessary2_file,
+        "topological_order": [nodetoname(node) for node in Topo],
+        "necessary3_graph": necessary3_file,
+        "unnecessary_graph": unnecessary_file,
+        "question": structure_des + question,
+        "solution": solution,
+        "num_operation": num_operation
+    }
+
+    # Create the dataset folder if it doesn't exist
+    dataset_folder = "dataset"
+    os.makedirs(dataset_folder, exist_ok=True)
+
+    # Generate a unique filename for the JSON file
+    json_filename = f"logged_terms_{datetime.datetime.now().strftime('%Y%m%d_%H%M%S_%f')}.json"
+    json_filepath = os.path.join(dataset_folder, json_filename)
+
+    # Save the logged terms to the JSON file
+    with open(json_filepath, 'w') as json_file:
+        json.dump(logged_terms, json_file, indent=2)
+
+    write_log(f"Logged terms saved to: {json_filepath}")
+
+    return G_d, Gnece_d, Topo
     return G_d, Gnece_d, Topo
 
 

@@ -1,0 +1,50 @@
+s: 11
+n: 5
+m: 8
+d: 4
+w0: 3
+w1: 4
+e: 9
+Structure graph saved to: log/draw_all_log_20240829_200630_324430/structure_graph.png
+Necessary1 graph saved to: log/draw_all_log_20240829_200630_324430/necessary1_graph.png
+Necessary2 graph saved to: log/draw_all_log_20240829_200630_324430/necessary2_graph.png
+Topological order:
+  Cheese 's Polenta
+  Yogurt Covered Raisins 's Polenta
+  Cheesecake 's Polenta
+  Wall Street 's Big Lots
+  H-E-B 's Yogurt Covered Raisins
+  H-E-B 's Product
+  Condo District 's H-E-B
+  Condo District 's Product
+Necessary3 graph saved to: log/draw_all_log_20240829_200630_324430/necessary3_graph.png
+Unnecessary graph saved to: log/draw_all_log_20240829_200630_324430/unnecessary_graph.png
+
+Question:
+District category contains Wall Street, Condo District, and College Town.
+Supermarkets category contains Dollar General, H-E-B, and Big Lots.
+Product category contains Yogurt Covered Raisins, Cheese, and Cheesecake.
+Ingredient category contains Polenta, Condensed Milk, and Barley.
+The number of each Big Lots 's Cheesecake equals 19.
+The number of each Cheesecake 's Polenta equals 6 more than the difference of each Yogurt Covered Raisins 's Polenta and each Cheese 's Polenta.
+The number of each College Town 's Big Lots equals 14.
+The number of each Condo District 's H-E-B equals each Cheese 's Polenta.
+The number of each Wall Street 's Big Lots equals 19 more than each Cheesecake 's Polenta.
+The number of each Yogurt Covered Raisins 's Polenta equals each Cheese 's Polenta.
+The number of each Cheese 's Polenta equals 10.
+The number of each Dollar General 's Cheesecake equals 0.
+The number of each H-E-B 's Yogurt Covered Raisins equals the sum of each Cheesecake 's Polenta, each Wall Street 's Big Lots, each Yogurt Covered Raisins 's Polenta, and each Cheese 's Polenta.
+How many Product does Condo District have?
+
+Solution:
+Define each Cheese 's Polenta as D; So D = 10.
+Define each Yogurt Covered Raisins 's Polenta as m; So m = D = 10.
+Define each Cheesecake 's Polenta as U; b = m - D = 10 - 10 = 0; So U = 6 + b = 6 + 0 = 6.
+Define each Wall Street 's Big Lots as d; So d = 19 + U = 19 + 6 = 2.
+Define each H-E-B 's Yogurt Covered Raisins as W; l = U + D = 6 + 10 = 16; a = l + m = 16 + 10 = 3; So W = d + a = 2 + 3 = 5.
+Define each H-E-B 's Product as a; So a = W = 5.
+Define each Condo District 's H-E-B as r; So r = D = 10.
+Define each Condo District 's Product as q; q = r * a = 10 * 5 = 4.
+
+DrawAll completed successfully
+Logged terms saved to: dataset/logged_terms_20240829_200630_709814.json

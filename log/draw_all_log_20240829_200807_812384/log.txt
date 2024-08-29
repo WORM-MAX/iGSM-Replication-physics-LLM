@@ -1,0 +1,42 @@
+s: 3
+n: 3
+m: 3
+d: 3
+w0: 3
+w1: 4
+e: 12
+Structure graph saved to: log/draw_all_log_20240829_200807_812384/structure_graph.png
+Necessary1 graph saved to: log/draw_all_log_20240829_200807_812384/necessary1_graph.png
+Necessary2 graph saved to: log/draw_all_log_20240829_200807_812384/necessary2_graph.png
+Topological order:
+  Hannaford 's Juice
+  Hannaford 's Product
+  Civic Center 's Hannaford
+Necessary3 graph saved to: log/draw_all_log_20240829_200807_812384/necessary3_graph.png
+Unnecessary graph saved to: log/draw_all_log_20240829_200807_812384/unnecessary_graph.png
+
+Question:
+District category contains Learning Hub, Gated Community, Civic Center, and Administrative District.
+Supermarkets category contains Sainsbury's, Target, and Hannaford.
+Product category contains Juice, Rice Cakes, and Pies.
+The number of each Target 's Rice Cakes equals 15.
+The number of each Civic Center 's Target equals 19 times the sum of each Sainsbury's 's Pies, each Target 's Rice Cakes, and each Learning Hub 's Hannaford.
+The number of each Sainsbury's 's Juice equals the sum of each Target 's Juice and each Administrative District 's Hannaford.
+The number of each Learning Hub 's Hannaford equals the difference of each Hannaford 's Product and each Administrative District 's Supermarkets.
+The number of each Hannaford 's Juice equals 15.
+The number of each Sainsbury's 's Rice Cakes equals 10 more than the sum of each Target 's Rice Cakes, each Administrative District 's Hannaford, and each Target 's Juice.
+The number of each Gated Community 's Sainsbury's equals the difference of each Sainsbury's 's Juice and each Administrative District 's Hannaford.
+The number of each Administrative District 's Hannaford equals 0.
+The number of each Learning Hub 's Sainsbury's equals each Hannaford 's Juice.
+The number of each Civic Center 's Hannaford equals the difference of each Hannaford 's Product and each Hannaford 's Juice.
+The number of each Sainsbury's 's Pies equals the sum of each Administrative District 's Hannaford and each Hannaford 's Juice.
+The number of each Target 's Juice equals 16 more than each Administrative District 's Hannaford.
+How many Hannaford does Civic Center have?
+
+Solution:
+Define each Hannaford 's Juice as N; So N = 15.
+Define each Hannaford 's Product as c; So c = N = 15.
+Define each Civic Center 's Hannaford as w; So w = c - N = 15 - 15 = 0.
+
+DrawAll completed successfully
+Logged terms saved to: dataset/logged_terms_20240829_200808_196001.json

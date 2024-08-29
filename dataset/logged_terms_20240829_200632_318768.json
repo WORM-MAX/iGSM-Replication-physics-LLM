@@ -1,0 +1,22 @@
+{
+  "s": 3,
+  "n": 3,
+  "m": 3,
+  "d": 3,
+  "w0": 2,
+  "w1": 3,
+  "e": 4,
+  "structure_graph": "log/draw_all_log_20240829_200631_975105/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240829_200631_975105/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240829_200631_975105/necessary2_graph.png",
+  "topological_order": [
+    "Fry's 's Milk",
+    "Fresh Thyme Market 's Milk",
+    "Fresh Thyme Market 's Product"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240829_200631_975105/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240829_200631_975105/unnecessary_graph.png",
+  "question": "District category contains Ancient City, and Historic Downtown.\nSupermarkets category contains Fresh Thyme Market, and Fry's.\nProduct category contains Milk, and Canned Fruits.\nThe number of each Fresh Thyme Market 's Milk equals each Fry's 's Milk.\nThe number of each Fry's 's Milk equals 3.\nThe number of each Ancient City 's Fry's equals the difference of each Fresh Thyme Market 's Milk and each Fresh Thyme Market 's Product.\nThe number of each Historic Downtown 's Fry's equals 13 times each Fresh Thyme Market 's Milk.\nHow many Product does Fresh Thyme Market have?",
+  "solution": "Define each Fry's 's Milk as K; So K = 3.\nDefine each Fresh Thyme Market 's Milk as r; So r = K = 3.\nDefine each Fresh Thyme Market 's Product as f; So f = r = 3.\n",
+  "num_operation": 3
+}

@@ -1,0 +1,49 @@
+s: 6
+n: 6
+m: 6
+d: 3
+w0: 3
+w1: 4
+e: 13
+Structure graph saved to: log/draw_all_log_20240829_200808_948019/structure_graph.png
+Necessary1 graph saved to: log/draw_all_log_20240829_200808_948019/necessary1_graph.png
+Necessary2 graph saved to: log/draw_all_log_20240829_200808_948019/necessary2_graph.png
+Topological order:
+  Safeway 's Pretzels
+  Library District 's Auchan
+  Library District 's Safeway
+  Library District 's Supermarkets
+  Ancient City 's Auchan
+  Ancient City 's Supermarkets
+Necessary3 graph saved to: log/draw_all_log_20240829_200808_948019/necessary3_graph.png
+Unnecessary graph saved to: log/draw_all_log_20240829_200808_948019/unnecessary_graph.png
+
+Question:
+District category contains Library District, Research and Innovation Park, Archaeological District, and Ancient City.
+Supermarkets category contains Eataly, Weis Markets, Auchan, and Safeway.
+Product category contains Pizza Dough, Liquor, Doughnuts, and Pretzels.
+The number of each Weis Markets 's Doughnuts equals 14.
+The number of each Eataly 's Pizza Dough equals 11 more than each Auchan 's Pretzels.
+The number of each Auchan 's Pretzels equals the sum of each Library District 's Auchan, each Safeway 's Product, and each Auchan 's Liquor.
+The number of each Eataly 's Pretzels equals each Research and Innovation Park 's Safeway.
+The number of each Library District 's Safeway equals 21 more than each Library District 's Auchan.
+The number of each Research and Innovation Park 's Weis Markets equals 15.
+The number of each Research and Innovation Park 's Safeway equals 4 more than each Auchan 's Liquor.
+The number of each Auchan 's Liquor equals 22.
+The number of each Library District 's Auchan equals 3 more than each Safeway 's Pretzels.
+The number of each Weis Markets 's Pretzels equals 2.
+The number of each Safeway 's Pretzels equals 5.
+The number of each Ancient City 's Auchan equals the sum of each Library District 's Supermarkets and each Library District 's Safeway.
+The number of each Archaeological District 's Auchan equals 16 times the sum of each Library District 's Supermarkets, each Ancient City 's Supermarkets, and each Safeway 's Product.
+How many Supermarkets does Ancient City have?
+
+Solution:
+Define each Safeway 's Pretzels as V; So V = 5.
+Define each Library District 's Auchan as s; So s = 3 + V = 3 + 5 = 8.
+Define each Library District 's Safeway as u; So u = 21 + s = 21 + 8 = 6.
+Define each Library District 's Supermarkets as t; So t = s + u = 8 + 6 = 14.
+Define each Ancient City 's Auchan as L; So L = t + u = 14 + 6 = 20.
+Define each Ancient City 's Supermarkets as q; So q = L = 20.
+
+DrawAll completed successfully
+Logged terms saved to: dataset/logged_terms_20240829_200809_349383.json

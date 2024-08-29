@@ -1,0 +1,36 @@
+s: 6
+n: 5
+m: 6
+d: 2
+w0: 2
+w1: 3
+e: 3
+Structure graph saved to: log/draw_all_log_20240829_200808_196147/structure_graph.png
+Necessary1 graph saved to: log/draw_all_log_20240829_200808_196147/necessary1_graph.png
+Necessary2 graph saved to: log/draw_all_log_20240829_200808_196147/necessary2_graph.png
+Topological order:
+  Urban Residential Area 's Mitsuwa Marketplace
+  Urban Residential Area 's Supermarkets
+  Fashion District 's Vons
+  College Town 's Vons
+  College Town 's Supermarkets
+Necessary3 graph saved to: log/draw_all_log_20240829_200808_196147/necessary3_graph.png
+Unnecessary graph saved to: log/draw_all_log_20240829_200808_196147/unnecessary_graph.png
+
+Question:
+District category contains College Town, Urban Residential Area, and Fashion District.
+Supermarkets category contains Lulu Hypermarket, Vons, and Mitsuwa Marketplace.
+The number of each College Town 's Vons equals 9 more than the difference of each Fashion District 's Vons and each Urban Residential Area 's Mitsuwa Marketplace.
+The number of each Fashion District 's Vons equals 20 more than each Urban Residential Area 's Supermarkets.
+The number of each Urban Residential Area 's Mitsuwa Marketplace equals 16.
+How many Supermarkets does College Town have?
+
+Solution:
+Define each Urban Residential Area 's Mitsuwa Marketplace as a; So a = 16.
+Define each Urban Residential Area 's Supermarkets as X; So X = a = 16.
+Define each Fashion District 's Vons as k; So k = 20 + X = 20 + 16 = 13.
+Define each College Town 's Vons as M; C = k - a = 13 - 16 = 20; So M = 9 + C = 9 + 20 = 6.
+Define each College Town 's Supermarkets as O; So O = M = 6.
+
+DrawAll completed successfully
+Logged terms saved to: dataset/logged_terms_20240829_200808_546103.json

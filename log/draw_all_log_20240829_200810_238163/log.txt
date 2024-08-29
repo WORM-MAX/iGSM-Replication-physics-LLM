@@ -1,0 +1,34 @@
+s: 1
+n: 1
+m: 1
+d: 3
+w0: 3
+w1: 3
+e: 8
+Structure graph saved to: log/draw_all_log_20240829_200810_238163/structure_graph.png
+Necessary1 graph saved to: log/draw_all_log_20240829_200810_238163/necessary1_graph.png
+Necessary2 graph saved to: log/draw_all_log_20240829_200810_238163/necessary2_graph.png
+Topological order:
+  Central Market 's Trail Mix
+Necessary3 graph saved to: log/draw_all_log_20240829_200810_238163/necessary3_graph.png
+Unnecessary graph saved to: log/draw_all_log_20240829_200810_238163/unnecessary_graph.png
+
+Question:
+District category contains Government Complex, College Town, and Condo District.
+Supermarkets category contains Blue Apron, 99 Cents Only Stores, and Central Market.
+Product category contains Ice Cream, Trail Mix, and Alcoholic Beverages.
+The number of each Government Complex 's Central Market equals 12.
+The number of each College Town 's Blue Apron equals 15.
+The number of each College Town 's Central Market equals the difference of each Central Market 's Product and each Central Market 's Trail Mix.
+The number of each Condo District 's Blue Apron equals 11 times the sum of each College Town 's Blue Apron and each Blue Apron 's Ice Cream.
+The number of each 99 Cents Only Stores 's Ice Cream equals 13 times the sum of each Government Complex 's Central Market, each Government Complex 's Supermarkets, and each College Town 's 99 Cents Only Stores.
+The number of each Central Market 's Trail Mix equals 0.
+The number of each College Town 's 99 Cents Only Stores equals the sum of each College Town 's Central Market and each Central Market 's Trail Mix.
+The number of each Blue Apron 's Ice Cream equals 11 times each College Town 's Blue Apron.
+How many Trail Mix does Central Market have?
+
+Solution:
+Define each Central Market 's Trail Mix as Y; So Y = 0.
+
+DrawAll completed successfully
+Logged terms saved to: dataset/logged_terms_20240829_200810_609432.json

@@ -1,11 +1,7 @@
 import numpy as np
-import random
-import networkx as nx
-import matplotlib.pyplot as plt
 import json
 from utils.dependency import *
 import time
-
 # 获取当前时间戳
 current_time = int(time.time())
 
@@ -16,7 +12,7 @@ def read_items_from_json(filename):
     with open(filename, 'r') as f:
         return json.load(f)
     
-items_flatten = read_items_from_json('data/items_flatten.json')
+items_flatten = read_items_from_json('data_seed/items_flatten.json')
 category = list(items_flatten.keys())
 
 """
@@ -31,6 +27,6 @@ category = list(items_flatten.keys())
 # Example usage:
 op_max = 15
 ip_max = 20
-G_d, Gnece_d, Topo = DrawAll(op_max, ip_max, items_flatten, category)
 
-# TODO: mod 23
+for _ in range(20):
+    G_d, Gnece_d, Topo = DrawAll(op_max, ip_max, items_flatten, category)

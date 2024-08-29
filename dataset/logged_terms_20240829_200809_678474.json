@@ -1,0 +1,22 @@
+{
+  "s": 3,
+  "n": 2,
+  "m": 3,
+  "d": 2,
+  "w0": 2,
+  "w1": 4,
+  "e": 2,
+  "structure_graph": "log/draw_all_log_20240829_200809_349547/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240829_200809_349547/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240829_200809_349547/necessary2_graph.png",
+  "topological_order": [
+    "Municipal Office District 's FreshDirect",
+    "Colonial District 's Walmart Grocery",
+    "Colonial District 's Supermarkets"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240829_200809_349547/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240829_200809_349547/unnecessary_graph.png",
+  "question": "District category contains Municipal Office District, and Colonial District.\nSupermarkets category contains Walmart Grocery, and FreshDirect.\nThe number of each Colonial District 's Walmart Grocery equals 13 more than each Municipal Office District 's FreshDirect.\nThe number of each Municipal Office District 's FreshDirect equals 7.\nHow many Supermarkets does Colonial District have?",
+  "solution": "Define each Municipal Office District 's FreshDirect as P; So P = 7.\nDefine each Colonial District 's Walmart Grocery as L; So L = 13 + P = 13 + 7 = 20.\nDefine each Colonial District 's Supermarkets as f; So f = L = 20.\n",
+  "num_operation": 3
+}
