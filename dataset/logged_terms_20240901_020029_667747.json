@@ -1,0 +1,20 @@
+{
+  "s": 1,
+  "n": 1,
+  "m": 1,
+  "d": 3,
+  "w0": 2,
+  "w1": 4,
+  "e": 9,
+  "structure_graph": "log/draw_all_log_20240901_020029_255395/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_020029_255395/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_020029_255395/necessary2_graph.png",
+  "topological_order": [
+    "Automotive District 's Lidl"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_020029_255395/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_020029_255395/unnecessary_graph.png",
+  "question": "District category contains Administrative District, Automotive District, and Student Housing.\nSupermarkets category contains Boxed, and Lidl.\nProduct category contains Greek Yogurt, and Rice Cakes.\nThe number of each Automotive District 's Boxed equals the sum of each Lidl 's Rice Cakes, each Lidl 's Greek Yogurt, and each Administrative District 's Boxed.\nThe number of each Lidl 's Greek Yogurt equals the sum of each Student Housing 's Boxed, each Administrative District 's Boxed, and each Administrative District 's Lidl.\nThe number of each Administrative District 's Boxed equals each Administrative District 's Lidl.\nThe number of each Student Housing 's Boxed equals 5 times the sum of each Administrative District 's Lidl and each Administrative District 's Boxed.\nThe number of each Lidl 's Rice Cakes equals 8 more than the sum of each Administrative District 's Lidl, each Student Housing 's Boxed, and each Administrative District 's Boxed.\nThe number of each Boxed 's Rice Cakes equals the sum of each Student Housing 's Boxed, each Administrative District 's Supermarkets, and each Administrative District 's Boxed.\nThe number of each Automotive District 's Lidl equals 1.\nThe number of each Administrative District 's Lidl equals 11.\nThe number of each Boxed 's Greek Yogurt equals 8.\nHow many Lidl does Automotive District have?",
+  "solution": "Define each Automotive District 's Lidl as r; So r = 1.\n",
+  "num_operation": 1
+}

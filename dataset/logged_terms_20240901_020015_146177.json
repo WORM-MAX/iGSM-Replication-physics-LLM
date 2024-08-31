@@ -1,0 +1,21 @@
+{
+  "s": 2,
+  "n": 2,
+  "m": 2,
+  "d": 2,
+  "w0": 2,
+  "w1": 2,
+  "e": 4,
+  "structure_graph": "log/draw_all_log_20240901_020014_747851/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_020014_747851/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_020014_747851/necessary2_graph.png",
+  "topological_order": [
+    "Suburban Neighborhood 's Family Dollar",
+    "Legal District 's Family Dollar"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_020014_747851/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_020014_747851/unnecessary_graph.png",
+  "question": "District category contains Legal District, and Suburban Neighborhood.\nSupermarkets category contains Sprouts Farmers Market, and Family Dollar.\nThe number of each Legal District 's Family Dollar equals 18 times each Suburban Neighborhood 's Family Dollar.\nThe number of each Suburban Neighborhood 's Sprouts Farmers Market equals 3.\nThe number of each Legal District 's Sprouts Farmers Market equals 15 more than the sum of each Legal District 's Family Dollar and each Suburban Neighborhood 's Family Dollar.\nThe number of each Suburban Neighborhood 's Family Dollar equals 9.\nHow many Family Dollar does Legal District have?",
+  "solution": "Define each Suburban Neighborhood 's Family Dollar as Y; So Y = 9.\nDefine each Legal District 's Family Dollar as n; So n = 18 * Y = 18 * 9 = 1.\n",
+  "num_operation": 2
+}

@@ -1,0 +1,27 @@
+{
+  "s": 11,
+  "n": 8,
+  "m": 8,
+  "d": 4,
+  "w0": 3,
+  "w1": 4,
+  "e": 11,
+  "structure_graph": "log/draw_all_log_20240901_022240_368036/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_022240_368036/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_022240_368036/necessary2_graph.png",
+  "topological_order": [
+    "Plant-based Cheese 's Hoisin Sauce",
+    "Plant-based Cheese 's Ingredient",
+    "Lidl 's Plant-based Cheese",
+    "Lidl 's Ingredient",
+    "Wall Street 's Lidl",
+    "Wall Street 's Ingredient",
+    "Weis Markets 's Candy Bars",
+    "Weis Markets 's Product"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_022240_368036/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_022240_368036/unnecessary_graph.png",
+  "question": "District category contains Old Town, Wall Street, and Government Complex.\nSupermarkets category contains Weis Markets, Publix, and Lidl.\nProduct category contains Candy Bars, Wine, and Plant-based Cheese.\nIngredient category contains Corn Oil, Sunflower Oil, and Hoisin Sauce.\nThe number of each Government Complex 's Lidl equals 9 times the difference of each Old Town 's Lidl and each Old Town 's Publix.\nThe number of each Government Complex 's Publix equals each Wall Street 's Supermarkets.\nThe number of each Candy Bars 's Corn Oil equals each Lidl 's Product.\nThe number of each Lidl 's Plant-based Cheese equals 4 times the sum of each Plant-based Cheese 's Hoisin Sauce and each Plant-based Cheese 's Ingredient.\nThe number of each Plant-based Cheese 's Hoisin Sauce equals 18.\nThe number of each Wall Street 's Lidl equals 14 times the sum of each Lidl 's Ingredient, each Plant-based Cheese 's Hoisin Sauce, and each Lidl 's Plant-based Cheese.\nThe number of each Publix 's Wine equals each Wine 's Corn Oil.\nThe number of each Old Town 's Publix equals 3.\nThe number of each Wine 's Corn Oil equals each Plant-based Cheese 's Hoisin Sauce.\nThe number of each Old Town 's Lidl equals each Old Town 's Publix.\nThe number of each Weis Markets 's Candy Bars equals each Wall Street 's Ingredient.\nHow many Product does Weis Markets have?",
+  "solution": "Define each Plant-based Cheese 's Hoisin Sauce as r; So r = 18.\nDefine each Plant-based Cheese 's Ingredient as a; So a = r = 18.\nDefine each Lidl 's Plant-based Cheese as i; Y = r + a = 18 + 18 = 13; So i = 4 * Y = 4 * 13 = 6.\nDefine each Lidl 's Ingredient as L; L = i * a = 6 * 18 = 16.\nDefine each Wall Street 's Lidl as y; K = r + i = 18 + 6 = 1; M = L + K = 16 + 1 = 17; So y = 14 * M = 14 * 17 = 8.\nDefine each Wall Street 's Ingredient as O; O = y * L = 8 * 16 = 13.\nDefine each Weis Markets 's Candy Bars as E; So E = O = 13.\nDefine each Weis Markets 's Product as I; So I = E = 13.\n",
+  "num_operation": 11
+}

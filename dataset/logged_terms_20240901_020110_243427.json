@@ -1,0 +1,29 @@
+{
+  "s": 10,
+  "n": 8,
+  "m": 10,
+  "d": 3,
+  "w0": 4,
+  "w1": 4,
+  "e": 8,
+  "structure_graph": "log/draw_all_log_20240901_020109_769117/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_020109_769117/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_020109_769117/necessary2_graph.png",
+  "topological_order": [
+    "Warehouse District 's Target",
+    "Gated Community 's Aldi",
+    "Vons 's Biscuits",
+    "Business District 's Vons",
+    "Vons 's Product",
+    "Business District 's Product",
+    "Instacart 's Evaporated Milk",
+    "Instacart 's Product",
+    "Civic Center 's Instacart",
+    "Civic Center 's Product"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_020109_769117/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_020109_769117/unnecessary_graph.png",
+  "question": "District category contains Warehouse District, Civic Center, Business District, and Gated Community.\nSupermarkets category contains Instacart, Target, Aldi, and Vons.\nProduct category contains Biscuits, Tortilla Chips, Buns, and Evaporated Milk.\nThe number of each Aldi 's Evaporated Milk equals 19.\nThe number of each Vons 's Biscuits equals 13 more than each Gated Community 's Aldi.\nThe number of each Instacart 's Evaporated Milk equals the sum of each Business District 's Product and each Vons 's Biscuits.\nThe number of each Warehouse District 's Target equals 14.\nThe number of each Civic Center 's Instacart equals the sum of each Business District 's Product and each Warehouse District 's Target.\nThe number of each Target 's Buns equals 12.\nThe number of each Gated Community 's Aldi equals 14 times each Warehouse District 's Target.\nThe number of each Business District 's Vons equals each Vons 's Biscuits.\nHow many Product does Civic Center have?",
+  "solution": "Define each Warehouse District 's Target as e; So e = 14.\nDefine each Gated Community 's Aldi as Z; So Z = 14 * e = 14 * 14 = 12.\nDefine each Vons 's Biscuits as m; So m = 13 + Z = 13 + 12 = 2.\nDefine each Business District 's Vons as R; So R = m = 2.\nDefine each Vons 's Product as J; So J = m = 2.\nDefine each Business District 's Product as C; C = J * R = 2 * 2 = 4.\nDefine each Instacart 's Evaporated Milk as g; So g = C + m = 4 + 2 = 6.\nDefine each Instacart 's Product as d; So d = g = 6.\nDefine each Civic Center 's Instacart as W; So W = C + e = 4 + 14 = 18.\nDefine each Civic Center 's Product as U; U = W * d = 18 * 6 = 16.\n",
+  "num_operation": 10
+}

@@ -1,0 +1,20 @@
+{
+  "s": 1,
+  "n": 1,
+  "m": 1,
+  "d": 2,
+  "w0": 2,
+  "w1": 2,
+  "e": 2,
+  "structure_graph": "log/draw_all_log_20240901_020118_376033/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_020118_376033/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_020118_376033/necessary2_graph.png",
+  "topological_order": [
+    "Shopping District 's Central Market"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_020118_376033/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_020118_376033/unnecessary_graph.png",
+  "question": "District category contains Shopping District, and Financial District.\nSupermarkets category contains Sainsbury's, and Central Market.\nThe number of each Financial District 's Central Market equals 9.\nThe number of each Shopping District 's Central Market equals 8.\nHow many Central Market does Shopping District have?",
+  "solution": "Define each Shopping District 's Central Market as Z; So Z = 8.\n",
+  "num_operation": 1
+}

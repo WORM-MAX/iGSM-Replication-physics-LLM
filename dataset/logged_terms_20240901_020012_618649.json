@@ -1,0 +1,20 @@
+{
+  "s": 1,
+  "n": 1,
+  "m": 1,
+  "d": 4,
+  "w0": 2,
+  "w1": 2,
+  "e": 12,
+  "structure_graph": "log/draw_all_log_20240901_020012_199487/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_020012_199487/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_020012_199487/necessary2_graph.png",
+  "topological_order": [
+    "Herbal Tea 's Chocolate Chips"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_020012_199487/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_020012_199487/unnecessary_graph.png",
+  "question": "District category contains Suburban Neighborhood, and High-rise Apartment Complex.\nSupermarkets category contains Peapod, and Target.\nProduct category contains Cakes, and Herbal Tea.\nIngredient category contains Chocolate Chips, and Vanilla Extract.\nThe number of each Cakes 's Chocolate Chips equals the sum of each Suburban Neighborhood 's Peapod and each Peapod 's Cakes.\nThe number of each High-rise Apartment Complex 's Target equals each Herbal Tea 's Chocolate Chips.\nThe number of each Herbal Tea 's Chocolate Chips equals 17.\nThe number of each Target 's Herbal Tea equals 17.\nThe number of each Suburban Neighborhood 's Target equals 1.\nThe number of each Peapod 's Herbal Tea equals 21 times each Suburban Neighborhood 's Peapod.\nThe number of each Suburban Neighborhood 's Peapod equals 6 times each Peapod 's Cakes.\nThe number of each Cakes 's Vanilla Extract equals the sum of each Peapod 's Cakes and each Cakes 's Chocolate Chips.\nThe number of each Peapod 's Cakes equals 15.\nThe number of each Target 's Cakes equals each Peapod 's Herbal Tea.\nThe number of each High-rise Apartment Complex 's Peapod equals 2 times the sum of each Cakes 's Chocolate Chips, each Peapod 's Herbal Tea, and each Herbal Tea 's Ingredient.\nThe number of each Herbal Tea 's Vanilla Extract equals 7.\nHow many Chocolate Chips does Herbal Tea have?",
+  "solution": "Define each Herbal Tea 's Chocolate Chips as f; So f = 17.\n",
+  "num_operation": 1
+}

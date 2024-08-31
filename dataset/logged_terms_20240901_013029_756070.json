@@ -1,0 +1,21 @@
+{
+  "s": 2,
+  "n": 2,
+  "m": 2,
+  "d": 4,
+  "w0": 3,
+  "w1": 3,
+  "e": 19,
+  "structure_graph": "log/draw_all_log_20240901_013029_292754/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_013029_292754/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_013029_292754/necessary2_graph.png",
+  "topological_order": [
+    "Vons 's Herbal Tea",
+    "Croissants 's Cinnamon"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_013029_292754/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_013029_292754/unnecessary_graph.png",
+  "question": "District category contains Civic Center, Learning Hub, and Research Park.\nSupermarkets category contains Auchan, 99 Cents Only Stores, and Vons.\nProduct category contains Croissants, Buns, and Herbal Tea.\nIngredient category contains Cinnamon, Rice, and Nutmeg.\nThe number of each Learning Hub 's 99 Cents Only Stores equals the sum of each 99 Cents Only Stores 's Croissants, each Auchan 's Herbal Tea, and each Buns 's Cinnamon.\nThe number of each Auchan 's Herbal Tea equals each Auchan 's Buns.\nThe number of each Vons 's Herbal Tea equals 11.\nThe number of each Buns 's Rice equals 12 more than each Research Park 's 99 Cents Only Stores.\nThe number of each 99 Cents Only Stores 's Croissants equals 6.\nThe number of each Auchan 's Buns equals 8.\nThe number of each Learning Hub 's Auchan equals 2.\nThe number of each Learning Hub 's Vons equals 1.\nThe number of each 99 Cents Only Stores 's Herbal Tea equals the sum of each Croissants 's Nutmeg and each Auchan 's Herbal Tea.\nThe number of each Vons 's Croissants equals each Auchan 's Croissants.\nThe number of each Buns 's Cinnamon equals the difference of each Auchan 's Buns and each Croissants 's Nutmeg.\nThe number of each Herbal Tea 's Cinnamon equals each Learning Hub 's Vons.\nThe number of each Civic Center 's Vons equals 20.\nThe number of each Croissants 's Nutmeg equals 2 times the difference of each Auchan 's Buns and each Auchan 's Herbal Tea.\nThe number of each Croissants 's Cinnamon equals 22 times each Vons 's Herbal Tea.\nThe number of each Research Park 's 99 Cents Only Stores equals each Croissants 's Nutmeg.\nThe number of each Vons 's Buns equals 19.\nThe number of each Herbal Tea 's Nutmeg equals the sum of each Buns 's Ingredient, each Croissants 's Cinnamon, and each Auchan 's Croissants.\nThe number of each Auchan 's Croissants equals 22.\nHow many Cinnamon does Croissants have?",
+  "solution": "Define each Vons 's Herbal Tea as I; So I = 11.\nDefine each Croissants 's Cinnamon as v; So v = 22 * I = 22 * 11 = 12.\n",
+  "num_operation": 2
+}

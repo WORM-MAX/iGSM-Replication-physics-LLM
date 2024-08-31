@@ -1,0 +1,23 @@
+{
+  "s": 5,
+  "n": 4,
+  "m": 4,
+  "d": 2,
+  "w0": 3,
+  "w1": 3,
+  "e": 9,
+  "structure_graph": "log/draw_all_log_20240901_025200_062002/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025200_062002/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025200_062002/necessary2_graph.png",
+  "topological_order": [
+    "Cultural Heritage Site 's ShopRite",
+    "Industrial District 's Big Lots",
+    "Cultural Heritage Site 's Metro (Canada)",
+    "Industrial District 's ShopRite"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025200_062002/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025200_062002/unnecessary_graph.png",
+  "question": "District category contains Capitol District, Cultural Heritage Site, and Industrial District.\nSupermarkets category contains ShopRite, Metro (Canada), and Big Lots.\nThe number of each Industrial District 's Metro (Canada) equals 16.\nThe number of each Capitol District 's Metro (Canada) equals 17 more than the sum of each Cultural Heritage Site 's Big Lots and each Industrial District 's Metro (Canada).\nThe number of each Cultural Heritage Site 's Metro (Canada) equals 3 more than the difference of each Industrial District 's Big Lots and each Cultural Heritage Site 's ShopRite.\nThe number of each Industrial District 's Big Lots equals 6 times each Cultural Heritage Site 's ShopRite.\nThe number of each Capitol District 's Big Lots equals 22.\nThe number of each Cultural Heritage Site 's Big Lots equals 14 times each Industrial District 's Metro (Canada).\nThe number of each Industrial District 's ShopRite equals each Cultural Heritage Site 's Metro (Canada).\nThe number of each Capitol District 's ShopRite equals the difference of each Cultural Heritage Site 's Supermarkets and each Cultural Heritage Site 's Big Lots.\nThe number of each Cultural Heritage Site 's ShopRite equals 0.\nHow many ShopRite does Industrial District have?",
+  "solution": "Define each Cultural Heritage Site 's ShopRite as k; So k = 0.\nDefine each Industrial District 's Big Lots as D; So D = 6 * k = 6 * 0 = 0.\nDefine each Cultural Heritage Site 's Metro (Canada) as V; O = D - k = 0 - 0 = 0; So V = 3 + O = 3 + 0 = 3.\nDefine each Industrial District 's ShopRite as F; So F = V = 3.\n",
+  "num_operation": 5
+}

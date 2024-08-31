@@ -1,0 +1,23 @@
+{
+  "s": 5,
+  "n": 4,
+  "m": 4,
+  "d": 2,
+  "w0": 3,
+  "w1": 4,
+  "e": 3,
+  "structure_graph": "log/draw_all_log_20240901_025445_511594/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025445_511594/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025445_511594/necessary2_graph.png",
+  "topological_order": [
+    "College Town 's Amazon Fresh",
+    "College Town 's Supermarkets",
+    "Tech Park 's Amazon Fresh",
+    "Tech Park 's Supermarkets"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025445_511594/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025445_511594/unnecessary_graph.png",
+  "question": "District category contains Learning Hub, College Town, and Tech Park.\nSupermarkets category contains Carrefour, Instacart, and Amazon Fresh.\nThe number of each Learning Hub 's Instacart equals 17.\nThe number of each College Town 's Amazon Fresh equals 17.\nThe number of each Tech Park 's Amazon Fresh equals 18 times the sum of each College Town 's Supermarkets and each College Town 's Amazon Fresh.\nHow many Supermarkets does Tech Park have?",
+  "solution": "Define each College Town 's Amazon Fresh as P; So P = 17.\nDefine each College Town 's Supermarkets as y; So y = P = 17.\nDefine each Tech Park 's Amazon Fresh as o; W = y + P = 17 + 17 = 11; So o = 18 * W = 18 * 11 = 14.\nDefine each Tech Park 's Supermarkets as I; So I = o = 14.\n",
+  "num_operation": 5
+}

@@ -1,0 +1,22 @@
+{
+  "s": 3,
+  "n": 3,
+  "m": 3,
+  "d": 4,
+  "w0": 2,
+  "w1": 4,
+  "e": 13,
+  "structure_graph": "log/draw_all_log_20240901_025201_383765/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025201_383765/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025201_383765/necessary2_graph.png",
+  "topological_order": [
+    "Cakes 's Cornmeal",
+    "Cakes 's Wheat Germ",
+    "Cakes 's Ingredient"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025201_383765/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025201_383765/unnecessary_graph.png",
+  "question": "District category contains Military District, Research and Innovation Park, and Historic Neighborhood.\nSupermarkets category contains Instacart, and Target.\nProduct category contains Biscuits, Yogurt Covered Raisins, and Cakes.\nIngredient category contains Cornmeal, Condensed Milk, and Wheat Germ.\nThe number of each Historic Neighborhood 's Target equals the sum of each Cakes 's Cornmeal, each Cakes 's Ingredient, each Yogurt Covered Raisins 's Wheat Germ, and each Cakes 's Wheat Germ.\nThe number of each Instacart 's Cakes equals 15.\nThe number of each Yogurt Covered Raisins 's Wheat Germ equals 15 times the sum of each Cakes 's Cornmeal, each Cakes 's Wheat Germ, and each Cakes 's Ingredient.\nThe number of each Cakes 's Cornmeal equals 8.\nThe number of each Biscuits 's Wheat Germ equals each Cakes 's Wheat Germ.\nThe number of each Yogurt Covered Raisins 's Cornmeal equals each Biscuits 's Ingredient.\nThe number of each Research and Innovation Park 's Target equals 2.\nThe number of each Military District 's Instacart equals 11.\nThe number of each Target 's Cakes equals each Military District 's Instacart.\nThe number of each Instacart 's Biscuits equals 7.\nThe number of each Historic Neighborhood 's Instacart equals the sum of each Cakes 's Wheat Germ and each Biscuits 's Ingredient.\nThe number of each Cakes 's Wheat Germ equals 17 more than each Cakes 's Cornmeal.\nThe number of each Research and Innovation Park 's Instacart equals 21.\nHow many Ingredient does Cakes have?",
+  "solution": "Define each Cakes 's Cornmeal as t; So t = 8.\nDefine each Cakes 's Wheat Germ as g; So g = 17 + t = 17 + 8 = 2.\nDefine each Cakes 's Ingredient as p; So p = t + g = 8 + 2 = 10.\n",
+  "num_operation": 3
+}

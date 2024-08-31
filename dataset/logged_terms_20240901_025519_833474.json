@@ -1,0 +1,23 @@
+{
+  "s": 4,
+  "n": 3,
+  "m": 4,
+  "d": 4,
+  "w0": 2,
+  "w1": 2,
+  "e": 12,
+  "structure_graph": "log/draw_all_log_20240901_025519_441857/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025519_441857/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025519_441857/necessary2_graph.png",
+  "topological_order": [
+    "Heritage District 's Lidl",
+    "Heritage District 's 99 Cents Only Stores",
+    "Heritage District 's Supermarkets",
+    "Historic Neighborhood 's Lidl"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025519_441857/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025519_441857/unnecessary_graph.png",
+  "question": "District category contains Historic Neighborhood, and Heritage District.\nSupermarkets category contains Lidl, and 99 Cents Only Stores.\nProduct category contains Beer, and Canned Coconut Milk.\nIngredient category contains Ghee, and Coconut Oil.\nThe number of each 99 Cents Only Stores 's Beer equals 7 more than the sum of each Lidl 's Beer and each 99 Cents Only Stores 's Canned Coconut Milk.\nThe number of each Lidl 's Beer equals 2.\nThe number of each Historic Neighborhood 's 99 Cents Only Stores equals each Beer 's Coconut Oil.\nThe number of each Canned Coconut Milk 's Ghee equals each Heritage District 's 99 Cents Only Stores.\nThe number of each Historic Neighborhood 's Lidl equals 12 more than each Heritage District 's Supermarkets.\nThe number of each Beer 's Coconut Oil equals 10 times each Lidl 's Canned Coconut Milk.\nThe number of each Heritage District 's Lidl equals 18.\nThe number of each Beer 's Ghee equals the difference of each Beer 's Coconut Oil and each Lidl 's Canned Coconut Milk.\nThe number of each 99 Cents Only Stores 's Canned Coconut Milk equals the sum of each Heritage District 's Lidl, each Heritage District 's Supermarkets, and each Historic Neighborhood 's Lidl.\nThe number of each Canned Coconut Milk 's Coconut Oil equals 20.\nThe number of each Heritage District 's 99 Cents Only Stores equals 18.\nThe number of each Lidl 's Canned Coconut Milk equals 14.\nHow many Lidl does Historic Neighborhood have?",
+  "solution": "Define each Heritage District 's Lidl as T; So T = 18.\nDefine each Heritage District 's 99 Cents Only Stores as G; So G = 18.\nDefine each Heritage District 's Supermarkets as w; So w = T + G = 18 + 18 = 13.\nDefine each Historic Neighborhood 's Lidl as l; So l = 12 + w = 12 + 13 = 2.\n",
+  "num_operation": 4
+}

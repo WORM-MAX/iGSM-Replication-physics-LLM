@@ -1,0 +1,20 @@
+{
+  "s": 1,
+  "n": 1,
+  "m": 1,
+  "d": 4,
+  "w0": 2,
+  "w1": 3,
+  "e": 6,
+  "structure_graph": "log/draw_all_log_20240901_025138_259078/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025138_259078/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025138_259078/necessary2_graph.png",
+  "topological_order": [
+    "Institute District 's Auchan"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025138_259078/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025138_259078/unnecessary_graph.png",
+  "question": "District category contains Suburban Neighborhood, and Institute District.\nSupermarkets category contains Auchan, and 99 Cents Only Stores.\nProduct category contains Ice Cream, and Popcorn.\nIngredient category contains Cereal, and Vegetable Oil.\nThe number of each Institute District 's Auchan equals 5.\nThe number of each Suburban Neighborhood 's Auchan equals the difference of each Institute District 's Supermarkets and each Institute District 's Auchan.\nThe number of each Popcorn 's Vegetable Oil equals each 99 Cents Only Stores 's Ice Cream.\nThe number of each Ice Cream 's Cereal equals 6.\nThe number of each Auchan 's Ice Cream equals the sum of each Suburban Neighborhood 's Auchan, each Institute District 's Supermarkets, each Suburban Neighborhood 's Supermarkets, and each Institute District 's Auchan.\nThe number of each 99 Cents Only Stores 's Ice Cream equals 21.\nHow many Auchan does Institute District have?",
+  "solution": "Define each Institute District 's Auchan as F; So F = 5.\n",
+  "num_operation": 1
+}

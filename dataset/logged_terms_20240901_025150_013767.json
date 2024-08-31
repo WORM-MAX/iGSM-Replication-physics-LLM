@@ -1,0 +1,22 @@
+{
+  "s": 3,
+  "n": 2,
+  "m": 3,
+  "d": 3,
+  "w0": 2,
+  "w1": 4,
+  "e": 16,
+  "structure_graph": "log/draw_all_log_20240901_025149_623321/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025149_623321/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025149_623321/necessary2_graph.png",
+  "topological_order": [
+    "Makro 's Canned Corn",
+    "Makro 's Ice Cream",
+    "Military District 's Makro"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025149_623321/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025149_623321/unnecessary_graph.png",
+  "question": "District category contains Military District, Jewelry District, and Industrial District.\nSupermarkets category contains Makro, Tesco, Coles (Australia), and King Soopers.\nProduct category contains Canned Corn, Ice Cream, and Half-and-half.\nThe number of each King Soopers 's Canned Corn equals 16.\nThe number of each Coles (Australia) 's Half-and-half equals the sum of each Industrial District 's Makro, each King Soopers 's Ice Cream, each Coles (Australia) 's Canned Corn, and each Industrial District 's Coles (Australia).\nThe number of each Industrial District 's Coles (Australia) equals the sum of each Coles (Australia) 's Canned Corn, each King Soopers 's Ice Cream, and each Industrial District 's Makro.\nThe number of each Makro 's Ice Cream equals 4 times each Makro 's Canned Corn.\nThe number of each King Soopers 's Ice Cream equals 11.\nThe number of each Tesco 's Half-and-half equals the sum of each Industrial District 's Coles (Australia), each Military District 's King Soopers, each Makro 's Ice Cream, and each Coles (Australia) 's Canned Corn.\nThe number of each Military District 's Makro equals the sum of each Makro 's Ice Cream and each Makro 's Canned Corn.\nThe number of each Tesco 's Canned Corn equals 13.\nThe number of each Coles (Australia) 's Canned Corn equals 0 times each King Soopers 's Ice Cream.\nThe number of each Industrial District 's Tesco equals the difference of each Coles (Australia) 's Product and each Tesco 's Canned Corn.\nThe number of each Makro 's Half-and-half equals 14.\nThe number of each Jewelry District 's Tesco equals each Industrial District 's Makro.\nThe number of each Makro 's Canned Corn equals 8.\nThe number of each Jewelry District 's Makro equals 22 more than each Industrial District 's Makro.\nThe number of each Industrial District 's Makro equals each King Soopers 's Ice Cream.\nThe number of each Military District 's King Soopers equals each Makro 's Ice Cream.\nHow many Makro does Military District have?",
+  "solution": "Define each Makro 's Canned Corn as H; So H = 8.\nDefine each Makro 's Ice Cream as q; So q = 4 * H = 4 * 8 = 9.\nDefine each Military District 's Makro as T; So T = q + H = 9 + 8 = 17.\n",
+  "num_operation": 3
+}

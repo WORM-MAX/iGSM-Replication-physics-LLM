@@ -1,0 +1,20 @@
+{
+  "s": 1,
+  "n": 1,
+  "m": 1,
+  "d": 4,
+  "w0": 2,
+  "w1": 2,
+  "e": 11,
+  "structure_graph": "log/draw_all_log_20240901_025509_718899/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025509_718899/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025509_718899/necessary2_graph.png",
+  "topological_order": [
+    "Academic District 's Makro"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025509_718899/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025509_718899/unnecessary_graph.png",
+  "question": "District category contains Academic District, and Fashion District.\nSupermarkets category contains Makro, and Thrive Market.\nProduct category contains Bread, and Sparkling Water.\nIngredient category contains Tahini, and Sorghum.\nThe number of each Makro 's Bread equals 18.\nThe number of each Sparkling Water 's Sorghum equals each Makro 's Bread.\nThe number of each Bread 's Tahini equals 20.\nThe number of each Academic District 's Thrive Market equals 9 more than each Academic District 's Makro.\nThe number of each Bread 's Sorghum equals 7 more than the difference of each Makro 's Bread and each Thrive Market 's Sparkling Water.\nThe number of each Thrive Market 's Bread equals 22 times each Fashion District 's Supermarkets.\nThe number of each Thrive Market 's Sparkling Water equals each Makro 's Bread.\nThe number of each Fashion District 's Makro equals each Bread 's Sorghum.\nThe number of each Sparkling Water 's Tahini equals 15 more than the sum of each Bread 's Tahini, each Makro 's Bread, and each Bread 's Sorghum.\nThe number of each Academic District 's Makro equals 0.\nThe number of each Makro 's Sparkling Water equals each Thrive Market 's Sparkling Water.\nHow many Makro does Academic District have?",
+  "solution": "Define each Academic District 's Makro as A; So A = 0.\n",
+  "num_operation": 1
+}

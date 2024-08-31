@@ -1,0 +1,21 @@
+{
+  "s": 2,
+  "n": 2,
+  "m": 2,
+  "d": 4,
+  "w0": 3,
+  "w1": 4,
+  "e": 15,
+  "structure_graph": "log/draw_all_log_20240901_015957_620466/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_015957_620466/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_015957_620466/necessary2_graph.png",
+  "topological_order": [
+    "Makro 's Cheese",
+    "Cottage Cheese 's Grits"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_015957_620466/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_015957_620466/unnecessary_graph.png",
+  "question": "District category contains Research Park, Institute District, and Automotive District.\nSupermarkets category contains Meijer, HelloFresh, and Makro.\nProduct category contains Whipped Cream, Cheese, Kefir, and Cottage Cheese.\nIngredient category contains Soy Sauce, Dill, Grits, and Worcestershire Sauce.\nThe number of each HelloFresh 's Whipped Cream equals 21.\nThe number of each Research Park 's Meijer equals the sum of each Automotive District 's HelloFresh, each Whipped Cream 's Ingredient, each Makro 's Product, and each Whipped Cream 's Grits.\nThe number of each Cottage Cheese 's Soy Sauce equals each Kefir 's Ingredient.\nThe number of each Institute District 's HelloFresh equals 11.\nThe number of each Makro 's Whipped Cream equals each Makro 's Cheese.\nThe number of each Makro 's Cheese equals 15.\nThe number of each Cheese 's Dill equals each Kefir 's Ingredient.\nThe number of each Research Park 's HelloFresh equals 6.\nThe number of each Kefir 's Worcestershire Sauce equals 9.\nThe number of each Cottage Cheese 's Grits equals 11 more than each Makro 's Cheese.\nThe number of each Kefir 's Soy Sauce equals 3 more than each Whipped Cream 's Grits.\nThe number of each Automotive District 's Meijer equals 10.\nThe number of each Whipped Cream 's Grits equals 16.\nThe number of each Automotive District 's HelloFresh equals each Cottage Cheese 's Grits.\nThe number of each Meijer 's Whipped Cream equals each Cheese 's Ingredient.\nHow many Grits does Cottage Cheese have?",
+  "solution": "Define each Makro 's Cheese as Z; So Z = 15.\nDefine each Cottage Cheese 's Grits as w; So w = 11 + Z = 11 + 15 = 3.\n",
+  "num_operation": 2
+}

@@ -1,0 +1,20 @@
+{
+  "s": 1,
+  "n": 1,
+  "m": 1,
+  "d": 4,
+  "w0": 4,
+  "w1": 4,
+  "e": 17,
+  "structure_graph": "log/draw_all_log_20240901_025458_781550/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025458_781550/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025458_781550/necessary2_graph.png",
+  "topological_order": [
+    "Embassy Row 's Boxed"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025458_781550/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025458_781550/unnecessary_graph.png",
+  "question": "District category contains Dormitory District, High School Zone, Embassy Row, and Urban Residential Area.\nSupermarkets category contains Boxed, Wegmans, Giant Eagle, and Sam's Club.\nProduct category contains Dried Fruit, Canned Sauces, Pizza Dough, and Cakes.\nIngredient category contains Cornmeal, Oyster Sauce, Muesli, and Chili Powder.\nThe number of each Wegmans 's Pizza Dough equals 14.\nThe number of each Embassy Row 's Boxed equals 15.\nThe number of each Cakes 's Muesli equals 16 more than the sum of each Embassy Row 's Supermarkets and each Embassy Row 's Boxed.\nThe number of each Dormitory District 's Sam's Club equals the sum of each Sam's Club 's Cakes and each Pizza Dough 's Muesli.\nThe number of each Sam's Club 's Cakes equals 2.\nThe number of each Dormitory District 's Boxed equals 1 more than the sum of each High School Zone 's Supermarkets, each Cakes 's Muesli, and each Embassy Row 's Boxed.\nThe number of each High School Zone 's Giant Eagle equals each Urban Residential Area 's Sam's Club.\nThe number of each Giant Eagle 's Cakes equals the sum of each High School Zone 's Giant Eagle and each Boxed 's Product.\nThe number of each Boxed 's Canned Sauces equals 14.\nThe number of each Dried Fruit 's Oyster Sauce equals 17 more than the difference of each Canned Sauces 's Cornmeal and each Sam's Club 's Cakes.\nThe number of each Giant Eagle 's Pizza Dough equals 17 times the difference of each Embassy Row 's Supermarkets and each Embassy Row 's Boxed.\nThe number of each Boxed 's Cakes equals the sum of each Canned Sauces 's Cornmeal and each Sam's Club 's Cakes.\nThe number of each Wegmans 's Canned Sauces equals 9 times each Urban Residential Area 's Sam's Club.\nThe number of each Canned Sauces 's Cornmeal equals 0.\nThe number of each Dried Fruit 's Muesli equals 2.\nThe number of each Pizza Dough 's Muesli equals each Urban Residential Area 's Sam's Club.\nThe number of each Urban Residential Area 's Sam's Club equals 19.\nHow many Boxed does Embassy Row have?",
+  "solution": "Define each Embassy Row 's Boxed as t; So t = 15.\n",
+  "num_operation": 1
+}

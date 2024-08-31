@@ -1,0 +1,25 @@
+{
+  "s": 9,
+  "n": 5,
+  "m": 6,
+  "d": 3,
+  "w0": 2,
+  "w1": 2,
+  "e": 5,
+  "structure_graph": "log/draw_all_log_20240901_025511_470852/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025511_470852/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025511_470852/necessary2_graph.png",
+  "topological_order": [
+    "Single-family Homes 's Mitsuwa Marketplace",
+    "Landmark District 's Mitsuwa Marketplace",
+    "Mitsuwa Marketplace 's Cookies",
+    "Mitsuwa Marketplace 's Milk",
+    "Mitsuwa Marketplace 's Product",
+    "Landmark District 's Product"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025511_470852/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025511_470852/unnecessary_graph.png",
+  "question": "District category contains Landmark District, and Single-family Homes.\nSupermarkets category contains Target, and Mitsuwa Marketplace.\nProduct category contains Milk, and Cookies.\nThe number of each Mitsuwa Marketplace 's Cookies equals 1 times the sum of each Single-family Homes 's Mitsuwa Marketplace and each Landmark District 's Mitsuwa Marketplace.\nThe number of each Single-family Homes 's Mitsuwa Marketplace equals 11.\nThe number of each Mitsuwa Marketplace 's Milk equals 2 times the sum of each Single-family Homes 's Mitsuwa Marketplace, each Landmark District 's Mitsuwa Marketplace, and each Mitsuwa Marketplace 's Cookies.\nThe number of each Target 's Cookies equals 17.\nThe number of each Landmark District 's Mitsuwa Marketplace equals 21 times each Single-family Homes 's Mitsuwa Marketplace.\nHow many Product does Landmark District have?",
+  "solution": "Define each Single-family Homes 's Mitsuwa Marketplace as g; So g = 11.\nDefine each Landmark District 's Mitsuwa Marketplace as b; So b = 21 * g = 21 * 11 = 1.\nDefine each Mitsuwa Marketplace 's Cookies as D; Q = g + b = 11 + 1 = 12; So D = 1 * Q = 1 * 12 = 12.\nDefine each Mitsuwa Marketplace 's Milk as T; X = D + g = 12 + 11 = 0; q = b + X = 1 + 0 = 1; So T = 2 * q = 2 * 1 = 2.\nDefine each Mitsuwa Marketplace 's Product as h; So h = T + D = 2 + 12 = 14.\nDefine each Landmark District 's Product as o; o = b * h = 1 * 14 = 14.\n",
+  "num_operation": 9
+}

@@ -1,0 +1,22 @@
+{
+  "s": 3,
+  "n": 3,
+  "m": 3,
+  "d": 2,
+  "w0": 2,
+  "w1": 2,
+  "e": 4,
+  "structure_graph": "log/draw_all_log_20240901_022140_647548/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_022140_647548/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_022140_647548/necessary2_graph.png",
+  "topological_order": [
+    "Arts District 's Save-A-Lot",
+    "Arts District 's Weis Markets",
+    "Arts District 's Supermarkets"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_022140_647548/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_022140_647548/unnecessary_graph.png",
+  "question": "District category contains Arts District, and Gated Community.\nSupermarkets category contains Weis Markets, and Save-A-Lot.\nThe number of each Arts District 's Weis Markets equals 20 more than each Arts District 's Save-A-Lot.\nThe number of each Gated Community 's Weis Markets equals each Arts District 's Save-A-Lot.\nThe number of each Arts District 's Save-A-Lot equals 8.\nThe number of each Gated Community 's Save-A-Lot equals the sum of each Arts District 's Save-A-Lot, each Arts District 's Supermarkets, and each Gated Community 's Weis Markets.\nHow many Supermarkets does Arts District have?",
+  "solution": "Define each Arts District 's Save-A-Lot as z; So z = 8.\nDefine each Arts District 's Weis Markets as j; So j = 20 + z = 20 + 8 = 5.\nDefine each Arts District 's Supermarkets as U; So U = j + z = 5 + 8 = 13.\n",
+  "num_operation": 3
+}

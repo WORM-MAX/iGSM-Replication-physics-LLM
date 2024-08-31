@@ -1,0 +1,21 @@
+{
+  "s": 2,
+  "n": 2,
+  "m": 2,
+  "d": 2,
+  "w0": 3,
+  "w1": 3,
+  "e": 9,
+  "structure_graph": "log/draw_all_log_20240901_025451_923709/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025451_923709/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025451_923709/necessary2_graph.png",
+  "topological_order": [
+    "Ancient City 's Tesco",
+    "Ancient City 's Lidl"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025451_923709/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025451_923709/unnecessary_graph.png",
+  "question": "District category contains Manufacturing District, Heritage District, and Ancient City.\nSupermarkets category contains Lidl, Bristol Farms, and Tesco.\nThe number of each Manufacturing District 's Tesco equals 10 times each Ancient City 's Lidl.\nThe number of each Manufacturing District 's Bristol Farms equals 22 times each Heritage District 's Lidl.\nThe number of each Heritage District 's Lidl equals 22.\nThe number of each Ancient City 's Bristol Farms equals the difference of each Ancient City 's Tesco and each Heritage District 's Tesco.\nThe number of each Heritage District 's Bristol Farms equals 6.\nThe number of each Manufacturing District 's Lidl equals each Heritage District 's Lidl.\nThe number of each Ancient City 's Lidl equals each Ancient City 's Tesco.\nThe number of each Ancient City 's Tesco equals 6.\nThe number of each Heritage District 's Tesco equals each Heritage District 's Lidl.\nHow many Lidl does Ancient City have?",
+  "solution": "Define each Ancient City 's Tesco as t; So t = 6.\nDefine each Ancient City 's Lidl as S; So S = t = 6.\n",
+  "num_operation": 2
+}

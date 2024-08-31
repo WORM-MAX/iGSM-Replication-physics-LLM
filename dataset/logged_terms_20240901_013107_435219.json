@@ -1,0 +1,23 @@
+{
+  "s": 4,
+  "n": 4,
+  "m": 4,
+  "d": 3,
+  "w0": 2,
+  "w1": 3,
+  "e": 4,
+  "structure_graph": "log/draw_all_log_20240901_013107_006953/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_013107_006953/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_013107_006953/necessary2_graph.png",
+  "topological_order": [
+    "Tesco 's Custard",
+    "Archaeological District 's Tesco",
+    "Tesco 's Product",
+    "Archaeological District 's Product"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_013107_006953/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_013107_006953/unnecessary_graph.png",
+  "question": "District category contains Industrial District, and Archaeological District.\nSupermarkets category contains Tesco, and Central Market.\nProduct category contains Smoothies, and Custard.\nThe number of each Archaeological District 's Tesco equals each Tesco 's Custard.\nThe number of each Central Market 's Smoothies equals 17 more than each Industrial District 's Central Market.\nThe number of each Industrial District 's Central Market equals 21.\nThe number of each Tesco 's Custard equals 13.\nHow many Product does Archaeological District have?",
+  "solution": "Define each Tesco 's Custard as g; So g = 13.\nDefine each Archaeological District 's Tesco as r; So r = g = 13.\nDefine each Tesco 's Product as y; So y = g = 13.\nDefine each Archaeological District 's Product as k; k = r * y = 13 * 13 = 8.\n",
+  "num_operation": 4
+}

@@ -1,0 +1,26 @@
+{
+  "s": 7,
+  "n": 7,
+  "m": 7,
+  "d": 3,
+  "w0": 3,
+  "w1": 4,
+  "e": 11,
+  "structure_graph": "log/draw_all_log_20240901_025139_218978/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025139_218978/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025139_218978/necessary2_graph.png",
+  "topological_order": [
+    "Entertainment District 's Auchan",
+    "Entertainment District 's Lidl",
+    "Entertainment District 's Supermarkets",
+    "Lidl 's Potato Chips",
+    "Lidl 's Product",
+    "Diplomatic Quarter 's Lidl",
+    "Diplomatic Quarter 's Product"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025139_218978/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025139_218978/unnecessary_graph.png",
+  "question": "District category contains Tech Park, Entertainment District, Industrial District, and Diplomatic Quarter.\nSupermarkets category contains Target, Walmart Grocery, Auchan, and Lidl.\nProduct category contains Potato Chips, Scones, Crackers, and Coffee.\nThe number of each Auchan 's Crackers equals the difference of each Tech Park 's Supermarkets and each Lidl 's Potato Chips.\nThe number of each Lidl 's Potato Chips equals 11 times each Entertainment District 's Supermarkets.\nThe number of each Tech Park 's Auchan equals each Target 's Crackers.\nThe number of each Entertainment District 's Auchan equals 9.\nThe number of each Industrial District 's Walmart Grocery equals 19.\nThe number of each Entertainment District 's Lidl equals 16 times each Entertainment District 's Auchan.\nThe number of each Target 's Crackers equals 14.\nThe number of each Diplomatic Quarter 's Lidl equals 19 more than each Lidl 's Potato Chips.\nThe number of each Walmart Grocery 's Coffee equals 11.\nThe number of each Tech Park 's Target equals the sum of each Diplomatic Quarter 's Supermarkets, each Diplomatic Quarter 's Product, each Industrial District 's Walmart Grocery, and each Entertainment District 's Lidl.\nThe number of each Target 's Potato Chips equals 3 times each Auchan 's Product.\nHow many Product does Diplomatic Quarter have?",
+  "solution": "Define each Entertainment District 's Auchan as U; So U = 9.\nDefine each Entertainment District 's Lidl as h; So h = 16 * U = 16 * 9 = 6.\nDefine each Entertainment District 's Supermarkets as o; So o = h + U = 6 + 9 = 15.\nDefine each Lidl 's Potato Chips as T; So T = 11 * o = 11 * 15 = 4.\nDefine each Lidl 's Product as S; So S = T = 4.\nDefine each Diplomatic Quarter 's Lidl as l; So l = 19 + T = 19 + 4 = 0.\nDefine each Diplomatic Quarter 's Product as t; t = S * l = 4 * 0 = 0.\n",
+  "num_operation": 7
+}

@@ -1,0 +1,20 @@
+{
+  "s": 1,
+  "n": 1,
+  "m": 1,
+  "d": 4,
+  "w0": 2,
+  "w1": 4,
+  "e": 10,
+  "structure_graph": "log/draw_all_log_20240901_020106_810352/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_020106_810352/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_020106_810352/necessary2_graph.png",
+  "topological_order": [
+    "Lemonade 's Garlic Powder"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_020106_810352/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_020106_810352/unnecessary_graph.png",
+  "question": "District category contains Fashion District, and Civic Center.\nSupermarkets category contains Dollar General, and Save-A-Lot.\nProduct category contains Lemonade, and Greek Yogurt.\nIngredient category contains Garlic Powder, and Relish.\nThe number of each Lemonade 's Garlic Powder equals 7.\nThe number of each Lemonade 's Relish equals 6.\nThe number of each Dollar General 's Lemonade equals the sum of each Dollar General 's Greek Yogurt, each Lemonade 's Relish, and each Fashion District 's Save-A-Lot.\nThe number of each Greek Yogurt 's Garlic Powder equals 17.\nThe number of each Greek Yogurt 's Relish equals each Lemonade 's Relish.\nThe number of each Fashion District 's Dollar General equals each Lemonade 's Garlic Powder.\nThe number of each Civic Center 's Dollar General equals 7 times the sum of each Lemonade 's Ingredient and each Lemonade 's Relish.\nThe number of each Save-A-Lot 's Greek Yogurt equals each Lemonade 's Garlic Powder.\nThe number of each Fashion District 's Save-A-Lot equals each Lemonade 's Relish.\nThe number of each Dollar General 's Greek Yogurt equals 3.\nHow many Garlic Powder does Lemonade have?",
+  "solution": "Define each Lemonade 's Garlic Powder as Z; So Z = 7.\n",
+  "num_operation": 1
+}

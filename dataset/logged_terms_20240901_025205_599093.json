@@ -1,0 +1,26 @@
+{
+  "s": 8,
+  "n": 7,
+  "m": 8,
+  "d": 2,
+  "w0": 3,
+  "w1": 3,
+  "e": 9,
+  "structure_graph": "log/draw_all_log_20240901_025205_199381/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025205_199381/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025205_199381/necessary2_graph.png",
+  "topological_order": [
+    "Research Park 's Costco",
+    "Research Park 's Food Lion",
+    "Research Park 's Loblaws",
+    "Research Park 's Supermarkets",
+    "Jewelry District 's Loblaws",
+    "Market District 's Food Lion",
+    "Jewelry District 's Food Lion"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025205_199381/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025205_199381/unnecessary_graph.png",
+  "question": "District category contains Research Park, Jewelry District, and Market District.\nSupermarkets category contains Costco, Loblaws, and Food Lion.\nThe number of each Market District 's Loblaws equals 8.\nThe number of each Research Park 's Costco equals 21.\nThe number of each Market District 's Food Lion equals 10 more than each Jewelry District 's Loblaws.\nThe number of each Jewelry District 's Loblaws equals 7 more than each Research Park 's Supermarkets.\nThe number of each Jewelry District 's Food Lion equals 19 more than each Market District 's Food Lion.\nThe number of each Research Park 's Food Lion equals 15 times each Research Park 's Costco.\nThe number of each Jewelry District 's Costco equals 0 more than the sum of each Market District 's Food Lion and each Research Park 's Loblaws.\nThe number of each Research Park 's Loblaws equals 10.\nThe number of each Market District 's Costco equals 20.\nHow many Food Lion does Jewelry District have?",
+  "solution": "Define each Research Park 's Costco as R; So R = 21.\nDefine each Research Park 's Food Lion as i; So i = 15 * R = 15 * 21 = 16.\nDefine each Research Park 's Loblaws as p; So p = 10.\nDefine each Research Park 's Supermarkets as v; G = p + R = 10 + 21 = 8; So v = i + G = 16 + 8 = 1.\nDefine each Jewelry District 's Loblaws as Y; So Y = 7 + v = 7 + 1 = 8.\nDefine each Market District 's Food Lion as a; So a = 10 + Y = 10 + 8 = 18.\nDefine each Jewelry District 's Food Lion as V; So V = 19 + a = 19 + 18 = 14.\n",
+  "num_operation": 8
+}

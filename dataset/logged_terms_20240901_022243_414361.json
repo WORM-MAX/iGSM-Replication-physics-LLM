@@ -1,0 +1,26 @@
+{
+  "s": 10,
+  "n": 7,
+  "m": 7,
+  "d": 4,
+  "w0": 2,
+  "w1": 4,
+  "e": 9,
+  "structure_graph": "log/draw_all_log_20240901_022242_941853/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_022242_941853/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_022242_941853/necessary2_graph.png",
+  "topological_order": [
+    "Big Lots 's Coffee",
+    "Coffee 's Onion Powder",
+    "Housing Estate 's Big Lots",
+    "Coffee 's Ingredient",
+    "Big Lots 's Ingredient",
+    "Housing Estate 's Ingredient",
+    "Ancient City 's Weis Markets"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_022242_941853/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_022242_941853/unnecessary_graph.png",
+  "question": "District category contains Housing Estate, Ancient City, and Historic Neighborhood.\nSupermarkets category contains Weis Markets, and Big Lots.\nProduct category contains Bread, and Coffee.\nIngredient category contains Onion Powder, and Jelly.\nThe number of each Weis Markets 's Coffee equals each Big Lots 's Coffee.\nThe number of each Housing Estate 's Big Lots equals 17 times the difference of each Big Lots 's Coffee and each Coffee 's Onion Powder.\nThe number of each Big Lots 's Coffee equals 15.\nThe number of each Historic Neighborhood 's Weis Markets equals each Housing Estate 's Big Lots.\nThe number of each Ancient City 's Weis Markets equals the sum of each Big Lots 's Ingredient, each Big Lots 's Coffee, each Housing Estate 's Big Lots, and each Housing Estate 's Ingredient.\nThe number of each Bread 's Onion Powder equals 8 times the sum of each Coffee 's Ingredient, each Housing Estate 's Ingredient, and each Coffee 's Onion Powder.\nThe number of each Ancient City 's Big Lots equals each Weis Markets 's Bread.\nThe number of each Coffee 's Onion Powder equals 4 more than each Big Lots 's Coffee.\nThe number of each Weis Markets 's Bread equals 7.\nHow many Weis Markets does Ancient City have?",
+  "solution": "Define each Big Lots 's Coffee as P; So P = 15.\nDefine each Coffee 's Onion Powder as x; So x = 4 + P = 4 + 15 = 19.\nDefine each Housing Estate 's Big Lots as b; V = P - x = 15 - 19 = 19; So b = 17 * V = 17 * 19 = 1.\nDefine each Coffee 's Ingredient as u; So u = x = 19.\nDefine each Big Lots 's Ingredient as J; J = P * u = 15 * 19 = 9.\nDefine each Housing Estate 's Ingredient as A; A = b * J = 1 * 9 = 9.\nDefine each Ancient City 's Weis Markets as q; y = b + J = 1 + 9 = 10; S = y + P = 10 + 15 = 2; So q = A + S = 9 + 2 = 11.\n",
+  "num_operation": 10
+}

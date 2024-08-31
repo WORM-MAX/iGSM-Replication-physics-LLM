@@ -1,0 +1,22 @@
+{
+  "s": 3,
+  "n": 2,
+  "m": 3,
+  "d": 3,
+  "w0": 2,
+  "w1": 3,
+  "e": 9,
+  "structure_graph": "log/draw_all_log_20240901_025502_918647/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025502_918647/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025502_918647/necessary2_graph.png",
+  "topological_order": [
+    "King Soopers 's Buns",
+    "King Soopers 's Product",
+    "Student Housing 's Makro"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025502_918647/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025502_918647/unnecessary_graph.png",
+  "question": "District category contains Jewelry District, Student Housing, and Media District.\nSupermarkets category contains Carrefour, Makro, and King Soopers.\nProduct category contains Buns, Alcoholic Beverages, and Canned Mushrooms.\nThe number of each Jewelry District 's King Soopers equals 21.\nThe number of each Carrefour 's Canned Mushrooms equals 7 times each Student Housing 's Supermarkets.\nThe number of each Makro 's Canned Mushrooms equals 17 times the sum of each King Soopers 's Product, each Student Housing 's Makro, and each Jewelry District 's Supermarkets.\nThe number of each Makro 's Buns equals 6.\nThe number of each Media District 's King Soopers equals 22 times each Carrefour 's Canned Mushrooms.\nThe number of each Student Housing 's Carrefour equals each Jewelry District 's King Soopers.\nThe number of each Student Housing 's Makro equals the sum of each King Soopers 's Product and each King Soopers 's Buns.\nThe number of each Jewelry District 's Makro equals 5.\nThe number of each King Soopers 's Buns equals 14.\nHow many Makro does Student Housing have?",
+  "solution": "Define each King Soopers 's Buns as i; So i = 14.\nDefine each King Soopers 's Product as W; So W = i = 14.\nDefine each Student Housing 's Makro as Q; So Q = W + i = 14 + 14 = 5.\n",
+  "num_operation": 3
+}

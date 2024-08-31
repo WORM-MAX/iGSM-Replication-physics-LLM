@@ -1,0 +1,22 @@
+{
+  "s": 3,
+  "n": 3,
+  "m": 3,
+  "d": 4,
+  "w0": 2,
+  "w1": 4,
+  "e": 14,
+  "structure_graph": "log/draw_all_log_20240901_013044_590272/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_013044_590272/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_013044_590272/necessary2_graph.png",
+  "topological_order": [
+    "Mitsuwa Marketplace 's Chocolate Covered Pretzels",
+    "Historic Downtown 's Mitsuwa Marketplace",
+    "Historic Downtown 's Supermarkets"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_013044_590272/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_013044_590272/unnecessary_graph.png",
+  "question": "District category contains Ancient City, Industrial District, Restaurant District, and Historic Downtown.\nSupermarkets category contains Mitsuwa Marketplace, Lulu Hypermarket, Safeway, and ShopRite.\nProduct category contains Canned Artichokes, Chocolate Covered Pretzels, Potato Chips, and Whipped Cream.\nIngredient category contains Turmeric, Almond Extract, Condensed Milk, and Flaxseed Oil.\nThe number of each Restaurant District 's Safeway equals 17.\nThe number of each Historic Downtown 's Mitsuwa Marketplace equals 12 more than each Mitsuwa Marketplace 's Chocolate Covered Pretzels.\nThe number of each Safeway 's Potato Chips equals 12.\nThe number of each Potato Chips 's Almond Extract equals 1.\nThe number of each Restaurant District 's Lulu Hypermarket equals 21.\nThe number of each Canned Artichokes 's Flaxseed Oil equals 19 times each Restaurant District 's Safeway.\nThe number of each Chocolate Covered Pretzels 's Flaxseed Oil equals the difference of each Ancient City 's Supermarkets and each Potato Chips 's Ingredient.\nThe number of each Canned Artichokes 's Turmeric equals 6 times each Restaurant District 's Safeway.\nThe number of each Mitsuwa Marketplace 's Chocolate Covered Pretzels equals 19.\nThe number of each Lulu Hypermarket 's Potato Chips equals 8.\nThe number of each Industrial District 's Mitsuwa Marketplace equals the sum of each Chocolate Covered Pretzels 's Ingredient and each Potato Chips 's Ingredient.\nThe number of each Whipped Cream 's Almond Extract equals each Canned Artichokes 's Turmeric.\nThe number of each ShopRite 's Whipped Cream equals 15.\nThe number of each Ancient City 's ShopRite equals 15.\nHow many Supermarkets does Historic Downtown have?",
+  "solution": "Define each Mitsuwa Marketplace 's Chocolate Covered Pretzels as F; So F = 19.\nDefine each Historic Downtown 's Mitsuwa Marketplace as l; So l = 12 + F = 12 + 19 = 8.\nDefine each Historic Downtown 's Supermarkets as H; So H = l = 8.\n",
+  "num_operation": 3
+}

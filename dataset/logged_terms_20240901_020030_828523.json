@@ -1,0 +1,20 @@
+{
+  "s": 1,
+  "n": 1,
+  "m": 1,
+  "d": 2,
+  "w0": 3,
+  "w1": 4,
+  "e": 4,
+  "structure_graph": "log/draw_all_log_20240901_020030_445489/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_020030_445489/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_020030_445489/necessary2_graph.png",
+  "topological_order": [
+    "Landmark District 's Safeway"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_020030_445489/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_020030_445489/unnecessary_graph.png",
+  "question": "District category contains Landmark District, Municipal Office District, and Shopping District.\nSupermarkets category contains Safeway, Food 4 Less, and Sprouts Farmers Market.\nThe number of each Landmark District 's Sprouts Farmers Market equals 4.\nThe number of each Shopping District 's Food 4 Less equals each Landmark District 's Sprouts Farmers Market.\nThe number of each Municipal Office District 's Food 4 Less equals 16 more than the sum of each Landmark District 's Supermarkets, each Landmark District 's Safeway, and each Landmark District 's Sprouts Farmers Market.\nThe number of each Landmark District 's Safeway equals 0.\nHow many Safeway does Landmark District have?",
+  "solution": "Define each Landmark District 's Safeway as C; So C = 0.\n",
+  "num_operation": 1
+}

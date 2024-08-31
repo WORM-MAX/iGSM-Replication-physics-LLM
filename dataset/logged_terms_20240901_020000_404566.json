@@ -1,0 +1,20 @@
+{
+  "s": 1,
+  "n": 1,
+  "m": 1,
+  "d": 4,
+  "w0": 2,
+  "w1": 3,
+  "e": 15,
+  "structure_graph": "log/draw_all_log_20240901_020000_047620/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_020000_047620/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_020000_047620/necessary2_graph.png",
+  "topological_order": [
+    "Silicon Valley 's Fresh Thyme Market"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_020000_047620/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_020000_047620/unnecessary_graph.png",
+  "question": "District category contains Silicon Valley, and High School Zone.\nSupermarkets category contains Fresh Thyme Market, and Walmart.\nProduct category contains Whipped Cream, Coffee, and Pastries.\nIngredient category contains Buckwheat, Flaxseed Oil, and Pickles.\nThe number of each Pastries 's Flaxseed Oil equals 7 times each Silicon Valley 's Walmart.\nThe number of each Fresh Thyme Market 's Whipped Cream equals 22 more than each Silicon Valley 's Walmart.\nThe number of each Pastries 's Buckwheat equals the sum of each Pastries 's Flaxseed Oil and each Silicon Valley 's Walmart.\nThe number of each Fresh Thyme Market 's Coffee equals each Pastries 's Flaxseed Oil.\nThe number of each Coffee 's Flaxseed Oil equals the difference of each Pastries 's Flaxseed Oil and each Silicon Valley 's Walmart.\nThe number of each High School Zone 's Walmart equals each Walmart 's Product.\nThe number of each Whipped Cream 's Pickles equals each Silicon Valley 's Supermarkets.\nThe number of each Walmart 's Pastries equals 22 times each Pastries 's Flaxseed Oil.\nThe number of each High School Zone 's Fresh Thyme Market equals 11 more than the sum of each Walmart 's Coffee, each Walmart 's Product, and each Walmart 's Pastries.\nThe number of each Whipped Cream 's Buckwheat equals 4 times the sum of each Pastries 's Flaxseed Oil and each Silicon Valley 's Walmart.\nThe number of each Silicon Valley 's Walmart equals 14.\nThe number of each Coffee 's Pickles equals 5 more than each Walmart 's Pastries.\nThe number of each Walmart 's Coffee equals each Silicon Valley 's Walmart.\nThe number of each Silicon Valley 's Fresh Thyme Market equals 18.\nThe number of each Walmart 's Whipped Cream equals each Silicon Valley 's Walmart.\nHow many Fresh Thyme Market does Silicon Valley have?",
+  "solution": "Define each Silicon Valley 's Fresh Thyme Market as e; So e = 18.\n",
+  "num_operation": 1
+}

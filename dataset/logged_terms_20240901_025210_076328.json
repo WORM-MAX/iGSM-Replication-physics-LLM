@@ -1,0 +1,27 @@
+{
+  "s": 8,
+  "n": 2,
+  "m": 8,
+  "d": 3,
+  "w0": 4,
+  "w1": 4,
+  "e": 8,
+  "structure_graph": "log/draw_all_log_20240901_025209_682136/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025209_682136/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025209_682136/necessary2_graph.png",
+  "topological_order": [
+    "Peapod 's Plant-based Yogurt",
+    "Amazon Fresh 's Pies",
+    "Food Lion 's Greek Yogurt",
+    "Academic District 's Target",
+    "Dormitory District 's Amazon Fresh",
+    "Target 's Plant-based Yogurt",
+    "Target 's Product",
+    "Industrial District 's Target"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025209_682136/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025209_682136/unnecessary_graph.png",
+  "question": "District category contains Dormitory District, High-rise Apartment Complex, Academic District, and Industrial District.\nSupermarkets category contains Target, Food Lion, Amazon Fresh, and Peapod.\nProduct category contains Plant-based Yogurt, Canned Tomatoes, Greek Yogurt, and Pies.\nThe number of each Dormitory District 's Amazon Fresh equals each Academic District 's Target.\nThe number of each Industrial District 's Target equals 3 more than each Target 's Product.\nThe number of each Amazon Fresh 's Pies equals 3 times each Peapod 's Plant-based Yogurt.\nThe number of each Target 's Plant-based Yogurt equals 21 more than each Dormitory District 's Amazon Fresh.\nThe number of each Academic District 's Target equals each Food Lion 's Greek Yogurt.\nThe number of each Food Lion 's Greek Yogurt equals 11 times each Amazon Fresh 's Pies.\nThe number of each High-rise Apartment Complex 's Amazon Fresh equals 1.\nThe number of each Peapod 's Plant-based Yogurt equals 3.\nHow many Target does Industrial District have?",
+  "solution": "Define each Peapod 's Plant-based Yogurt as Q; So Q = 3.\nDefine each Amazon Fresh 's Pies as G; So G = 3 * Q = 3 * 3 = 9.\nDefine each Food Lion 's Greek Yogurt as x; So x = 11 * G = 11 * 9 = 7.\nDefine each Academic District 's Target as r; So r = x = 7.\nDefine each Dormitory District 's Amazon Fresh as z; So z = r = 7.\nDefine each Target 's Plant-based Yogurt as n; So n = 21 + z = 21 + 7 = 5.\nDefine each Target 's Product as E; So E = n = 5.\nDefine each Industrial District 's Target as N; So N = 3 + E = 3 + 5 = 8.\n",
+  "num_operation": 8
+}

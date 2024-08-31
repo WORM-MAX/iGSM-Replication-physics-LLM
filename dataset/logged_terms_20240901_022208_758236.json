@@ -1,0 +1,25 @@
+{
+  "s": 6,
+  "n": 5,
+  "m": 6,
+  "d": 3,
+  "w0": 4,
+  "w1": 4,
+  "e": 9,
+  "structure_graph": "log/draw_all_log_20240901_022208_305764/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_022208_305764/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_022208_305764/necessary2_graph.png",
+  "topological_order": [
+    "Vons 's Evaporated Milk",
+    "Food Lion 's Canned Pumpkin",
+    "Earth Fare 's Evaporated Milk",
+    "Earth Fare 's Product",
+    "Capitol District 's Earth Fare",
+    "Capitol District 's Product"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_022208_305764/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_022208_305764/unnecessary_graph.png",
+  "question": "District category contains Colonial District, Capitol District, Manufacturing District, and Civic Center.\nSupermarkets category contains Food Lion, Vons, Earth Fare, and Food 4 Less.\nProduct category contains Sparkling Water, Canned Pumpkin, Canned Tomatoes, and Evaporated Milk.\nThe number of each Food Lion 's Canned Pumpkin equals each Vons 's Evaporated Milk.\nThe number of each Capitol District 's Earth Fare equals 20 more than each Earth Fare 's Product.\nThe number of each Vons 's Evaporated Milk equals 22.\nThe number of each Colonial District 's Earth Fare equals 8.\nThe number of each Food 4 Less 's Canned Pumpkin equals each Capitol District 's Product.\nThe number of each Civic Center 's Food Lion equals 13.\nThe number of each Earth Fare 's Evaporated Milk equals 0 times each Food Lion 's Canned Pumpkin.\nThe number of each Manufacturing District 's Food 4 Less equals 6 more than each Colonial District 's Earth Fare.\nThe number of each Food Lion 's Canned Tomatoes equals 21.\nHow many Product does Capitol District have?",
+  "solution": "Define each Vons 's Evaporated Milk as Y; So Y = 22.\nDefine each Food Lion 's Canned Pumpkin as J; So J = Y = 22.\nDefine each Earth Fare 's Evaporated Milk as m; So m = 0 * J = 0 * 22 = 0.\nDefine each Earth Fare 's Product as C; So C = m = 0.\nDefine each Capitol District 's Earth Fare as u; So u = 20 + C = 20 + 0 = 20.\nDefine each Capitol District 's Product as o; o = u * C = 20 * 0 = 0.\n",
+  "num_operation": 6
+}

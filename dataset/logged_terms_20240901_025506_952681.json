@@ -1,0 +1,28 @@
+{
+  "s": 14,
+  "n": 9,
+  "m": 11,
+  "d": 3,
+  "w0": 2,
+  "w1": 2,
+  "e": 6,
+  "structure_graph": "log/draw_all_log_20240901_025506_541636/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025506_541636/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025506_541636/necessary2_graph.png",
+  "topological_order": [
+    "Shopping District 's Sam's Club",
+    "Stop & Shop 's Cupcakes",
+    "Capitol District 's Sam's Club",
+    "Sam's Club 's Protein Shakes",
+    "Capitol District 's Stop & Shop",
+    "Sam's Club 's Product",
+    "Stop & Shop 's Product",
+    "Capitol District 's Product",
+    "Shopping District 's Stop & Shop"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025506_541636/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025506_541636/unnecessary_graph.png",
+  "question": "District category contains Capitol District, and Shopping District.\nSupermarkets category contains Sam's Club, and Stop & Shop.\nProduct category contains Cupcakes, and Protein Shakes.\nThe number of each Shopping District 's Sam's Club equals 6.\nThe number of each Capitol District 's Stop & Shop equals 3.\nThe number of each Sam's Club 's Protein Shakes equals each Capitol District 's Sam's Club.\nThe number of each Stop & Shop 's Cupcakes equals 1.\nThe number of each Capitol District 's Sam's Club equals 11 times the difference of each Shopping District 's Sam's Club and each Stop & Shop 's Cupcakes.\nThe number of each Shopping District 's Stop & Shop equals 3 more than the sum of each Capitol District 's Product, each Capitol District 's Sam's Club, and each Stop & Shop 's Product.\nHow many Stop & Shop does Shopping District have?",
+  "solution": "Define each Shopping District 's Sam's Club as a; So a = 6.\nDefine each Stop & Shop 's Cupcakes as g; So g = 1.\nDefine each Capitol District 's Sam's Club as I; F = a - g = 6 - 1 = 5; So I = 11 * F = 11 * 5 = 9.\nDefine each Sam's Club 's Protein Shakes as t; So t = I = 9.\nDefine each Capitol District 's Stop & Shop as s; So s = 3.\nDefine each Sam's Club 's Product as L; So L = t = 9.\nDefine each Stop & Shop 's Product as d; So d = g = 1.\nDefine each Capitol District 's Product as Q; x = s * I = 3 * 9 = 4; e = L * d = 9 * 1 = 9; So Q = x + e = 4 + 9 = 13.\nDefine each Shopping District 's Stop & Shop as m; j = I + d = 9 + 1 = 10; L = Q + j = 13 + 10 = 0; So m = 3 + L = 3 + 0 = 3.\n",
+  "num_operation": 14
+}

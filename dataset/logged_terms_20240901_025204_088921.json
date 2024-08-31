@@ -1,0 +1,23 @@
+{
+  "s": 4,
+  "n": 4,
+  "m": 4,
+  "d": 3,
+  "w0": 3,
+  "w1": 4,
+  "e": 7,
+  "structure_graph": "log/draw_all_log_20240901_025203_717722/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025203_717722/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025203_717722/necessary2_graph.png",
+  "topological_order": [
+    "Instacart 's Pretzels",
+    "Manufacturing District 's Instacart",
+    "Instacart 's Product",
+    "Manufacturing District 's Product"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025203_717722/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025203_717722/unnecessary_graph.png",
+  "question": "District category contains Restaurant District, Silicon Valley, and Manufacturing District.\nSupermarkets category contains Instacart, Natural Grocers, and Trader Joe's.\nProduct category contains Ice Cream, Pretzels, and Canned Broth.\nThe number of each Restaurant District 's Instacart equals each Restaurant District 's Natural Grocers.\nThe number of each Restaurant District 's Natural Grocers equals 17.\nThe number of each Manufacturing District 's Instacart equals each Instacart 's Pretzels.\nThe number of each Silicon Valley 's Trader Joe's equals 3.\nThe number of each Instacart 's Pretzels equals 20.\nThe number of each Natural Grocers 's Canned Broth equals 10 more than the sum of each Manufacturing District 's Product, each Manufacturing District 's Instacart, and each Instacart 's Pretzels.\nThe number of each Trader Joe's 's Pretzels equals 15.\nHow many Product does Manufacturing District have?",
+  "solution": "Define each Instacart 's Pretzels as W; So W = 20.\nDefine each Manufacturing District 's Instacart as z; So z = W = 20.\nDefine each Instacart 's Product as o; So o = W = 20.\nDefine each Manufacturing District 's Product as r; r = o * z = 20 * 20 = 9.\n",
+  "num_operation": 4
+}

@@ -1,0 +1,20 @@
+{
+  "s": 1,
+  "n": 1,
+  "m": 1,
+  "d": 2,
+  "w0": 3,
+  "w1": 4,
+  "e": 14,
+  "structure_graph": "log/draw_all_log_20240901_025512_245396/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025512_245396/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025512_245396/necessary2_graph.png",
+  "topological_order": [
+    "Courthouse District 's Peapod"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025512_245396/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025512_245396/unnecessary_graph.png",
+  "question": "District category contains Courthouse District, Historic Downtown, Colonial District, and Arts District.\nSupermarkets category contains Peapod, Costco, Lidl, and Thrive Market.\nThe number of each Colonial District 's Peapod equals the difference of each Historic Downtown 's Lidl and each Historic Downtown 's Costco.\nThe number of each Historic Downtown 's Lidl equals 17 times each Colonial District 's Lidl.\nThe number of each Colonial District 's Costco equals each Historic Downtown 's Costco.\nThe number of each Colonial District 's Lidl equals 5.\nThe number of each Courthouse District 's Lidl equals each Colonial District 's Lidl.\nThe number of each Arts District 's Thrive Market equals 12.\nThe number of each Historic Downtown 's Thrive Market equals 18.\nThe number of each Arts District 's Lidl equals each Courthouse District 's Lidl.\nThe number of each Courthouse District 's Peapod equals 11.\nThe number of each Courthouse District 's Costco equals 22.\nThe number of each Historic Downtown 's Costco equals the sum of each Courthouse District 's Lidl and each Colonial District 's Lidl.\nThe number of each Arts District 's Costco equals 17 more than the sum of each Arts District 's Thrive Market, each Courthouse District 's Peapod, and each Colonial District 's Lidl.\nThe number of each Historic Downtown 's Peapod equals 11 times each Historic Downtown 's Costco.\nThe number of each Arts District 's Peapod equals the sum of each Colonial District 's Lidl, each Historic Downtown 's Costco, each Arts District 's Lidl, and each Courthouse District 's Lidl.\nHow many Peapod does Courthouse District have?",
+  "solution": "Define each Courthouse District 's Peapod as D; So D = 11.\n",
+  "num_operation": 1
+}

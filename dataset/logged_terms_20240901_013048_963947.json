@@ -1,0 +1,22 @@
+{
+  "s": 3,
+  "n": 3,
+  "m": 3,
+  "d": 2,
+  "w0": 3,
+  "w1": 3,
+  "e": 7,
+  "structure_graph": "log/draw_all_log_20240901_013048_537608/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_013048_537608/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_013048_537608/necessary2_graph.png",
+  "topological_order": [
+    "Legislative District 's Stop & Shop",
+    "Legislative District 's PriceRite",
+    "Legislative District 's Supermarkets"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_013048_537608/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_013048_537608/unnecessary_graph.png",
+  "question": "District category contains Diplomatic Quarter, Arts District, and Legislative District.\nSupermarkets category contains Stop & Shop, Aldi (Germany), and PriceRite.\nThe number of each Diplomatic Quarter 's Aldi (Germany) equals 2 times each Arts District 's Aldi (Germany).\nThe number of each Arts District 's PriceRite equals 9.\nThe number of each Arts District 's Aldi (Germany) equals 9.\nThe number of each Diplomatic Quarter 's PriceRite equals 0.\nThe number of each Arts District 's Stop & Shop equals 13 times the sum of each Diplomatic Quarter 's Aldi (Germany) and each Arts District 's Aldi (Germany).\nThe number of each Legislative District 's Stop & Shop equals 10.\nThe number of each Legislative District 's PriceRite equals 17.\nHow many Supermarkets does Legislative District have?",
+  "solution": "Define each Legislative District 's Stop & Shop as u; So u = 10.\nDefine each Legislative District 's PriceRite as q; So q = 17.\nDefine each Legislative District 's Supermarkets as z; So z = u + q = 10 + 17 = 4.\n",
+  "num_operation": 3
+}

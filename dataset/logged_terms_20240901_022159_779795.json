@@ -1,0 +1,21 @@
+{
+  "s": 2,
+  "n": 2,
+  "m": 2,
+  "d": 4,
+  "w0": 4,
+  "w1": 4,
+  "e": 18,
+  "structure_graph": "log/draw_all_log_20240901_022159_306574/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_022159_306574/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_022159_306574/necessary2_graph.png",
+  "topological_order": [
+    "Courthouse District 's Tesco",
+    "Courthouse District 's Supermarkets"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_022159_306574/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_022159_306574/unnecessary_graph.png",
+  "question": "District category contains Courthouse District, Library District, Military District, and Historic Neighborhood.\nSupermarkets category contains Giant Eagle, PriceRite, Food 4 Less, and Tesco.\nProduct category contains Greek Yogurt, Yogurt Covered Raisins, Canned Chili, and Yogurt.\nIngredient category contains Flaxseed Oil, Cinnamon, Chutney, and Bulgur.\nThe number of each Tesco 's Yogurt Covered Raisins equals each Yogurt 's Chutney.\nThe number of each Yogurt Covered Raisins 's Cinnamon equals 14.\nThe number of each Military District 's Food 4 Less equals 17.\nThe number of each Giant Eagle 's Greek Yogurt equals 13 more than each Canned Chili 's Ingredient.\nThe number of each PriceRite 's Canned Chili equals each Food 4 Less 's Canned Chili.\nThe number of each Greek Yogurt 's Flaxseed Oil equals 8 more than the sum of each Giant Eagle 's Yogurt, each Giant Eagle 's Greek Yogurt, and each Courthouse District 's Tesco.\nThe number of each Historic Neighborhood 's PriceRite equals 12.\nThe number of each Military District 's PriceRite equals each Courthouse District 's Tesco.\nThe number of each Canned Chili 's Chutney equals the sum of each Courthouse District 's Tesco, each Historic Neighborhood 's PriceRite, and each Courthouse District 's Supermarkets.\nThe number of each Giant Eagle 's Yogurt equals 15 more than each Historic Neighborhood 's PriceRite.\nThe number of each Library District 's Tesco equals the sum of each Yogurt 's Chutney, each Giant Eagle 's Product, and each Courthouse District 's Supermarkets.\nThe number of each Courthouse District 's Tesco equals 4.\nThe number of each Yogurt 's Cinnamon equals 8.\nThe number of each Historic Neighborhood 's Food 4 Less equals the sum of each Food 4 Less 's Canned Chili and each Giant Eagle 's Yogurt.\nThe number of each Food 4 Less 's Yogurt Covered Raisins equals each Yogurt 's Ingredient.\nThe number of each Food 4 Less 's Canned Chili equals each Historic Neighborhood 's PriceRite.\nThe number of each Food 4 Less 's Greek Yogurt equals each Yogurt Covered Raisins 's Ingredient.\nThe number of each Yogurt 's Chutney equals each Historic Neighborhood 's PriceRite.\nHow many Supermarkets does Courthouse District have?",
+  "solution": "Define each Courthouse District 's Tesco as s; So s = 4.\nDefine each Courthouse District 's Supermarkets as B; So B = s = 4.\n",
+  "num_operation": 2
+}

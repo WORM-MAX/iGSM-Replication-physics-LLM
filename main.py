@@ -2,6 +2,8 @@ import numpy as np
 import json
 from utils.dependency import *
 import time
+from tqdm import tqdm
+
 # 获取当前时间戳
 current_time = int(time.time())
 
@@ -28,5 +30,5 @@ category = list(items_flatten.keys())
 op_max = 15
 ip_max = 20
 
-for _ in range(20):
+for _ in tqdm(range(100), desc="Generating graphs"):
     G_d, Gnece_d, Topo = DrawAll(op_max, ip_max, items_flatten, category)

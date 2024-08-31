@@ -1,0 +1,22 @@
+{
+  "s": 4,
+  "n": 1,
+  "m": 3,
+  "d": 2,
+  "w0": 2,
+  "w1": 4,
+  "e": 15,
+  "structure_graph": "log/draw_all_log_20240901_022200_686149/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_022200_686149/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_022200_686149/necessary2_graph.png",
+  "topological_order": [
+    "Market District 's Family Dollar",
+    "Silicon Valley 's Fry's",
+    "Market District 's Lidl"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_022200_686149/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_022200_686149/unnecessary_graph.png",
+  "question": "District category contains Capitol District, Historic Neighborhood, Market District, and Silicon Valley.\nSupermarkets category contains Family Dollar, Lidl, Fry's, and Lidl.\nThe number of each Market District 's Lidl equals 14 more than the difference of each Silicon Valley 's Fry's and each Market District 's Family Dollar.\nThe number of each Capitol District 's Fry's equals 17.\nThe number of each Silicon Valley 's Fry's equals 6 more than each Market District 's Family Dollar.\nThe number of each Market District 's Family Dollar equals 22.\nThe number of each Market District 's Fry's equals the sum of each Market District 's Family Dollar and each Market District 's Lidl.\nThe number of each Capitol District 's Lidl equals 9.\nThe number of each Historic Neighborhood 's Lidl equals each Market District 's Lidl.\nThe number of each Market District 's Lidl equals each Silicon Valley 's Family Dollar.\nThe number of each Historic Neighborhood 's Family Dollar equals 18 times each Capitol District 's Fry's.\nThe number of each Capitol District 's Family Dollar equals 7.\nThe number of each Silicon Valley 's Family Dollar equals 7 times each Silicon Valley 's Lidl.\nThe number of each Capitol District 's Lidl equals 7.\nThe number of each Silicon Valley 's Lidl equals 8.\nThe number of each Historic Neighborhood 's Lidl equals 4 times the sum of each Market District 's Lidl, each Silicon Valley 's Fry's, and each Capitol District 's Lidl.\nThe number of each Silicon Valley 's Lidl equals 7.\nHow many Lidl does Market District have?",
+  "solution": "Define each Market District 's Family Dollar as G; So G = 22.\nDefine each Silicon Valley 's Fry's as p; So p = 6 + G = 6 + 22 = 5.\nDefine each Market District 's Lidl as k; z = p - G = 5 - 22 = 6; So k = 14 + z = 14 + 6 = 20.\n",
+  "num_operation": 4
+}

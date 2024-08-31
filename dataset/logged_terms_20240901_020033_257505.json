@@ -1,0 +1,21 @@
+{
+  "s": 2,
+  "n": 1,
+  "m": 2,
+  "d": 4,
+  "w0": 2,
+  "w1": 4,
+  "e": 9,
+  "structure_graph": "log/draw_all_log_20240901_020032_822114/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_020032_822114/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_020032_822114/necessary2_graph.png",
+  "topological_order": [
+    "Coles (Australia) 's Fruit Snacks",
+    "Tortilla Chips 's Mustard"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_020032_822114/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_020032_822114/unnecessary_graph.png",
+  "question": "District category contains Research and Innovation Park, and Student Housing.\nSupermarkets category contains Loblaws, and Coles (Australia).\nProduct category contains Tortilla Chips, and Fruit Snacks.\nIngredient category contains Mustard, and Gelatin.\nThe number of each Research and Innovation Park 's Coles (Australia) equals each Fruit Snacks 's Gelatin.\nThe number of each Coles (Australia) 's Fruit Snacks equals 10.\nThe number of each Student Housing 's Loblaws equals the sum of each Fruit Snacks 's Gelatin, each Tortilla Chips 's Mustard, each Coles (Australia) 's Tortilla Chips, and each Tortilla Chips 's Ingredient.\nThe number of each Tortilla Chips 's Mustard equals 16 times each Coles (Australia) 's Fruit Snacks.\nThe number of each Loblaws 's Fruit Snacks equals each Fruit Snacks 's Gelatin.\nThe number of each Fruit Snacks 's Mustard equals the sum of each Coles (Australia) 's Tortilla Chips, each Loblaws 's Fruit Snacks, and each Research and Innovation Park 's Coles (Australia).\nThe number of each Research and Innovation Park 's Loblaws equals 3 more than the sum of each Coles (Australia) 's Tortilla Chips, each Research and Innovation Park 's Coles (Australia), and each Loblaws 's Fruit Snacks.\nThe number of each Coles (Australia) 's Tortilla Chips equals 11 more than each Fruit Snacks 's Gelatin.\nThe number of each Fruit Snacks 's Gelatin equals 2.\nHow many Mustard does Tortilla Chips have?",
+  "solution": "Define each Coles (Australia) 's Fruit Snacks as O; So O = 10.\nDefine each Tortilla Chips 's Mustard as p; So p = 16 * O = 16 * 10 = 22.\n",
+  "num_operation": 2
+}

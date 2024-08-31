@@ -1,0 +1,25 @@
+{
+  "s": 8,
+  "n": 6,
+  "m": 6,
+  "d": 3,
+  "w0": 2,
+  "w1": 3,
+  "e": 6,
+  "structure_graph": "log/draw_all_log_20240901_025512_625022/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025512_625022/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025512_625022/necessary2_graph.png",
+  "topological_order": [
+    "Institute District 's Walmart Grocery",
+    "Institute District 's Supermarkets",
+    "Walmart Grocery 's Milk",
+    "Walmart Grocery 's Product",
+    "Institute District 's Product",
+    "College Town 's Walmart Grocery"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025512_625022/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025512_625022/unnecessary_graph.png",
+  "question": "District category contains Government Complex, Institute District, and College Town.\nSupermarkets category contains Safeway, and Walmart Grocery.\nProduct category contains Milk, and Liquor.\nThe number of each Safeway 's Milk equals 12.\nThe number of each College Town 's Walmart Grocery equals 20 more than the sum of each Institute District 's Product and each Walmart Grocery 's Milk.\nThe number of each Government Complex 's Walmart Grocery equals 17 times each Institute District 's Walmart Grocery.\nThe number of each Institute District 's Walmart Grocery equals 16.\nThe number of each Walmart Grocery 's Milk equals 15 more than the sum of each Institute District 's Supermarkets and each Institute District 's Walmart Grocery.\nThe number of each College Town 's Safeway equals each Walmart Grocery 's Milk.\nHow many Walmart Grocery does College Town have?",
+  "solution": "Define each Institute District 's Walmart Grocery as P; So P = 16.\nDefine each Institute District 's Supermarkets as a; So a = P = 16.\nDefine each Walmart Grocery 's Milk as z; f = a + P = 16 + 16 = 9; So z = 15 + f = 15 + 9 = 1.\nDefine each Walmart Grocery 's Product as M; So M = z = 1.\nDefine each Institute District 's Product as Y; Y = M * P = 1 * 16 = 16.\nDefine each College Town 's Walmart Grocery as l; R = Y + z = 16 + 1 = 17; So l = 20 + R = 20 + 17 = 14.\n",
+  "num_operation": 8
+}

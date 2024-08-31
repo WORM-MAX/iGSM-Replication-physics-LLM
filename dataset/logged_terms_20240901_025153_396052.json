@@ -1,0 +1,28 @@
+{
+  "s": 9,
+  "n": 9,
+  "m": 9,
+  "d": 3,
+  "w0": 3,
+  "w1": 4,
+  "e": 17,
+  "structure_graph": "log/draw_all_log_20240901_025152_934986/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025152_934986/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025152_934986/necessary2_graph.png",
+  "topological_order": [
+    "Weis Markets 's Scones",
+    "Weis Markets 's Canned Chili",
+    "Weis Markets 's Product",
+    "Research Park 's Weis Markets",
+    "Research Park 's Product",
+    "Fashion District 's Trader Joe's",
+    "Fashion District 's Weis Markets",
+    "Fashion District 's Supermarkets",
+    "Costco 's Scones"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025152_934986/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025152_934986/unnecessary_graph.png",
+  "question": "District category contains University Campus, Fashion District, and Research Park.\nSupermarkets category contains Costco, Weis Markets, Trader Joe's, and WinCo Foods.\nProduct category contains Hummus, Chocolate Covered Pretzels, Canned Chili, and Scones.\nThe number of each Costco 's Canned Chili equals the sum of each University Campus 's Trader Joe's, each Costco 's Chocolate Covered Pretzels, and each WinCo Foods 's Scones.\nThe number of each Fashion District 's Trader Joe's equals 15 more than each Research Park 's Product.\nThe number of each University Campus 's Trader Joe's equals 1.\nThe number of each Weis Markets 's Canned Chili equals 13.\nThe number of each WinCo Foods 's Hummus equals 13 times the sum of each Costco 's Chocolate Covered Pretzels, each Costco 's Canned Chili, and each WinCo Foods 's Scones.\nThe number of each University Campus 's WinCo Foods equals 4.\nThe number of each Fashion District 's Weis Markets equals each Fashion District 's Trader Joe's.\nThe number of each WinCo Foods 's Scones equals each University Campus 's Costco.\nThe number of each Trader Joe's 's Scones equals 6.\nThe number of each Costco 's Chocolate Covered Pretzels equals the difference of each WinCo Foods 's Scones and each University Campus 's Costco.\nThe number of each WinCo Foods 's Canned Chili equals the sum of each Weis Markets 's Canned Chili, each Weis Markets 's Scones, and each Weis Markets 's Product.\nThe number of each Weis Markets 's Scones equals 20.\nThe number of each Research Park 's Weis Markets equals each Weis Markets 's Canned Chili.\nThe number of each Costco 's Scones equals each Fashion District 's Supermarkets.\nThe number of each University Campus 's Costco equals 18.\nThe number of each WinCo Foods 's Chocolate Covered Pretzels equals 13 times the sum of each Trader Joe's 's Scones and each University Campus 's Trader Joe's.\nThe number of each Trader Joe's 's Canned Chili equals 17 times each Weis Markets 's Product.\nHow many Scones does Costco have?",
+  "solution": "Define each Weis Markets 's Scones as s; So s = 20.\nDefine each Weis Markets 's Canned Chili as r; So r = 13.\nDefine each Weis Markets 's Product as H; So H = r + s = 13 + 20 = 10.\nDefine each Research Park 's Weis Markets as z; So z = r = 13.\nDefine each Research Park 's Product as F; F = H * z = 10 * 13 = 15.\nDefine each Fashion District 's Trader Joe's as C; So C = 15 + F = 15 + 15 = 7.\nDefine each Fashion District 's Weis Markets as T; So T = C = 7.\nDefine each Fashion District 's Supermarkets as d; So d = T + C = 7 + 7 = 14.\nDefine each Costco 's Scones as Q; So Q = d = 14.\n",
+  "num_operation": 9
+}

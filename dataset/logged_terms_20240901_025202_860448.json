@@ -1,0 +1,25 @@
+{
+  "s": 6,
+  "n": 6,
+  "m": 6,
+  "d": 4,
+  "w0": 3,
+  "w1": 4,
+  "e": 10,
+  "structure_graph": "log/draw_all_log_20240901_025202_446329/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025202_446329/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025202_446329/necessary2_graph.png",
+  "topological_order": [
+    "King Soopers 's Cocktail Mixers",
+    "Cocktail Mixers 's Palm Oil",
+    "High-rise Apartment Complex 's King Soopers",
+    "Cocktail Mixers 's Ingredient",
+    "King Soopers 's Ingredient",
+    "High-rise Apartment Complex 's Ingredient"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025202_446329/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025202_446329/unnecessary_graph.png",
+  "question": "District category contains Entertainment District, Cultural Heritage Site, and High-rise Apartment Complex.\nSupermarkets category contains King Soopers, Aldi, and Natural Grocers.\nProduct category contains Canned Beans, Popcorn, and Cocktail Mixers.\nIngredient category contains Relish, Palm Oil, and Honey.\nThe number of each Popcorn 's Palm Oil equals each Canned Beans 's Ingredient.\nThe number of each Cultural Heritage Site 's King Soopers equals 3.\nThe number of each Cocktail Mixers 's Palm Oil equals 9.\nThe number of each Aldi 's Canned Beans equals the sum of each Cultural Heritage Site 's Ingredient and each Cultural Heritage Site 's King Soopers.\nThe number of each Canned Beans 's Palm Oil equals 20.\nThe number of each Entertainment District 's Aldi equals 2.\nThe number of each High-rise Apartment Complex 's King Soopers equals the sum of each King Soopers 's Cocktail Mixers and each Cocktail Mixers 's Palm Oil.\nThe number of each King Soopers 's Cocktail Mixers equals 3.\nThe number of each Natural Grocers 's Popcorn equals the sum of each King Soopers 's Cocktail Mixers and each King Soopers 's Product.\nThe number of each Entertainment District 's Natural Grocers equals the sum of each High-rise Apartment Complex 's Ingredient, each Aldi 's Product, and each Entertainment District 's Aldi.\nHow many Ingredient does High-rise Apartment Complex have?",
+  "solution": "Define each King Soopers 's Cocktail Mixers as a; So a = 3.\nDefine each Cocktail Mixers 's Palm Oil as Y; So Y = 9.\nDefine each High-rise Apartment Complex 's King Soopers as t; So t = a + Y = 3 + 9 = 12.\nDefine each Cocktail Mixers 's Ingredient as l; So l = Y = 9.\nDefine each King Soopers 's Ingredient as B; B = a * l = 3 * 9 = 4.\nDefine each High-rise Apartment Complex 's Ingredient as d; d = t * B = 12 * 4 = 2.\n",
+  "num_operation": 6
+}

@@ -1,0 +1,26 @@
+{
+  "s": 9,
+  "n": 9,
+  "m": 9,
+  "d": 2,
+  "w0": 4,
+  "w1": 4,
+  "e": 16,
+  "structure_graph": "log/draw_all_log_20240901_025454_992212/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025454_992212/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025454_992212/necessary2_graph.png",
+  "topological_order": [
+    "Diplomatic Quarter 's Save-A-Lot",
+    "Diplomatic Quarter 's Piggly Wiggly",
+    "Courthouse District 's Lidl",
+    "Courthouse District 's Save-A-Lot",
+    "Courthouse District 's Piggly Wiggly",
+    "Courthouse District 's Hungryroot",
+    "Courthouse District 's Supermarkets"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025454_992212/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025454_992212/unnecessary_graph.png",
+  "question": "District category contains Diplomatic Quarter, Library District, Learning Hub, and Courthouse District.\nSupermarkets category contains Lidl, Hungryroot, Piggly Wiggly, and Save-A-Lot.\nThe number of each Diplomatic Quarter 's Save-A-Lot equals 10.\nThe number of each Learning Hub 's Piggly Wiggly equals 7.\nThe number of each Courthouse District 's Hungryroot equals 20 times each Courthouse District 's Lidl.\nThe number of each Diplomatic Quarter 's Lidl equals each Learning Hub 's Piggly Wiggly.\nThe number of each Library District 's Save-A-Lot equals 13 times each Courthouse District 's Save-A-Lot.\nThe number of each Courthouse District 's Piggly Wiggly equals 15 more than each Diplomatic Quarter 's Piggly Wiggly.\nThe number of each Courthouse District 's Save-A-Lot equals the difference of each Diplomatic Quarter 's Save-A-Lot and each Courthouse District 's Lidl.\nThe number of each Diplomatic Quarter 's Piggly Wiggly equals 5 times each Diplomatic Quarter 's Save-A-Lot.\nThe number of each Library District 's Piggly Wiggly equals the sum of each Learning Hub 's Piggly Wiggly, each Learning Hub 's Save-A-Lot, and each Diplomatic Quarter 's Hungryroot.\nThe number of each Diplomatic Quarter 's Hungryroot equals 21 more than each Learning Hub 's Piggly Wiggly.\nThe number of each Library District 's Hungryroot equals 19 more than each Learning Hub 's Piggly Wiggly.\nThe number of each Learning Hub 's Lidl equals 2.\nThe number of each Courthouse District 's Lidl equals 18 more than each Diplomatic Quarter 's Piggly Wiggly.\nThe number of each Library District 's Lidl equals 3.\nThe number of each Learning Hub 's Hungryroot equals 3.\nThe number of each Learning Hub 's Save-A-Lot equals each Learning Hub 's Piggly Wiggly.\nHow many Supermarkets does Courthouse District have?",
+  "solution": "Define each Diplomatic Quarter 's Save-A-Lot as u; So u = 10.\nDefine each Diplomatic Quarter 's Piggly Wiggly as h; So h = 5 * u = 5 * 10 = 4.\nDefine each Courthouse District 's Lidl as T; So T = 18 + h = 18 + 4 = 22.\nDefine each Courthouse District 's Save-A-Lot as t; So t = u - T = 10 - 22 = 11.\nDefine each Courthouse District 's Piggly Wiggly as r; So r = 15 + h = 15 + 4 = 19.\nDefine each Courthouse District 's Hungryroot as M; So M = 20 * T = 20 * 22 = 3.\nDefine each Courthouse District 's Supermarkets as j; l = t + M = 11 + 3 = 14; Z = l + T = 14 + 22 = 13; So j = r + Z = 19 + 13 = 9.\n",
+  "num_operation": 9
+}

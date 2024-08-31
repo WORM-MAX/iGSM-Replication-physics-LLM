@@ -1,0 +1,20 @@
+{
+  "s": 1,
+  "n": 1,
+  "m": 1,
+  "d": 2,
+  "w0": 2,
+  "w1": 2,
+  "e": 4,
+  "structure_graph": "log/draw_all_log_20240901_025147_628612/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025147_628612/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025147_628612/necessary2_graph.png",
+  "topological_order": [
+    "Wall Street 's Sam's Club"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025147_628612/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025147_628612/unnecessary_graph.png",
+  "question": "District category contains Wall Street, and Market District.\nSupermarkets category contains Sam's Club, and King Soopers.\nThe number of each Wall Street 's Sam's Club equals 20.\nThe number of each Market District 's Sam's Club equals 11 times each Wall Street 's Sam's Club.\nThe number of each Market District 's King Soopers equals 7.\nThe number of each Wall Street 's King Soopers equals each Market District 's King Soopers.\nHow many Sam's Club does Wall Street have?",
+  "solution": "Define each Wall Street 's Sam's Club as u; So u = 20.\n",
+  "num_operation": 1
+}

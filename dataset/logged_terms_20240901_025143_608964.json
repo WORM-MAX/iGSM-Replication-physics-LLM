@@ -1,0 +1,29 @@
+{
+  "s": 12,
+  "n": 12,
+  "m": 12,
+  "d": 2,
+  "w0": 2,
+  "w1": 3,
+  "e": 8,
+  "structure_graph": "log/draw_all_log_20240901_025143_192434/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025143_192434/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025143_192434/necessary2_graph.png",
+  "topological_order": [
+    "Academic District 's Kroger",
+    "Academic District 's Food 4 Less",
+    "Academic District 's Thrive Market",
+    "Market District 's Kroger",
+    "Automotive District 's Kroger",
+    "Academic District 's Supermarkets",
+    "Automotive District 's Food 4 Less",
+    "Automotive District 's Thrive Market",
+    "Automotive District 's Supermarkets",
+    "Market District 's Food 4 Less"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025143_192434/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025143_192434/unnecessary_graph.png",
+  "question": "District category contains Academic District, Market District, and Automotive District.\nSupermarkets category contains Thrive Market, Kroger, and Food 4 Less.\nThe number of each Automotive District 's Thrive Market equals each Automotive District 's Kroger.\nThe number of each Market District 's Kroger equals 4 more than each Academic District 's Food 4 Less.\nThe number of each Academic District 's Thrive Market equals 4 times each Academic District 's Food 4 Less.\nThe number of each Market District 's Food 4 Less equals each Automotive District 's Supermarkets.\nThe number of each Automotive District 's Kroger equals the difference of each Market District 's Kroger and each Academic District 's Food 4 Less.\nThe number of each Academic District 's Food 4 Less equals 3 more than each Academic District 's Kroger.\nThe number of each Academic District 's Kroger equals 5.\nThe number of each Automotive District 's Food 4 Less equals 0 more than each Academic District 's Supermarkets.\nHow many Food 4 Less does Market District have?",
+  "solution": "Define each Academic District 's Kroger as q; So q = 5.\nDefine each Academic District 's Food 4 Less as p; So p = 3 + q = 3 + 5 = 8.\nDefine each Academic District 's Thrive Market as V; So V = 4 * p = 4 * 8 = 9.\nDefine each Market District 's Kroger as g; So g = 4 + p = 4 + 8 = 12.\nDefine each Automotive District 's Kroger as L; So L = g - p = 12 - 8 = 4.\nDefine each Academic District 's Supermarkets as I; Z = q + p = 5 + 8 = 13; So I = V + Z = 9 + 13 = 22.\nDefine each Automotive District 's Food 4 Less as c; So c = 0 + I = 0 + 22 = 22.\nDefine each Automotive District 's Thrive Market as B; So B = L = 4.\nDefine each Automotive District 's Supermarkets as E; X = c + B = 22 + 4 = 3; So E = L + X = 4 + 3 = 7.\nDefine each Market District 's Food 4 Less as x; So x = E = 7.\n",
+  "num_operation": 12
+}

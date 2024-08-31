@@ -1,0 +1,28 @@
+{
+  "s": 11,
+  "n": 8,
+  "m": 9,
+  "d": 4,
+  "w0": 3,
+  "w1": 4,
+  "e": 9,
+  "structure_graph": "log/draw_all_log_20240901_025208_429673/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025208_429673/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025208_429673/necessary2_graph.png",
+  "topological_order": [
+    "Beer 's Muesli",
+    "Beer 's Ingredient",
+    "Vons 's Beer",
+    "Vons 's Ingredient",
+    "School District 's Vons",
+    "School District 's Ingredient",
+    "Cultural Heritage Site 's Vons",
+    "Cultural Heritage Site 's Ingredient",
+    "Preservation District 's Vons"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025208_429673/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025208_429673/unnecessary_graph.png",
+  "question": "District category contains School District, Preservation District, and Cultural Heritage Site.\nSupermarkets category contains Weis Markets, Sam's Club, and Vons.\nProduct category contains Beer, Wine, and Custard.\nIngredient category contains Condensed Milk, Muesli, and Fish Sauce.\nThe number of each Cultural Heritage Site 's Vons equals 0 more than the sum of each School District 's Ingredient and each School District 's Vons.\nThe number of each School District 's Vons equals 9.\nThe number of each Preservation District 's Vons equals each Cultural Heritage Site 's Ingredient.\nThe number of each Custard 's Condensed Milk equals 19.\nThe number of each Beer 's Muesli equals 6.\nThe number of each Wine 's Fish Sauce equals the sum of each School District 's Vons, each Preservation District 's Ingredient, each Cultural Heritage Site 's Supermarkets, and each Preservation District 's Vons.\nThe number of each Sam's Club 's Wine equals 8 times the sum of each Weis Markets 's Beer and each Custard 's Condensed Milk.\nThe number of each Vons 's Beer equals 15 more than the difference of each Beer 's Muesli and each Beer 's Ingredient.\nThe number of each Weis Markets 's Beer equals 6.\nHow many Vons does Preservation District have?",
+  "solution": "Define each Beer 's Muesli as a; So a = 6.\nDefine each Beer 's Ingredient as y; So y = a = 6.\nDefine each Vons 's Beer as j; o = a - y = 6 - 6 = 0; So j = 15 + o = 15 + 0 = 15.\nDefine each Vons 's Ingredient as k; k = j * y = 15 * 6 = 21.\nDefine each School District 's Vons as C; So C = 9.\nDefine each School District 's Ingredient as V; V = C * k = 9 * 21 = 5.\nDefine each Cultural Heritage Site 's Vons as s; i = V + C = 5 + 9 = 14; So s = 0 + i = 0 + 14 = 14.\nDefine each Cultural Heritage Site 's Ingredient as m; m = k * s = 21 * 14 = 18.\nDefine each Preservation District 's Vons as S; So S = m = 18.\n",
+  "num_operation": 11
+}

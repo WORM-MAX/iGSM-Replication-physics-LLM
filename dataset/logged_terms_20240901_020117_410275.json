@@ -1,0 +1,23 @@
+{
+  "s": 4,
+  "n": 2,
+  "m": 4,
+  "d": 3,
+  "w0": 3,
+  "w1": 4,
+  "e": 16,
+  "structure_graph": "log/draw_all_log_20240901_020116_938037/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_020116_938037/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_020116_938037/necessary2_graph.png",
+  "topological_order": [
+    "Auchan 's Kefir",
+    "Medical District 's Gelson's Markets",
+    "Housing Estate 's Gelson's Markets",
+    "Auchan 's Rolls"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_020116_938037/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_020116_938037/unnecessary_graph.png",
+  "question": "District category contains High School Zone, Medical District, and Housing Estate.\nSupermarkets category contains Gelson's Markets, Central Market, and Auchan.\nProduct category contains Canned Corn, Kefir, and Rolls.\nThe number of each Gelson's Markets 's Canned Corn equals each Auchan 's Rolls.\nThe number of each Housing Estate 's Auchan equals 1 times each Medical District 's Supermarkets.\nThe number of each Auchan 's Canned Corn equals 2 more than the sum of each Auchan 's Rolls and each Medical District 's Gelson's Markets.\nThe number of each Gelson's Markets 's Rolls equals the sum of each Central Market 's Canned Corn and each Housing Estate 's Central Market.\nThe number of each High School Zone 's Gelson's Markets equals 21 times each Housing Estate 's Supermarkets.\nThe number of each Medical District 's Gelson's Markets equals 9 times each Auchan 's Kefir.\nThe number of each Central Market 's Rolls equals 6 times the difference of each Central Market 's Canned Corn and each Housing Estate 's Central Market.\nThe number of each Auchan 's Rolls equals 11 more than each Housing Estate 's Gelson's Markets.\nThe number of each Housing Estate 's Gelson's Markets equals the difference of each Medical District 's Gelson's Markets and each Auchan 's Kefir.\nThe number of each Auchan 's Kefir equals 4.\nThe number of each Central Market 's Kefir equals 6 more than each Central Market 's Canned Corn.\nThe number of each Housing Estate 's Central Market equals each Central Market 's Canned Corn.\nThe number of each Central Market 's Canned Corn equals 21.\nThe number of each Gelson's Markets 's Kefir equals 10.\nThe number of each High School Zone 's Central Market equals 13 times each Central Market 's Canned Corn.\nThe number of each Medical District 's Central Market equals each Auchan 's Rolls.\nHow many Rolls does Auchan have?",
+  "solution": "Define each Auchan 's Kefir as C; So C = 4.\nDefine each Medical District 's Gelson's Markets as A; So A = 9 * C = 9 * 4 = 13.\nDefine each Housing Estate 's Gelson's Markets as n; So n = A - C = 13 - 4 = 9.\nDefine each Auchan 's Rolls as O; So O = 11 + n = 11 + 9 = 20.\n",
+  "num_operation": 4
+}

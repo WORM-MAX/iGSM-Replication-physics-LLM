@@ -1,0 +1,27 @@
+{
+  "s": 9,
+  "n": 5,
+  "m": 8,
+  "d": 4,
+  "w0": 3,
+  "w1": 4,
+  "e": 14,
+  "structure_graph": "log/draw_all_log_20240901_022202_175833/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_022202_175833/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_022202_175833/necessary2_graph.png",
+  "topological_order": [
+    "Canned Fish 's Cumin",
+    "College Town 's Tesco",
+    "Canned Fish 's Cornstarch",
+    "Tesco 's Canned Fish",
+    "Eataly 's Canned Fish",
+    "Shopping District 's Auchan",
+    "Shopping District 's Eataly",
+    "Shopping District 's Supermarkets"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_022202_175833/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_022202_175833/unnecessary_graph.png",
+  "question": "District category contains Financial District, Shopping District, and College Town.\nSupermarkets category contains Auchan, Eataly, and Tesco.\nProduct category contains Bagels, Canned Fish, and Canned Mushrooms.\nIngredient category contains Parsley, Cumin, and Cornstarch.\nThe number of each Shopping District 's Auchan equals 10 times each Eataly 's Canned Fish.\nThe number of each Canned Fish 's Cumin equals 3.\nThe number of each Tesco 's Canned Mushrooms equals each Eataly 's Product.\nThe number of each Eataly 's Canned Fish equals 16 more than each Tesco 's Canned Fish.\nThe number of each Tesco 's Canned Fish equals 9 more than each Canned Fish 's Cornstarch.\nThe number of each Shopping District 's Eataly equals 1 times the difference of each Canned Fish 's Cumin and each Eataly 's Canned Fish.\nThe number of each Canned Fish 's Parsley equals each Bagels 's Parsley.\nThe number of each Auchan 's Canned Fish equals each College Town 's Supermarkets.\nThe number of each College Town 's Tesco equals 2 more than each Canned Fish 's Cumin.\nThe number of each Bagels 's Parsley equals 8.\nThe number of each Canned Mushrooms 's Cornstarch equals 6 times the sum of each Shopping District 's Auchan, each College Town 's Tesco, and each Canned Fish 's Cornstarch.\nThe number of each Financial District 's Auchan equals each Canned Fish 's Parsley.\nThe number of each Bagels 's Cornstarch equals 20.\nThe number of each Canned Fish 's Cornstarch equals 0 times each College Town 's Tesco.\nHow many Supermarkets does Shopping District have?",
+  "solution": "Define each Canned Fish 's Cumin as L; So L = 3.\nDefine each College Town 's Tesco as R; So R = 2 + L = 2 + 3 = 5.\nDefine each Canned Fish 's Cornstarch as d; So d = 0 * R = 0 * 5 = 0.\nDefine each Tesco 's Canned Fish as D; So D = 9 + d = 9 + 0 = 9.\nDefine each Eataly 's Canned Fish as Y; So Y = 16 + D = 16 + 9 = 2.\nDefine each Shopping District 's Auchan as e; So e = 10 * Y = 10 * 2 = 20.\nDefine each Shopping District 's Eataly as N; Q = L - Y = 3 - 2 = 1; So N = 1 * Q = 1 * 1 = 1.\nDefine each Shopping District 's Supermarkets as F; So F = e + N = 20 + 1 = 21.\n",
+  "num_operation": 9
+}

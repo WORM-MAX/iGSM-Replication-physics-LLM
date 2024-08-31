@@ -1,0 +1,20 @@
+{
+  "s": 1,
+  "n": 1,
+  "m": 1,
+  "d": 2,
+  "w0": 2,
+  "w1": 2,
+  "e": 4,
+  "structure_graph": "log/draw_all_log_20240901_025441_982064/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025441_982064/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025441_982064/necessary2_graph.png",
+  "topological_order": [
+    "College Town 's Grocery Outlet"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025441_982064/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025441_982064/unnecessary_graph.png",
+  "question": "District category contains College Town, and Entertainment District.\nSupermarkets category contains Morrisons, and Grocery Outlet.\nThe number of each College Town 's Morrisons equals each Entertainment District 's Morrisons.\nThe number of each Entertainment District 's Morrisons equals 12.\nThe number of each College Town 's Grocery Outlet equals 14.\nThe number of each Entertainment District 's Grocery Outlet equals each College Town 's Morrisons.\nHow many Grocery Outlet does College Town have?",
+  "solution": "Define each College Town 's Grocery Outlet as G; So G = 14.\n",
+  "num_operation": 1
+}

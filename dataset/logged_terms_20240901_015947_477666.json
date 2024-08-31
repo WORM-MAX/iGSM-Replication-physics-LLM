@@ -1,0 +1,23 @@
+{
+  "s": 4,
+  "n": 4,
+  "m": 4,
+  "d": 2,
+  "w0": 3,
+  "w1": 3,
+  "e": 3,
+  "structure_graph": "log/draw_all_log_20240901_015947_063742/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_015947_063742/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_015947_063742/necessary2_graph.png",
+  "topological_order": [
+    "Jewelry District 's Trader Joe's",
+    "Jewelry District 's Supermarkets",
+    "Ancient City 's Food Lion",
+    "Ancient City 's Supermarkets"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_015947_063742/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_015947_063742/unnecessary_graph.png",
+  "question": "District category contains Jewelry District, Government Complex, and Ancient City.\nSupermarkets category contains Trader Joe's, Food Lion, and Piggly Wiggly.\nThe number of each Jewelry District 's Trader Joe's equals 13.\nThe number of each Ancient City 's Food Lion equals 11 more than each Jewelry District 's Supermarkets.\nThe number of each Government Complex 's Food Lion equals 10 times each Jewelry District 's Trader Joe's.\nHow many Supermarkets does Ancient City have?",
+  "solution": "Define each Jewelry District 's Trader Joe's as t; So t = 13.\nDefine each Jewelry District 's Supermarkets as q; So q = t = 13.\nDefine each Ancient City 's Food Lion as G; So G = 11 + q = 11 + 13 = 1.\nDefine each Ancient City 's Supermarkets as o; So o = G = 1.\n",
+  "num_operation": 4
+}

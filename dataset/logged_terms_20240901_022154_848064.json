@@ -1,0 +1,20 @@
+{
+  "s": 1,
+  "n": 1,
+  "m": 1,
+  "d": 2,
+  "w0": 3,
+  "w1": 4,
+  "e": 5,
+  "structure_graph": "log/draw_all_log_20240901_022154_453834/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_022154_453834/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_022154_453834/necessary2_graph.png",
+  "topological_order": [
+    "Diplomatic Quarter 's Sam's Club"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_022154_453834/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_022154_453834/unnecessary_graph.png",
+  "question": "District category contains Financial District, Urban Residential Area, and Diplomatic Quarter.\nSupermarkets category contains Sam's Club, Aldi (Germany), and Aldi.\nThe number of each Diplomatic Quarter 's Aldi equals 3 more than the sum of each Financial District 's Aldi and each Diplomatic Quarter 's Sam's Club.\nThe number of each Urban Residential Area 's Sam's Club equals 0 more than each Financial District 's Aldi.\nThe number of each Financial District 's Sam's Club equals 13 more than the sum of each Diplomatic Quarter 's Sam's Club and each Diplomatic Quarter 's Supermarkets.\nThe number of each Diplomatic Quarter 's Sam's Club equals 20.\nThe number of each Financial District 's Aldi equals 2 more than each Diplomatic Quarter 's Sam's Club.\nHow many Sam's Club does Diplomatic Quarter have?",
+  "solution": "Define each Diplomatic Quarter 's Sam's Club as r; So r = 20.\n",
+  "num_operation": 1
+}

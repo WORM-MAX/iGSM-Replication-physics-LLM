@@ -1,0 +1,26 @@
+{
+  "s": 8,
+  "n": 7,
+  "m": 7,
+  "d": 3,
+  "w0": 2,
+  "w1": 3,
+  "e": 6,
+  "structure_graph": "log/draw_all_log_20240901_025517_777805/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025517_777805/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025517_777805/necessary2_graph.png",
+  "topological_order": [
+    "Dollar General 's Muffins",
+    "Media District 's Dollar General",
+    "Dollar General 's Product",
+    "Media District 's Product",
+    "Library District 's Dollar General",
+    "Library District 's Product",
+    "Aldi 's Muffins"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025517_777805/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025517_777805/unnecessary_graph.png",
+  "question": "District category contains Media District, Jewelry District, and Library District.\nSupermarkets category contains Wegmans, Aldi, and Dollar General.\nProduct category contains Muffins, Potato Chips, and Tortillas.\nThe number of each Dollar General 's Muffins equals 14.\nThe number of each Aldi 's Muffins equals each Library District 's Product.\nThe number of each Jewelry District 's Wegmans equals 8.\nThe number of each Media District 's Dollar General equals 14.\nThe number of each Wegmans 's Potato Chips equals 16 more than each Media District 's Product.\nThe number of each Library District 's Dollar General equals the sum of each Dollar General 's Product, each Media District 's Dollar General, and each Media District 's Product.\nHow many Muffins does Aldi have?",
+  "solution": "Define each Dollar General 's Muffins as U; So U = 14.\nDefine each Media District 's Dollar General as v; So v = 14.\nDefine each Dollar General 's Product as h; So h = U = 14.\nDefine each Media District 's Product as d; d = h * v = 14 * 14 = 12.\nDefine each Library District 's Dollar General as N; T = v + h = 14 + 14 = 5; So N = d + T = 12 + 5 = 17.\nDefine each Library District 's Product as T; T = h * N = 14 * 17 = 8.\nDefine each Aldi 's Muffins as R; So R = T = 8.\n",
+  "num_operation": 8
+}

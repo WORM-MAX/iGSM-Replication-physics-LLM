@@ -1,0 +1,28 @@
+{
+  "s": 10,
+  "n": 9,
+  "m": 9,
+  "d": 2,
+  "w0": 2,
+  "w1": 3,
+  "e": 6,
+  "structure_graph": "log/draw_all_log_20240901_013030_706169/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_013030_706169/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_013030_706169/necessary2_graph.png",
+  "topological_order": [
+    "Market District 's Makro",
+    "Urban Residential Area 's Lidl",
+    "Urban Residential Area 's Makro",
+    "Urban Residential Area 's Supermarkets",
+    "Market District 's Lidl",
+    "Market District 's Supermarkets",
+    "Financial District 's Lidl",
+    "Financial District 's Makro",
+    "Financial District 's Supermarkets"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_013030_706169/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_013030_706169/unnecessary_graph.png",
+  "question": "District category contains Urban Residential Area, Market District, and Financial District.\nSupermarkets category contains Lidl, and Makro.\nThe number of each Financial District 's Lidl equals the sum of each Urban Residential Area 's Makro, each Market District 's Makro, and each Market District 's Supermarkets.\nThe number of each Urban Residential Area 's Lidl equals each Market District 's Makro.\nThe number of each Market District 's Lidl equals the sum of each Urban Residential Area 's Supermarkets and each Urban Residential Area 's Lidl.\nThe number of each Financial District 's Makro equals 15 times each Urban Residential Area 's Makro.\nThe number of each Market District 's Makro equals 10.\nThe number of each Urban Residential Area 's Makro equals 4.\nHow many Supermarkets does Financial District have?",
+  "solution": "Define each Market District 's Makro as J; So J = 10.\nDefine each Urban Residential Area 's Lidl as a; So a = J = 10.\nDefine each Urban Residential Area 's Makro as h; So h = 4.\nDefine each Urban Residential Area 's Supermarkets as H; So H = a + h = 10 + 4 = 14.\nDefine each Market District 's Lidl as z; So z = H + a = 14 + 10 = 1.\nDefine each Market District 's Supermarkets as g; So g = z + J = 1 + 10 = 11.\nDefine each Financial District 's Lidl as L; Q = h + J = 4 + 10 = 14; So L = g + Q = 11 + 14 = 2.\nDefine each Financial District 's Makro as w; So w = 15 * h = 15 * 4 = 14.\nDefine each Financial District 's Supermarkets as M; So M = L + w = 2 + 14 = 16.\n",
+  "num_operation": 10
+}

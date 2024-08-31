@@ -1,0 +1,21 @@
+{
+  "s": 2,
+  "n": 2,
+  "m": 2,
+  "d": 3,
+  "w0": 2,
+  "w1": 4,
+  "e": 6,
+  "structure_graph": "log/draw_all_log_20240901_025212_816256/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025212_816256/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025212_816256/necessary2_graph.png",
+  "topological_order": [
+    "HelloFresh 's Pudding",
+    "HelloFresh 's Pastries"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025212_816256/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025212_816256/unnecessary_graph.png",
+  "question": "District category contains Senior Living Community, and Manufacturing District.\nSupermarkets category contains HelloFresh, and Eataly.\nProduct category contains Pastries, and Pudding.\nThe number of each Eataly 's Pastries equals each HelloFresh 's Product.\nThe number of each HelloFresh 's Pudding equals 8.\nThe number of each Senior Living Community 's HelloFresh equals the difference of each HelloFresh 's Pudding and each Eataly 's Pudding.\nThe number of each HelloFresh 's Pastries equals each HelloFresh 's Pudding.\nThe number of each Manufacturing District 's Eataly equals 0.\nThe number of each Eataly 's Pudding equals 21.\nHow many Pastries does HelloFresh have?",
+  "solution": "Define each HelloFresh 's Pudding as Z; So Z = 8.\nDefine each HelloFresh 's Pastries as T; So T = Z = 8.\n",
+  "num_operation": 2
+}

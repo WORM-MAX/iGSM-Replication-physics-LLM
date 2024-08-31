@@ -1,0 +1,24 @@
+{
+  "s": 7,
+  "n": 2,
+  "m": 7,
+  "d": 3,
+  "w0": 2,
+  "w1": 3,
+  "e": 4,
+  "structure_graph": "log/draw_all_log_20240901_020003_922556/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_020003_922556/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_020003_922556/necessary2_graph.png",
+  "topological_order": [
+    "Hungryroot 's Liquor",
+    "Family Dollar 's Liquor",
+    "Business District 's Hungryroot",
+    "Business District 's Supermarkets",
+    "Suburban Neighborhood 's Family Dollar"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_020003_922556/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_020003_922556/unnecessary_graph.png",
+  "question": "District category contains Business District, and Suburban Neighborhood.\nSupermarkets category contains Hungryroot, and Family Dollar.\nProduct category contains Liquor, and Buttermilk.\nThe number of each Business District 's Hungryroot equals 12 times the difference of each Family Dollar 's Liquor and each Hungryroot 's Liquor.\nThe number of each Suburban Neighborhood 's Family Dollar equals 18 more than the sum of each Business District 's Supermarkets and each Family Dollar 's Liquor.\nThe number of each Family Dollar 's Liquor equals each Hungryroot 's Liquor.\nThe number of each Hungryroot 's Liquor equals 13.\nHow many Family Dollar does Suburban Neighborhood have?",
+  "solution": "Define each Hungryroot 's Liquor as w; So w = 13.\nDefine each Family Dollar 's Liquor as o; So o = w = 13.\nDefine each Business District 's Hungryroot as C; I = o - w = 13 - 13 = 0; So C = 12 * I = 12 * 0 = 0.\nDefine each Business District 's Supermarkets as k; So k = C = 0.\nDefine each Suburban Neighborhood 's Family Dollar as t; m = k + o = 0 + 13 = 13; So t = 18 + m = 18 + 13 = 8.\n",
+  "num_operation": 7
+}

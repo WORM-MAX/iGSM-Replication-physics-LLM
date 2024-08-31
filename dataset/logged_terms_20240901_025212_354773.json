@@ -1,0 +1,24 @@
+{
+  "s": 5,
+  "n": 5,
+  "m": 5,
+  "d": 4,
+  "w0": 2,
+  "w1": 2,
+  "e": 8,
+  "structure_graph": "log/draw_all_log_20240901_025211_959797/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025211_959797/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025211_959797/necessary2_graph.png",
+  "topological_order": [
+    "Fresh Thyme Market 's Evaporated Milk",
+    "Fresh Thyme Market 's Buttermilk",
+    "Preservation District 's Fresh Thyme Market",
+    "Fresh Thyme Market 's Product",
+    "Preservation District 's Product"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025211_959797/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025211_959797/unnecessary_graph.png",
+  "question": "District category contains Research Park, and Preservation District.\nSupermarkets category contains Fresh Thyme Market, and E.Leclerc.\nProduct category contains Buttermilk, and Evaporated Milk.\nIngredient category contains Worcestershire Sauce, and Grits.\nThe number of each Preservation District 's Fresh Thyme Market equals each Fresh Thyme Market 's Buttermilk.\nThe number of each E.Leclerc 's Evaporated Milk equals 0.\nThe number of each Fresh Thyme Market 's Evaporated Milk equals 18.\nThe number of each Research Park 's E.Leclerc equals 22 times the sum of each Fresh Thyme Market 's Buttermilk, each Fresh Thyme Market 's Product, and each Preservation District 's Supermarkets.\nThe number of each Evaporated Milk 's Grits equals 19.\nThe number of each Buttermilk 's Grits equals 2 times the sum of each Preservation District 's Fresh Thyme Market, each Fresh Thyme Market 's Buttermilk, and each Preservation District 's Supermarkets.\nThe number of each Fresh Thyme Market 's Buttermilk equals each Fresh Thyme Market 's Evaporated Milk.\nThe number of each E.Leclerc 's Buttermilk equals 8 times each Preservation District 's Product.\nHow many Product does Preservation District have?",
+  "solution": "Define each Fresh Thyme Market 's Evaporated Milk as w; So w = 18.\nDefine each Fresh Thyme Market 's Buttermilk as l; So l = w = 18.\nDefine each Preservation District 's Fresh Thyme Market as Y; So Y = l = 18.\nDefine each Fresh Thyme Market 's Product as c; So c = l + w = 18 + 18 = 13.\nDefine each Preservation District 's Product as d; d = c * Y = 13 * 18 = 4.\n",
+  "num_operation": 5
+}

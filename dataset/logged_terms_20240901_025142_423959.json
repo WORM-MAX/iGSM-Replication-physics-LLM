@@ -1,0 +1,23 @@
+{
+  "s": 4,
+  "n": 4,
+  "m": 4,
+  "d": 3,
+  "w0": 2,
+  "w1": 3,
+  "e": 10,
+  "structure_graph": "log/draw_all_log_20240901_025142_048521/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025142_048521/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025142_048521/necessary2_graph.png",
+  "topological_order": [
+    "Manufacturing District 's Wegmans",
+    "WinCo Foods 's Canned Peaches",
+    "WinCo Foods 's Doughnuts",
+    "WinCo Foods 's Product"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025142_048521/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025142_048521/unnecessary_graph.png",
+  "question": "District category contains Administrative District, and Manufacturing District.\nSupermarkets category contains WinCo Foods, Wegmans, and Instacart.\nProduct category contains Canned Soups, Doughnuts, and Canned Peaches.\nThe number of each WinCo Foods 's Doughnuts equals 9 times each WinCo Foods 's Canned Peaches.\nThe number of each WinCo Foods 's Canned Peaches equals each Manufacturing District 's Wegmans.\nThe number of each Instacart 's Doughnuts equals each Instacart 's Canned Peaches.\nThe number of each Administrative District 's Wegmans equals each WinCo Foods 's Product.\nThe number of each Administrative District 's Instacart equals the sum of each WinCo Foods 's Canned Peaches, each WinCo Foods 's Doughnuts, and each Manufacturing District 's Wegmans.\nThe number of each Instacart 's Canned Soups equals the sum of each WinCo Foods 's Doughnuts, each Administrative District 's Instacart, and each WinCo Foods 's Canned Peaches.\nThe number of each Wegmans 's Canned Peaches equals 21.\nThe number of each Manufacturing District 's Wegmans equals 14.\nThe number of each Manufacturing District 's Instacart equals each Instacart 's Doughnuts.\nThe number of each Instacart 's Canned Peaches equals 11.\nHow many Product does WinCo Foods have?",
+  "solution": "Define each Manufacturing District 's Wegmans as b; So b = 14.\nDefine each WinCo Foods 's Canned Peaches as n; So n = b = 14.\nDefine each WinCo Foods 's Doughnuts as Y; So Y = 9 * n = 9 * 14 = 11.\nDefine each WinCo Foods 's Product as w; So w = Y + n = 11 + 14 = 2.\n",
+  "num_operation": 4
+}

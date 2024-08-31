@@ -1,0 +1,21 @@
+{
+  "s": 2,
+  "n": 2,
+  "m": 2,
+  "d": 4,
+  "w0": 2,
+  "w1": 3,
+  "e": 11,
+  "structure_graph": "log/draw_all_log_20240901_022246_156584/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_022246_156584/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_022246_156584/necessary2_graph.png",
+  "topological_order": [
+    "Restaurant District 's King Soopers",
+    "Restaurant District 's Supermarkets"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_022246_156584/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_022246_156584/unnecessary_graph.png",
+  "question": "District category contains Restaurant District, Government Complex, and Institute District.\nSupermarkets category contains King Soopers, Stop & Shop, and Lidl.\nProduct category contains Canned Sauces, Canned Peas, and Bagels.\nIngredient category contains Hot Sauce, Molasses, and Ginger.\nThe number of each Stop & Shop 's Bagels equals 12 times the sum of each Stop & Shop 's Canned Peas, each Bagels 's Molasses, and each King Soopers 's Canned Peas.\nThe number of each Canned Sauces 's Ginger equals each Government Complex 's Product.\nThe number of each Lidl 's Canned Peas equals each Restaurant District 's King Soopers.\nThe number of each King Soopers 's Canned Peas equals 6.\nThe number of each Lidl 's Bagels equals 10 more than the difference of each King Soopers 's Canned Peas and each Lidl 's Canned Peas.\nThe number of each Stop & Shop 's Canned Peas equals 14.\nThe number of each Bagels 's Molasses equals 12 more than each Stop & Shop 's Canned Peas.\nThe number of each Canned Peas 's Hot Sauce equals each Stop & Shop 's Product.\nThe number of each Government Complex 's Stop & Shop equals each Lidl 's Canned Peas.\nThe number of each Restaurant District 's King Soopers equals 3.\nThe number of each Institute District 's King Soopers equals 10 times the difference of each Bagels 's Molasses and each Stop & Shop 's Canned Peas.\nHow many Supermarkets does Restaurant District have?",
+  "solution": "Define each Restaurant District 's King Soopers as U; So U = 3.\nDefine each Restaurant District 's Supermarkets as J; So J = U = 3.\n",
+  "num_operation": 2
+}

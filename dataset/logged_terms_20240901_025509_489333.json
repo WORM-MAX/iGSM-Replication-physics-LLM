@@ -1,0 +1,21 @@
+{
+  "s": 2,
+  "n": 2,
+  "m": 2,
+  "d": 2,
+  "w0": 2,
+  "w1": 4,
+  "e": 10,
+  "structure_graph": "log/draw_all_log_20240901_025509_103667/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025509_103667/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025509_103667/necessary2_graph.png",
+  "topological_order": [
+    "Civic Center 's Auchan",
+    "Medical District 's Bristol Farms"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025509_103667/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025509_103667/unnecessary_graph.png",
+  "question": "District category contains Fashion District, Civic Center, Historic Neighborhood, and Medical District.\nSupermarkets category contains Auchan, Bristol Farms, and Eataly.\nThe number of each Fashion District 's Eataly equals 15.\nThe number of each Fashion District 's Bristol Farms equals 3.\nThe number of each Historic Neighborhood 's Bristol Farms equals 21.\nThe number of each Medical District 's Bristol Farms equals 17 more than each Civic Center 's Auchan.\nThe number of each Historic Neighborhood 's Auchan equals the sum of each Civic Center 's Auchan and each Civic Center 's Supermarkets.\nThe number of each Civic Center 's Auchan equals 6.\nThe number of each Medical District 's Eataly equals 16.\nThe number of each Fashion District 's Auchan equals 7 times each Fashion District 's Eataly.\nThe number of each Medical District 's Auchan equals 0 more than each Medical District 's Eataly.\nThe number of each Historic Neighborhood 's Eataly equals the sum of each Fashion District 's Eataly, each Medical District 's Eataly, each Historic Neighborhood 's Bristol Farms, and each Medical District 's Auchan.\nHow many Bristol Farms does Medical District have?",
+  "solution": "Define each Civic Center 's Auchan as K; So K = 6.\nDefine each Medical District 's Bristol Farms as i; So i = 17 + K = 17 + 6 = 0.\n",
+  "num_operation": 2
+}

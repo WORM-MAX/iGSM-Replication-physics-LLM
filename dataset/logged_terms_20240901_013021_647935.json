@@ -1,0 +1,25 @@
+{
+  "s": 6,
+  "n": 5,
+  "m": 6,
+  "d": 3,
+  "w0": 2,
+  "w1": 3,
+  "e": 12,
+  "structure_graph": "log/draw_all_log_20240901_013021_174350/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_013021_174350/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_013021_174350/necessary2_graph.png",
+  "topological_order": [
+    "Walmart 's Rice Cakes",
+    "Entertainment District 's Mitsuwa Marketplace",
+    "Entertainment District 's PriceRite",
+    "Government Complex 's PriceRite",
+    "Government Complex 's Supermarkets",
+    "PriceRite 's Canned Broth"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_013021_174350/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_013021_174350/unnecessary_graph.png",
+  "question": "District category contains Government Complex, and Entertainment District.\nSupermarkets category contains Mitsuwa Marketplace, Walmart, and PriceRite.\nProduct category contains Sour Cream, Rice Cakes, and Canned Broth.\nThe number of each Walmart 's Sour Cream equals 4 more than each PriceRite 's Rice Cakes.\nThe number of each PriceRite 's Sour Cream equals the sum of each PriceRite 's Canned Broth, each Walmart 's Rice Cakes, and each Mitsuwa Marketplace 's Product.\nThe number of each PriceRite 's Canned Broth equals 14 more than each Government Complex 's Supermarkets.\nThe number of each Entertainment District 's PriceRite equals 20 more than each Entertainment District 's Mitsuwa Marketplace.\nThe number of each Mitsuwa Marketplace 's Canned Broth equals the sum of each PriceRite 's Canned Broth, each Entertainment District 's PriceRite, and each Government Complex 's PriceRite.\nThe number of each Mitsuwa Marketplace 's Sour Cream equals 15 more than the sum of each Entertainment District 's PriceRite and each Walmart 's Rice Cakes.\nThe number of each Entertainment District 's Mitsuwa Marketplace equals 22 more than each Walmart 's Rice Cakes.\nThe number of each Entertainment District 's Walmart equals 21 more than each Walmart 's Rice Cakes.\nThe number of each PriceRite 's Rice Cakes equals 5.\nThe number of each Walmart 's Rice Cakes equals 10.\nThe number of each Government Complex 's PriceRite equals 14 times each Entertainment District 's PriceRite.\nThe number of each Walmart 's Canned Broth equals each PriceRite 's Rice Cakes.\nHow many Canned Broth does PriceRite have?",
+  "solution": "Define each Walmart 's Rice Cakes as o; So o = 10.\nDefine each Entertainment District 's Mitsuwa Marketplace as B; So B = 22 + o = 22 + 10 = 9.\nDefine each Entertainment District 's PriceRite as h; So h = 20 + B = 20 + 9 = 6.\nDefine each Government Complex 's PriceRite as a; So a = 14 * h = 14 * 6 = 15.\nDefine each Government Complex 's Supermarkets as r; So r = a = 15.\nDefine each PriceRite 's Canned Broth as J; So J = 14 + r = 14 + 15 = 6.\n",
+  "num_operation": 6
+}

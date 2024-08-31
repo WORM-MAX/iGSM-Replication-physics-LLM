@@ -1,0 +1,26 @@
+{
+  "s": 7,
+  "n": 7,
+  "m": 7,
+  "d": 2,
+  "w0": 4,
+  "w1": 4,
+  "e": 6,
+  "structure_graph": "log/draw_all_log_20240901_022254_965225/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_022254_965225/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_022254_965225/necessary2_graph.png",
+  "topological_order": [
+    "Financial District 's HelloFresh",
+    "Financial District 's Wegmans",
+    "Financial District 's Supermarkets",
+    "Administrative District 's Natural Grocers",
+    "Administrative District 's Supermarkets",
+    "Embassy Row 's HelloFresh",
+    "Embassy Row 's Wegmans"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_022254_965225/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_022254_965225/unnecessary_graph.png",
+  "question": "District category contains Restaurant District, Administrative District, Financial District, and Embassy Row.\nSupermarkets category contains Wegmans, Giant Eagle, Natural Grocers, and HelloFresh.\nThe number of each Embassy Row 's HelloFresh equals 14 more than each Administrative District 's Supermarkets.\nThe number of each Administrative District 's Natural Grocers equals each Financial District 's Supermarkets.\nThe number of each Restaurant District 's HelloFresh equals the sum of each Financial District 's Wegmans, each Embassy Row 's Wegmans, and each Embassy Row 's Supermarkets.\nThe number of each Financial District 's Wegmans equals each Financial District 's HelloFresh.\nThe number of each Financial District 's HelloFresh equals 13.\nThe number of each Embassy Row 's Wegmans equals the sum of each Embassy Row 's HelloFresh and each Financial District 's Supermarkets.\nHow many Wegmans does Embassy Row have?",
+  "solution": "Define each Financial District 's HelloFresh as a; So a = 13.\nDefine each Financial District 's Wegmans as T; So T = a = 13.\nDefine each Financial District 's Supermarkets as e; So e = a + T = 13 + 13 = 3.\nDefine each Administrative District 's Natural Grocers as B; So B = e = 3.\nDefine each Administrative District 's Supermarkets as O; So O = B = 3.\nDefine each Embassy Row 's HelloFresh as d; So d = 14 + O = 14 + 3 = 17.\nDefine each Embassy Row 's Wegmans as C; So C = d + e = 17 + 3 = 20.\n",
+  "num_operation": 7
+}

@@ -1,0 +1,25 @@
+{
+  "s": 9,
+  "n": 9,
+  "m": 9,
+  "d": 2,
+  "w0": 2,
+  "w1": 3,
+  "e": 3,
+  "structure_graph": "log/draw_all_log_20240901_022143_604567/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_022143_604567/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_022143_604567/necessary2_graph.png",
+  "topological_order": [
+    "Industrial District 's Save-A-Lot",
+    "Industrial District 's Supermarkets",
+    "Automotive District 's Save-A-Lot",
+    "Automotive District 's Supermarkets",
+    "Shopping District 's Family Dollar",
+    "Shopping District 's Supermarkets"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_022143_604567/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_022143_604567/unnecessary_graph.png",
+  "question": "District category contains Shopping District, Automotive District, and Industrial District.\nSupermarkets category contains Fairway Market, Family Dollar, and Save-A-Lot.\nThe number of each Shopping District 's Family Dollar equals the sum of each Industrial District 's Save-A-Lot, each Industrial District 's Supermarkets, each Automotive District 's Supermarkets, and each Automotive District 's Save-A-Lot.\nThe number of each Industrial District 's Save-A-Lot equals 16.\nThe number of each Automotive District 's Save-A-Lot equals 8 times the difference of each Industrial District 's Supermarkets and each Industrial District 's Save-A-Lot.\nHow many Supermarkets does Shopping District have?",
+  "solution": "Define each Industrial District 's Save-A-Lot as P; So P = 16.\nDefine each Industrial District 's Supermarkets as v; So v = P = 16.\nDefine each Automotive District 's Save-A-Lot as k; v = v - P = 0 - 16 = 0; So k = 8 * v = 8 * 0 = 0.\nDefine each Automotive District 's Supermarkets as B; So B = k = 0.\nDefine each Shopping District 's Family Dollar as Y; I = P + v = 16 + 0 = 16; z = I + k = 16 + 0 = 16; So Y = B + z = 0 + 16 = 16.\nDefine each Shopping District 's Supermarkets as p; So p = Y = 16.\n",
+  "num_operation": 9
+}

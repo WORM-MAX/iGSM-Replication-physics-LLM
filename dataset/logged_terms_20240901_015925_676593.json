@@ -1,0 +1,25 @@
+{
+  "s": 6,
+  "n": 5,
+  "m": 6,
+  "d": 3,
+  "w0": 2,
+  "w1": 2,
+  "e": 8,
+  "structure_graph": "log/draw_all_log_20240901_015925_228787/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_015925_228787/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_015925_228787/necessary2_graph.png",
+  "topological_order": [
+    "Piggly Wiggly 's Flavored Water",
+    "Piggly Wiggly 's Canned Soups",
+    "Piggly Wiggly 's Product",
+    "Government Complex 's Fresh Thyme Market",
+    "Fresh Thyme Market 's Canned Soups",
+    "Education Park 's Piggly Wiggly"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_015925_228787/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_015925_228787/unnecessary_graph.png",
+  "question": "District category contains Education Park, and Government Complex.\nSupermarkets category contains Fresh Thyme Market, and Piggly Wiggly.\nProduct category contains Canned Soups, and Flavored Water.\nThe number of each Fresh Thyme Market 's Flavored Water equals each Government Complex 's Piggly Wiggly.\nThe number of each Government Complex 's Piggly Wiggly equals 16.\nThe number of each Piggly Wiggly 's Flavored Water equals 9.\nThe number of each Education Park 's Piggly Wiggly equals 18 more than each Fresh Thyme Market 's Canned Soups.\nThe number of each Government Complex 's Fresh Thyme Market equals each Piggly Wiggly 's Product.\nThe number of each Piggly Wiggly 's Canned Soups equals 1 times each Piggly Wiggly 's Flavored Water.\nThe number of each Education Park 's Fresh Thyme Market equals each Government Complex 's Fresh Thyme Market.\nThe number of each Fresh Thyme Market 's Canned Soups equals 16 more than each Government Complex 's Fresh Thyme Market.\nHow many Piggly Wiggly does Education Park have?",
+  "solution": "Define each Piggly Wiggly 's Flavored Water as D; So D = 9.\nDefine each Piggly Wiggly 's Canned Soups as w; So w = 1 * D = 1 * 9 = 9.\nDefine each Piggly Wiggly 's Product as P; So P = w + D = 9 + 9 = 18.\nDefine each Government Complex 's Fresh Thyme Market as R; So R = P = 18.\nDefine each Fresh Thyme Market 's Canned Soups as s; So s = 16 + R = 16 + 18 = 11.\nDefine each Education Park 's Piggly Wiggly as A; So A = 18 + s = 18 + 11 = 6.\n",
+  "num_operation": 6
+}

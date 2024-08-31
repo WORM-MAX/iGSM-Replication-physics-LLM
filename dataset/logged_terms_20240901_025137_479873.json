@@ -1,0 +1,23 @@
+{
+  "s": 4,
+  "n": 2,
+  "m": 4,
+  "d": 2,
+  "w0": 3,
+  "w1": 4,
+  "e": 4,
+  "structure_graph": "log/draw_all_log_20240901_025137_139061/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025137_139061/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025137_139061/necessary2_graph.png",
+  "topological_order": [
+    "Preservation District 's Whole Foods Market",
+    "Preservation District 's Supermarkets",
+    "Heritage District 's PriceRite",
+    "Municipal Office District 's Save-A-Lot"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025137_139061/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025137_139061/unnecessary_graph.png",
+  "question": "District category contains Municipal Office District, Heritage District, Media District, and Preservation District.\nSupermarkets category contains Save-A-Lot, Walmart Grocery, Whole Foods Market, and PriceRite.\nThe number of each Media District 's Whole Foods Market equals 13.\nThe number of each Preservation District 's Whole Foods Market equals 16.\nThe number of each Heritage District 's PriceRite equals 6 times each Preservation District 's Supermarkets.\nThe number of each Municipal Office District 's Save-A-Lot equals each Heritage District 's PriceRite.\nHow many Save-A-Lot does Municipal Office District have?",
+  "solution": "Define each Preservation District 's Whole Foods Market as T; So T = 16.\nDefine each Preservation District 's Supermarkets as c; So c = T = 16.\nDefine each Heritage District 's PriceRite as b; So b = 6 * c = 6 * 16 = 4.\nDefine each Municipal Office District 's Save-A-Lot as a; So a = b = 4.\n",
+  "num_operation": 4
+}

@@ -1,0 +1,21 @@
+{
+  "s": 2,
+  "n": 2,
+  "m": 2,
+  "d": 3,
+  "w0": 2,
+  "w1": 4,
+  "e": 8,
+  "structure_graph": "log/draw_all_log_20240901_015935_075558/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_015935_075558/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_015935_075558/necessary2_graph.png",
+  "topological_order": [
+    "School District 's Walmart",
+    "School District 's Supermarkets"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_015935_075558/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_015935_075558/unnecessary_graph.png",
+  "question": "District category contains Administrative District, Heritage District, School District, and Learning Hub.\nSupermarkets category contains Walmart, Big Lots, and E.Leclerc.\nProduct category contains Cottage Cheese, Canned Peas, Lemonade, and Bagels.\nThe number of each Big Lots 's Canned Peas equals 22.\nThe number of each Administrative District 's Walmart equals 4 times the sum of each School District 's Walmart, each E.Leclerc 's Bagels, and each Walmart 's Bagels.\nThe number of each Walmart 's Bagels equals 16 more than each Big Lots 's Canned Peas.\nThe number of each School District 's Walmart equals 11.\nThe number of each E.Leclerc 's Bagels equals each Learning Hub 's E.Leclerc.\nThe number of each Learning Hub 's E.Leclerc equals 18 more than each Big Lots 's Canned Peas.\nThe number of each Walmart 's Canned Peas equals 12 more than the sum of each School District 's Walmart, each Big Lots 's Canned Peas, and each Learning Hub 's E.Leclerc.\nThe number of each Heritage District 's E.Leclerc equals the sum of each Big Lots 's Canned Peas, each Walmart 's Bagels, and each Big Lots 's Product.\nHow many Supermarkets does School District have?",
+  "solution": "Define each School District 's Walmart as R; So R = 11.\nDefine each School District 's Supermarkets as I; So I = R = 11.\n",
+  "num_operation": 2
+}

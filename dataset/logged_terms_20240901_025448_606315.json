@@ -1,0 +1,27 @@
+{
+  "s": 8,
+  "n": 7,
+  "m": 8,
+  "d": 3,
+  "w0": 2,
+  "w1": 4,
+  "e": 8,
+  "structure_graph": "log/draw_all_log_20240901_025448_185260/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025448_185260/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025448_185260/necessary2_graph.png",
+  "topological_order": [
+    "Instacart 's Cream",
+    "Legislative District 's Mitsuwa Marketplace",
+    "Entertainment District 's Mitsuwa Marketplace",
+    "Entertainment District 's Instacart",
+    "Entertainment District 's Supermarkets",
+    "Mitsuwa Marketplace 's Cream",
+    "Mitsuwa Marketplace 's Yogurt",
+    "Mitsuwa Marketplace 's Product"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025448_185260/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025448_185260/unnecessary_graph.png",
+  "question": "District category contains Entertainment District, and Legislative District.\nSupermarkets category contains Instacart, and Mitsuwa Marketplace.\nProduct category contains Cream, and Yogurt.\nThe number of each Legislative District 's Instacart equals 16.\nThe number of each Legislative District 's Mitsuwa Marketplace equals 18 times each Instacart 's Cream.\nThe number of each Instacart 's Yogurt equals 21 more than each Legislative District 's Instacart.\nThe number of each Entertainment District 's Mitsuwa Marketplace equals 20 more than each Legislative District 's Mitsuwa Marketplace.\nThe number of each Entertainment District 's Instacart equals 7 more than each Entertainment District 's Mitsuwa Marketplace.\nThe number of each Mitsuwa Marketplace 's Cream equals each Entertainment District 's Supermarkets.\nThe number of each Mitsuwa Marketplace 's Yogurt equals 14.\nThe number of each Instacart 's Cream equals 13.\nHow many Product does Mitsuwa Marketplace have?",
+  "solution": "Define each Instacart 's Cream as Y; So Y = 13.\nDefine each Legislative District 's Mitsuwa Marketplace as v; So v = 18 * Y = 18 * 13 = 4.\nDefine each Entertainment District 's Mitsuwa Marketplace as F; So F = 20 + v = 20 + 4 = 1.\nDefine each Entertainment District 's Instacart as I; So I = 7 + F = 7 + 1 = 8.\nDefine each Entertainment District 's Supermarkets as H; So H = I + F = 8 + 1 = 9.\nDefine each Mitsuwa Marketplace 's Cream as S; So S = H = 9.\nDefine each Mitsuwa Marketplace 's Yogurt as p; So p = 14.\nDefine each Mitsuwa Marketplace 's Product as c; So c = S + p = 9 + 14 = 0.\n",
+  "num_operation": 8
+}

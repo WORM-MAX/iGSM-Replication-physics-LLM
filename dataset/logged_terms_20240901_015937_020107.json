@@ -1,0 +1,24 @@
+{
+  "s": 5,
+  "n": 4,
+  "m": 5,
+  "d": 4,
+  "w0": 2,
+  "w1": 2,
+  "e": 11,
+  "structure_graph": "log/draw_all_log_20240901_015936_566207/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_015936_566207/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_015936_566207/necessary2_graph.png",
+  "topological_order": [
+    "Business District 's E.Leclerc",
+    "Business District 's Giant Eagle",
+    "Giant Eagle 's Canned Beans",
+    "Giant Eagle 's Kefir",
+    "Giant Eagle 's Product"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_015936_566207/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_015936_566207/unnecessary_graph.png",
+  "question": "District category contains Business District, and Financial District.\nSupermarkets category contains Giant Eagle, and E.Leclerc.\nProduct category contains Kefir, and Canned Beans.\nIngredient category contains Tahini, and Worcestershire Sauce.\nThe number of each Financial District 's Giant Eagle equals 15.\nThe number of each Business District 's E.Leclerc equals 2.\nThe number of each Kefir 's Tahini equals the sum of each Financial District 's E.Leclerc and each Financial District 's Giant Eagle.\nThe number of each Canned Beans 's Worcestershire Sauce equals each Canned Beans 's Tahini.\nThe number of each Giant Eagle 's Canned Beans equals 18 more than each Business District 's Giant Eagle.\nThe number of each Kefir 's Worcestershire Sauce equals 22 more than each Financial District 's Giant Eagle.\nThe number of each Financial District 's E.Leclerc equals 17 times each Financial District 's Giant Eagle.\nThe number of each Giant Eagle 's Kefir equals 0 times each Business District 's Giant Eagle.\nThe number of each Canned Beans 's Tahini equals 20.\nThe number of each E.Leclerc 's Canned Beans equals 22.\nThe number of each Business District 's Giant Eagle equals 18 times each Business District 's E.Leclerc.\nHow many Product does Giant Eagle have?",
+  "solution": "Define each Business District 's E.Leclerc as F; So F = 2.\nDefine each Business District 's Giant Eagle as f; So f = 18 * F = 18 * 2 = 13.\nDefine each Giant Eagle 's Canned Beans as w; So w = 18 + f = 18 + 13 = 8.\nDefine each Giant Eagle 's Kefir as y; So y = 0 * f = 0 * 13 = 0.\nDefine each Giant Eagle 's Product as R; So R = y + w = 0 + 8 = 8.\n",
+  "num_operation": 5
+}

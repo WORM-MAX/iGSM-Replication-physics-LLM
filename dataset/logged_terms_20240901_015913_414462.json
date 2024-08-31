@@ -1,0 +1,24 @@
+{
+  "s": 8,
+  "n": 3,
+  "m": 5,
+  "d": 3,
+  "w0": 2,
+  "w1": 2,
+  "e": 4,
+  "structure_graph": "log/draw_all_log_20240901_015912_986198/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_015912_986198/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_015912_986198/necessary2_graph.png",
+  "topological_order": [
+    "Blue Apron 's Plant-based Milk",
+    "Media District 's Carrefour",
+    "Media District 's Supermarkets",
+    "Gated Community 's Carrefour",
+    "Carrefour 's Plant-based Milk"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_015912_986198/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_015912_986198/unnecessary_graph.png",
+  "question": "District category contains Media District, and Gated Community.\nSupermarkets category contains Carrefour, and Blue Apron.\nProduct category contains Plant-based Milk, and Herbal Tea.\nThe number of each Blue Apron 's Plant-based Milk equals 0.\nThe number of each Carrefour 's Plant-based Milk equals the sum of each Blue Apron 's Plant-based Milk, each Gated Community 's Carrefour, and each Media District 's Supermarkets.\nThe number of each Media District 's Carrefour equals each Blue Apron 's Plant-based Milk.\nThe number of each Gated Community 's Carrefour equals 20 times the sum of each Media District 's Carrefour, each Media District 's Supermarkets, and each Blue Apron 's Plant-based Milk.\nHow many Plant-based Milk does Carrefour have?",
+  "solution": "Define each Blue Apron 's Plant-based Milk as L; So L = 0.\nDefine each Media District 's Carrefour as Y; So Y = L = 0.\nDefine each Media District 's Supermarkets as U; So U = Y = 0.\nDefine each Gated Community 's Carrefour as B; m = Y + L = 0 + 0 = 0; W = U + m = 0 + 0 = 0; So B = 20 * W = 20 * 0 = 0.\nDefine each Carrefour 's Plant-based Milk as X; Z = U + L = 0 + 0 = 0; So X = B + Z = 0 + 0 = 0.\n",
+  "num_operation": 8
+}

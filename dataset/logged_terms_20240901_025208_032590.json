@@ -1,0 +1,23 @@
+{
+  "s": 4,
+  "n": 4,
+  "m": 4,
+  "d": 2,
+  "w0": 3,
+  "w1": 4,
+  "e": 5,
+  "structure_graph": "log/draw_all_log_20240901_025207_569999/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025207_569999/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025207_569999/necessary2_graph.png",
+  "topological_order": [
+    "Gated Community 's Tesco",
+    "Gated Community 's Supermarkets",
+    "Business District 's HelloFresh",
+    "Business District 's Supermarkets"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025207_569999/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025207_569999/unnecessary_graph.png",
+  "question": "District category contains Gated Community, Heritage District, Restaurant District, and Business District.\nSupermarkets category contains HelloFresh, Central Market, Sprouts Farmers Market, and Tesco.\nThe number of each Heritage District 's Central Market equals each Gated Community 's Tesco.\nThe number of each Gated Community 's Tesco equals 9.\nThe number of each Restaurant District 's Central Market equals 16.\nThe number of each Business District 's HelloFresh equals each Gated Community 's Supermarkets.\nThe number of each Restaurant District 's Tesco equals 17.\nHow many Supermarkets does Business District have?",
+  "solution": "Define each Gated Community 's Tesco as F; So F = 9.\nDefine each Gated Community 's Supermarkets as X; So X = F = 9.\nDefine each Business District 's HelloFresh as h; So h = X = 9.\nDefine each Business District 's Supermarkets as E; So E = h = 9.\n",
+  "num_operation": 4
+}

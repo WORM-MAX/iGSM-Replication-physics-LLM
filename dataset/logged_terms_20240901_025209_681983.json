@@ -1,0 +1,26 @@
+{
+  "s": 8,
+  "n": 6,
+  "m": 7,
+  "d": 4,
+  "w0": 2,
+  "w1": 2,
+  "e": 11,
+  "structure_graph": "log/draw_all_log_20240901_025209_242782/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025209_242782/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025209_242782/necessary2_graph.png",
+  "topological_order": [
+    "Silicon Valley 's Trader Joe's",
+    "Canned Peaches 's Sunflower Oil",
+    "Canned Peaches 's Ghee",
+    "Canned Peaches 's Ingredient",
+    "Canned Fish 's Sunflower Oil",
+    "Canned Fish 's Ghee",
+    "Canned Fish 's Ingredient"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025209_242782/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025209_242782/unnecessary_graph.png",
+  "question": "District category contains Education Park, and Silicon Valley.\nSupermarkets category contains Trader Joe's, and Stop & Shop.\nProduct category contains Canned Fish, and Canned Peaches.\nIngredient category contains Ghee, and Sunflower Oil.\nThe number of each Trader Joe's 's Canned Peaches equals 22 times the difference of each Trader Joe's 's Canned Fish and each Education Park 's Trader Joe's.\nThe number of each Canned Peaches 's Sunflower Oil equals 11 more than each Silicon Valley 's Trader Joe's.\nThe number of each Education Park 's Trader Joe's equals 1 times each Trader Joe's 's Canned Fish.\nThe number of each Silicon Valley 's Trader Joe's equals 5.\nThe number of each Canned Fish 's Sunflower Oil equals 7 more than the sum of each Canned Peaches 's Ingredient and each Canned Peaches 's Ghee.\nThe number of each Canned Fish 's Ghee equals 18 times each Canned Peaches 's Ghee.\nThe number of each Trader Joe's 's Canned Fish equals 16.\nThe number of each Stop & Shop 's Canned Peaches equals each Stop & Shop 's Canned Fish.\nThe number of each Stop & Shop 's Canned Fish equals the sum of each Silicon Valley 's Trader Joe's, each Canned Peaches 's Ghee, each Canned Fish 's Ghee, and each Silicon Valley 's Supermarkets.\nThe number of each Canned Peaches 's Ghee equals each Canned Peaches 's Sunflower Oil.\nThe number of each Silicon Valley 's Stop & Shop equals the sum of each Canned Peaches 's Ghee and each Canned Fish 's Ghee.\nHow many Ingredient does Canned Fish have?",
+  "solution": "Define each Silicon Valley 's Trader Joe's as J; So J = 5.\nDefine each Canned Peaches 's Sunflower Oil as E; So E = 11 + J = 11 + 5 = 16.\nDefine each Canned Peaches 's Ghee as r; So r = E = 16.\nDefine each Canned Peaches 's Ingredient as Z; So Z = E + r = 16 + 16 = 9.\nDefine each Canned Fish 's Sunflower Oil as B; f = Z + r = 9 + 16 = 2; So B = 7 + f = 7 + 2 = 9.\nDefine each Canned Fish 's Ghee as A; So A = 18 * r = 18 * 16 = 12.\nDefine each Canned Fish 's Ingredient as i; So i = B + A = 9 + 12 = 21.\n",
+  "num_operation": 8
+}

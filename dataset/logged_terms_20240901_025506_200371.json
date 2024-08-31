@@ -1,0 +1,27 @@
+{
+  "s": 9,
+  "n": 6,
+  "m": 8,
+  "d": 3,
+  "w0": 3,
+  "w1": 3,
+  "e": 9,
+  "structure_graph": "log/draw_all_log_20240901_025505_797445/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025505_797445/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025505_797445/necessary2_graph.png",
+  "topological_order": [
+    "Giant Eagle 's Pies",
+    "Archaeological District 's PriceRite",
+    "Manufacturing District 's PriceRite",
+    "Manufacturing District 's Supermarkets",
+    "PriceRite 's Pies",
+    "PriceRite 's Product",
+    "Walmart Grocery 's Pies",
+    "Walmart Grocery 's Product"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025505_797445/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025505_797445/unnecessary_graph.png",
+  "question": "District category contains Housing Estate, Archaeological District, and Manufacturing District.\nSupermarkets category contains PriceRite, Giant Eagle, and Walmart Grocery.\nProduct category contains Cakes, Pies, and Buns.\nThe number of each Housing Estate 's Giant Eagle equals 19.\nThe number of each PriceRite 's Pies equals the sum of each Giant Eagle 's Pies, each Manufacturing District 's PriceRite, and each Manufacturing District 's Supermarkets.\nThe number of each Walmart Grocery 's Pies equals each PriceRite 's Product.\nThe number of each Housing Estate 's PriceRite equals 4.\nThe number of each Giant Eagle 's Cakes equals the sum of each Manufacturing District 's Product, each PriceRite 's Pies, each Archaeological District 's PriceRite, and each Archaeological District 's Supermarkets.\nThe number of each Giant Eagle 's Pies equals 15.\nThe number of each Giant Eagle 's Buns equals 18 times each Manufacturing District 's Product.\nThe number of each Manufacturing District 's PriceRite equals each Archaeological District 's PriceRite.\nThe number of each Archaeological District 's PriceRite equals 2 times each Giant Eagle 's Pies.\nHow many Product does Walmart Grocery have?",
+  "solution": "Define each Giant Eagle 's Pies as E; So E = 15.\nDefine each Archaeological District 's PriceRite as H; So H = 2 * E = 2 * 15 = 7.\nDefine each Manufacturing District 's PriceRite as m; So m = H = 7.\nDefine each Manufacturing District 's Supermarkets as x; So x = m = 7.\nDefine each PriceRite 's Pies as r; N = m + E = 7 + 15 = 22; So r = x + N = 7 + 22 = 6.\nDefine each PriceRite 's Product as s; So s = r = 6.\nDefine each Walmart Grocery 's Pies as h; So h = s = 6.\nDefine each Walmart Grocery 's Product as M; So M = h = 6.\n",
+  "num_operation": 9
+}

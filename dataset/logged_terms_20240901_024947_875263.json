@@ -1,0 +1,29 @@
+{
+  "s": 13,
+  "n": 11,
+  "m": 12,
+  "d": 2,
+  "w0": 3,
+  "w1": 4,
+  "e": 10,
+  "structure_graph": "log/draw_all_log_20240901_024947_430819/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_024947_430819/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_024947_430819/necessary2_graph.png",
+  "topological_order": [
+    "High-rise Apartment Complex 's Lulu Hypermarket",
+    "Restaurant District 's Food Lion",
+    "Restaurant District 's Trader Joe's",
+    "Restaurant District 's Lulu Hypermarket",
+    "Restaurant District 's Supermarkets",
+    "High-rise Apartment Complex 's Giant Eagle",
+    "Media District 's Food Lion",
+    "Media District 's Giant Eagle",
+    "Media District 's Lulu Hypermarket",
+    "Media District 's Supermarkets"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_024947_430819/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_024947_430819/unnecessary_graph.png",
+  "question": "District category contains Restaurant District, Media District, and High-rise Apartment Complex.\nSupermarkets category contains Giant Eagle, Trader Joe's, Food Lion, and Lulu Hypermarket.\nThe number of each Restaurant District 's Lulu Hypermarket equals the sum of each Restaurant District 's Trader Joe's and each Restaurant District 's Food Lion.\nThe number of each Restaurant District 's Trader Joe's equals the sum of each High-rise Apartment Complex 's Lulu Hypermarket and each Restaurant District 's Food Lion.\nThe number of each High-rise Apartment Complex 's Food Lion equals 0 more than the difference of each Restaurant District 's Food Lion and each Media District 's Food Lion.\nThe number of each High-rise Apartment Complex 's Lulu Hypermarket equals 2.\nThe number of each Media District 's Food Lion equals 13 times the difference of each High-rise Apartment Complex 's Giant Eagle and each Restaurant District 's Lulu Hypermarket.\nThe number of each Restaurant District 's Food Lion equals 2 more than each High-rise Apartment Complex 's Lulu Hypermarket.\nThe number of each Media District 's Lulu Hypermarket equals 19 times each Restaurant District 's Trader Joe's.\nThe number of each High-rise Apartment Complex 's Trader Joe's equals 6 more than each Media District 's Supermarkets.\nThe number of each Media District 's Giant Eagle equals 7 times each Restaurant District 's Food Lion.\nThe number of each High-rise Apartment Complex 's Giant Eagle equals 20 times each Restaurant District 's Supermarkets.\nHow many Supermarkets does Media District have?",
+  "solution": "Define each High-rise Apartment Complex 's Lulu Hypermarket as b; So b = 2.\nDefine each Restaurant District 's Food Lion as I; So I = 2 + b = 2 + 2 = 4.\nDefine each Restaurant District 's Trader Joe's as V; So V = b + I = 2 + 4 = 6.\nDefine each Restaurant District 's Lulu Hypermarket as z; So z = V + I = 6 + 4 = 10.\nDefine each Restaurant District 's Supermarkets as c; I = I + V = 10 + 6 = 10; So c = z + I = 10 + 10 = 20.\nDefine each High-rise Apartment Complex 's Giant Eagle as f; So f = 20 * c = 20 * 20 = 9.\nDefine each Media District 's Food Lion as i; i = f - z = 9 - 10 = 22; So i = 13 * i = 13 * 10 = 10.\nDefine each Media District 's Giant Eagle as M; So M = 7 * I = 7 * 10 = 1.\nDefine each Media District 's Lulu Hypermarket as t; So t = 19 * V = 19 * 6 = 22.\nDefine each Media District 's Supermarkets as p; o = i + M = 10 + 1 = 11; So p = t + o = 22 + 11 = 10.\n",
+  "num_operation": 13
+}

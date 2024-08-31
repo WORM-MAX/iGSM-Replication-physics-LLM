@@ -1,0 +1,22 @@
+{
+  "s": 3,
+  "n": 3,
+  "m": 3,
+  "d": 2,
+  "w0": 2,
+  "w1": 2,
+  "e": 4,
+  "structure_graph": "log/draw_all_log_20240901_025151_687102/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025151_687102/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025151_687102/necessary2_graph.png",
+  "topological_order": [
+    "Administrative District 's Hy-Vee",
+    "Administrative District 's Coles (Australia)",
+    "Administrative District 's Supermarkets"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025151_687102/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025151_687102/unnecessary_graph.png",
+  "question": "District category contains Administrative District, and Housing Estate.\nSupermarkets category contains Hy-Vee, and Coles (Australia).\nThe number of each Housing Estate 's Hy-Vee equals 3.\nThe number of each Administrative District 's Hy-Vee equals 2.\nThe number of each Administrative District 's Coles (Australia) equals 9 more than each Administrative District 's Hy-Vee.\nThe number of each Housing Estate 's Coles (Australia) equals each Administrative District 's Hy-Vee.\nHow many Supermarkets does Administrative District have?",
+  "solution": "Define each Administrative District 's Hy-Vee as e; So e = 2.\nDefine each Administrative District 's Coles (Australia) as U; So U = 9 + e = 9 + 2 = 11.\nDefine each Administrative District 's Supermarkets as P; So P = e + U = 2 + 11 = 13.\n",
+  "num_operation": 3
+}

@@ -1,0 +1,20 @@
+{
+  "s": 1,
+  "n": 1,
+  "m": 1,
+  "d": 4,
+  "w0": 3,
+  "w1": 4,
+  "e": 11,
+  "structure_graph": "log/draw_all_log_20240901_025447_638087/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025447_638087/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025447_638087/necessary2_graph.png",
+  "topological_order": [
+    "Bottled Water 's Chocolate Chips"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025447_638087/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025447_638087/unnecessary_graph.png",
+  "question": "District category contains Tech Park, Financial District, and Civic Center.\nSupermarkets category contains 99 Cents Only Stores, Thrive Market, and Makro.\nProduct category contains Cheese, Evaporated Milk, and Bottled Water.\nIngredient category contains Sesame Oil, Chocolate Chips, Nutmeg, and Rosemary.\nThe number of each 99 Cents Only Stores 's Cheese equals 1 more than each Financial District 's Supermarkets.\nThe number of each Evaporated Milk 's Sesame Oil equals 9 times each Bottled Water 's Rosemary.\nThe number of each Financial District 's 99 Cents Only Stores equals 20 more than the difference of each Bottled Water 's Rosemary and each Evaporated Milk 's Sesame Oil.\nThe number of each Cheese 's Nutmeg equals 6 more than each Evaporated Milk 's Sesame Oil.\nThe number of each Tech Park 's 99 Cents Only Stores equals 0 times the difference of each Evaporated Milk 's Sesame Oil and each Cheese 's Nutmeg.\nThe number of each Civic Center 's Makro equals 17.\nThe number of each Thrive Market 's Evaporated Milk equals each Bottled Water 's Chocolate Chips.\nThe number of each 99 Cents Only Stores 's Evaporated Milk equals 5 times the sum of each Evaporated Milk 's Sesame Oil and each Cheese 's Nutmeg.\nThe number of each Bottled Water 's Rosemary equals 19.\nThe number of each Bottled Water 's Chocolate Chips equals 10.\nThe number of each Makro 's Bottled Water equals 7 more than the sum of each Thrive Market 's Product and each Cheese 's Ingredient.\nHow many Chocolate Chips does Bottled Water have?",
+  "solution": "Define each Bottled Water 's Chocolate Chips as O; So O = 10.\n",
+  "num_operation": 1
+}

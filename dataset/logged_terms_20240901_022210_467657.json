@@ -1,0 +1,21 @@
+{
+  "s": 2,
+  "n": 2,
+  "m": 2,
+  "d": 3,
+  "w0": 3,
+  "w1": 4,
+  "e": 17,
+  "structure_graph": "log/draw_all_log_20240901_022210_004544/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_022210_004544/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_022210_004544/necessary2_graph.png",
+  "topological_order": [
+    "Morrisons 's Muffins",
+    "Preservation District 's Shipt"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_022210_004544/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_022210_004544/unnecessary_graph.png",
+  "question": "District category contains School District, Suburban Neighborhood, and Preservation District.\nSupermarkets category contains Shipt, Morrisons, and Wegmans.\nProduct category contains Energy Drinks, Muffins, and Canned Chili.\nThe number of each Morrisons 's Energy Drinks equals the sum of each Shipt 's Energy Drinks, each Morrisons 's Canned Chili, and each Wegmans 's Canned Chili.\nThe number of each Morrisons 's Muffins equals 14.\nThe number of each Preservation District 's Shipt equals 3 more than each Morrisons 's Muffins.\nThe number of each Morrisons 's Canned Chili equals each Shipt 's Muffins.\nThe number of each Wegmans 's Canned Chili equals each Suburban Neighborhood 's Wegmans.\nThe number of each Shipt 's Canned Chili equals each Preservation District 's Shipt.\nThe number of each Shipt 's Energy Drinks equals 21 more than the sum of each Suburban Neighborhood 's Shipt, each Preservation District 's Shipt, and each Morrisons 's Muffins.\nThe number of each Shipt 's Muffins equals 8 more than each Wegmans 's Muffins.\nThe number of each School District 's Morrisons equals 7 times each Preservation District 's Shipt.\nThe number of each Suburban Neighborhood 's Shipt equals 20.\nThe number of each Preservation District 's Wegmans equals 1.\nThe number of each Wegmans 's Muffins equals 20.\nThe number of each Preservation District 's Morrisons equals 9 times the difference of each Shipt 's Energy Drinks and each Shipt 's Canned Chili.\nThe number of each School District 's Wegmans equals each Suburban Neighborhood 's Shipt.\nThe number of each Suburban Neighborhood 's Wegmans equals 8.\nThe number of each School District 's Shipt equals 11 more than the sum of each Shipt 's Energy Drinks, each Morrisons 's Muffins, and each Shipt 's Canned Chili.\nThe number of each Suburban Neighborhood 's Morrisons equals the sum of each Suburban Neighborhood 's Wegmans, each Shipt 's Energy Drinks, each Preservation District 's Shipt, and each Wegmans 's Muffins.\nHow many Shipt does Preservation District have?",
+  "solution": "Define each Morrisons 's Muffins as D; So D = 14.\nDefine each Preservation District 's Shipt as E; So E = 3 + D = 3 + 14 = 17.\n",
+  "num_operation": 2
+}

@@ -1,0 +1,20 @@
+{
+  "s": 1,
+  "n": 1,
+  "m": 1,
+  "d": 2,
+  "w0": 3,
+  "w1": 3,
+  "e": 9,
+  "structure_graph": "log/draw_all_log_20240901_025139_628032/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025139_628032/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025139_628032/necessary2_graph.png",
+  "topological_order": [
+    "Arts District 's Piggly Wiggly"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025139_628032/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025139_628032/unnecessary_graph.png",
+  "question": "District category contains Arts District, Market District, and Urban Residential Area.\nSupermarkets category contains Auchan, Piggly Wiggly, and Peapod.\nThe number of each Arts District 's Peapod equals each Market District 's Supermarkets.\nThe number of each Market District 's Piggly Wiggly equals 12.\nThe number of each Market District 's Peapod equals 10 more than the difference of each Urban Residential Area 's Auchan and each Arts District 's Auchan.\nThe number of each Urban Residential Area 's Peapod equals each Urban Residential Area 's Auchan.\nThe number of each Arts District 's Piggly Wiggly equals 6.\nThe number of each Market District 's Auchan equals 13 times the sum of each Urban Residential Area 's Auchan and each Arts District 's Piggly Wiggly.\nThe number of each Urban Residential Area 's Piggly Wiggly equals the difference of each Arts District 's Supermarkets and each Arts District 's Piggly Wiggly.\nThe number of each Arts District 's Auchan equals 15 times each Urban Residential Area 's Auchan.\nThe number of each Urban Residential Area 's Auchan equals 22.\nHow many Piggly Wiggly does Arts District have?",
+  "solution": "Define each Arts District 's Piggly Wiggly as k; So k = 6.\n",
+  "num_operation": 1
+}

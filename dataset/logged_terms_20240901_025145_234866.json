@@ -1,0 +1,26 @@
+{
+  "s": 10,
+  "n": 4,
+  "m": 7,
+  "d": 4,
+  "w0": 2,
+  "w1": 2,
+  "e": 10,
+  "structure_graph": "log/draw_all_log_20240901_025144_836939/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025144_836939/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025144_836939/necessary2_graph.png",
+  "topological_order": [
+    "Industrial District 's Weis Markets",
+    "Industrial District 's Supermarkets",
+    "Cupcakes 's Garlic Powder",
+    "Potato Chips 's Bay Leaves",
+    "Learning Hub 's Meijer",
+    "Learning Hub 's Supermarkets",
+    "Meijer 's Cupcakes"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025144_836939/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025144_836939/unnecessary_graph.png",
+  "question": "District category contains Industrial District, and Learning Hub.\nSupermarkets category contains Meijer, and Weis Markets.\nProduct category contains Potato Chips, and Cupcakes.\nIngredient category contains Bay Leaves, and Garlic Powder.\nThe number of each Learning Hub 's Meijer equals the sum of each Industrial District 's Supermarkets, each Industrial District 's Weis Markets, and each Potato Chips 's Bay Leaves.\nThe number of each Meijer 's Potato Chips equals 9.\nThe number of each Cupcakes 's Bay Leaves equals 22 more than the difference of each Meijer 's Potato Chips and each Potato Chips 's Garlic Powder.\nThe number of each Weis Markets 's Potato Chips equals 8.\nThe number of each Weis Markets 's Cupcakes equals each Learning Hub 's Supermarkets.\nThe number of each Potato Chips 's Garlic Powder equals 3.\nThe number of each Meijer 's Cupcakes equals the sum of each Learning Hub 's Supermarkets, each Industrial District 's Weis Markets, each Potato Chips 's Bay Leaves, and each Cupcakes 's Garlic Powder.\nThe number of each Cupcakes 's Garlic Powder equals the difference of each Industrial District 's Supermarkets and each Industrial District 's Weis Markets.\nThe number of each Potato Chips 's Bay Leaves equals the sum of each Cupcakes 's Garlic Powder and each Industrial District 's Supermarkets.\nThe number of each Industrial District 's Weis Markets equals 22.\nHow many Cupcakes does Meijer have?",
+  "solution": "Define each Industrial District 's Weis Markets as E; So E = 22.\nDefine each Industrial District 's Supermarkets as p; So p = E = 22.\nDefine each Cupcakes 's Garlic Powder as Y; So Y = p - E = 22 - 22 = 0.\nDefine each Potato Chips 's Bay Leaves as B; So B = Y + p = 0 + 22 = 22.\nDefine each Learning Hub 's Meijer as R; r = E + p = 22 + 22 = 21; So R = B + r = 22 + 21 = 20.\nDefine each Learning Hub 's Supermarkets as o; So o = R = 20.\nDefine each Meijer 's Cupcakes as M; j = E + Y = 22 + 0 = 22; A = j + B = 22 + 22 = 21; So M = o + A = 20 + 21 = 18.\n",
+  "num_operation": 10
+}

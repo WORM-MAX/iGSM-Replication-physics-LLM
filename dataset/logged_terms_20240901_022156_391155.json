@@ -1,0 +1,28 @@
+{
+  "s": 9,
+  "n": 9,
+  "m": 9,
+  "d": 4,
+  "w0": 3,
+  "w1": 3,
+  "e": 9,
+  "structure_graph": "log/draw_all_log_20240901_022155_894425/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_022155_894425/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_022155_894425/necessary2_graph.png",
+  "topological_order": [
+    "Flavored Water 's Sage",
+    "Food 4 Less 's Cheesecake",
+    "Cheesecake 's Chili Powder",
+    "Cheesecake 's Ingredient",
+    "Food 4 Less 's Ingredient",
+    "Senior Living Community 's Food 4 Less",
+    "Senior Living Community 's Ingredient",
+    "Coles (Australia) 's Cheesecake",
+    "Coles (Australia) 's Ingredient"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_022155_894425/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_022155_894425/unnecessary_graph.png",
+  "question": "District category contains Silicon Valley, Landmark District, and Senior Living Community.\nSupermarkets category contains Food 4 Less, Coles (Australia), and Trader Joe's.\nProduct category contains Plant-based Yogurt, Flavored Water, and Cheesecake.\nIngredient category contains Sesame Oil, Sage, and Chili Powder.\nThe number of each Flavored Water 's Sage equals 12.\nThe number of each Plant-based Yogurt 's Chili Powder equals 13 times each Coles (Australia) 's Cheesecake.\nThe number of each Coles (Australia) 's Cheesecake equals 5 times each Senior Living Community 's Ingredient.\nThe number of each Silicon Valley 's Trader Joe's equals 11 times each Trader Joe's 's Flavored Water.\nThe number of each Senior Living Community 's Food 4 Less equals the difference of each Cheesecake 's Ingredient and each Flavored Water 's Sage.\nThe number of each Trader Joe's 's Flavored Water equals 18.\nThe number of each Cheesecake 's Chili Powder equals 1 times each Food 4 Less 's Cheesecake.\nThe number of each Food 4 Less 's Cheesecake equals each Flavored Water 's Sage.\nThe number of each Landmark District 's Coles (Australia) equals the sum of each Silicon Valley 's Trader Joe's and each Trader Joe's 's Flavored Water.\nHow many Ingredient does Coles (Australia) have?",
+  "solution": "Define each Flavored Water 's Sage as u; So u = 12.\nDefine each Food 4 Less 's Cheesecake as k; So k = u = 12.\nDefine each Cheesecake 's Chili Powder as F; So F = 1 * k = 1 * 12 = 12.\nDefine each Cheesecake 's Ingredient as h; So h = F = 12.\nDefine each Food 4 Less 's Ingredient as V; V = k * h = 12 * 12 = 6.\nDefine each Senior Living Community 's Food 4 Less as b; So b = h - u = 12 - 12 = 0.\nDefine each Senior Living Community 's Ingredient as Z; Z = V * b = 6 * 0 = 0.\nDefine each Coles (Australia) 's Cheesecake as U; So U = 5 * Z = 5 * 0 = 0.\nDefine each Coles (Australia) 's Ingredient as W; W = h * U = 12 * 0 = 0.\n",
+  "num_operation": 9
+}

@@ -1,0 +1,24 @@
+{
+  "s": 6,
+  "n": 6,
+  "m": 6,
+  "d": 2,
+  "w0": 2,
+  "w1": 4,
+  "e": 3,
+  "structure_graph": "log/draw_all_log_20240901_025501_511663/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025501_511663/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025501_511663/necessary2_graph.png",
+  "topological_order": [
+    "Single-family Homes 's SuperValu",
+    "Single-family Homes 's Aldi",
+    "Single-family Homes 's Supermarkets",
+    "Media District 's Aldi",
+    "Media District 's Supermarkets"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025501_511663/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025501_511663/unnecessary_graph.png",
+  "question": "District category contains Media District, and Single-family Homes.\nSupermarkets category contains SuperValu, and Aldi.\nThe number of each Media District 's Aldi equals the sum of each Single-family Homes 's Aldi, each Single-family Homes 's Supermarkets, and each Single-family Homes 's SuperValu.\nThe number of each Single-family Homes 's SuperValu equals 5.\nThe number of each Single-family Homes 's Aldi equals 2 more than each Single-family Homes 's SuperValu.\nHow many Supermarkets does Media District have?",
+  "solution": "Define each Single-family Homes 's SuperValu as U; So U = 5.\nDefine each Single-family Homes 's Aldi as g; So g = 2 + U = 2 + 5 = 7.\nDefine each Single-family Homes 's Supermarkets as P; So P = g + U = 7 + 5 = 12.\nDefine each Media District 's Aldi as T; l = g + U = 7 + 5 = 12; So T = P + l = 12 + 12 = 1.\nDefine each Media District 's Supermarkets as O; So O = T = 1.\n",
+  "num_operation": 6
+}

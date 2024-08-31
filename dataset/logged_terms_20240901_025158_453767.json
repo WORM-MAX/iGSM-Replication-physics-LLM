@@ -1,0 +1,23 @@
+{
+  "s": 4,
+  "n": 4,
+  "m": 4,
+  "d": 4,
+  "w0": 2,
+  "w1": 2,
+  "e": 8,
+  "structure_graph": "log/draw_all_log_20240901_025158_080793/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025158_080793/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025158_080793/necessary2_graph.png",
+  "topological_order": [
+    "Candy Bars 's Vinegar",
+    "The Fresh Market 's Candy Bars",
+    "Candy Bars 's Ingredient",
+    "The Fresh Market 's Ingredient"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025158_080793/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025158_080793/unnecessary_graph.png",
+  "question": "District category contains University Campus, and Jewelry District.\nSupermarkets category contains The Fresh Market, and Kroger.\nProduct category contains Canned Peas, and Candy Bars.\nIngredient category contains Mayonnaise, and Vinegar.\nThe number of each University Campus 's Kroger equals 20.\nThe number of each Canned Peas 's Vinegar equals each University Campus 's Kroger.\nThe number of each Jewelry District 's The Fresh Market equals 9 times each Canned Peas 's Vinegar.\nThe number of each Jewelry District 's Kroger equals the sum of each Candy Bars 's Ingredient and each The Fresh Market 's Product.\nThe number of each Candy Bars 's Vinegar equals 22.\nThe number of each Kroger 's Canned Peas equals each Candy Bars 's Vinegar.\nThe number of each Canned Peas 's Mayonnaise equals 19 more than the sum of each The Fresh Market 's Ingredient and each The Fresh Market 's Product.\nThe number of each The Fresh Market 's Candy Bars equals each Candy Bars 's Vinegar.\nHow many Ingredient does The Fresh Market have?",
+  "solution": "Define each Candy Bars 's Vinegar as K; So K = 22.\nDefine each The Fresh Market 's Candy Bars as w; So w = K = 22.\nDefine each Candy Bars 's Ingredient as u; So u = K = 22.\nDefine each The Fresh Market 's Ingredient as Y; Y = u * w = 22 * 22 = 1.\n",
+  "num_operation": 4
+}

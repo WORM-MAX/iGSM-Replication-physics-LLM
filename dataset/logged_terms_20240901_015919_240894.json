@@ -1,0 +1,31 @@
+{
+  "s": 14,
+  "n": 14,
+  "m": 14,
+  "d": 4,
+  "w0": 4,
+  "w1": 4,
+  "e": 15,
+  "structure_graph": "log/draw_all_log_20240901_015918_708737/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_015918_708737/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_015918_708737/necessary2_graph.png",
+  "topological_order": [
+    "Family Dollar 's Canned Fruits",
+    "Family Dollar 's Sports Drinks",
+    "Legal District 's Family Dollar",
+    "Family Dollar 's Product",
+    "Legal District 's Product",
+    "Tech Park 's Makro",
+    "Makro 's Canned Fruits",
+    "Makro 's Product",
+    "Tech Park 's Family Dollar",
+    "Tech Park 's Product",
+    "Sports Drinks 's Parsley",
+    "Sports Drinks 's Ingredient"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_015918_708737/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_015918_708737/unnecessary_graph.png",
+  "question": "District category contains Legal District, College Town, Learning Hub, and Tech Park.\nSupermarkets category contains Makro, Piggly Wiggly, Family Dollar, and Walmart Grocery.\nProduct category contains Canned Fruits, Sports Drinks, Canned Artichokes, and Herbal Tea.\nIngredient category contains Relish, Parsley, Spelt, and Cocoa Powder.\nThe number of each Family Dollar 's Canned Fruits equals 19.\nThe number of each Piggly Wiggly 's Canned Fruits equals 2.\nThe number of each Canned Artichokes 's Relish equals 19.\nThe number of each College Town 's Walmart Grocery equals 7.\nThe number of each Makro 's Canned Fruits equals 15.\nThe number of each Legal District 's Family Dollar equals 4.\nThe number of each Family Dollar 's Sports Drinks equals 5 times each Family Dollar 's Canned Fruits.\nThe number of each Piggly Wiggly 's Herbal Tea equals 12 times each Learning Hub 's Walmart Grocery.\nThe number of each Tech Park 's Family Dollar equals 14 more than each Legal District 's Family Dollar.\nThe number of each Walmart Grocery 's Canned Fruits equals each College Town 's Walmart Grocery.\nThe number of each Canned Fruits 's Parsley equals 15.\nThe number of each Sports Drinks 's Parsley equals each Tech Park 's Product.\nThe number of each Learning Hub 's Walmart Grocery equals 5 more than each Herbal Tea 's Cocoa Powder.\nThe number of each Herbal Tea 's Cocoa Powder equals 12.\nThe number of each Tech Park 's Makro equals 18 times each Legal District 's Product.\nHow many Ingredient does Sports Drinks have?",
+  "solution": "Define each Family Dollar 's Canned Fruits as I; So I = 19.\nDefine each Family Dollar 's Sports Drinks as u; So u = 5 * I = 5 * 19 = 3.\nDefine each Legal District 's Family Dollar as v; So v = 4.\nDefine each Family Dollar 's Product as l; So l = I + u = 19 + 3 = 22.\nDefine each Legal District 's Product as a; a = l * v = 22 * 4 = 19.\nDefine each Tech Park 's Makro as T; So T = 18 * a = 18 * 19 = 20.\nDefine each Makro 's Canned Fruits as Z; So Z = 15.\nDefine each Makro 's Product as p; So p = Z = 15.\nDefine each Tech Park 's Family Dollar as B; So B = 14 + v = 14 + 4 = 18.\nDefine each Tech Park 's Product as s; r = p * B = 15 * 18 = 17; R = T * l = 20 * 22 = 3; So s = r + R = 17 + 3 = 20.\nDefine each Sports Drinks 's Parsley as g; So g = s = 20.\nDefine each Sports Drinks 's Ingredient as t; So t = g = 20.\n",
+  "num_operation": 14
+}

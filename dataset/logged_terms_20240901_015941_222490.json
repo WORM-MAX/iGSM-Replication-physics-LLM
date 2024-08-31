@@ -1,0 +1,25 @@
+{
+  "s": 7,
+  "n": 6,
+  "m": 6,
+  "d": 4,
+  "w0": 2,
+  "w1": 4,
+  "e": 6,
+  "structure_graph": "log/draw_all_log_20240901_015940_769275/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_015940_769275/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_015940_769275/necessary2_graph.png",
+  "topological_order": [
+    "Central Market 's Pies",
+    "Pies 's Mustard Seeds",
+    "Pies 's Ingredient",
+    "Central Market 's Ingredient",
+    "Single-family Homes 's Central Market",
+    "Single-family Homes 's Ingredient"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_015940_769275/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_015940_769275/unnecessary_graph.png",
+  "question": "District category contains Single-family Homes, and Market District.\nSupermarkets category contains Coles (Australia), and Central Market.\nProduct category contains Pies, and Soda.\nIngredient category contains Mustard Seeds, and Sorghum.\nThe number of each Central Market 's Pies equals 16.\nThe number of each Single-family Homes 's Central Market equals 16 more than the sum of each Central Market 's Pies and each Pies 's Ingredient.\nThe number of each Soda 's Sorghum equals each Market District 's Central Market.\nThe number of each Coles (Australia) 's Pies equals 4 times the sum of each Central Market 's Pies, each Market District 's Central Market, and each Soda 's Sorghum.\nThe number of each Market District 's Central Market equals 8.\nThe number of each Pies 's Mustard Seeds equals 16 times each Central Market 's Pies.\nHow many Ingredient does Single-family Homes have?",
+  "solution": "Define each Central Market 's Pies as a; So a = 16.\nDefine each Pies 's Mustard Seeds as H; So H = 16 * a = 16 * 16 = 3.\nDefine each Pies 's Ingredient as R; So R = H = 3.\nDefine each Central Market 's Ingredient as l; l = R * a = 3 * 16 = 2.\nDefine each Single-family Homes 's Central Market as P; z = a + R = 16 + 3 = 19; So P = 16 + z = 16 + 19 = 12.\nDefine each Single-family Homes 's Ingredient as F; F = P * l = 12 * 2 = 1.\n",
+  "num_operation": 7
+}

@@ -1,0 +1,29 @@
+{
+  "s": 10,
+  "n": 10,
+  "m": 10,
+  "d": 3,
+  "w0": 2,
+  "w1": 3,
+  "e": 11,
+  "structure_graph": "log/draw_all_log_20240901_025148_477754/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025148_477754/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025148_477754/necessary2_graph.png",
+  "topological_order": [
+    "Media District 's The Fresh Market",
+    "The Fresh Market 's Cream",
+    "The Fresh Market 's Cakes",
+    "The Fresh Market 's Product",
+    "Lidl 's Cream",
+    "Lidl 's Cakes",
+    "Auchan 's Cream",
+    "Lidl 's Product",
+    "Auchan 's Cakes",
+    "Auchan 's Product"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025148_477754/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025148_477754/unnecessary_graph.png",
+  "question": "District category contains Media District, and Senior Living Community.\nSupermarkets category contains Auchan, Lidl, and The Fresh Market.\nProduct category contains Cream, and Cakes.\nThe number of each Lidl 's Cakes equals the sum of each Lidl 's Cream and each Media District 's The Fresh Market.\nThe number of each Auchan 's Cream equals 19 times each Lidl 's Cream.\nThe number of each The Fresh Market 's Cakes equals 4.\nThe number of each Senior Living Community 's Auchan equals 11.\nThe number of each The Fresh Market 's Cream equals each Media District 's The Fresh Market.\nThe number of each Lidl 's Cream equals 18 times each The Fresh Market 's Product.\nThe number of each Media District 's Lidl equals 16.\nThe number of each Senior Living Community 's The Fresh Market equals each Media District 's Lidl.\nThe number of each Media District 's Auchan equals 8 more than each Media District 's Lidl.\nThe number of each Auchan 's Cakes equals the difference of each Lidl 's Product and each Auchan 's Cream.\nThe number of each Media District 's The Fresh Market equals 2.\nHow many Product does Auchan have?",
+  "solution": "Define each Media District 's The Fresh Market as M; So M = 2.\nDefine each The Fresh Market 's Cream as R; So R = M = 2.\nDefine each The Fresh Market 's Cakes as B; So B = 4.\nDefine each The Fresh Market 's Product as X; So X = B + R = 4 + 2 = 6.\nDefine each Lidl 's Cream as N; So N = 18 * X = 18 * 6 = 16.\nDefine each Lidl 's Cakes as T; So T = N + M = 16 + 2 = 18.\nDefine each Auchan 's Cream as c; So c = 19 * N = 19 * 16 = 5.\nDefine each Lidl 's Product as i; So i = N + T = 16 + 18 = 11.\nDefine each Auchan 's Cakes as u; So u = i - c = 11 - 5 = 6.\nDefine each Auchan 's Product as j; So j = c + u = 5 + 6 = 11.\n",
+  "num_operation": 10
+}

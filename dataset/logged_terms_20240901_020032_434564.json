@@ -1,0 +1,22 @@
+{
+  "s": 3,
+  "n": 3,
+  "m": 3,
+  "d": 2,
+  "w0": 2,
+  "w1": 3,
+  "e": 9,
+  "structure_graph": "log/draw_all_log_20240901_020032_052468/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_020032_052468/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_020032_052468/necessary2_graph.png",
+  "topological_order": [
+    "Jewelry District 's Giant Eagle",
+    "Old Town 's Giant Eagle",
+    "Old Town 's Aldi"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_020032_052468/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_020032_052468/unnecessary_graph.png",
+  "question": "District category contains Old Town, Jewelry District, and Manufacturing District.\nSupermarkets category contains Lulu Hypermarket, Aldi, and Giant Eagle.\nThe number of each Manufacturing District 's Lulu Hypermarket equals 6 times the difference of each Jewelry District 's Aldi and each Manufacturing District 's Giant Eagle.\nThe number of each Jewelry District 's Aldi equals 18.\nThe number of each Jewelry District 's Lulu Hypermarket equals each Manufacturing District 's Giant Eagle.\nThe number of each Old Town 's Lulu Hypermarket equals each Old Town 's Giant Eagle.\nThe number of each Manufacturing District 's Giant Eagle equals 9.\nThe number of each Manufacturing District 's Aldi equals the difference of each Old Town 's Aldi and each Jewelry District 's Aldi.\nThe number of each Old Town 's Giant Eagle equals 14 times each Jewelry District 's Giant Eagle.\nThe number of each Jewelry District 's Giant Eagle equals 5.\nThe number of each Old Town 's Aldi equals the sum of each Old Town 's Giant Eagle and each Jewelry District 's Giant Eagle.\nHow many Aldi does Old Town have?",
+  "solution": "Define each Jewelry District 's Giant Eagle as s; So s = 5.\nDefine each Old Town 's Giant Eagle as E; So E = 14 * s = 14 * 5 = 1.\nDefine each Old Town 's Aldi as r; So r = E + s = 1 + 5 = 6.\n",
+  "num_operation": 3
+}

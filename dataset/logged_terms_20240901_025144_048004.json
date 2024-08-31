@@ -1,0 +1,28 @@
+{
+  "s": 11,
+  "n": 9,
+  "m": 9,
+  "d": 4,
+  "w0": 3,
+  "w1": 4,
+  "e": 12,
+  "structure_graph": "log/draw_all_log_20240901_025143_609132/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025143_609132/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025143_609132/necessary2_graph.png",
+  "topological_order": [
+    "High-rise Apartment Complex 's Shipt",
+    "Shipt 's Half-and-half",
+    "Shipt 's Product",
+    "High-rise Apartment Complex 's Product",
+    "Piggly Wiggly 's Canned Mushrooms",
+    "Municipal Office District 's Piggly Wiggly",
+    "Piggly Wiggly 's Sports Drinks",
+    "Piggly Wiggly 's Product",
+    "Municipal Office District 's Product"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025143_609132/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025143_609132/unnecessary_graph.png",
+  "question": "District category contains Municipal Office District, Manufacturing District, and High-rise Apartment Complex.\nSupermarkets category contains Hungryroot, Piggly Wiggly, and Shipt.\nProduct category contains Sports Drinks, Cookies, Half-and-half, and Canned Mushrooms.\nIngredient category contains Jelly, Nutella, and Hoisin Sauce.\nThe number of each Cookies 's Hoisin Sauce equals 14.\nThe number of each Hungryroot 's Half-and-half equals each Manufacturing District 's Shipt.\nThe number of each Shipt 's Half-and-half equals 1 more than each High-rise Apartment Complex 's Shipt.\nThe number of each Municipal Office District 's Piggly Wiggly equals 12 times the sum of each High-rise Apartment Complex 's Product, each Piggly Wiggly 's Canned Mushrooms, and each Shipt 's Half-and-half.\nThe number of each Half-and-half 's Jelly equals the sum of each Cookies 's Ingredient, each Manufacturing District 's Product, and each High-rise Apartment Complex 's Product.\nThe number of each High-rise Apartment Complex 's Shipt equals 1.\nThe number of each Hungryroot 's Sports Drinks equals 12.\nThe number of each Sports Drinks 's Nutella equals the sum of each Hungryroot 's Sports Drinks and each Canned Mushrooms 's Jelly.\nThe number of each Manufacturing District 's Shipt equals 22 more than each Canned Mushrooms 's Jelly.\nThe number of each Piggly Wiggly 's Sports Drinks equals each High-rise Apartment Complex 's Product.\nThe number of each Piggly Wiggly 's Canned Mushrooms equals 16 more than each High-rise Apartment Complex 's Product.\nThe number of each Canned Mushrooms 's Jelly equals 10.\nHow many Product does Municipal Office District have?",
+  "solution": "Define each High-rise Apartment Complex 's Shipt as d; So d = 1.\nDefine each Shipt 's Half-and-half as F; So F = 1 + d = 1 + 1 = 2.\nDefine each Shipt 's Product as m; So m = F = 2.\nDefine each High-rise Apartment Complex 's Product as j; j = m * d = 2 * 1 = 2.\nDefine each Piggly Wiggly 's Canned Mushrooms as E; So E = 16 + j = 16 + 2 = 18.\nDefine each Municipal Office District 's Piggly Wiggly as w; M = j + F = 2 + 2 = 4; O = E + M = 18 + 4 = 22; So w = 12 * O = 12 * 22 = 11.\nDefine each Piggly Wiggly 's Sports Drinks as I; So I = j = 2.\nDefine each Piggly Wiggly 's Product as Y; So Y = I + E = 2 + 18 = 20.\nDefine each Municipal Office District 's Product as i; i = w * Y = 11 * 20 = 13.\n",
+  "num_operation": 11
+}

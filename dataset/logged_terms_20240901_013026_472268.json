@@ -1,0 +1,31 @@
+{
+  "s": 14,
+  "n": 14,
+  "m": 14,
+  "d": 4,
+  "w0": 3,
+  "w1": 3,
+  "e": 13,
+  "structure_graph": "log/draw_all_log_20240901_013025_931398/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_013025_931398/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_013025_931398/necessary2_graph.png",
+  "topological_order": [
+    "Pizza Dough 's Cardamom",
+    "Pizza Dough 's Ingredient",
+    "Loblaws 's Pizza Dough",
+    "Loblaws 's Ingredient",
+    "Library District 's Loblaws",
+    "Library District 's Ingredient",
+    "Medical District 's Sprouts Farmers Market",
+    "Medical District 's Loblaws",
+    "Medical District 's Supermarkets",
+    "Sprouts Farmers Market 's Pizza Dough",
+    "Sprouts Farmers Market 's Ingredient",
+    "Medical District 's Ingredient"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_013025_931398/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_013025_931398/unnecessary_graph.png",
+  "question": "District category contains Library District, Medical District, and Education Park.\nSupermarkets category contains Sprouts Farmers Market, Sam's Club, and Loblaws.\nProduct category contains Sports Drinks, Canned Peas, and Pizza Dough.\nIngredient category contains Cereal, Cardamom, and Bay Leaves.\nThe number of each Education Park 's Sam's Club equals the difference of each Canned Peas 's Cereal and each Sports Drinks 's Cardamom.\nThe number of each Loblaws 's Pizza Dough equals 22 more than each Pizza Dough 's Ingredient.\nThe number of each Canned Peas 's Bay Leaves equals each Loblaws 's Pizza Dough.\nThe number of each Sprouts Farmers Market 's Pizza Dough equals 19 more than each Medical District 's Supermarkets.\nThe number of each Library District 's Loblaws equals each Loblaws 's Ingredient.\nThe number of each Pizza Dough 's Cardamom equals 17.\nThe number of each Education Park 's Loblaws equals each Medical District 's Sprouts Farmers Market.\nThe number of each Sports Drinks 's Cardamom equals 1 more than each Canned Peas 's Cereal.\nThe number of each Medical District 's Sprouts Farmers Market equals 13 times each Library District 's Ingredient.\nThe number of each Medical District 's Loblaws equals 3 times each Pizza Dough 's Ingredient.\nThe number of each Sam's Club 's Pizza Dough equals each Sam's Club 's Canned Peas.\nThe number of each Canned Peas 's Cereal equals 15.\nThe number of each Sam's Club 's Canned Peas equals the sum of each Sports Drinks 's Cardamom, each Education Park 's Sam's Club, and each Canned Peas 's Cereal.\nHow many Ingredient does Medical District have?",
+  "solution": "Define each Pizza Dough 's Cardamom as r; So r = 17.\nDefine each Pizza Dough 's Ingredient as K; So K = r = 17.\nDefine each Loblaws 's Pizza Dough as l; So l = 22 + K = 22 + 17 = 16.\nDefine each Loblaws 's Ingredient as n; n = l * K = 16 * 17 = 19.\nDefine each Library District 's Loblaws as F; So F = n = 19.\nDefine each Library District 's Ingredient as W; W = n * F = 19 * 19 = 16.\nDefine each Medical District 's Sprouts Farmers Market as a; So a = 13 * W = 13 * 16 = 1.\nDefine each Medical District 's Loblaws as N; So N = 3 * K = 3 * 17 = 5.\nDefine each Medical District 's Supermarkets as u; So u = a + N = 1 + 5 = 6.\nDefine each Sprouts Farmers Market 's Pizza Dough as M; So M = 19 + u = 19 + 6 = 2.\nDefine each Sprouts Farmers Market 's Ingredient as q; q = M * K = 2 * 17 = 11.\nDefine each Medical District 's Ingredient as t; U = n * a = 19 * 1 = 19; q = N * q = 5 * 9 = 9; So t = U + q = 19 + 9 = 5.\n",
+  "num_operation": 14
+}

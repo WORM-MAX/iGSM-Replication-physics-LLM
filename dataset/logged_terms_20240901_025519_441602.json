@@ -1,0 +1,25 @@
+{
+  "s": 9,
+  "n": 2,
+  "m": 8,
+  "d": 2,
+  "w0": 3,
+  "w1": 4,
+  "e": 6,
+  "structure_graph": "log/draw_all_log_20240901_025519_065176/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025519_065176/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025519_065176/necessary2_graph.png",
+  "topological_order": [
+    "Silicon Valley 's Aldi",
+    "Dormitory District 's Bristol Farms",
+    "Old Town 's Bristol Farms",
+    "College Town 's Eataly",
+    "Old Town 's Eataly",
+    "Silicon Valley 's Bristol Farms"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025519_065176/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025519_065176/unnecessary_graph.png",
+  "question": "District category contains Silicon Valley, College Town, Dormitory District, and Old Town.\nSupermarkets category contains Piggly Wiggly, Bristol Farms, Eataly, and Aldi.\nThe number of each Dormitory District 's Bristol Farms equals each Silicon Valley 's Aldi.\nThe number of each Silicon Valley 's Aldi equals 2.\nThe number of each Old Town 's Bristol Farms equals 11 more than the difference of each Dormitory District 's Bristol Farms and each Silicon Valley 's Aldi.\nThe number of each Silicon Valley 's Bristol Farms equals 21 times the sum of each Old Town 's Eataly and each Dormitory District 's Bristol Farms.\nThe number of each College Town 's Eataly equals 1 more than each Old Town 's Bristol Farms.\nThe number of each Old Town 's Eataly equals the sum of each College Town 's Eataly, each Old Town 's Bristol Farms, and each Dormitory District 's Bristol Farms.\nHow many Bristol Farms does Silicon Valley have?",
+  "solution": "Define each Silicon Valley 's Aldi as T; So T = 2.\nDefine each Dormitory District 's Bristol Farms as o; So o = T = 2.\nDefine each Old Town 's Bristol Farms as r; Q = o - T = 2 - 2 = 0; So r = 11 + Q = 11 + 0 = 11.\nDefine each College Town 's Eataly as H; So H = 1 + r = 1 + 11 = 12.\nDefine each Old Town 's Eataly as c; C = o + r = 2 + 11 = 13; So c = H + C = 12 + 13 = 2.\nDefine each Silicon Valley 's Bristol Farms as I; b = c + o = 2 + 2 = 4; So I = 21 * b = 21 * 4 = 15.\n",
+  "num_operation": 9
+}

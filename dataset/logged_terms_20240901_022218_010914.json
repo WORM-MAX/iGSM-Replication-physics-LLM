@@ -1,0 +1,23 @@
+{
+  "s": 4,
+  "n": 4,
+  "m": 4,
+  "d": 2,
+  "w0": 3,
+  "w1": 4,
+  "e": 16,
+  "structure_graph": "log/draw_all_log_20240901_022217_549063/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_022217_549063/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_022217_549063/necessary2_graph.png",
+  "topological_order": [
+    "Heritage District 's Auchan",
+    "Tech Park 's Auchan",
+    "Financial District 's Auchan",
+    "Tech Park 's H-E-B"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_022217_549063/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_022217_549063/unnecessary_graph.png",
+  "question": "District category contains Heritage District, Senior Living Community, Tech Park, and Financial District.\nSupermarkets category contains Sprouts Farmers Market, H-E-B, ShopRite, and Auchan.\nThe number of each Heritage District 's ShopRite equals each Senior Living Community 's Sprouts Farmers Market.\nThe number of each Financial District 's H-E-B equals each Heritage District 's H-E-B.\nThe number of each Senior Living Community 's ShopRite equals 5.\nThe number of each Financial District 's Sprouts Farmers Market equals each Heritage District 's Sprouts Farmers Market.\nThe number of each Tech Park 's Auchan equals 18 more than each Heritage District 's Auchan.\nThe number of each Financial District 's Auchan equals 0 times each Tech Park 's Auchan.\nThe number of each Heritage District 's Sprouts Farmers Market equals 21 more than each Tech Park 's ShopRite.\nThe number of each Heritage District 's H-E-B equals 19.\nThe number of each Senior Living Community 's Auchan equals 13 times each Tech Park 's ShopRite.\nThe number of each Tech Park 's H-E-B equals 4 times each Financial District 's Auchan.\nThe number of each Senior Living Community 's H-E-B equals 11 more than the sum of each Tech Park 's ShopRite and each Heritage District 's Sprouts Farmers Market.\nThe number of each Senior Living Community 's Sprouts Farmers Market equals the sum of each Financial District 's Auchan, each Heritage District 's Auchan, each Tech Park 's ShopRite, and each Tech Park 's Auchan.\nThe number of each Tech Park 's ShopRite equals 21.\nThe number of each Financial District 's ShopRite equals the difference of each Financial District 's Auchan and each Tech Park 's H-E-B.\nThe number of each Tech Park 's Sprouts Farmers Market equals 11.\nThe number of each Heritage District 's Auchan equals 6.\nHow many H-E-B does Tech Park have?",
+  "solution": "Define each Heritage District 's Auchan as B; So B = 6.\nDefine each Tech Park 's Auchan as q; So q = 18 + B = 18 + 6 = 1.\nDefine each Financial District 's Auchan as O; So O = 0 * q = 0 * 1 = 0.\nDefine each Tech Park 's H-E-B as M; So M = 4 * O = 4 * 0 = 0.\n",
+  "num_operation": 4
+}

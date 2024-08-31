@@ -1,0 +1,27 @@
+{
+  "s": 8,
+  "n": 6,
+  "m": 8,
+  "d": 3,
+  "w0": 3,
+  "w1": 4,
+  "e": 9,
+  "structure_graph": "log/draw_all_log_20240901_022213_586879/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_022213_586879/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_022213_586879/necessary2_graph.png",
+  "topological_order": [
+    "Condo District 's Hungryroot",
+    "FreshDirect 's Cupcakes",
+    "FreshDirect 's Product",
+    "Aldi (Germany) 's Wine",
+    "Aldi (Germany) 's Product",
+    "Gated Community 's Aldi (Germany)",
+    "Gated Community 's Product",
+    "Learning Hub 's Aldi (Germany)"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_022213_586879/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_022213_586879/unnecessary_graph.png",
+  "question": "District category contains Learning Hub, Condo District, Wall Street, and Gated Community.\nSupermarkets category contains Aldi (Germany), Bristol Farms, FreshDirect, and Hungryroot.\nProduct category contains Canned Tomatoes, Cupcakes, Wine, and Plant-based Yogurt.\nThe number of each Gated Community 's Aldi (Germany) equals 14 times each Aldi (Germany) 's Wine.\nThe number of each Bristol Farms 's Plant-based Yogurt equals 14.\nThe number of each Learning Hub 's Aldi (Germany) equals the sum of each Gated Community 's Product and each Aldi (Germany) 's Product.\nThe number of each Hungryroot 's Plant-based Yogurt equals each Learning Hub 's Supermarkets.\nThe number of each Learning Hub 's Bristol Farms equals 15 more than each Bristol Farms 's Plant-based Yogurt.\nThe number of each FreshDirect 's Cupcakes equals 17 more than each Condo District 's Hungryroot.\nThe number of each Aldi (Germany) 's Wine equals the difference of each FreshDirect 's Product and each FreshDirect 's Cupcakes.\nThe number of each Wall Street 's Hungryroot equals 11.\nThe number of each Condo District 's Hungryroot equals 13.\nHow many Aldi (Germany) does Learning Hub have?",
+  "solution": "Define each Condo District 's Hungryroot as t; So t = 13.\nDefine each FreshDirect 's Cupcakes as p; So p = 17 + t = 17 + 13 = 7.\nDefine each FreshDirect 's Product as N; So N = p = 7.\nDefine each Aldi (Germany) 's Wine as O; So O = N - p = 7 - 7 = 0.\nDefine each Aldi (Germany) 's Product as E; So E = O = 0.\nDefine each Gated Community 's Aldi (Germany) as i; So i = 14 * O = 14 * 0 = 0.\nDefine each Gated Community 's Product as r; r = i * E = 0 * 0 = 0.\nDefine each Learning Hub 's Aldi (Germany) as M; So M = r + E = 0 + 0 = 0.\n",
+  "num_operation": 8
+}

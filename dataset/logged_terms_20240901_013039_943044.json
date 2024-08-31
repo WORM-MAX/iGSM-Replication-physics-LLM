@@ -1,0 +1,22 @@
+{
+  "s": 3,
+  "n": 2,
+  "m": 3,
+  "d": 3,
+  "w0": 3,
+  "w1": 4,
+  "e": 16,
+  "structure_graph": "log/draw_all_log_20240901_013039_546245/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_013039_546245/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_013039_546245/necessary2_graph.png",
+  "topological_order": [
+    "Suburban Neighborhood 's Sprouts Farmers Market",
+    "Restaurant District 's Trader Joe's",
+    "Sprouts Farmers Market 's Croissants"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_013039_546245/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_013039_546245/unnecessary_graph.png",
+  "question": "District category contains Suburban Neighborhood, Silicon Valley, Restaurant District, and Old Town.\nSupermarkets category contains Sprouts Farmers Market, Trader Joe's, and King Soopers.\nProduct category contains Croissants, Pizza Dough, Butter, and Granola Bars.\nThe number of each King Soopers 's Croissants equals the sum of each King Soopers 's Butter, each Old Town 's Trader Joe's, and each Trader Joe's 's Butter.\nThe number of each Suburban Neighborhood 's Sprouts Farmers Market equals 12.\nThe number of each Trader Joe's 's Pizza Dough equals the difference of each Sprouts Farmers Market 's Croissants and each Suburban Neighborhood 's Sprouts Farmers Market.\nThe number of each Trader Joe's 's Butter equals 11 more than the sum of each King Soopers 's Butter, each King Soopers 's Granola Bars, and each Silicon Valley 's Sprouts Farmers Market.\nThe number of each Old Town 's King Soopers equals 21 more than each Sprouts Farmers Market 's Croissants.\nThe number of each Sprouts Farmers Market 's Croissants equals the sum of each Restaurant District 's Trader Joe's and each Suburban Neighborhood 's Sprouts Farmers Market.\nThe number of each Restaurant District 's Trader Joe's equals 11 times each Suburban Neighborhood 's Sprouts Farmers Market.\nThe number of each Trader Joe's 's Granola Bars equals each Trader Joe's 's Butter.\nThe number of each King Soopers 's Granola Bars equals 8.\nThe number of each Silicon Valley 's Trader Joe's equals each Sprouts Farmers Market 's Product.\nThe number of each Restaurant District 's Sprouts Farmers Market equals 7 more than each Old Town 's Trader Joe's.\nThe number of each Silicon Valley 's Sprouts Farmers Market equals 1.\nThe number of each Suburban Neighborhood 's King Soopers equals 14 more than the difference of each Silicon Valley 's Supermarkets and each Restaurant District 's Supermarkets.\nThe number of each King Soopers 's Butter equals 19.\nThe number of each Old Town 's Trader Joe's equals 3 more than the difference of each King Soopers 's Butter and each Trader Joe's 's Butter.\nThe number of each Old Town 's Sprouts Farmers Market equals 10.\nHow many Croissants does Sprouts Farmers Market have?",
+  "solution": "Define each Suburban Neighborhood 's Sprouts Farmers Market as U; So U = 12.\nDefine each Restaurant District 's Trader Joe's as K; So K = 11 * U = 11 * 12 = 17.\nDefine each Sprouts Farmers Market 's Croissants as u; So u = K + U = 17 + 12 = 6.\n",
+  "num_operation": 3
+}

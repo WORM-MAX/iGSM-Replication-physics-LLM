@@ -1,0 +1,30 @@
+{
+  "s": 11,
+  "n": 11,
+  "m": 11,
+  "d": 3,
+  "w0": 2,
+  "w1": 3,
+  "e": 9,
+  "structure_graph": "log/draw_all_log_20240901_025003_858371/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025003_858371/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025003_858371/necessary2_graph.png",
+  "topological_order": [
+    "Earth Fare 's Pizza Dough",
+    "Earth Fare 's Nuts",
+    "Earth Fare 's Product",
+    "Research Park 's Whole Foods Market",
+    "Research Park 's Supermarkets",
+    "Save-A-Lot 's Pizza Dough",
+    "Save-A-Lot 's Nuts",
+    "Save-A-Lot 's Product",
+    "Whole Foods Market 's Pizza Dough",
+    "Whole Foods Market 's Product",
+    "Research Park 's Product"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025003_858371/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025003_858371/unnecessary_graph.png",
+  "question": "District category contains Historic Downtown, and Research Park.\nSupermarkets category contains Save-A-Lot, Whole Foods Market, and Earth Fare.\nProduct category contains Pizza Dough, and Nuts.\nThe number of each Whole Foods Market 's Pizza Dough equals each Save-A-Lot 's Product.\nThe number of each Save-A-Lot 's Nuts equals each Earth Fare 's Pizza Dough.\nThe number of each Earth Fare 's Nuts equals 3 times each Earth Fare 's Pizza Dough.\nThe number of each Historic Downtown 's Save-A-Lot equals 11.\nThe number of each Save-A-Lot 's Pizza Dough equals each Research Park 's Supermarkets.\nThe number of each Historic Downtown 's Earth Fare equals each Historic Downtown 's Save-A-Lot.\nThe number of each Earth Fare 's Pizza Dough equals 8.\nThe number of each Research Park 's Whole Foods Market equals 14 more than each Earth Fare 's Product.\nThe number of each Historic Downtown 's Whole Foods Market equals 15 more than the sum of each Historic Downtown 's Save-A-Lot, each Save-A-Lot 's Nuts, and each Research Park 's Supermarkets.\nHow many Product does Research Park have?",
+  "solution": "Define each Earth Fare 's Pizza Dough as D; So D = 8.\nDefine each Earth Fare 's Nuts as k; So k = 3 * D = 3 * 8 = 1.\nDefine each Earth Fare 's Product as R; So R = D + k = 8 + 1 = 9.\nDefine each Research Park 's Whole Foods Market as G; So G = 14 + R = 14 + 9 = 0.\nDefine each Research Park 's Supermarkets as Y; So Y = G = 0.\nDefine each Save-A-Lot 's Pizza Dough as z; So z = Y = 0.\nDefine each Save-A-Lot 's Nuts as O; So O = D = 8.\nDefine each Save-A-Lot 's Product as i; So i = z + O = 0 + 8 = 8.\nDefine each Whole Foods Market 's Pizza Dough as y; So y = i = 8.\nDefine each Whole Foods Market 's Product as u; So u = y = 8.\nDefine each Research Park 's Product as B; B = u * G = 8 * 0 = 0.\n",
+  "num_operation": 11
+}

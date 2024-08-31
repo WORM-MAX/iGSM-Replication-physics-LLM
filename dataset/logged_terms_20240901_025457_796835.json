@@ -1,0 +1,25 @@
+{
+  "s": 8,
+  "n": 6,
+  "m": 6,
+  "d": 4,
+  "w0": 2,
+  "w1": 4,
+  "e": 11,
+  "structure_graph": "log/draw_all_log_20240901_025457_364141/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025457_364141/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025457_364141/necessary2_graph.png",
+  "topological_order": [
+    "Pies 's Grits",
+    "Pies 's Sugar",
+    "Pies 's Ingredient",
+    "Grocery Outlet 's Pies",
+    "Grocery Outlet 's Ingredient",
+    "High-rise Apartment Complex 's Grocery Outlet"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025457_364141/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025457_364141/unnecessary_graph.png",
+  "question": "District category contains Preservation District, and High-rise Apartment Complex.\nSupermarkets category contains Grocery Outlet, and H-E-B.\nProduct category contains Pies, and Coffee.\nIngredient category contains Grits, and Sugar.\nThe number of each High-rise Apartment Complex 's Grocery Outlet equals 7 times the sum of each Grocery Outlet 's Ingredient and each Pies 's Ingredient.\nThe number of each Preservation District 's Grocery Outlet equals 10 more than each H-E-B 's Pies.\nThe number of each H-E-B 's Coffee equals the sum of each Pies 's Sugar, each Grocery Outlet 's Product, each Preservation District 's Supermarkets, and each Coffee 's Sugar.\nThe number of each H-E-B 's Pies equals each Coffee 's Sugar.\nThe number of each High-rise Apartment Complex 's H-E-B equals 14 times the difference of each H-E-B 's Pies and each Coffee 's Sugar.\nThe number of each Coffee 's Grits equals 4 more than the difference of each H-E-B 's Pies and each Coffee 's Sugar.\nThe number of each Grocery Outlet 's Pies equals 8 more than the sum of each Pies 's Sugar and each Pies 's Ingredient.\nThe number of each Pies 's Sugar equals 17 more than each Pies 's Grits.\nThe number of each Coffee 's Sugar equals 3.\nThe number of each Preservation District 's H-E-B equals each Pies 's Sugar.\nThe number of each Pies 's Grits equals 20.\nHow many Grocery Outlet does High-rise Apartment Complex have?",
+  "solution": "Define each Pies 's Grits as Q; So Q = 20.\nDefine each Pies 's Sugar as H; So H = 17 + Q = 17 + 20 = 14.\nDefine each Pies 's Ingredient as X; So X = Q + H = 20 + 14 = 11.\nDefine each Grocery Outlet 's Pies as f; h = H + X = 14 + 11 = 2; So f = 8 + h = 8 + 2 = 10.\nDefine each Grocery Outlet 's Ingredient as d; d = X * f = 11 * 10 = 18.\nDefine each High-rise Apartment Complex 's Grocery Outlet as P; p = d + X = 18 + 11 = 6; So P = 7 * p = 7 * 6 = 19.\n",
+  "num_operation": 8
+}

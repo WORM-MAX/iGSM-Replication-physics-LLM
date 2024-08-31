@@ -1,0 +1,24 @@
+{
+  "s": 5,
+  "n": 5,
+  "m": 5,
+  "d": 2,
+  "w0": 2,
+  "w1": 2,
+  "e": 4,
+  "structure_graph": "log/draw_all_log_20240901_013050_238996/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_013050_238996/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_013050_238996/necessary2_graph.png",
+  "topological_order": [
+    "Embassy Row 's Meijer",
+    "Civic Center 's Meijer",
+    "Civic Center 's Weis Markets",
+    "Civic Center 's Supermarkets",
+    "Embassy Row 's Weis Markets"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_013050_238996/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_013050_238996/unnecessary_graph.png",
+  "question": "District category contains Embassy Row, and Civic Center.\nSupermarkets category contains Weis Markets, and Meijer.\nThe number of each Embassy Row 's Weis Markets equals 22 more than each Civic Center 's Supermarkets.\nThe number of each Civic Center 's Meijer equals each Embassy Row 's Meijer.\nThe number of each Embassy Row 's Meijer equals 19.\nThe number of each Civic Center 's Weis Markets equals 5 more than each Embassy Row 's Meijer.\nHow many Weis Markets does Embassy Row have?",
+  "solution": "Define each Embassy Row 's Meijer as C; So C = 19.\nDefine each Civic Center 's Meijer as B; So B = C = 19.\nDefine each Civic Center 's Weis Markets as F; So F = 5 + C = 5 + 19 = 1.\nDefine each Civic Center 's Supermarkets as Q; So Q = F + B = 1 + 19 = 20.\nDefine each Embassy Row 's Weis Markets as P; So P = 22 + Q = 22 + 20 = 19.\n",
+  "num_operation": 5
+}

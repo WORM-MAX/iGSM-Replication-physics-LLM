@@ -1,0 +1,28 @@
+{
+  "s": 12,
+  "n": 6,
+  "m": 9,
+  "d": 3,
+  "w0": 3,
+  "w1": 3,
+  "e": 14,
+  "structure_graph": "log/draw_all_log_20240901_025159_221624/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025159_221624/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025159_221624/necessary2_graph.png",
+  "topological_order": [
+    "Coles (Australia) 's Bottled Water",
+    "Boxed 's Bottled Water",
+    "Housing Estate 's Coles (Australia)",
+    "Housing Estate 's Sprouts Farmers Market",
+    "Housing Estate 's Supermarkets",
+    "Library District 's Sprouts Farmers Market",
+    "Coles (Australia) 's Juice",
+    "Library District 's Coles (Australia)",
+    "Senior Living Community 's Sprouts Farmers Market"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025159_221624/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025159_221624/unnecessary_graph.png",
+  "question": "District category contains Housing Estate, Senior Living Community, and Library District.\nSupermarkets category contains Sprouts Farmers Market, Boxed, and Coles (Australia).\nProduct category contains Bottled Water, Cookies, and Juice.\nThe number of each Coles (Australia) 's Juice equals 12 more than the sum of each Library District 's Sprouts Farmers Market and each Coles (Australia) 's Bottled Water.\nThe number of each Coles (Australia) 's Bottled Water equals 12.\nThe number of each Housing Estate 's Sprouts Farmers Market equals 6 times the sum of each Housing Estate 's Coles (Australia), each Coles (Australia) 's Bottled Water, and each Boxed 's Bottled Water.\nThe number of each Boxed 's Bottled Water equals 11 more than each Coles (Australia) 's Bottled Water.\nThe number of each Library District 's Coles (Australia) equals 13 times each Coles (Australia) 's Juice.\nThe number of each Library District 's Boxed equals the sum of each Housing Estate 's Supermarkets, each Housing Estate 's Sprouts Farmers Market, and each Library District 's Coles (Australia).\nThe number of each Senior Living Community 's Sprouts Farmers Market equals 1 more than each Library District 's Coles (Australia).\nThe number of each Senior Living Community 's Boxed equals 0.\nThe number of each Boxed 's Cookies equals the sum of each Library District 's Boxed, each Senior Living Community 's Sprouts Farmers Market, each Housing Estate 's Supermarkets, and each Sprouts Farmers Market 's Product.\nThe number of each Senior Living Community 's Coles (Australia) equals 2 times each Senior Living Community 's Boxed.\nThe number of each Sprouts Farmers Market 's Bottled Water equals 14.\nThe number of each Sprouts Farmers Market 's Cookies equals the difference of each Coles (Australia) 's Juice and each Coles (Australia) 's Product.\nThe number of each Library District 's Sprouts Farmers Market equals the sum of each Housing Estate 's Supermarkets and each Boxed 's Bottled Water.\nThe number of each Housing Estate 's Coles (Australia) equals each Boxed 's Bottled Water.\nHow many Sprouts Farmers Market does Senior Living Community have?",
+  "solution": "Define each Coles (Australia) 's Bottled Water as f; So f = 12.\nDefine each Boxed 's Bottled Water as G; So G = 11 + f = 11 + 12 = 0.\nDefine each Housing Estate 's Coles (Australia) as c; So c = G = 0.\nDefine each Housing Estate 's Sprouts Farmers Market as L; t = c + G = 0 + 0 = 0; z = f + t = 12 + 0 = 12; So L = 6 * z = 6 * 12 = 3.\nDefine each Housing Estate 's Supermarkets as q; So q = L + c = 3 + 0 = 3.\nDefine each Library District 's Sprouts Farmers Market as n; So n = q + G = 3 + 0 = 3.\nDefine each Coles (Australia) 's Juice as O; q = n + f = 3 + 12 = 15; So O = 12 + q = 12 + 15 = 4.\nDefine each Library District 's Coles (Australia) as d; So d = 13 * O = 13 * 4 = 6.\nDefine each Senior Living Community 's Sprouts Farmers Market as D; So D = 1 + d = 1 + 6 = 7.\n",
+  "num_operation": 12
+}

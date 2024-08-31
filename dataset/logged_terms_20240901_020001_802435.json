@@ -1,0 +1,25 @@
+{
+  "s": 7,
+  "n": 5,
+  "m": 6,
+  "d": 2,
+  "w0": 2,
+  "w1": 4,
+  "e": 10,
+  "structure_graph": "log/draw_all_log_20240901_020001_351648/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_020001_351648/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_020001_351648/necessary2_graph.png",
+  "topological_order": [
+    "Market District 's SuperValu",
+    "Market District 's Publix",
+    "Research and Innovation Park 's Publix",
+    "Research and Innovation Park 's SuperValu",
+    "College Town 's Fresh Thyme Market",
+    "Market District 's HelloFresh"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_020001_351648/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_020001_351648/unnecessary_graph.png",
+  "question": "District category contains Research and Innovation Park, Market District, College Town, and Courthouse District.\nSupermarkets category contains SuperValu, HelloFresh, Publix, and Fresh Thyme Market.\nThe number of each Courthouse District 's HelloFresh equals 9.\nThe number of each Courthouse District 's Publix equals 21.\nThe number of each College Town 's Fresh Thyme Market equals 9 times each Research and Innovation Park 's SuperValu.\nThe number of each Research and Innovation Park 's Publix equals 7 more than the sum of each Market District 's Publix and each Market District 's SuperValu.\nThe number of each Market District 's HelloFresh equals 22 times each College Town 's Fresh Thyme Market.\nThe number of each Market District 's SuperValu equals 3.\nThe number of each Research and Innovation Park 's HelloFresh equals the sum of each College Town 's Supermarkets and each Market District 's Publix.\nThe number of each Market District 's Fresh Thyme Market equals 21.\nThe number of each Research and Innovation Park 's SuperValu equals 17 times each Research and Innovation Park 's Publix.\nThe number of each Market District 's Publix equals 4 more than each Market District 's SuperValu.\nHow many HelloFresh does Market District have?",
+  "solution": "Define each Market District 's SuperValu as a; So a = 3.\nDefine each Market District 's Publix as c; So c = 4 + a = 4 + 3 = 7.\nDefine each Research and Innovation Park 's Publix as H; P = c + a = 7 + 3 = 10; So H = 7 + P = 7 + 10 = 17.\nDefine each Research and Innovation Park 's SuperValu as L; So L = 17 * H = 17 * 17 = 13.\nDefine each College Town 's Fresh Thyme Market as g; So g = 9 * L = 9 * 13 = 2.\nDefine each Market District 's HelloFresh as J; So J = 22 * g = 22 * 2 = 21.\n",
+  "num_operation": 7
+}

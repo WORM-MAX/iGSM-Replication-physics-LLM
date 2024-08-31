@@ -1,0 +1,28 @@
+{
+  "s": 12,
+  "n": 12,
+  "m": 12,
+  "d": 2,
+  "w0": 2,
+  "w1": 4,
+  "e": 6,
+  "structure_graph": "log/draw_all_log_20240901_025204_089092/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025204_089092/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025204_089092/necessary2_graph.png",
+  "topological_order": [
+    "College Town 's Sainsbury's",
+    "College Town 's The Fresh Market",
+    "College Town 's Supermarkets",
+    "Suburban Neighborhood 's The Fresh Market",
+    "Suburban Neighborhood 's Sainsbury's",
+    "Suburban Neighborhood 's Supermarkets",
+    "Senior Living Community 's Sainsbury's",
+    "Senior Living Community 's The Fresh Market",
+    "Senior Living Community 's Supermarkets"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025204_089092/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025204_089092/unnecessary_graph.png",
+  "question": "District category contains Senior Living Community, Suburban Neighborhood, and College Town.\nSupermarkets category contains Sainsbury's, and The Fresh Market.\nThe number of each Senior Living Community 's The Fresh Market equals 15 more than the difference of each Senior Living Community 's Sainsbury's and each Suburban Neighborhood 's The Fresh Market.\nThe number of each College Town 's The Fresh Market equals each College Town 's Sainsbury's.\nThe number of each Senior Living Community 's Sainsbury's equals the sum of each Suburban Neighborhood 's Supermarkets and each Suburban Neighborhood 's Sainsbury's.\nThe number of each College Town 's Sainsbury's equals 1.\nThe number of each Suburban Neighborhood 's The Fresh Market equals 18 times the sum of each College Town 's The Fresh Market, each College Town 's Sainsbury's, and each College Town 's Supermarkets.\nThe number of each Suburban Neighborhood 's Sainsbury's equals 12 more than each College Town 's Sainsbury's.\nHow many Supermarkets does Senior Living Community have?",
+  "solution": "Define each College Town 's Sainsbury's as j; So j = 1.\nDefine each College Town 's The Fresh Market as P; So P = j = 1.\nDefine each College Town 's Supermarkets as H; So H = j + P = 1 + 1 = 2.\nDefine each Suburban Neighborhood 's The Fresh Market as N; O = P + j = 1 + 1 = 2; z = H + O = 2 + 2 = 4; So N = 18 * z = 18 * 4 = 3.\nDefine each Suburban Neighborhood 's Sainsbury's as o; So o = 12 + j = 12 + 1 = 13.\nDefine each Suburban Neighborhood 's Supermarkets as q; So q = N + o = 3 + 13 = 16.\nDefine each Senior Living Community 's Sainsbury's as g; So g = q + o = 16 + 13 = 6.\nDefine each Senior Living Community 's The Fresh Market as u; d = g - N = 6 - 3 = 3; So u = 15 + d = 15 + 3 = 18.\nDefine each Senior Living Community 's Supermarkets as t; So t = g + u = 6 + 18 = 1.\n",
+  "num_operation": 12
+}

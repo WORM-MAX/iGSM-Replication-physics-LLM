@@ -1,0 +1,25 @@
+{
+  "s": 7,
+  "n": 5,
+  "m": 6,
+  "d": 3,
+  "w0": 2,
+  "w1": 4,
+  "e": 14,
+  "structure_graph": "log/draw_all_log_20240901_020043_674245/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_020043_674245/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_020043_674245/necessary2_graph.png",
+  "topological_order": [
+    "FreshDirect 's Tortilla Chips",
+    "Wall Street 's Save-A-Lot",
+    "Research Park 's Save-A-Lot",
+    "Research Park 's FreshDirect",
+    "Research Park 's Supermarkets",
+    "FreshDirect 's Dried Fruit"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_020043_674245/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_020043_674245/unnecessary_graph.png",
+  "question": "District category contains Research Park, Wall Street, Urban Residential Area, and Entertainment District.\nSupermarkets category contains Save-A-Lot, and FreshDirect.\nProduct category contains Cookies, Tortilla Chips, and Dried Fruit.\nThe number of each Entertainment District 's Save-A-Lot equals 9.\nThe number of each Save-A-Lot 's Dried Fruit equals 7 more than each Urban Residential Area 's Save-A-Lot.\nThe number of each Save-A-Lot 's Tortilla Chips equals 8 times the sum of each Research Park 's Save-A-Lot and each Save-A-Lot 's Dried Fruit.\nThe number of each Research Park 's Save-A-Lot equals 9 more than each Wall Street 's Save-A-Lot.\nThe number of each Save-A-Lot 's Cookies equals the difference of each Research Park 's Save-A-Lot and each Entertainment District 's Supermarkets.\nThe number of each FreshDirect 's Tortilla Chips equals 15.\nThe number of each Entertainment District 's FreshDirect equals each Urban Residential Area 's FreshDirect.\nThe number of each FreshDirect 's Cookies equals each FreshDirect 's Dried Fruit.\nThe number of each Wall Street 's FreshDirect equals the sum of each Urban Residential Area 's Save-A-Lot, each FreshDirect 's Product, each Wall Street 's Save-A-Lot, and each Entertainment District 's FreshDirect.\nThe number of each Urban Residential Area 's Save-A-Lot equals 13.\nThe number of each Research Park 's FreshDirect equals 1 times each FreshDirect 's Tortilla Chips.\nThe number of each Wall Street 's Save-A-Lot equals each FreshDirect 's Tortilla Chips.\nThe number of each FreshDirect 's Dried Fruit equals the sum of each Wall Street 's Save-A-Lot, each Research Park 's Supermarkets, and each FreshDirect 's Tortilla Chips.\nThe number of each Urban Residential Area 's FreshDirect equals 1 more than the difference of each Save-A-Lot 's Dried Fruit and each Urban Residential Area 's Save-A-Lot.\nHow many Dried Fruit does FreshDirect have?",
+  "solution": "Define each FreshDirect 's Tortilla Chips as Y; So Y = 15.\nDefine each Wall Street 's Save-A-Lot as b; So b = Y = 15.\nDefine each Research Park 's Save-A-Lot as X; So X = 9 + b = 9 + 15 = 1.\nDefine each Research Park 's FreshDirect as s; So s = 1 * Y = 1 * 15 = 15.\nDefine each Research Park 's Supermarkets as r; So r = X + s = 1 + 15 = 16.\nDefine each FreshDirect 's Dried Fruit as m; k = Y + b = 15 + 15 = 7; So m = r + k = 16 + 7 = 0.\n",
+  "num_operation": 7
+}

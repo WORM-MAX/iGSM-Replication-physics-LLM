@@ -1,0 +1,24 @@
+{
+  "s": 8,
+  "n": 5,
+  "m": 6,
+  "d": 2,
+  "w0": 2,
+  "w1": 3,
+  "e": 9,
+  "structure_graph": "log/draw_all_log_20240901_025157_683543/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025157_683543/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025157_683543/necessary2_graph.png",
+  "topological_order": [
+    "Arts District 's The Fresh Market",
+    "Library District 's The Fresh Market",
+    "Arts District 's WinCo Foods",
+    "Arts District 's Dollar General",
+    "Arts District 's Supermarkets"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025157_683543/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025157_683543/unnecessary_graph.png",
+  "question": "District category contains Automotive District, Library District, and Arts District.\nSupermarkets category contains The Fresh Market, WinCo Foods, and Dollar General.\nThe number of each Library District 's Dollar General equals 5.\nThe number of each Arts District 's WinCo Foods equals 6 more than the sum of each Library District 's The Fresh Market and each Arts District 's The Fresh Market.\nThe number of each Automotive District 's WinCo Foods equals 9.\nThe number of each Arts District 's The Fresh Market equals 15.\nThe number of each Library District 's The Fresh Market equals each Arts District 's The Fresh Market.\nThe number of each Library District 's WinCo Foods equals the sum of each Arts District 's Supermarkets, each Arts District 's Dollar General, each Arts District 's WinCo Foods, and each Library District 's The Fresh Market.\nThe number of each Automotive District 's The Fresh Market equals 3 times each Library District 's Dollar General.\nThe number of each Arts District 's Dollar General equals the sum of each Arts District 's WinCo Foods, each Library District 's The Fresh Market, and each Arts District 's The Fresh Market.\nThe number of each Automotive District 's Dollar General equals 21 more than the sum of each Library District 's Dollar General and each Automotive District 's The Fresh Market.\nHow many Supermarkets does Arts District have?",
+  "solution": "Define each Arts District 's The Fresh Market as k; So k = 15.\nDefine each Library District 's The Fresh Market as Z; So Z = k = 15.\nDefine each Arts District 's WinCo Foods as m; W = Z + k = 15 + 15 = 7; So m = 6 + W = 6 + 7 = 13.\nDefine each Arts District 's Dollar General as t; V = Z + m = 15 + 13 = 5; So t = k + V = 15 + 5 = 20.\nDefine each Arts District 's Supermarkets as d; T = t + m = 20 + 13 = 10; So d = k + T = 15 + 10 = 2.\n",
+  "num_operation": 8
+}

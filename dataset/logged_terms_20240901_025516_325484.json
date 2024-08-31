@@ -1,0 +1,22 @@
+{
+  "s": 3,
+  "n": 3,
+  "m": 3,
+  "d": 2,
+  "w0": 2,
+  "w1": 2,
+  "e": 4,
+  "structure_graph": "log/draw_all_log_20240901_025515_973511/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025515_973511/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025515_973511/necessary2_graph.png",
+  "topological_order": [
+    "School District 's Gelson's Markets",
+    "School District 's Whole Foods Market",
+    "School District 's Supermarkets"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025515_973511/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025515_973511/unnecessary_graph.png",
+  "question": "District category contains High School Zone, and School District.\nSupermarkets category contains Whole Foods Market, and Gelson's Markets.\nThe number of each School District 's Whole Foods Market equals 18 more than each School District 's Gelson's Markets.\nThe number of each School District 's Gelson's Markets equals 22.\nThe number of each High School Zone 's Gelson's Markets equals the sum of each School District 's Gelson's Markets and each School District 's Whole Foods Market.\nThe number of each High School Zone 's Whole Foods Market equals 20.\nHow many Supermarkets does School District have?",
+  "solution": "Define each School District 's Gelson's Markets as v; So v = 22.\nDefine each School District 's Whole Foods Market as B; So B = 18 + v = 18 + 22 = 17.\nDefine each School District 's Supermarkets as l; So l = v + B = 22 + 17 = 16.\n",
+  "num_operation": 3
+}

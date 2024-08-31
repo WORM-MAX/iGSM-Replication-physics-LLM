@@ -1,0 +1,20 @@
+{
+  "s": 1,
+  "n": 1,
+  "m": 1,
+  "d": 4,
+  "w0": 2,
+  "w1": 3,
+  "e": 13,
+  "structure_graph": "log/draw_all_log_20240901_013018_240156/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_013018_240156/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_013018_240156/necessary2_graph.png",
+  "topological_order": [
+    "Education Park 's Kroger"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_013018_240156/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_013018_240156/unnecessary_graph.png",
+  "question": "District category contains Education Park, and Legislative District.\nSupermarkets category contains Fry's, Food Lion, and Kroger.\nProduct category contains Flatbreads, and Trail Mix.\nIngredient category contains Sweetened Condensed Milk, and Soy Sauce.\nThe number of each Legislative District 's Fry's equals each Food Lion 's Flatbreads.\nThe number of each Flatbreads 's Soy Sauce equals each Legislative District 's Food Lion.\nThe number of each Legislative District 's Food Lion equals 19.\nThe number of each Fry's 's Trail Mix equals each Education Park 's Supermarkets.\nThe number of each Education Park 's Fry's equals the sum of each Food Lion 's Flatbreads, each Education Park 's Kroger, and each Trail Mix 's Soy Sauce.\nThe number of each Trail Mix 's Soy Sauce equals each Legislative District 's Fry's.\nThe number of each Education Park 's Kroger equals 4.\nThe number of each Trail Mix 's Sweetened Condensed Milk equals 0.\nThe number of each Fry's 's Flatbreads equals 8.\nThe number of each Kroger 's Flatbreads equals 0.\nThe number of each Food Lion 's Flatbreads equals each Fry's 's Flatbreads.\nThe number of each Education Park 's Food Lion equals 9 more than each Fry's 's Flatbreads.\nThe number of each Food Lion 's Trail Mix equals each Legislative District 's Supermarkets.\nHow many Kroger does Education Park have?",
+  "solution": "Define each Education Park 's Kroger as t; So t = 4.\n",
+  "num_operation": 1
+}

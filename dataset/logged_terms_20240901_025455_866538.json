@@ -1,0 +1,21 @@
+{
+  "s": 2,
+  "n": 2,
+  "m": 2,
+  "d": 3,
+  "w0": 2,
+  "w1": 3,
+  "e": 5,
+  "structure_graph": "log/draw_all_log_20240901_025455_426465/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025455_426465/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025455_426465/necessary2_graph.png",
+  "topological_order": [
+    "High School Zone 's E.Leclerc",
+    "High School Zone 's Supermarkets"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025455_426465/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025455_426465/unnecessary_graph.png",
+  "question": "District category contains Market District, and High School Zone.\nSupermarkets category contains Lidl, and E.Leclerc.\nProduct category contains Salsa, and Sparkling Water.\nThe number of each E.Leclerc 's Sparkling Water equals 10.\nThe number of each Market District 's E.Leclerc equals 14.\nThe number of each High School Zone 's E.Leclerc equals 1.\nThe number of each Lidl 's Sparkling Water equals each Market District 's E.Leclerc.\nThe number of each Market District 's Lidl equals 14 more than each High School Zone 's E.Leclerc.\nHow many Supermarkets does High School Zone have?",
+  "solution": "Define each High School Zone 's E.Leclerc as Q; So Q = 1.\nDefine each High School Zone 's Supermarkets as E; So E = Q = 1.\n",
+  "num_operation": 2
+}

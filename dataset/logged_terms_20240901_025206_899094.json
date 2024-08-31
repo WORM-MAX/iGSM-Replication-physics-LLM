@@ -1,0 +1,21 @@
+{
+  "s": 2,
+  "n": 2,
+  "m": 2,
+  "d": 3,
+  "w0": 2,
+  "w1": 4,
+  "e": 4,
+  "structure_graph": "log/draw_all_log_20240901_025206_557910/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025206_557910/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025206_557910/necessary2_graph.png",
+  "topological_order": [
+    "Colonial District 's Morrisons",
+    "Colonial District 's Supermarkets"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025206_557910/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025206_557910/unnecessary_graph.png",
+  "question": "District category contains Colonial District, and Old Town.\nSupermarkets category contains Morrisons, and Shipt.\nProduct category contains Herbal Tea, and Nuts.\nThe number of each Colonial District 's Morrisons equals 16.\nThe number of each Old Town 's Shipt equals 10.\nThe number of each Morrisons 's Herbal Tea equals 10 times the sum of each Shipt 's Product, each Old Town 's Supermarkets, and each Colonial District 's Morrisons.\nThe number of each Shipt 's Nuts equals 4 more than each Old Town 's Shipt.\nHow many Supermarkets does Colonial District have?",
+  "solution": "Define each Colonial District 's Morrisons as U; So U = 16.\nDefine each Colonial District 's Supermarkets as b; So b = U = 16.\n",
+  "num_operation": 2
+}

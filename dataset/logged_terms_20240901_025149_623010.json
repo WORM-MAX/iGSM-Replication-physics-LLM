@@ -1,0 +1,25 @@
+{
+  "s": 7,
+  "n": 3,
+  "m": 6,
+  "d": 2,
+  "w0": 2,
+  "w1": 3,
+  "e": 5,
+  "structure_graph": "log/draw_all_log_20240901_025149_259667/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025149_259667/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025149_259667/necessary2_graph.png",
+  "topological_order": [
+    "University Campus 's Earth Fare",
+    "Gated Community 's Earth Fare",
+    "Diplomatic Quarter 's Lulu Hypermarket",
+    "Diplomatic Quarter 's Supermarkets",
+    "Gated Community 's Target",
+    "University Campus 's Target"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025149_259667/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025149_259667/unnecessary_graph.png",
+  "question": "District category contains Gated Community, University Campus, and Diplomatic Quarter.\nSupermarkets category contains Target, Earth Fare, and Lulu Hypermarket.\nThe number of each Gated Community 's Earth Fare equals 17 more than each University Campus 's Earth Fare.\nThe number of each Gated Community 's Target equals 16 more than the difference of each Diplomatic Quarter 's Supermarkets and each Diplomatic Quarter 's Lulu Hypermarket.\nThe number of each Diplomatic Quarter 's Lulu Hypermarket equals 11 more than each Gated Community 's Earth Fare.\nThe number of each University Campus 's Target equals the difference of each Gated Community 's Target and each Diplomatic Quarter 's Lulu Hypermarket.\nThe number of each University Campus 's Earth Fare equals 0.\nHow many Target does University Campus have?",
+  "solution": "Define each University Campus 's Earth Fare as R; So R = 0.\nDefine each Gated Community 's Earth Fare as G; So G = 17 + R = 17 + 0 = 17.\nDefine each Diplomatic Quarter 's Lulu Hypermarket as h; So h = 11 + G = 11 + 17 = 5.\nDefine each Diplomatic Quarter 's Supermarkets as J; So J = h = 5.\nDefine each Gated Community 's Target as e; k = J - h = 5 - 5 = 0; So e = 16 + k = 16 + 0 = 16.\nDefine each University Campus 's Target as t; So t = e - h = 16 - 5 = 11.\n",
+  "num_operation": 7
+}

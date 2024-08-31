@@ -1,0 +1,21 @@
+{
+  "s": 2,
+  "n": 2,
+  "m": 2,
+  "d": 2,
+  "w0": 2,
+  "w1": 4,
+  "e": 8,
+  "structure_graph": "log/draw_all_log_20240901_025503_286013/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025503_286013/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025503_286013/necessary2_graph.png",
+  "topological_order": [
+    "Legal District 's Shipt",
+    "Warehouse District 's Shipt"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025503_286013/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025503_286013/unnecessary_graph.png",
+  "question": "District category contains Library District, Warehouse District, Landmark District, and Legal District.\nSupermarkets category contains Safeway, and Shipt.\nThe number of each Warehouse District 's Shipt equals 9 more than each Legal District 's Shipt.\nThe number of each Library District 's Shipt equals each Legal District 's Safeway.\nThe number of each Landmark District 's Safeway equals 17 times the sum of each Library District 's Shipt, each Warehouse District 's Supermarkets, and each Legal District 's Supermarkets.\nThe number of each Legal District 's Safeway equals each Warehouse District 's Safeway.\nThe number of each Warehouse District 's Safeway equals the sum of each Warehouse District 's Shipt and each Legal District 's Shipt.\nThe number of each Legal District 's Shipt equals 13.\nThe number of each Library District 's Safeway equals 6.\nThe number of each Landmark District 's Shipt equals 13.\nHow many Shipt does Warehouse District have?",
+  "solution": "Define each Legal District 's Shipt as h; So h = 13.\nDefine each Warehouse District 's Shipt as w; So w = 9 + h = 9 + 13 = 22.\n",
+  "num_operation": 2
+}

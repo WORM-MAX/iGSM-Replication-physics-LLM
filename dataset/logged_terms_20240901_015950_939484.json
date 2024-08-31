@@ -1,0 +1,24 @@
+{
+  "s": 5,
+  "n": 4,
+  "m": 5,
+  "d": 4,
+  "w0": 2,
+  "w1": 4,
+  "e": 9,
+  "structure_graph": "log/draw_all_log_20240901_015950_489410/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_015950_489410/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_015950_489410/necessary2_graph.png",
+  "topological_order": [
+    "Food Lion 's Protein Shakes",
+    "Protein Shakes 's Cornmeal",
+    "Canned Fish 's Mint",
+    "Canned Fish 's Cornmeal",
+    "Canned Fish 's Ingredient"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_015950_489410/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_015950_489410/unnecessary_graph.png",
+  "question": "District category contains Entertainment District, and Restaurant District.\nSupermarkets category contains Giant Eagle, and Food Lion.\nProduct category contains Protein Shakes, and Canned Fish.\nIngredient category contains Cornmeal, and Mint.\nThe number of each Restaurant District 's Food Lion equals 12.\nThe number of each Food Lion 's Canned Fish equals 6.\nThe number of each Entertainment District 's Giant Eagle equals the sum of each Giant Eagle 's Protein Shakes, each Giant Eagle 's Product, each Food Lion 's Canned Fish, and each Canned Fish 's Mint.\nThe number of each Food Lion 's Protein Shakes equals 12.\nThe number of each Giant Eagle 's Protein Shakes equals 21.\nThe number of each Protein Shakes 's Mint equals 14 times the sum of each Canned Fish 's Cornmeal, each Canned Fish 's Ingredient, and each Food Lion 's Protein Shakes.\nThe number of each Canned Fish 's Cornmeal equals each Canned Fish 's Mint.\nThe number of each Canned Fish 's Mint equals 2 more than each Protein Shakes 's Cornmeal.\nThe number of each Protein Shakes 's Cornmeal equals 1 times each Food Lion 's Protein Shakes.\nHow many Ingredient does Canned Fish have?",
+  "solution": "Define each Food Lion 's Protein Shakes as e; So e = 12.\nDefine each Protein Shakes 's Cornmeal as R; So R = 1 * e = 1 * 12 = 12.\nDefine each Canned Fish 's Mint as L; So L = 2 + R = 2 + 12 = 14.\nDefine each Canned Fish 's Cornmeal as X; So X = L = 14.\nDefine each Canned Fish 's Ingredient as G; So G = L + X = 14 + 14 = 5.\n",
+  "num_operation": 5
+}

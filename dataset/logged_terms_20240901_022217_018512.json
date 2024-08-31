@@ -1,0 +1,28 @@
+{
+  "s": 11,
+  "n": 11,
+  "m": 11,
+  "d": 4,
+  "w0": 2,
+  "w1": 2,
+  "e": 12,
+  "structure_graph": "log/draw_all_log_20240901_022216_513159/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_022216_513159/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_022216_513159/necessary2_graph.png",
+  "topological_order": [
+    "Chocolate Covered Pretzels 's Baking Powder",
+    "Chocolate Covered Pretzels 's Bulgur",
+    "Chocolate Covered Pretzels 's Ingredient",
+    "Canned Beans 's Baking Powder",
+    "Vons 's Canned Beans",
+    "Canned Beans 's Bulgur",
+    "Vons 's Chocolate Covered Pretzels",
+    "Canned Beans 's Ingredient",
+    "Vons 's Ingredient"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_022216_513159/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_022216_513159/unnecessary_graph.png",
+  "question": "District category contains Academic District, and Market District.\nSupermarkets category contains Stop & Shop, and Vons.\nProduct category contains Canned Beans, and Chocolate Covered Pretzels.\nIngredient category contains Bulgur, and Baking Powder.\nThe number of each Vons 's Canned Beans equals 3 more than each Chocolate Covered Pretzels 's Ingredient.\nThe number of each Academic District 's Stop & Shop equals 16.\nThe number of each Stop & Shop 's Canned Beans equals the difference of each Academic District 's Stop & Shop and each Chocolate Covered Pretzels 's Baking Powder.\nThe number of each Chocolate Covered Pretzels 's Bulgur equals 14 more than each Chocolate Covered Pretzels 's Baking Powder.\nThe number of each Vons 's Chocolate Covered Pretzels equals each Vons 's Canned Beans.\nThe number of each Stop & Shop 's Chocolate Covered Pretzels equals 10 times each Academic District 's Vons.\nThe number of each Market District 's Stop & Shop equals the sum of each Vons 's Product, each Chocolate Covered Pretzels 's Ingredient, and each Chocolate Covered Pretzels 's Baking Powder.\nThe number of each Chocolate Covered Pretzels 's Baking Powder equals 20.\nThe number of each Canned Beans 's Baking Powder equals 11.\nThe number of each Academic District 's Vons equals 20.\nThe number of each Market District 's Vons equals each Academic District 's Vons.\nThe number of each Canned Beans 's Bulgur equals 14 times each Chocolate Covered Pretzels 's Baking Powder.\nHow many Ingredient does Vons have?",
+  "solution": "Define each Chocolate Covered Pretzels 's Baking Powder as c; So c = 20.\nDefine each Chocolate Covered Pretzels 's Bulgur as r; So r = 14 + c = 14 + 20 = 11.\nDefine each Chocolate Covered Pretzels 's Ingredient as s; So s = r + c = 11 + 20 = 8.\nDefine each Canned Beans 's Baking Powder as v; So v = 11.\nDefine each Vons 's Canned Beans as R; So R = 3 + s = 3 + 8 = 11.\nDefine each Canned Beans 's Bulgur as Q; So Q = 14 * c = 14 * 20 = 4.\nDefine each Vons 's Chocolate Covered Pretzels as i; So i = R = 11.\nDefine each Canned Beans 's Ingredient as m; So m = Q + v = 4 + 11 = 15.\nDefine each Vons 's Ingredient as d; m = s * R = 8 * 11 = 19; L = m * i = 19 * 11 = 2; So d = m + L = 19 + 2 = 21.\n",
+  "num_operation": 11
+}

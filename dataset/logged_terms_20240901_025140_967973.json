@@ -1,0 +1,26 @@
+{
+  "s": 7,
+  "n": 7,
+  "m": 7,
+  "d": 3,
+  "w0": 2,
+  "w1": 2,
+  "e": 5,
+  "structure_graph": "log/draw_all_log_20240901_025140_588404/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025140_588404/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025140_588404/necessary2_graph.png",
+  "topological_order": [
+    "Dormitory District 's Sam's Club",
+    "Dormitory District 's Supermarkets",
+    "Sam's Club 's Lemonade",
+    "Sam's Club 's Product",
+    "Dormitory District 's Product",
+    "Legislative District 's Sam's Club",
+    "Legislative District 's Product"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025140_588404/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025140_588404/unnecessary_graph.png",
+  "question": "District category contains Dormitory District, and Legislative District.\nSupermarkets category contains Lulu Hypermarket, and Sam's Club.\nProduct category contains Canned Pumpkin, and Lemonade.\nThe number of each Legislative District 's Sam's Club equals each Dormitory District 's Product.\nThe number of each Sam's Club 's Lemonade equals 8 times each Dormitory District 's Supermarkets.\nThe number of each Lulu Hypermarket 's Lemonade equals 5 times each Legislative District 's Sam's Club.\nThe number of each Dormitory District 's Sam's Club equals 5.\nThe number of each Lulu Hypermarket 's Canned Pumpkin equals 22.\nHow many Product does Legislative District have?",
+  "solution": "Define each Dormitory District 's Sam's Club as P; So P = 5.\nDefine each Dormitory District 's Supermarkets as a; So a = P = 5.\nDefine each Sam's Club 's Lemonade as G; So G = 8 * a = 8 * 5 = 17.\nDefine each Sam's Club 's Product as e; So e = G = 17.\nDefine each Dormitory District 's Product as w; w = e * P = 17 * 5 = 16.\nDefine each Legislative District 's Sam's Club as p; So p = w = 16.\nDefine each Legislative District 's Product as F; F = e * p = 17 * 16 = 19.\n",
+  "num_operation": 7
+}

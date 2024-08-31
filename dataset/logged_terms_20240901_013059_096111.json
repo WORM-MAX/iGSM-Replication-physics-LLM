@@ -1,0 +1,21 @@
+{
+  "s": 2,
+  "n": 1,
+  "m": 2,
+  "d": 2,
+  "w0": 2,
+  "w1": 4,
+  "e": 8,
+  "structure_graph": "log/draw_all_log_20240901_013058_674880/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_013058_674880/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_013058_674880/necessary2_graph.png",
+  "topological_order": [
+    "Business District 's Fry's",
+    "Civic Center 's HelloFresh"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_013058_674880/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_013058_674880/unnecessary_graph.png",
+  "question": "District category contains Civic Center, Business District, and Legal District.\nSupermarkets category contains Fry's, WinCo Foods, Morrisons, and HelloFresh.\nThe number of each Business District 's Fry's equals 16.\nThe number of each Civic Center 's Fry's equals the sum of each Business District 's Fry's, each Legal District 's Supermarkets, and each Business District 's HelloFresh.\nThe number of each Civic Center 's Morrisons equals 5.\nThe number of each Legal District 's Fry's equals 3 more than each Business District 's HelloFresh.\nThe number of each Legal District 's HelloFresh equals each Legal District 's Fry's.\nThe number of each Civic Center 's HelloFresh equals 2 more than each Business District 's Fry's.\nThe number of each Legal District 's WinCo Foods equals the difference of each Civic Center 's HelloFresh and each Business District 's Fry's.\nThe number of each Business District 's HelloFresh equals 19.\nHow many HelloFresh does Civic Center have?",
+  "solution": "Define each Business District 's Fry's as B; So B = 16.\nDefine each Civic Center 's HelloFresh as d; So d = 2 + B = 2 + 16 = 18.\n",
+  "num_operation": 2
+}

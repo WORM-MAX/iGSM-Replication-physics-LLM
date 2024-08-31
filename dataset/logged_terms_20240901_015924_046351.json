@@ -1,0 +1,31 @@
+{
+  "s": 14,
+  "n": 11,
+  "m": 13,
+  "d": 4,
+  "w0": 2,
+  "w1": 4,
+  "e": 14,
+  "structure_graph": "log/draw_all_log_20240901_015923_525636/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_015923_525636/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_015923_525636/necessary2_graph.png",
+  "topological_order": [
+    "Preservation District 's Trader Joe's",
+    "Media District 's Trader Joe's",
+    "Media District 's Fry's",
+    "Media District 's Supermarkets",
+    "Fry's 's Salsa",
+    "Fry's 's Nuts",
+    "Fry's 's Product",
+    "Salsa 's Wheat Germ",
+    "Nuts 's Spelt",
+    "Nuts 's Avocado Oil",
+    "Nuts 's Wheat Germ",
+    "Nuts 's Ingredient"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_015923_525636/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_015923_525636/unnecessary_graph.png",
+  "question": "District category contains Media District, and Preservation District.\nSupermarkets category contains Fry's, and Trader Joe's.\nProduct category contains Nuts, and Salsa.\nIngredient category contains Avocado Oil, Wheat Germ, and Spelt.\nThe number of each Salsa 's Avocado Oil equals the sum of each Salsa 's Wheat Germ, each Media District 's Fry's, and each Fry's 's Salsa.\nThe number of each Salsa 's Spelt equals the sum of each Nuts 's Avocado Oil and each Preservation District 's Supermarkets.\nThe number of each Nuts 's Spelt equals the sum of each Salsa 's Wheat Germ and each Preservation District 's Trader Joe's.\nThe number of each Preservation District 's Trader Joe's equals 7.\nThe number of each Salsa 's Wheat Germ equals 8 times each Fry's 's Product.\nThe number of each Trader Joe's 's Nuts equals each Trader Joe's 's Salsa.\nThe number of each Trader Joe's 's Salsa equals 18.\nThe number of each Media District 's Fry's equals 7 times the difference of each Preservation District 's Trader Joe's and each Media District 's Trader Joe's.\nThe number of each Media District 's Trader Joe's equals 5 times each Preservation District 's Trader Joe's.\nThe number of each Nuts 's Wheat Germ equals 13.\nThe number of each Fry's 's Nuts equals 9 times each Media District 's Supermarkets.\nThe number of each Preservation District 's Fry's equals 0.\nThe number of each Nuts 's Avocado Oil equals 1 more than each Nuts 's Spelt.\nThe number of each Fry's 's Salsa equals each Media District 's Supermarkets.\nHow many Ingredient does Nuts have?",
+  "solution": "Define each Preservation District 's Trader Joe's as M; So M = 7.\nDefine each Media District 's Trader Joe's as x; So x = 5 * M = 5 * 7 = 12.\nDefine each Media District 's Fry's as r; b = M - x = 7 - 12 = 18; So r = 7 * b = 7 * 18 = 11.\nDefine each Media District 's Supermarkets as n; So n = x + r = 12 + 11 = 0.\nDefine each Fry's 's Salsa as h; So h = n = 0.\nDefine each Fry's 's Nuts as v; So v = 9 * n = 9 * 0 = 0.\nDefine each Fry's 's Product as e; So e = h + v = 0 + 0 = 0.\nDefine each Salsa 's Wheat Germ as P; So P = 8 * e = 8 * 0 = 0.\nDefine each Nuts 's Spelt as p; So p = P + M = 0 + 7 = 7.\nDefine each Nuts 's Avocado Oil as l; So l = 1 + p = 1 + 7 = 8.\nDefine each Nuts 's Wheat Germ as F; So F = 13.\nDefine each Nuts 's Ingredient as K; A = l + p = 8 + 7 = 15; So K = F + A = 13 + 15 = 5.\n",
+  "num_operation": 14
+}

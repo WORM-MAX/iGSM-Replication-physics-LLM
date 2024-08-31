@@ -1,0 +1,21 @@
+{
+  "s": 2,
+  "n": 2,
+  "m": 2,
+  "d": 2,
+  "w0": 2,
+  "w1": 2,
+  "e": 3,
+  "structure_graph": "log/draw_all_log_20240901_025211_631811/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025211_631811/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025211_631811/necessary2_graph.png",
+  "topological_order": [
+    "Embassy Row 's Metro (Canada)",
+    "Embassy Row 's Supermarkets"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025211_631811/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025211_631811/unnecessary_graph.png",
+  "question": "District category contains Tech Park, and Embassy Row.\nSupermarkets category contains Metro (Canada), and Target.\nThe number of each Embassy Row 's Metro (Canada) equals 17.\nThe number of each Tech Park 's Metro (Canada) equals 5.\nThe number of each Tech Park 's Target equals each Embassy Row 's Metro (Canada).\nHow many Supermarkets does Embassy Row have?",
+  "solution": "Define each Embassy Row 's Metro (Canada) as Q; So Q = 17.\nDefine each Embassy Row 's Supermarkets as b; So b = Q = 17.\n",
+  "num_operation": 2
+}

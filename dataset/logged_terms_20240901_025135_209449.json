@@ -1,0 +1,22 @@
+{
+  "s": 3,
+  "n": 3,
+  "m": 3,
+  "d": 4,
+  "w0": 2,
+  "w1": 4,
+  "e": 16,
+  "structure_graph": "log/draw_all_log_20240901_025134_737409/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025134_737409/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025134_737409/necessary2_graph.png",
+  "topological_order": [
+    "Misfits Market 's Liquor",
+    "Misfits Market 's Soda",
+    "Misfits Market 's Product"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025134_737409/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025134_737409/unnecessary_graph.png",
+  "question": "District category contains Shopping District, and Gated Community.\nSupermarkets category contains Carrefour, Misfits Market, Stop & Shop, and Save-A-Lot.\nProduct category contains Soda, Rolls, and Liquor.\nIngredient category contains Nutmeg, Pickles, and Sorghum.\nThe number of each Rolls 's Sorghum equals each Gated Community 's Save-A-Lot.\nThe number of each Gated Community 's Save-A-Lot equals each Rolls 's Pickles.\nThe number of each Misfits Market 's Liquor equals 11.\nThe number of each Shopping District 's Save-A-Lot equals 4 more than each Gated Community 's Save-A-Lot.\nThe number of each Stop & Shop 's Liquor equals the sum of each Gated Community 's Stop & Shop, each Carrefour 's Rolls, each Soda 's Ingredient, and each Rolls 's Ingredient.\nThe number of each Rolls 's Pickles equals 10.\nThe number of each Gated Community 's Misfits Market equals the sum of each Misfits Market 's Liquor and each Gated Community 's Carrefour.\nThe number of each Misfits Market 's Soda equals 17 times each Misfits Market 's Liquor.\nThe number of each Carrefour 's Rolls equals 22.\nThe number of each Liquor 's Nutmeg equals 17 times the difference of each Misfits Market 's Product and each Soda 's Ingredient.\nThe number of each Soda 's Nutmeg equals 16 times each Rolls 's Pickles.\nThe number of each Save-A-Lot 's Rolls equals each Rolls 's Pickles.\nThe number of each Gated Community 's Carrefour equals each Rolls 's Nutmeg.\nThe number of each Liquor 's Sorghum equals 12.\nThe number of each Rolls 's Nutmeg equals the sum of each Soda 's Ingredient, each Misfits Market 's Soda, each Misfits Market 's Product, and each Gated Community 's Save-A-Lot.\nThe number of each Gated Community 's Stop & Shop equals 12 more than each Liquor 's Sorghum.\nHow many Product does Misfits Market have?",
+  "solution": "Define each Misfits Market 's Liquor as t; So t = 11.\nDefine each Misfits Market 's Soda as R; So R = 17 * t = 17 * 11 = 3.\nDefine each Misfits Market 's Product as S; So S = t + R = 11 + 3 = 14.\n",
+  "num_operation": 3
+}

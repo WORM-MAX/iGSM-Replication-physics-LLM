@@ -1,0 +1,26 @@
+{
+  "s": 7,
+  "n": 5,
+  "m": 7,
+  "d": 2,
+  "w0": 3,
+  "w1": 3,
+  "e": 8,
+  "structure_graph": "log/draw_all_log_20240901_020051_116371/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_020051_116371/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_020051_116371/necessary2_graph.png",
+  "topological_order": [
+    "Senior Living Community 's The Fresh Market",
+    "Senior Living Community 's Kroger",
+    "Research and Innovation Park 's The Fresh Market",
+    "Senior Living Community 's Gelson's Markets",
+    "Research and Innovation Park 's Gelson's Markets",
+    "Research and Innovation Park 's Supermarkets",
+    "Embassy Row 's The Fresh Market"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_020051_116371/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_020051_116371/unnecessary_graph.png",
+  "question": "District category contains Senior Living Community, Embassy Row, and Research and Innovation Park.\nSupermarkets category contains The Fresh Market, Gelson's Markets, and Kroger.\nThe number of each Embassy Row 's Kroger equals each Embassy Row 's Gelson's Markets.\nThe number of each Senior Living Community 's Gelson's Markets equals each Senior Living Community 's Kroger.\nThe number of each Research and Innovation Park 's Gelson's Markets equals the difference of each Senior Living Community 's Gelson's Markets and each Senior Living Community 's The Fresh Market.\nThe number of each Embassy Row 's The Fresh Market equals each Research and Innovation Park 's Supermarkets.\nThe number of each Research and Innovation Park 's The Fresh Market equals 19.\nThe number of each Embassy Row 's Gelson's Markets equals 8.\nThe number of each Senior Living Community 's Kroger equals 12 more than each Senior Living Community 's The Fresh Market.\nThe number of each Senior Living Community 's The Fresh Market equals 1.\nHow many The Fresh Market does Embassy Row have?",
+  "solution": "Define each Senior Living Community 's The Fresh Market as F; So F = 1.\nDefine each Senior Living Community 's Kroger as V; So V = 12 + F = 12 + 1 = 13.\nDefine each Research and Innovation Park 's The Fresh Market as C; So C = 19.\nDefine each Senior Living Community 's Gelson's Markets as d; So d = V = 13.\nDefine each Research and Innovation Park 's Gelson's Markets as L; So L = d - F = 13 - 12 = 12.\nDefine each Research and Innovation Park 's Supermarkets as R; So R = C + L = 19 + 12 = 8.\nDefine each Embassy Row 's The Fresh Market as J; So J = R = 8.\n",
+  "num_operation": 7
+}

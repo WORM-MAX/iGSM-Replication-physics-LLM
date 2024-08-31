@@ -1,0 +1,20 @@
+{
+  "s": 1,
+  "n": 1,
+  "m": 1,
+  "d": 3,
+  "w0": 2,
+  "w1": 3,
+  "e": 17,
+  "structure_graph": "log/draw_all_log_20240901_020013_428133/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_020013_428133/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_020013_428133/necessary2_graph.png",
+  "topological_order": [
+    "Archaeological District 's WinCo Foods"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_020013_428133/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_020013_428133/unnecessary_graph.png",
+  "question": "District category contains College Town, Library District, and Archaeological District.\nSupermarkets category contains Sainsbury's, WinCo Foods, and Weis Markets.\nProduct category contains Pretzels, Canned Beans, and Cakes.\nThe number of each Archaeological District 's Sainsbury's equals 17.\nThe number of each WinCo Foods 's Pretzels equals 18.\nThe number of each Sainsbury's 's Pretzels equals the difference of each College Town 's WinCo Foods and each Weis Markets 's Pretzels.\nThe number of each Sainsbury's 's Canned Beans equals 4 more than the sum of each WinCo Foods 's Cakes, each WinCo Foods 's Canned Beans, and each Weis Markets 's Cakes.\nThe number of each College Town 's Sainsbury's equals the sum of each Sainsbury's 's Pretzels, each Weis Markets 's Pretzels, each Archaeological District 's Weis Markets, and each College Town 's WinCo Foods.\nThe number of each Archaeological District 's WinCo Foods equals 16.\nThe number of each Library District 's Weis Markets equals each College Town 's Weis Markets.\nThe number of each WinCo Foods 's Canned Beans equals 20.\nThe number of each Archaeological District 's Weis Markets equals each Weis Markets 's Pretzels.\nThe number of each College Town 's WinCo Foods equals 8.\nThe number of each Weis Markets 's Cakes equals each College Town 's WinCo Foods.\nThe number of each Library District 's WinCo Foods equals the sum of each College Town 's WinCo Foods and each Archaeological District 's WinCo Foods.\nThe number of each Library District 's Sainsbury's equals the sum of each WinCo Foods 's Pretzels, each Sainsbury's 's Pretzels, and each College Town 's Sainsbury's.\nThe number of each WinCo Foods 's Cakes equals each College Town 's Weis Markets.\nThe number of each Weis Markets 's Canned Beans equals the sum of each Archaeological District 's Weis Markets, each WinCo Foods 's Pretzels, and each Sainsbury's 's Pretzels.\nThe number of each College Town 's Weis Markets equals each Weis Markets 's Cakes.\nThe number of each Weis Markets 's Pretzels equals 10 more than each College Town 's WinCo Foods.\nHow many WinCo Foods does Archaeological District have?",
+  "solution": "Define each Archaeological District 's WinCo Foods as z; So z = 16.\n",
+  "num_operation": 1
+}

@@ -1,0 +1,28 @@
+{
+  "s": 9,
+  "n": 8,
+  "m": 9,
+  "d": 3,
+  "w0": 2,
+  "w1": 4,
+  "e": 6,
+  "structure_graph": "log/draw_all_log_20240901_025440_601696/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025440_601696/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025440_601696/necessary2_graph.png",
+  "topological_order": [
+    "College Town 's Meijer",
+    "College Town 's Thrive Market",
+    "Meijer 's Nuts",
+    "Meijer 's Product",
+    "Thrive Market 's Nuts",
+    "Thrive Market 's Cupcakes",
+    "Archaeological District 's Thrive Market",
+    "Thrive Market 's Product",
+    "Archaeological District 's Product"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025440_601696/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025440_601696/unnecessary_graph.png",
+  "question": "District category contains College Town, and Archaeological District.\nSupermarkets category contains Thrive Market, and Meijer.\nProduct category contains Cupcakes, and Nuts.\nThe number of each Archaeological District 's Thrive Market equals 13 times each Meijer 's Nuts.\nThe number of each Thrive Market 's Cupcakes equals 7 times each Thrive Market 's Nuts.\nThe number of each College Town 's Meijer equals 21.\nThe number of each Thrive Market 's Nuts equals 0 more than each Meijer 's Product.\nThe number of each Meijer 's Nuts equals the difference of each College Town 's Thrive Market and each College Town 's Meijer.\nThe number of each College Town 's Thrive Market equals 2 more than each College Town 's Meijer.\nHow many Product does Archaeological District have?",
+  "solution": "Define each College Town 's Meijer as l; So l = 21.\nDefine each College Town 's Thrive Market as X; So X = 2 + l = 2 + 21 = 0.\nDefine each Meijer 's Nuts as u; So u = X - l = 0 - 21 = 2.\nDefine each Meijer 's Product as H; So H = u = 2.\nDefine each Thrive Market 's Nuts as x; So x = 0 + H = 0 + 2 = 2.\nDefine each Thrive Market 's Cupcakes as Z; So Z = 7 * x = 7 * 2 = 14.\nDefine each Archaeological District 's Thrive Market as J; So J = 13 * u = 13 * 2 = 3.\nDefine each Thrive Market 's Product as j; So j = Z + x = 14 + 2 = 16.\nDefine each Archaeological District 's Product as q; q = j * J = 16 * 3 = 2.\n",
+  "num_operation": 9
+}

@@ -1,0 +1,25 @@
+{
+  "s": 6,
+  "n": 4,
+  "m": 6,
+  "d": 2,
+  "w0": 2,
+  "w1": 4,
+  "e": 10,
+  "structure_graph": "log/draw_all_log_20240901_024954_065072/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_024954_065072/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_024954_065072/necessary2_graph.png",
+  "topological_order": [
+    "Academic District 's The Fresh Market",
+    "Academic District 's Whole Foods Market",
+    "Fashion District 's Whole Foods Market",
+    "Silicon Valley 's The Fresh Market",
+    "High School Zone 's Whole Foods Market",
+    "High School Zone 's Lidl"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_024954_065072/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_024954_065072/unnecessary_graph.png",
+  "question": "District category contains Fashion District, High School Zone, Academic District, and Silicon Valley.\nSupermarkets category contains Lidl, The Fresh Market, King Soopers, and Whole Foods Market.\nThe number of each Silicon Valley 's The Fresh Market equals each Fashion District 's Whole Foods Market.\nThe number of each Silicon Valley 's King Soopers equals each High School Zone 's Lidl.\nThe number of each Fashion District 's King Soopers equals 8.\nThe number of each Academic District 's The Fresh Market equals 10.\nThe number of each High School Zone 's King Soopers equals 20 times each Fashion District 's King Soopers.\nThe number of each Silicon Valley 's Whole Foods Market equals 3 times the difference of each High School Zone 's King Soopers and each Fashion District 's King Soopers.\nThe number of each High School Zone 's Whole Foods Market equals the sum of each Silicon Valley 's The Fresh Market and each Fashion District 's Whole Foods Market.\nThe number of each Fashion District 's Whole Foods Market equals 22 times each Academic District 's Whole Foods Market.\nThe number of each Academic District 's Whole Foods Market equals each Academic District 's The Fresh Market.\nThe number of each High School Zone 's Lidl equals 3 times each High School Zone 's Whole Foods Market.\nHow many Lidl does High School Zone have?",
+  "solution": "Define each Academic District 's The Fresh Market as y; So y = 10.\nDefine each Academic District 's Whole Foods Market as f; So f = y = 10.\nDefine each Fashion District 's Whole Foods Market as K; So K = 22 * f = 22 * 10 = 13.\nDefine each Silicon Valley 's The Fresh Market as m; So m = K = 13.\nDefine each High School Zone 's Whole Foods Market as H; So H = m + K = 13 + 13 = 3.\nDefine each High School Zone 's Lidl as G; So G = 3 * H = 3 * 3 = 9.\n",
+  "num_operation": 6
+}

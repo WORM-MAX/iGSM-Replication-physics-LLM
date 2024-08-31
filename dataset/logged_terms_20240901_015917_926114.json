@@ -1,0 +1,27 @@
+{
+  "s": 9,
+  "n": 4,
+  "m": 8,
+  "d": 2,
+  "w0": 2,
+  "w1": 4,
+  "e": 13,
+  "structure_graph": "log/draw_all_log_20240901_015917_446359/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_015917_446359/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_015917_446359/necessary2_graph.png",
+  "topological_order": [
+    "Restaurant District 's Fairway Market",
+    "Restaurant District 's Hannaford",
+    "Jewelry District 's Hungryroot",
+    "Restaurant District 's Thrive Market",
+    "Learning Hub 's Thrive Market",
+    "Wall Street 's Thrive Market",
+    "Jewelry District 's Fairway Market",
+    "Jewelry District 's Hannaford"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_015917_446359/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_015917_446359/unnecessary_graph.png",
+  "question": "District category contains Jewelry District, Learning Hub, Wall Street, and Restaurant District.\nSupermarkets category contains Fairway Market, Hannaford, Hungryroot, and Thrive Market.\nThe number of each Wall Street 's Thrive Market equals 21 times each Learning Hub 's Thrive Market.\nThe number of each Jewelry District 's Fairway Market equals 19 times each Wall Street 's Thrive Market.\nThe number of each Wall Street 's Hungryroot equals 19.\nThe number of each Jewelry District 's Thrive Market equals 8.\nThe number of each Restaurant District 's Thrive Market equals the sum of each Restaurant District 's Fairway Market, each Restaurant District 's Hannaford, and each Jewelry District 's Hungryroot.\nThe number of each Learning Hub 's Thrive Market equals 8 times each Restaurant District 's Thrive Market.\nThe number of each Jewelry District 's Hannaford equals each Jewelry District 's Fairway Market.\nThe number of each Jewelry District 's Hungryroot equals 21 times each Restaurant District 's Hannaford.\nThe number of each Restaurant District 's Fairway Market equals 17.\nThe number of each Learning Hub 's Hannaford equals the difference of each Jewelry District 's Thrive Market and each Learning Hub 's Fairway Market.\nThe number of each Wall Street 's Hannaford equals each Learning Hub 's Fairway Market.\nThe number of each Restaurant District 's Hannaford equals 19 times each Restaurant District 's Fairway Market.\nThe number of each Learning Hub 's Fairway Market equals 10 times each Jewelry District 's Thrive Market.\nHow many Hannaford does Jewelry District have?",
+  "solution": "Define each Restaurant District 's Fairway Market as q; So q = 17.\nDefine each Restaurant District 's Hannaford as N; So N = 19 * q = 19 * 17 = 1.\nDefine each Jewelry District 's Hungryroot as W; So W = 21 * N = 21 * 1 = 21.\nDefine each Restaurant District 's Thrive Market as F; F = N + q = 1 + 17 = 18; So F = W + F = 21 + 16 = 16.\nDefine each Learning Hub 's Thrive Market as K; So K = 8 * F = 8 * 16 = 13.\nDefine each Wall Street 's Thrive Market as d; So d = 21 * K = 21 * 13 = 20.\nDefine each Jewelry District 's Fairway Market as o; So o = 19 * d = 19 * 20 = 12.\nDefine each Jewelry District 's Hannaford as j; So j = o = 12.\n",
+  "num_operation": 9
+}

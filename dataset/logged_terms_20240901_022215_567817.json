@@ -1,0 +1,24 @@
+{
+  "s": 5,
+  "n": 5,
+  "m": 5,
+  "d": 4,
+  "w0": 2,
+  "w1": 3,
+  "e": 12,
+  "structure_graph": "log/draw_all_log_20240901_022215_106560/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_022215_106560/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_022215_106560/necessary2_graph.png",
+  "topological_order": [
+    "Cultural Heritage Site 's Thrive Market",
+    "Wine 's Star Anise",
+    "Milk 's Hoisin Sauce",
+    "Milk 's Star Anise",
+    "Milk 's Ingredient"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_022215_106560/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_022215_106560/unnecessary_graph.png",
+  "question": "District category contains Fashion District, and Cultural Heritage Site.\nSupermarkets category contains Piggly Wiggly, and Thrive Market.\nProduct category contains Milk, and Wine.\nIngredient category contains Hoisin Sauce, and Star Anise.\nThe number of each Thrive Market 's Wine equals each Milk 's Ingredient.\nThe number of each Thrive Market 's Milk equals 7.\nThe number of each Wine 's Star Anise equals each Cultural Heritage Site 's Thrive Market.\nThe number of each Cultural Heritage Site 's Thrive Market equals 2.\nThe number of each Piggly Wiggly 's Wine equals 18 times the sum of each Milk 's Ingredient, each Fashion District 's Piggly Wiggly, and each Cultural Heritage Site 's Thrive Market.\nThe number of each Milk 's Hoisin Sauce equals 1.\nThe number of each Milk 's Star Anise equals the sum of each Wine 's Star Anise and each Cultural Heritage Site 's Thrive Market.\nThe number of each Wine 's Hoisin Sauce equals the difference of each Piggly Wiggly 's Wine and each Fashion District 's Thrive Market.\nThe number of each Fashion District 's Piggly Wiggly equals 0 more than each Milk 's Star Anise.\nThe number of each Cultural Heritage Site 's Piggly Wiggly equals 3 times each Fashion District 's Thrive Market.\nThe number of each Fashion District 's Thrive Market equals 20.\nThe number of each Piggly Wiggly 's Milk equals each Cultural Heritage Site 's Piggly Wiggly.\nHow many Ingredient does Milk have?",
+  "solution": "Define each Cultural Heritage Site 's Thrive Market as W; So W = 2.\nDefine each Wine 's Star Anise as Q; So Q = W = 2.\nDefine each Milk 's Hoisin Sauce as C; So C = 1.\nDefine each Milk 's Star Anise as S; So S = Q + W = 2 + 2 = 4.\nDefine each Milk 's Ingredient as m; So m = S + C = 4 + 1 = 5.\n",
+  "num_operation": 5
+}

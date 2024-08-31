@@ -1,0 +1,24 @@
+{
+  "s": 6,
+  "n": 5,
+  "m": 5,
+  "d": 3,
+  "w0": 3,
+  "w1": 3,
+  "e": 8,
+  "structure_graph": "log/draw_all_log_20240901_020115_746333/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_020115_746333/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_020115_746333/necessary2_graph.png",
+  "topological_order": [
+    "Lidl 's Bagels",
+    "Lidl 's Cocktail Mixers",
+    "Medical District 's Lidl",
+    "Lidl 's Product",
+    "Medical District 's Product"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_020115_746333/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_020115_746333/unnecessary_graph.png",
+  "question": "District category contains Housing Estate, Medical District, and Municipal Office District.\nSupermarkets category contains Boxed, Lidl, and Weis Markets.\nProduct category contains Wine, Cocktail Mixers, and Bagels.\nThe number of each Weis Markets 's Bagels equals the sum of each Lidl 's Product, each Municipal Office District 's Supermarkets, and each Housing Estate 's Weis Markets.\nThe number of each Municipal Office District 's Lidl equals the sum of each Medical District 's Supermarkets and each Lidl 's Cocktail Mixers.\nThe number of each Boxed 's Cocktail Mixers equals 13 times the sum of each Municipal Office District 's Weis Markets and each Lidl 's Cocktail Mixers.\nThe number of each Medical District 's Lidl equals 6 times the difference of each Lidl 's Bagels and each Lidl 's Cocktail Mixers.\nThe number of each Housing Estate 's Weis Markets equals 21.\nThe number of each Lidl 's Cocktail Mixers equals 8 times each Lidl 's Bagels.\nThe number of each Municipal Office District 's Weis Markets equals 7 more than each Housing Estate 's Weis Markets.\nThe number of each Lidl 's Bagels equals 7.\nHow many Product does Medical District have?",
+  "solution": "Define each Lidl 's Bagels as B; So B = 7.\nDefine each Lidl 's Cocktail Mixers as d; So d = 8 * B = 8 * 7 = 10.\nDefine each Medical District 's Lidl as l; p = B - d = 7 - 10 = 20; So l = 6 * p = 6 * 20 = 5.\nDefine each Lidl 's Product as R; So R = B + d = 7 + 10 = 17.\nDefine each Medical District 's Product as G; G = R * l = 17 * 5 = 16.\n",
+  "num_operation": 6
+}

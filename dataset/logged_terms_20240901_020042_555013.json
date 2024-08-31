@@ -1,0 +1,24 @@
+{
+  "s": 6,
+  "n": 5,
+  "m": 5,
+  "d": 4,
+  "w0": 2,
+  "w1": 2,
+  "e": 12,
+  "structure_graph": "log/draw_all_log_20240901_020042_082152/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_020042_082152/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_020042_082152/necessary2_graph.png",
+  "topological_order": [
+    "Tesco 's Flavored Water",
+    "Old Town 's Tesco",
+    "Old Town 's Save-A-Lot",
+    "Old Town 's Supermarkets",
+    "Save-A-Lot 's Canned Broth"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_020042_082152/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_020042_082152/unnecessary_graph.png",
+  "question": "District category contains Embassy Row, and Old Town.\nSupermarkets category contains Tesco, and Save-A-Lot.\nProduct category contains Flavored Water, and Canned Broth.\nIngredient category contains Cornstarch, and Cumin.\nThe number of each Save-A-Lot 's Canned Broth equals 12 more than each Old Town 's Supermarkets.\nThe number of each Embassy Row 's Save-A-Lot equals 18 times each Old Town 's Supermarkets.\nThe number of each Old Town 's Tesco equals each Tesco 's Flavored Water.\nThe number of each Tesco 's Canned Broth equals 0.\nThe number of each Embassy Row 's Tesco equals 5 times the sum of each Flavored Water 's Cornstarch and each Tesco 's Canned Broth.\nThe number of each Canned Broth 's Cumin equals 22 more than each Old Town 's Supermarkets.\nThe number of each Save-A-Lot 's Flavored Water equals 18.\nThe number of each Flavored Water 's Cumin equals the sum of each Old Town 's Supermarkets, each Save-A-Lot 's Product, and each Tesco 's Product.\nThe number of each Tesco 's Flavored Water equals 10.\nThe number of each Canned Broth 's Cornstarch equals the sum of each Old Town 's Supermarkets, each Tesco 's Flavored Water, and each Save-A-Lot 's Canned Broth.\nThe number of each Old Town 's Save-A-Lot equals 9 more than the sum of each Tesco 's Flavored Water and each Old Town 's Tesco.\nThe number of each Flavored Water 's Cornstarch equals each Tesco 's Canned Broth.\nHow many Canned Broth does Save-A-Lot have?",
+  "solution": "Define each Tesco 's Flavored Water as j; So j = 10.\nDefine each Old Town 's Tesco as U; So U = j = 10.\nDefine each Old Town 's Save-A-Lot as a; n = j + U = 10 + 10 = 20; So a = 9 + n = 9 + 20 = 6.\nDefine each Old Town 's Supermarkets as w; So w = U + a = 10 + 6 = 16.\nDefine each Save-A-Lot 's Canned Broth as Y; So Y = 12 + w = 12 + 16 = 5.\n",
+  "num_operation": 6
+}

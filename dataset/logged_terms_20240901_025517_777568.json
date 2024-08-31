@@ -1,0 +1,20 @@
+{
+  "s": 1,
+  "n": 1,
+  "m": 1,
+  "d": 4,
+  "w0": 4,
+  "w1": 4,
+  "e": 14,
+  "structure_graph": "log/draw_all_log_20240901_025517_408817/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025517_408817/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025517_408817/necessary2_graph.png",
+  "topological_order": [
+    "Carrefour 's Candy Bars"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025517_408817/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025517_408817/unnecessary_graph.png",
+  "question": "District category contains Courthouse District, Research Park, Academic District, and Education Park.\nSupermarkets category contains FreshDirect, Publix, Carrefour, and Fresh Thyme Market.\nProduct category contains Popcorn, Candy Bars, Juice, and Canned Chili.\nIngredient category contains Star Anise, Sugar, Cornstarch, and Sweetened Condensed Milk.\nThe number of each Publix 's Candy Bars equals each Fresh Thyme Market 's Product.\nThe number of each Candy Bars 's Sweetened Condensed Milk equals each Academic District 's Fresh Thyme Market.\nThe number of each Academic District 's Fresh Thyme Market equals each Carrefour 's Product.\nThe number of each Juice 's Sweetened Condensed Milk equals 7 times the sum of each Carrefour 's Product, each Carrefour 's Candy Bars, and each Academic District 's Fresh Thyme Market.\nThe number of each Canned Chili 's Star Anise equals each Candy Bars 's Star Anise.\nThe number of each Academic District 's FreshDirect equals each Juice 's Sweetened Condensed Milk.\nThe number of each Courthouse District 's Carrefour equals 1.\nThe number of each Fresh Thyme Market 's Juice equals the sum of each Carrefour 's Product and each Carrefour 's Candy Bars.\nThe number of each FreshDirect 's Candy Bars equals each Juice 's Ingredient.\nThe number of each Research Park 's Carrefour equals each Fresh Thyme Market 's Product.\nThe number of each Education Park 's Fresh Thyme Market equals the sum of each Canned Chili 's Star Anise and each Candy Bars 's Star Anise.\nThe number of each Carrefour 's Candy Bars equals 16.\nThe number of each Popcorn 's Cornstarch equals 2 more than the sum of each Carrefour 's Candy Bars, each Canned Chili 's Ingredient, and each Candy Bars 's Sweetened Condensed Milk.\nThe number of each Candy Bars 's Star Anise equals 1.\nHow many Candy Bars does Carrefour have?",
+  "solution": "Define each Carrefour 's Candy Bars as o; So o = 16.\n",
+  "num_operation": 1
+}

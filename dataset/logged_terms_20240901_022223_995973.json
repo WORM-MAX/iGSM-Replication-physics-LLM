@@ -1,0 +1,23 @@
+{
+  "s": 4,
+  "n": 3,
+  "m": 4,
+  "d": 3,
+  "w0": 2,
+  "w1": 3,
+  "e": 12,
+  "structure_graph": "log/draw_all_log_20240901_022223_537560/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_022223_537560/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_022223_537560/necessary2_graph.png",
+  "topological_order": [
+    "Municipal Office District 's Carrefour",
+    "Civic Center 's Publix",
+    "Civic Center 's Carrefour",
+    "Civic Center 's Supermarkets"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_022223_537560/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_022223_537560/unnecessary_graph.png",
+  "question": "District category contains Civic Center, Senior Living Community, and Municipal Office District.\nSupermarkets category contains Publix, E.Leclerc, and Carrefour.\nProduct category contains Iced Tea, Hummus, and Herbal Tea.\nThe number of each E.Leclerc 's Herbal Tea equals the sum of each Municipal Office District 's Supermarkets and each E.Leclerc 's Iced Tea.\nThe number of each Publix 's Hummus equals 20.\nThe number of each E.Leclerc 's Iced Tea equals 13.\nThe number of each Senior Living Community 's E.Leclerc equals the sum of each Publix 's Iced Tea, each Publix 's Hummus, each Senior Living Community 's Carrefour, and each E.Leclerc 's Hummus.\nThe number of each Municipal Office District 's E.Leclerc equals 2 times the sum of each Civic Center 's Supermarkets, each Municipal Office District 's Carrefour, and each E.Leclerc 's Iced Tea.\nThe number of each Carrefour 's Herbal Tea equals 20.\nThe number of each Civic Center 's Publix equals 18 more than each Municipal Office District 's Carrefour.\nThe number of each Municipal Office District 's Carrefour equals 18.\nThe number of each Senior Living Community 's Carrefour equals 18 times the difference of each Publix 's Hummus and each E.Leclerc 's Hummus.\nThe number of each Civic Center 's Carrefour equals 7.\nThe number of each E.Leclerc 's Hummus equals 8.\nThe number of each Publix 's Iced Tea equals 12 more than the sum of each Senior Living Community 's Carrefour, each Publix 's Hummus, and each E.Leclerc 's Hummus.\nHow many Supermarkets does Civic Center have?",
+  "solution": "Define each Municipal Office District 's Carrefour as I; So I = 18.\nDefine each Civic Center 's Publix as i; So i = 18 + I = 18 + 18 = 13.\nDefine each Civic Center 's Carrefour as t; So t = 7.\nDefine each Civic Center 's Supermarkets as j; So j = i + t = 13 + 7 = 20.\n",
+  "num_operation": 4
+}

@@ -1,0 +1,23 @@
+{
+  "s": 5,
+  "n": 5,
+  "m": 5,
+  "d": 2,
+  "w0": 2,
+  "w1": 3,
+  "e": 9,
+  "structure_graph": "log/draw_all_log_20240901_020104_341300/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_020104_341300/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_020104_341300/necessary2_graph.png",
+  "topological_order": [
+    "Entertainment District 's Target",
+    "Entertainment District 's 99 Cents Only Stores",
+    "Entertainment District 's Eataly",
+    "Entertainment District 's Supermarkets"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_020104_341300/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_020104_341300/unnecessary_graph.png",
+  "question": "District category contains Entertainment District, Academic District, and Housing Estate.\nSupermarkets category contains Target, 99 Cents Only Stores, and Eataly.\nThe number of each Academic District 's Target equals 3.\nThe number of each Entertainment District 's Target equals 17.\nThe number of each Housing Estate 's 99 Cents Only Stores equals each Academic District 's 99 Cents Only Stores.\nThe number of each Academic District 's Eataly equals the difference of each Academic District 's 99 Cents Only Stores and each Academic District 's Target.\nThe number of each Housing Estate 's Eataly equals 15 times the sum of each Entertainment District 's 99 Cents Only Stores, each Academic District 's Supermarkets, and each Academic District 's Target.\nThe number of each Housing Estate 's Target equals the sum of each Entertainment District 's Target and each Entertainment District 's Eataly.\nThe number of each Academic District 's 99 Cents Only Stores equals 21.\nThe number of each Entertainment District 's 99 Cents Only Stores equals 8 more than each Entertainment District 's Target.\nThe number of each Entertainment District 's Eataly equals 18 times each Entertainment District 's 99 Cents Only Stores.\nHow many Supermarkets does Entertainment District have?",
+  "solution": "Define each Entertainment District 's Target as p; So p = 17.\nDefine each Entertainment District 's 99 Cents Only Stores as F; So F = 8 + p = 8 + 17 = 2.\nDefine each Entertainment District 's Eataly as S; So S = 18 * F = 18 * 2 = 13.\nDefine each Entertainment District 's Supermarkets as w; k = S + p = 13 + 17 = 7; So w = F + k = 2 + 7 = 9.\n",
+  "num_operation": 5
+}

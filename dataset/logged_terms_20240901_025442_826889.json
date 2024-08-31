@@ -1,0 +1,23 @@
+{
+  "s": 4,
+  "n": 4,
+  "m": 4,
+  "d": 2,
+  "w0": 2,
+  "w1": 2,
+  "e": 4,
+  "structure_graph": "log/draw_all_log_20240901_025442_462580/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025442_462580/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025442_462580/necessary2_graph.png",
+  "topological_order": [
+    "Administrative District 's ShopRite",
+    "Urban Residential Area 's ShopRite",
+    "Urban Residential Area 's Blue Apron",
+    "Urban Residential Area 's Supermarkets"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025442_462580/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025442_462580/unnecessary_graph.png",
+  "question": "District category contains Urban Residential Area, and Administrative District.\nSupermarkets category contains Blue Apron, and ShopRite.\nThe number of each Administrative District 's ShopRite equals 3.\nThe number of each Urban Residential Area 's ShopRite equals each Administrative District 's ShopRite.\nThe number of each Administrative District 's Blue Apron equals the sum of each Urban Residential Area 's Supermarkets and each Administrative District 's ShopRite.\nThe number of each Urban Residential Area 's Blue Apron equals 15 more than each Urban Residential Area 's ShopRite.\nHow many Supermarkets does Urban Residential Area have?",
+  "solution": "Define each Administrative District 's ShopRite as H; So H = 3.\nDefine each Urban Residential Area 's ShopRite as L; So L = H = 3.\nDefine each Urban Residential Area 's Blue Apron as N; So N = 15 + L = 15 + 3 = 18.\nDefine each Urban Residential Area 's Supermarkets as q; So q = L + N = 3 + 18 = 21.\n",
+  "num_operation": 4
+}

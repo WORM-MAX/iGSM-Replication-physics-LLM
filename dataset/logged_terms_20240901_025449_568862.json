@@ -1,0 +1,23 @@
+{
+  "s": 5,
+  "n": 2,
+  "m": 4,
+  "d": 2,
+  "w0": 2,
+  "w1": 3,
+  "e": 9,
+  "structure_graph": "log/draw_all_log_20240901_025449_199723/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025449_199723/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025449_199723/necessary2_graph.png",
+  "topological_order": [
+    "Historic Downtown 's H-E-B",
+    "Shopping District 's Costco",
+    "Housing Estate 's Central Market",
+    "Shopping District 's H-E-B"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025449_199723/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025449_199723/unnecessary_graph.png",
+  "question": "District category contains Shopping District, Housing Estate, and Historic Downtown.\nSupermarkets category contains Costco, Central Market, and H-E-B.\nThe number of each Historic Downtown 's Central Market equals 11 times the sum of each Shopping District 's H-E-B, each Historic Downtown 's H-E-B, and each Shopping District 's Costco.\nThe number of each Housing Estate 's Costco equals 20 more than each Historic Downtown 's Costco.\nThe number of each Historic Downtown 's Costco equals 0.\nThe number of each Housing Estate 's H-E-B equals the sum of each Shopping District 's Supermarkets, each Shopping District 's H-E-B, and each Historic Downtown 's H-E-B.\nThe number of each Shopping District 's Central Market equals each Historic Downtown 's Costco.\nThe number of each Housing Estate 's Central Market equals 11 times the sum of each Shopping District 's Costco and each Historic Downtown 's H-E-B.\nThe number of each Shopping District 's Costco equals each Historic Downtown 's H-E-B.\nThe number of each Shopping District 's H-E-B equals 21 more than each Housing Estate 's Central Market.\nThe number of each Historic Downtown 's H-E-B equals 7.\nHow many H-E-B does Shopping District have?",
+  "solution": "Define each Historic Downtown 's H-E-B as L; So L = 7.\nDefine each Shopping District 's Costco as J; So J = L = 7.\nDefine each Housing Estate 's Central Market as n; C = J + L = 7 + 7 = 14; So n = 11 * C = 11 * 14 = 16.\nDefine each Shopping District 's H-E-B as P; So P = 21 + n = 21 + 16 = 14.\n",
+  "num_operation": 5
+}

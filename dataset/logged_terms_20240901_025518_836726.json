@@ -1,0 +1,30 @@
+{
+  "s": 11,
+  "n": 3,
+  "m": 11,
+  "d": 4,
+  "w0": 3,
+  "w1": 4,
+  "e": 16,
+  "structure_graph": "log/draw_all_log_20240901_025518_371567/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025518_371567/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025518_371567/necessary2_graph.png",
+  "topological_order": [
+    "Single-family Homes 's Stop & Shop",
+    "King Soopers 's Canned Pumpkin",
+    "Pudding 's Flaxseed Oil",
+    "Stop & Shop 's Cakes",
+    "Industrial District 's Grocery Outlet",
+    "Industrial District 's King Soopers",
+    "Industrial District 's Supermarkets",
+    "Shopping District 's Morrisons",
+    "Canned Pumpkin 's Cardamom",
+    "Single-family Homes 's King Soopers",
+    "Grocery Outlet 's Cakes"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025518_371567/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025518_371567/unnecessary_graph.png",
+  "question": "District category contains Single-family Homes, Industrial District, and Shopping District.\nSupermarkets category contains Stop & Shop, Morrisons, King Soopers, and Grocery Outlet.\nProduct category contains Cakes, Pudding, and Canned Pumpkin.\nIngredient category contains Flaxseed Oil, Cardamom, and Molasses.\nThe number of each Shopping District 's Grocery Outlet equals 21.\nThe number of each Canned Pumpkin 's Cardamom equals each Shopping District 's Morrisons.\nThe number of each Stop & Shop 's Cakes equals each Pudding 's Flaxseed Oil.\nThe number of each Pudding 's Cardamom equals each Canned Pumpkin 's Molasses.\nThe number of each Industrial District 's King Soopers equals each Industrial District 's Grocery Outlet.\nThe number of each Grocery Outlet 's Cakes equals 9 times each Single-family Homes 's King Soopers.\nThe number of each King Soopers 's Canned Pumpkin equals 19 times each Single-family Homes 's Stop & Shop.\nThe number of each Cakes 's Flaxseed Oil equals 7 more than each Canned Pumpkin 's Molasses.\nThe number of each Industrial District 's Grocery Outlet equals 20 times each Stop & Shop 's Cakes.\nThe number of each Cakes 's Molasses equals 12 times each Stop & Shop 's Cakes.\nThe number of each Morrisons 's Pudding equals each Canned Pumpkin 's Molasses.\nThe number of each Single-family Homes 's Stop & Shop equals 18.\nThe number of each Single-family Homes 's King Soopers equals 3 more than each Canned Pumpkin 's Cardamom.\nThe number of each Pudding 's Flaxseed Oil equals the difference of each King Soopers 's Canned Pumpkin and each Single-family Homes 's Stop & Shop.\nThe number of each Shopping District 's Morrisons equals 5 more than each Industrial District 's Supermarkets.\nThe number of each Canned Pumpkin 's Molasses equals 0.\nHow many Cakes does Grocery Outlet have?",
+  "solution": "Define each Single-family Homes 's Stop & Shop as x; So x = 18.\nDefine each King Soopers 's Canned Pumpkin as I; So I = 19 * x = 19 * 18 = 20.\nDefine each Pudding 's Flaxseed Oil as h; So h = I - x = 20 - 18 = 2.\nDefine each Stop & Shop 's Cakes as C; So C = h = 2.\nDefine each Industrial District 's Grocery Outlet as j; So j = 20 * C = 20 * 2 = 17.\nDefine each Industrial District 's King Soopers as y; So y = j = 17.\nDefine each Industrial District 's Supermarkets as U; So U = j + y = 17 + 17 = 11.\nDefine each Shopping District 's Morrisons as Z; So Z = 5 + U = 5 + 11 = 16.\nDefine each Canned Pumpkin 's Cardamom as F; So F = Z = 16.\nDefine each Single-family Homes 's King Soopers as H; So H = 3 + F = 3 + 16 = 19.\nDefine each Grocery Outlet 's Cakes as v; So v = 9 * H = 9 * 19 = 10.\n",
+  "num_operation": 11
+}

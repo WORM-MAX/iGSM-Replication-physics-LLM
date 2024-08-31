@@ -1,0 +1,24 @@
+{
+  "s": 5,
+  "n": 4,
+  "m": 5,
+  "d": 4,
+  "w0": 3,
+  "w1": 4,
+  "e": 15,
+  "structure_graph": "log/draw_all_log_20240901_025459_918818/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025459_918818/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025459_918818/necessary2_graph.png",
+  "topological_order": [
+    "Granola Bars 's Tahini",
+    "Granola Bars 's Ingredient",
+    "Auchan 's Rice Cakes",
+    "Rice Cakes 's Tahini",
+    "Family Dollar 's Rice Cakes"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025459_918818/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025459_918818/unnecessary_graph.png",
+  "question": "District category contains Tech Park, High School Zone, and Silicon Valley.\nSupermarkets category contains Family Dollar, Loblaws, and Auchan.\nProduct category contains Flavored Water, Rice Cakes, Granola Bars, and Canned Broth.\nIngredient category contains Tahini, Amaranth, and Margarine.\nThe number of each Auchan 's Flavored Water equals each High School Zone 's Product.\nThe number of each Loblaws 's Granola Bars equals each Granola Bars 's Ingredient.\nThe number of each High School Zone 's Family Dollar equals 16.\nThe number of each Loblaws 's Rice Cakes equals 11 more than the sum of each High School Zone 's Product, each Silicon Valley 's Auchan, and each Family Dollar 's Canned Broth.\nThe number of each Family Dollar 's Rice Cakes equals each Rice Cakes 's Tahini.\nThe number of each Flavored Water 's Tahini equals 10.\nThe number of each Silicon Valley 's Auchan equals 5 more than each Family Dollar 's Canned Broth.\nThe number of each Granola Bars 's Tahini equals 18.\nThe number of each Family Dollar 's Canned Broth equals 5.\nThe number of each Loblaws 's Canned Broth equals 10.\nThe number of each Family Dollar 's Flavored Water equals 6 more than the sum of each Silicon Valley 's Auchan, each Canned Broth 's Tahini, and each Family Dollar 's Canned Broth.\nThe number of each Canned Broth 's Tahini equals 7 times the difference of each Family Dollar 's Canned Broth and each Silicon Valley 's Auchan.\nThe number of each Auchan 's Rice Cakes equals 9 times each Granola Bars 's Ingredient.\nThe number of each Rice Cakes 's Tahini equals the sum of each Auchan 's Rice Cakes and each Granola Bars 's Ingredient.\nThe number of each Tech Park 's Auchan equals the sum of each Canned Broth 's Ingredient, each Rice Cakes 's Ingredient, and each Family Dollar 's Product.\nHow many Rice Cakes does Family Dollar have?",
+  "solution": "Define each Granola Bars 's Tahini as F; So F = 18.\nDefine each Granola Bars 's Ingredient as b; So b = F = 18.\nDefine each Auchan 's Rice Cakes as q; So q = 9 * b = 9 * 18 = 1.\nDefine each Rice Cakes 's Tahini as P; So P = q + b = 1 + 18 = 19.\nDefine each Family Dollar 's Rice Cakes as C; So C = P = 19.\n",
+  "num_operation": 5
+}

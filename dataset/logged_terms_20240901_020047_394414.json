@@ -1,0 +1,25 @@
+{
+  "s": 6,
+  "n": 5,
+  "m": 6,
+  "d": 3,
+  "w0": 2,
+  "w1": 3,
+  "e": 11,
+  "structure_graph": "log/draw_all_log_20240901_020046_934432/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_020046_934432/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_020046_934432/necessary2_graph.png",
+  "topological_order": [
+    "Lidl 's Canned Soups",
+    "Shopping District 's Blue Apron",
+    "Medical District 's Safeway",
+    "Medical District 's Lidl",
+    "Medical District 's Supermarkets",
+    "Shopping District 's Lidl"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_020046_934432/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_020046_934432/unnecessary_graph.png",
+  "question": "District category contains Wall Street, Shopping District, and Medical District.\nSupermarkets category contains Blue Apron, Lidl, and Safeway.\nProduct category contains Flatbreads, Gummy Candy, and Canned Soups.\nThe number of each Medical District 's Lidl equals 3 times each Shopping District 's Blue Apron.\nThe number of each Wall Street 's Safeway equals 15 more than the difference of each Lidl 's Canned Soups and each Medical District 's Supermarkets.\nThe number of each Blue Apron 's Flatbreads equals 13 times each Safeway 's Flatbreads.\nThe number of each Safeway 's Canned Soups equals the sum of each Lidl 's Flatbreads and each Shopping District 's Blue Apron.\nThe number of each Lidl 's Flatbreads equals each Medical District 's Lidl.\nThe number of each Safeway 's Flatbreads equals 6.\nThe number of each Shopping District 's Lidl equals each Medical District 's Supermarkets.\nThe number of each Wall Street 's Lidl equals each Safeway 's Flatbreads.\nThe number of each Shopping District 's Blue Apron equals 1 times each Lidl 's Canned Soups.\nThe number of each Medical District 's Safeway equals 7 times each Lidl 's Canned Soups.\nThe number of each Lidl 's Canned Soups equals 12.\nHow many Lidl does Shopping District have?",
+  "solution": "Define each Lidl 's Canned Soups as C; So C = 12.\nDefine each Shopping District 's Blue Apron as e; So e = 1 * C = 1 * 12 = 12.\nDefine each Medical District 's Safeway as v; So v = 7 * C = 7 * 12 = 15.\nDefine each Medical District 's Lidl as i; So i = 3 * e = 3 * 12 = 13.\nDefine each Medical District 's Supermarkets as o; So o = i + v = 13 + 15 = 5.\nDefine each Shopping District 's Lidl as t; So t = o = 5.\n",
+  "num_operation": 6
+}

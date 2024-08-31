@@ -1,0 +1,25 @@
+{
+  "s": 8,
+  "n": 6,
+  "m": 6,
+  "d": 2,
+  "w0": 3,
+  "w1": 3,
+  "e": 3,
+  "structure_graph": "log/draw_all_log_20240901_025010_866675/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025010_866675/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025010_866675/necessary2_graph.png",
+  "topological_order": [
+    "Academic District 's Lidl",
+    "Academic District 's Supermarkets",
+    "Dormitory District 's H-E-B",
+    "Dormitory District 's Supermarkets",
+    "Landmark District 's H-E-B",
+    "Landmark District 's Supermarkets"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025010_866675/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025010_866675/unnecessary_graph.png",
+  "question": "District category contains Academic District, Dormitory District, and Landmark District.\nSupermarkets category contains H-E-B, SuperValu, and Lidl.\nThe number of each Academic District 's Lidl equals 22.\nThe number of each Dormitory District 's H-E-B equals 5 more than the difference of each Academic District 's Supermarkets and each Academic District 's Lidl.\nThe number of each Landmark District 's H-E-B equals 9 more than the difference of each Dormitory District 's Supermarkets and each Dormitory District 's H-E-B.\nHow many Supermarkets does Landmark District have?",
+  "solution": "Define each Academic District 's Lidl as D; So D = 22.\nDefine each Academic District 's Supermarkets as Y; So Y = D = 22.\nDefine each Dormitory District 's H-E-B as u; t = Y - D = 22 - 22 = 0; So u = 5 + t = 5 + 0 = 5.\nDefine each Dormitory District 's Supermarkets as t; So t = u = 5.\nDefine each Landmark District 's H-E-B as X; v = t - u = 5 - 5 = 0; So X = 9 + v = 9 + 0 = 9.\nDefine each Landmark District 's Supermarkets as q; So q = X = 9.\n",
+  "num_operation": 8
+}

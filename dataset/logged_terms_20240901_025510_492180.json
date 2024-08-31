@@ -1,0 +1,25 @@
+{
+  "s": 6,
+  "n": 5,
+  "m": 6,
+  "d": 4,
+  "w0": 3,
+  "w1": 4,
+  "e": 13,
+  "structure_graph": "log/draw_all_log_20240901_025510_064110/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025510_064110/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025510_064110/necessary2_graph.png",
+  "topological_order": [
+    "Canned Pumpkin 's Mustard Seeds",
+    "Education Park 's Aldi (Germany)",
+    "Aldi (Germany) 's Canned Pumpkin",
+    "Aldi (Germany) 's Protein Shakes",
+    "Aldi (Germany) 's Product",
+    "Education Park 's Product"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025510_064110/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025510_064110/unnecessary_graph.png",
+  "question": "District category contains Education Park, Archaeological District, and Shopping District.\nSupermarkets category contains Kroger, Aldi (Germany), and ShopRite.\nProduct category contains Canned Pumpkin, Protein Shakes, and Cupcakes.\nIngredient category contains Mustard Seeds, Baking Powder, and Cornstarch.\nThe number of each Kroger 's Canned Pumpkin equals the difference of each Canned Pumpkin 's Ingredient and each Education Park 's Aldi (Germany).\nThe number of each Shopping District 's Aldi (Germany) equals 2.\nThe number of each Aldi (Germany) 's Protein Shakes equals 1 times each Aldi (Germany) 's Canned Pumpkin.\nThe number of each Education Park 's Aldi (Germany) equals 19 more than each Canned Pumpkin 's Mustard Seeds.\nThe number of each Canned Pumpkin 's Baking Powder equals 22 times each ShopRite 's Protein Shakes.\nThe number of each Aldi (Germany) 's Canned Pumpkin equals 3 times each Canned Pumpkin 's Mustard Seeds.\nThe number of each Protein Shakes 's Mustard Seeds equals the sum of each Aldi (Germany) 's Protein Shakes, each Canned Pumpkin 's Ingredient, and each Archaeological District 's Aldi (Germany).\nThe number of each Archaeological District 's Aldi (Germany) equals the sum of each ShopRite 's Product, each Education Park 's Aldi (Germany), and each Aldi (Germany) 's Protein Shakes.\nThe number of each Canned Pumpkin 's Mustard Seeds equals 7.\nThe number of each Cupcakes 's Mustard Seeds equals 19.\nThe number of each ShopRite 's Protein Shakes equals 20.\nThe number of each Kroger 's Protein Shakes equals 6 more than each ShopRite 's Protein Shakes.\nThe number of each Archaeological District 's Kroger equals 17.\nHow many Product does Education Park have?",
+  "solution": "Define each Canned Pumpkin 's Mustard Seeds as L; So L = 7.\nDefine each Education Park 's Aldi (Germany) as V; So V = 19 + L = 19 + 7 = 3.\nDefine each Aldi (Germany) 's Canned Pumpkin as K; So K = 3 * L = 3 * 7 = 21.\nDefine each Aldi (Germany) 's Protein Shakes as U; So U = 1 * K = 1 * 21 = 21.\nDefine each Aldi (Germany) 's Product as y; So y = U + K = 21 + 21 = 19.\nDefine each Education Park 's Product as F; F = y * V = 19 * 3 = 11.\n",
+  "num_operation": 6
+}

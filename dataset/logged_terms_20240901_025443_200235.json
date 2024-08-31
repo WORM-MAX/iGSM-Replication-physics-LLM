@@ -1,0 +1,22 @@
+{
+  "s": 3,
+  "n": 1,
+  "m": 3,
+  "d": 2,
+  "w0": 3,
+  "w1": 4,
+  "e": 11,
+  "structure_graph": "log/draw_all_log_20240901_025442_827314/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025442_827314/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025442_827314/necessary2_graph.png",
+  "topological_order": [
+    "Heritage District 's Sainsbury's",
+    "Heritage District 's Misfits Market",
+    "Market District 's Tesco"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025442_827314/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025442_827314/unnecessary_graph.png",
+  "question": "District category contains Market District, Heritage District, Business District, and Industrial District.\nSupermarkets category contains H-E-B, Sainsbury's, Misfits Market, and Tesco.\nThe number of each Business District 's Misfits Market equals 8.\nThe number of each Heritage District 's Tesco equals 14.\nThe number of each Market District 's Tesco equals 12 times each Heritage District 's Misfits Market.\nThe number of each Heritage District 's Misfits Market equals 0 times each Heritage District 's Sainsbury's.\nThe number of each Heritage District 's Sainsbury's equals 1.\nThe number of each Business District 's H-E-B equals 18 times the difference of each Heritage District 's Tesco and each Market District 's H-E-B.\nThe number of each Market District 's H-E-B equals 17.\nThe number of each Heritage District 's H-E-B equals 20 times the sum of each Heritage District 's Misfits Market, each Market District 's Tesco, and each Heritage District 's Tesco.\nThe number of each Industrial District 's Sainsbury's equals the sum of each Heritage District 's Tesco and each Market District 's Tesco.\nThe number of each Industrial District 's Tesco equals 13.\nThe number of each Industrial District 's H-E-B equals the difference of each Industrial District 's Sainsbury's and each Heritage District 's Supermarkets.\nHow many Tesco does Market District have?",
+  "solution": "Define each Heritage District 's Sainsbury's as s; So s = 1.\nDefine each Heritage District 's Misfits Market as U; So U = 0 * s = 0 * 1 = 0.\nDefine each Market District 's Tesco as Z; So Z = 12 * U = 12 * 0 = 0.\n",
+  "num_operation": 3
+}

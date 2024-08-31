@@ -1,0 +1,23 @@
+{
+  "s": 5,
+  "n": 4,
+  "m": 5,
+  "d": 2,
+  "w0": 2,
+  "w1": 2,
+  "e": 3,
+  "structure_graph": "log/draw_all_log_20240901_025133_940010/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025133_940010/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025133_940010/necessary2_graph.png",
+  "topological_order": [
+    "Media District 's Family Dollar",
+    "Media District 's Earth Fare",
+    "University Campus 's Family Dollar",
+    "University Campus 's Supermarkets"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025133_940010/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025133_940010/unnecessary_graph.png",
+  "question": "District category contains Media District, and University Campus.\nSupermarkets category contains Family Dollar, and Earth Fare.\nThe number of each Media District 's Earth Fare equals 0 more than each Media District 's Family Dollar.\nThe number of each University Campus 's Family Dollar equals 19 times the sum of each Media District 's Earth Fare and each Media District 's Family Dollar.\nThe number of each Media District 's Family Dollar equals 5.\nHow many Supermarkets does University Campus have?",
+  "solution": "Define each Media District 's Family Dollar as g; So g = 5.\nDefine each Media District 's Earth Fare as i; So i = 0 + g = 0 + 5 = 5.\nDefine each University Campus 's Family Dollar as v; q = i + g = 5 + 5 = 10; So v = 19 * q = 19 * 10 = 6.\nDefine each University Campus 's Supermarkets as w; So w = v = 6.\n",
+  "num_operation": 5
+}

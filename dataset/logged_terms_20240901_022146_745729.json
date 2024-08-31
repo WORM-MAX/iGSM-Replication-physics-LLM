@@ -1,0 +1,23 @@
+{
+  "s": 4,
+  "n": 4,
+  "m": 4,
+  "d": 3,
+  "w0": 4,
+  "w1": 4,
+  "e": 10,
+  "structure_graph": "log/draw_all_log_20240901_022146_296206/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_022146_296206/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_022146_296206/necessary2_graph.png",
+  "topological_order": [
+    "Manufacturing District 's Walmart",
+    "Archaeological District 's King Soopers",
+    "Archaeological District 's Supermarkets",
+    "Earth Fare 's Whipped Cream"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_022146_296206/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_022146_296206/unnecessary_graph.png",
+  "question": "District category contains Manufacturing District, Diplomatic Quarter, Archaeological District, and Housing Estate.\nSupermarkets category contains Walmart, Mitsuwa Marketplace, Earth Fare, and King Soopers.\nProduct category contains Whipped Cream, Greek Yogurt, Yogurt, and Dried Fruit.\nThe number of each Diplomatic Quarter 's Mitsuwa Marketplace equals each Archaeological District 's Supermarkets.\nThe number of each Diplomatic Quarter 's Walmart equals 17.\nThe number of each Manufacturing District 's Walmart equals 12.\nThe number of each King Soopers 's Dried Fruit equals each King Soopers 's Yogurt.\nThe number of each King Soopers 's Yogurt equals 20.\nThe number of each Earth Fare 's Whipped Cream equals the difference of each Archaeological District 's Supermarkets and each Archaeological District 's King Soopers.\nThe number of each Archaeological District 's King Soopers equals 7 more than each Manufacturing District 's Walmart.\nThe number of each Walmart 's Yogurt equals the sum of each Manufacturing District 's Walmart, each Manufacturing District 's Supermarkets, and each Archaeological District 's King Soopers.\nThe number of each Mitsuwa Marketplace 's Yogurt equals the sum of each Earth Fare 's Whipped Cream and each Walmart 's Product.\nThe number of each Housing Estate 's Walmart equals 6 more than each King Soopers 's Yogurt.\nHow many Whipped Cream does Earth Fare have?",
+  "solution": "Define each Manufacturing District 's Walmart as J; So J = 12.\nDefine each Archaeological District 's King Soopers as g; So g = 7 + J = 7 + 12 = 19.\nDefine each Archaeological District 's Supermarkets as e; So e = g = 19.\nDefine each Earth Fare 's Whipped Cream as i; So i = e - g = 19 - 19 = 0.\n",
+  "num_operation": 4
+}

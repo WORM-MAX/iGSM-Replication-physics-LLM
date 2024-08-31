@@ -1,0 +1,23 @@
+{
+  "s": 4,
+  "n": 4,
+  "m": 4,
+  "d": 3,
+  "w0": 2,
+  "w1": 3,
+  "e": 7,
+  "structure_graph": "log/draw_all_log_20240901_015910_844183/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_015910_844183/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_015910_844183/necessary2_graph.png",
+  "topological_order": [
+    "Municipal Office District 's H-E-B",
+    "Military District 's Thrive Market",
+    "H-E-B 's Cheese",
+    "H-E-B 's Product"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_015910_844183/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_015910_844183/unnecessary_graph.png",
+  "question": "District category contains Military District, Gated Community, and Municipal Office District.\nSupermarkets category contains Thrive Market, and H-E-B.\nProduct category contains Biscuits, and Cheese.\nThe number of each H-E-B 's Cheese equals 16 times each Military District 's Thrive Market.\nThe number of each Municipal Office District 's H-E-B equals 9.\nThe number of each Military District 's Thrive Market equals 22 more than each Municipal Office District 's H-E-B.\nThe number of each Thrive Market 's Cheese equals 12.\nThe number of each Municipal Office District 's Thrive Market equals 22 times each Thrive Market 's Cheese.\nThe number of each Gated Community 's Thrive Market equals 12.\nThe number of each Gated Community 's H-E-B equals each H-E-B 's Product.\nHow many Product does H-E-B have?",
+  "solution": "Define each Municipal Office District 's H-E-B as b; So b = 9.\nDefine each Military District 's Thrive Market as t; So t = 22 + b = 22 + 9 = 8.\nDefine each H-E-B 's Cheese as R; So R = 16 * t = 16 * 8 = 13.\nDefine each H-E-B 's Product as H; So H = R = 13.\n",
+  "num_operation": 4
+}

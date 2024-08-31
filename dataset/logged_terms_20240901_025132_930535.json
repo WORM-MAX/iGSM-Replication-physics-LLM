@@ -1,0 +1,24 @@
+{
+  "s": 5,
+  "n": 5,
+  "m": 5,
+  "d": 4,
+  "w0": 4,
+  "w1": 4,
+  "e": 18,
+  "structure_graph": "log/draw_all_log_20240901_025132_482141/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025132_482141/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025132_482141/necessary2_graph.png",
+  "topological_order": [
+    "Peapod 's Pies",
+    "Pies 's Bulgur",
+    "Pies 's Ingredient",
+    "Peapod 's Ingredient",
+    "Student Housing 's ShopRite"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025132_482141/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025132_482141/unnecessary_graph.png",
+  "question": "District category contains University Campus, Research and Innovation Park, Student Housing, and Legal District.\nSupermarkets category contains ShopRite, Peapod, Sainsbury's, and Whole Foods Market.\nProduct category contains Rice Cakes, Scones, Pies, and Canned Pasta.\nIngredient category contains Bulgur, Vegetable Oil, Molasses, and Relish.\nThe number of each Research and Innovation Park 's Peapod equals the sum of each University Campus 's ShopRite, each Pies 's Ingredient, each Pies 's Bulgur, and each Student Housing 's Whole Foods Market.\nThe number of each Pies 's Bulgur equals 5 times each Peapod 's Pies.\nThe number of each Legal District 's Whole Foods Market equals the sum of each University Campus 's Supermarkets and each Research and Innovation Park 's Whole Foods Market.\nThe number of each Rice Cakes 's Vegetable Oil equals 10 more than the difference of each Pies 's Bulgur and each Legal District 's Sainsbury's.\nThe number of each University Campus 's ShopRite equals the sum of each ShopRite 's Scones and each Sainsbury's 's Rice Cakes.\nThe number of each Sainsbury's 's Rice Cakes equals 5 more than each Student Housing 's Whole Foods Market.\nThe number of each Scones 's Relish equals each ShopRite 's Pies.\nThe number of each Research and Innovation Park 's Whole Foods Market equals 9 times each Student Housing 's Whole Foods Market.\nThe number of each ShopRite 's Pies equals 10 times the sum of each Pies 's Ingredient, each Canned Pasta 's Relish, and each Student Housing 's ShopRite.\nThe number of each Whole Foods Market 's Pies equals each University Campus 's Sainsbury's.\nThe number of each Student Housing 's ShopRite equals each Peapod 's Ingredient.\nThe number of each Student Housing 's Whole Foods Market equals 14.\nThe number of each ShopRite 's Scones equals each Sainsbury's 's Rice Cakes.\nThe number of each Scones 's Molasses equals 3 times the sum of each ShopRite 's Scones, each Student Housing 's Whole Foods Market, and each Sainsbury's 's Rice Cakes.\nThe number of each Peapod 's Pies equals 1.\nThe number of each University Campus 's Sainsbury's equals the sum of each Pies 's Bulgur, each Student Housing 's ShopRite, each Pies 's Ingredient, and each Peapod 's Product.\nThe number of each Legal District 's Sainsbury's equals the difference of each Sainsbury's 's Product and each Canned Pasta 's Relish.\nThe number of each Canned Pasta 's Relish equals each Peapod 's Pies.\nHow many ShopRite does Student Housing have?",
+  "solution": "Define each Peapod 's Pies as G; So G = 1.\nDefine each Pies 's Bulgur as d; So d = 5 * G = 5 * 1 = 5.\nDefine each Pies 's Ingredient as U; So U = d = 5.\nDefine each Peapod 's Ingredient as v; v = U * G = 5 * 1 = 5.\nDefine each Student Housing 's ShopRite as I; So I = v = 5.\n",
+  "num_operation": 5
+}

@@ -1,0 +1,27 @@
+{
+  "s": 8,
+  "n": 6,
+  "m": 8,
+  "d": 4,
+  "w0": 2,
+  "w1": 2,
+  "e": 6,
+  "structure_graph": "log/draw_all_log_20240901_020019_305448/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_020019_305448/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_020019_305448/necessary2_graph.png",
+  "topological_order": [
+    "Historic Downtown 's Food 4 Less",
+    "Yogurt 's Saffron",
+    "Sam's Club 's Yogurt",
+    "Yogurt 's Ingredient",
+    "Wall Street 's Sam's Club",
+    "Sam's Club 's Ingredient",
+    "Wall Street 's Ingredient",
+    "Iced Tea 's Cornmeal"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_020019_305448/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_020019_305448/unnecessary_graph.png",
+  "question": "District category contains Wall Street, and Historic Downtown.\nSupermarkets category contains Sam's Club, and Food 4 Less.\nProduct category contains Yogurt, and Iced Tea.\nIngredient category contains Cornmeal, and Saffron.\nThe number of each Historic Downtown 's Food 4 Less equals 11.\nThe number of each Wall Street 's Sam's Club equals 9 times each Sam's Club 's Yogurt.\nThe number of each Sam's Club 's Yogurt equals each Yogurt 's Saffron.\nThe number of each Iced Tea 's Cornmeal equals the difference of each Wall Street 's Ingredient and each Yogurt 's Saffron.\nThe number of each Yogurt 's Saffron equals each Historic Downtown 's Food 4 Less.\nThe number of each Food 4 Less 's Iced Tea equals 10 times the difference of each Sam's Club 's Yogurt and each Iced Tea 's Ingredient.\nHow many Cornmeal does Iced Tea have?",
+  "solution": "Define each Historic Downtown 's Food 4 Less as Y; So Y = 11.\nDefine each Yogurt 's Saffron as R; So R = Y = 11.\nDefine each Sam's Club 's Yogurt as p; So p = R = 11.\nDefine each Yogurt 's Ingredient as f; So f = R = 11.\nDefine each Wall Street 's Sam's Club as Q; So Q = 9 * p = 9 * 11 = 7.\nDefine each Sam's Club 's Ingredient as w; w = p * f = 11 * 11 = 6.\nDefine each Wall Street 's Ingredient as z; z = Q * w = 7 * 6 = 19.\nDefine each Iced Tea 's Cornmeal as F; So F = z - R = 19 - 11 = 8.\n",
+  "num_operation": 8
+}

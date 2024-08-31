@@ -1,0 +1,28 @@
+{
+  "s": 11,
+  "n": 7,
+  "m": 9,
+  "d": 4,
+  "w0": 2,
+  "w1": 3,
+  "e": 8,
+  "structure_graph": "log/draw_all_log_20240901_022153_096243/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_022153_096243/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_022153_096243/necessary2_graph.png",
+  "topological_order": [
+    "Candy Bars 's Star Anise",
+    "Juice 's Pickles",
+    "Meijer 's Candy Bars",
+    "Yogurt Covered Raisins 's Pickles",
+    "Yogurt Covered Raisins 's Ingredient",
+    "Safeway 's Yogurt Covered Raisins",
+    "Research Park 's Safeway",
+    "Safeway 's Ingredient",
+    "Research Park 's Ingredient"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_022153_096243/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_022153_096243/unnecessary_graph.png",
+  "question": "District category contains Research and Innovation Park, University Campus, and Research Park.\nSupermarkets category contains Meijer, and Safeway.\nProduct category contains Candy Bars, Juice, and Yogurt Covered Raisins.\nIngredient category contains Flaxseed Oil, Star Anise, and Pickles.\nThe number of each Juice 's Pickles equals 7 times each Candy Bars 's Star Anise.\nThe number of each Candy Bars 's Star Anise equals 5.\nThe number of each Meijer 's Candy Bars equals 22 more than the sum of each Juice 's Pickles and each Candy Bars 's Star Anise.\nThe number of each Safeway 's Yogurt Covered Raisins equals 7 times each Yogurt Covered Raisins 's Ingredient.\nThe number of each Research and Innovation Park 's Meijer equals the sum of each Yogurt Covered Raisins 's Ingredient, each Safeway 's Product, and each Juice 's Pickles.\nThe number of each Yogurt Covered Raisins 's Pickles equals each Meijer 's Candy Bars.\nThe number of each University Campus 's Safeway equals 4.\nThe number of each Research Park 's Safeway equals the sum of each Candy Bars 's Star Anise, each Safeway 's Yogurt Covered Raisins, and each Juice 's Pickles.\nHow many Ingredient does Research Park have?",
+  "solution": "Define each Candy Bars 's Star Anise as R; So R = 5.\nDefine each Juice 's Pickles as l; So l = 7 * R = 7 * 5 = 12.\nDefine each Meijer 's Candy Bars as K; p = l + R = 12 + 5 = 17; So K = 22 + p = 22 + 17 = 16.\nDefine each Yogurt Covered Raisins 's Pickles as y; So y = K = 16.\nDefine each Yogurt Covered Raisins 's Ingredient as u; So u = y = 16.\nDefine each Safeway 's Yogurt Covered Raisins as h; So h = 7 * u = 7 * 16 = 20.\nDefine each Research Park 's Safeway as I; p = h + R = 20 + 5 = 2; So I = l + p = 12 + 2 = 14.\nDefine each Safeway 's Ingredient as p; p = h * u = 20 * 16 = 21.\nDefine each Research Park 's Ingredient as B; B = p * I = 21 * 14 = 18.\n",
+  "num_operation": 11
+}

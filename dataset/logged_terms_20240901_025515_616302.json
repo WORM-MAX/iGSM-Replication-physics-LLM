@@ -1,0 +1,20 @@
+{
+  "s": 1,
+  "n": 1,
+  "m": 1,
+  "d": 3,
+  "w0": 2,
+  "w1": 3,
+  "e": 14,
+  "structure_graph": "log/draw_all_log_20240901_025515_226808/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025515_226808/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025515_226808/necessary2_graph.png",
+  "topological_order": [
+    "Old Town 's Sainsbury's"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025515_226808/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025515_226808/unnecessary_graph.png",
+  "question": "District category contains Historic Neighborhood, Academic District, and Old Town.\nSupermarkets category contains Peapod, Sainsbury's, and Loblaws.\nProduct category contains Iced Tea, Custard, and Canned Pineapple.\nThe number of each Loblaws 's Canned Pineapple equals 15.\nThe number of each Historic Neighborhood 's Sainsbury's equals each Academic District 's Supermarkets.\nThe number of each Peapod 's Canned Pineapple equals 18 times the sum of each Loblaws 's Canned Pineapple and each Academic District 's Peapod.\nThe number of each Old Town 's Sainsbury's equals 21.\nThe number of each Old Town 's Peapod equals each Academic District 's Supermarkets.\nThe number of each Academic District 's Loblaws equals the sum of each Academic District 's Peapod, each Loblaws 's Canned Pineapple, and each Peapod 's Canned Pineapple.\nThe number of each Sainsbury's 's Canned Pineapple equals 21 times each Peapod 's Canned Pineapple.\nThe number of each Academic District 's Peapod equals each Loblaws 's Canned Pineapple.\nThe number of each Historic Neighborhood 's Loblaws equals the difference of each Old Town 's Sainsbury's and each Peapod 's Canned Pineapple.\nThe number of each Old Town 's Loblaws equals the difference of each Loblaws 's Canned Pineapple and each Academic District 's Peapod.\nThe number of each Loblaws 's Custard equals 21.\nThe number of each Sainsbury's 's Custard equals 4 more than each Loblaws 's Canned Pineapple.\nThe number of each Peapod 's Custard equals the sum of each Peapod 's Canned Pineapple, each Sainsbury's 's Canned Pineapple, and each Academic District 's Peapod.\nThe number of each Loblaws 's Iced Tea equals 7 more than the sum of each Old Town 's Peapod, each Sainsbury's 's Product, and each Academic District 's Supermarkets.\nHow many Sainsbury's does Old Town have?",
+  "solution": "Define each Old Town 's Sainsbury's as w; So w = 21.\n",
+  "num_operation": 1
+}

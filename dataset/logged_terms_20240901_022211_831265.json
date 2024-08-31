@@ -1,0 +1,26 @@
+{
+  "s": 8,
+  "n": 7,
+  "m": 8,
+  "d": 2,
+  "w0": 3,
+  "w1": 3,
+  "e": 9,
+  "structure_graph": "log/draw_all_log_20240901_022211_369758/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_022211_369758/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_022211_369758/necessary2_graph.png",
+  "topological_order": [
+    "Financial District 's Lidl",
+    "Student Housing 's Fry's",
+    "Student Housing 's Lidl",
+    "Government Complex 's Lidl",
+    "Government Complex 's Safeway",
+    "Government Complex 's Fry's",
+    "Government Complex 's Supermarkets"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_022211_369758/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_022211_369758/unnecessary_graph.png",
+  "question": "District category contains Financial District, Student Housing, and Government Complex.\nSupermarkets category contains Fry's, Lidl, and Safeway.\nThe number of each Government Complex 's Fry's equals the difference of each Student Housing 's Fry's and each Student Housing 's Lidl.\nThe number of each Government Complex 's Safeway equals 16 more than each Government Complex 's Lidl.\nThe number of each Student Housing 's Safeway equals 13.\nThe number of each Financial District 's Lidl equals 4.\nThe number of each Government Complex 's Lidl equals the sum of each Student Housing 's Lidl and each Financial District 's Lidl.\nThe number of each Student Housing 's Fry's equals 3 times each Financial District 's Lidl.\nThe number of each Financial District 's Safeway equals 21 times each Student Housing 's Safeway.\nThe number of each Student Housing 's Lidl equals the difference of each Student Housing 's Fry's and each Financial District 's Lidl.\nThe number of each Financial District 's Fry's equals 2 times each Financial District 's Lidl.\nHow many Supermarkets does Government Complex have?",
+  "solution": "Define each Financial District 's Lidl as t; So t = 4.\nDefine each Student Housing 's Fry's as k; So k = 3 * t = 3 * 4 = 12.\nDefine each Student Housing 's Lidl as E; So E = k - t = 12 - 4 = 8.\nDefine each Government Complex 's Lidl as r; So r = E + t = 8 + 4 = 12.\nDefine each Government Complex 's Safeway as X; So X = 16 + r = 16 + 12 = 5.\nDefine each Government Complex 's Fry's as q; So q = k - E = 12 - 8 = 4.\nDefine each Government Complex 's Supermarkets as K; g = r + X = 12 + 5 = 17; So K = q + g = 4 + 17 = 21.\n",
+  "num_operation": 8
+}

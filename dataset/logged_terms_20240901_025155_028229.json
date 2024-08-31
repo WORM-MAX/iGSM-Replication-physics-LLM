@@ -1,0 +1,24 @@
+{
+  "s": 9,
+  "n": 6,
+  "m": 6,
+  "d": 3,
+  "w0": 3,
+  "w1": 4,
+  "e": 13,
+  "structure_graph": "log/draw_all_log_20240901_025154_613639/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025154_613639/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025154_613639/necessary2_graph.png",
+  "topological_order": [
+    "Student Housing 's Amazon Fresh",
+    "Student Housing 's Lulu Hypermarket",
+    "Student Housing 's Stop & Shop",
+    "Student Housing 's Supermarkets",
+    "Housing Estate 's Lulu Hypermarket"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025154_613639/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025154_613639/unnecessary_graph.png",
+  "question": "District category contains Student Housing, Historic Neighborhood, and Housing Estate.\nSupermarkets category contains Lulu Hypermarket, Amazon Fresh, and Stop & Shop.\nProduct category contains Yogurt Covered Raisins, Rolls, and Liquor.\nThe number of each Housing Estate 's Lulu Hypermarket equals the sum of each Student Housing 's Amazon Fresh, each Student Housing 's Stop & Shop, each Student Housing 's Supermarkets, and each Student Housing 's Lulu Hypermarket.\nThe number of each Historic Neighborhood 's Lulu Hypermarket equals each Stop & Shop 's Yogurt Covered Raisins.\nThe number of each Amazon Fresh 's Yogurt Covered Raisins equals 8 more than each Historic Neighborhood 's Stop & Shop.\nThe number of each Housing Estate 's Stop & Shop equals the sum of each Stop & Shop 's Product and each Student Housing 's Lulu Hypermarket.\nThe number of each Lulu Hypermarket 's Yogurt Covered Raisins equals 8 more than the sum of each Amazon Fresh 's Yogurt Covered Raisins and each Historic Neighborhood 's Stop & Shop.\nThe number of each Amazon Fresh 's Liquor equals 9.\nThe number of each Student Housing 's Amazon Fresh equals 3.\nThe number of each Student Housing 's Lulu Hypermarket equals 21 more than each Student Housing 's Amazon Fresh.\nThe number of each Stop & Shop 's Yogurt Covered Raisins equals 5 more than each Student Housing 's Amazon Fresh.\nThe number of each Lulu Hypermarket 's Rolls equals 10 more than the sum of each Student Housing 's Amazon Fresh, each Lulu Hypermarket 's Liquor, and each Stop & Shop 's Product.\nThe number of each Lulu Hypermarket 's Liquor equals 14.\nThe number of each Historic Neighborhood 's Stop & Shop equals 10.\nThe number of each Student Housing 's Stop & Shop equals 22 more than the sum of each Student Housing 's Lulu Hypermarket and each Student Housing 's Amazon Fresh.\nHow many Lulu Hypermarket does Housing Estate have?",
+  "solution": "Define each Student Housing 's Amazon Fresh as q; So q = 3.\nDefine each Student Housing 's Lulu Hypermarket as n; So n = 21 + q = 21 + 3 = 1.\nDefine each Student Housing 's Stop & Shop as e; s = n + q = 1 + 3 = 4; So e = 22 + s = 22 + 4 = 3.\nDefine each Student Housing 's Supermarkets as L; X = q + n = 3 + 1 = 4; So L = e + X = 3 + 4 = 7.\nDefine each Housing Estate 's Lulu Hypermarket as F; q = e + q = 3 + 6 = 6; v = q + n = 6 + 1 = 7; So F = L + v = 7 + 7 = 14.\n",
+  "num_operation": 9
+}

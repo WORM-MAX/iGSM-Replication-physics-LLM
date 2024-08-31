@@ -1,0 +1,22 @@
+{
+  "s": 3,
+  "n": 3,
+  "m": 3,
+  "d": 2,
+  "w0": 2,
+  "w1": 2,
+  "e": 4,
+  "structure_graph": "log/draw_all_log_20240901_020114_428182/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_020114_428182/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_020114_428182/necessary2_graph.png",
+  "topological_order": [
+    "Preservation District 's Food 4 Less",
+    "Preservation District 's Fairway Market",
+    "Preservation District 's Supermarkets"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_020114_428182/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_020114_428182/unnecessary_graph.png",
+  "question": "District category contains Preservation District, and Ancient City.\nSupermarkets category contains Food 4 Less, and Fairway Market.\nThe number of each Ancient City 's Food 4 Less equals 6 more than each Ancient City 's Fairway Market.\nThe number of each Preservation District 's Food 4 Less equals 19.\nThe number of each Ancient City 's Fairway Market equals 20.\nThe number of each Preservation District 's Fairway Market equals 17 more than each Preservation District 's Food 4 Less.\nHow many Supermarkets does Preservation District have?",
+  "solution": "Define each Preservation District 's Food 4 Less as p; So p = 19.\nDefine each Preservation District 's Fairway Market as Y; So Y = 17 + p = 17 + 19 = 13.\nDefine each Preservation District 's Supermarkets as d; So d = p + Y = 19 + 13 = 9.\n",
+  "num_operation": 3
+}

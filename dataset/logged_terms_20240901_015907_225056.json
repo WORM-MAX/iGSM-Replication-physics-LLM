@@ -1,0 +1,21 @@
+{
+  "s": 2,
+  "n": 2,
+  "m": 2,
+  "d": 4,
+  "w0": 2,
+  "w1": 2,
+  "e": 6,
+  "structure_graph": "log/draw_all_log_20240901_015906_809154/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_015906_809154/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_015906_809154/necessary2_graph.png",
+  "topological_order": [
+    "Protein Shakes 's Grits",
+    "Protein Shakes 's Ingredient"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_015906_809154/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_015906_809154/unnecessary_graph.png",
+  "question": "District category contains Courthouse District, and Government Complex.\nSupermarkets category contains Hy-Vee, and Big Lots.\nProduct category contains Buttermilk, and Protein Shakes.\nIngredient category contains Cocoa Powder, and Grits.\nThe number of each Courthouse District 's Big Lots equals 20.\nThe number of each Government Complex 's Big Lots equals 20.\nThe number of each Buttermilk 's Cocoa Powder equals 2.\nThe number of each Hy-Vee 's Buttermilk equals 3.\nThe number of each Big Lots 's Buttermilk equals the sum of each Protein Shakes 's Ingredient and each Hy-Vee 's Buttermilk.\nThe number of each Protein Shakes 's Grits equals 16.\nHow many Ingredient does Protein Shakes have?",
+  "solution": "Define each Protein Shakes 's Grits as X; So X = 16.\nDefine each Protein Shakes 's Ingredient as U; So U = X = 16.\n",
+  "num_operation": 2
+}

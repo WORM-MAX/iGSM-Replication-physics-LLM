@@ -1,0 +1,28 @@
+{
+  "s": 11,
+  "n": 6,
+  "m": 9,
+  "d": 3,
+  "w0": 4,
+  "w1": 4,
+  "e": 8,
+  "structure_graph": "log/draw_all_log_20240901_022126_409134/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_022126_409134/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_022126_409134/necessary2_graph.png",
+  "topological_order": [
+    "University Campus 's Food Lion",
+    "Government Complex 's Wegmans",
+    "Wegmans 's Butter",
+    "Wegmans 's Product",
+    "Government Complex 's Product",
+    "Weis Markets 's Butter",
+    "SuperValu 's Butter",
+    "SuperValu 's Product",
+    "Suburban Neighborhood 's Weis Markets"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_022126_409134/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_022126_409134/unnecessary_graph.png",
+  "question": "District category contains University Campus, Government Complex, Ancient City, and Suburban Neighborhood.\nSupermarkets category contains Weis Markets, Food Lion, Wegmans, and SuperValu.\nProduct category contains Tea, Sparkling Water, Biscuits, and Butter.\nThe number of each Food Lion 's Biscuits equals 20.\nThe number of each Ancient City 's Food Lion equals the sum of each Wegmans 's Butter, each Wegmans 's Product, each Weis Markets 's Butter, and each SuperValu 's Product.\nThe number of each University Campus 's Food Lion equals 18.\nThe number of each Government Complex 's Wegmans equals 17 times each University Campus 's Food Lion.\nThe number of each SuperValu 's Butter equals the difference of each Weis Markets 's Butter and each Government Complex 's Wegmans.\nThe number of each Suburban Neighborhood 's Weis Markets equals the sum of each Wegmans 's Product, each Wegmans 's Butter, and each SuperValu 's Product.\nThe number of each Weis Markets 's Butter equals 15 times each Government Complex 's Product.\nThe number of each Wegmans 's Butter equals 5 more than the difference of each Government Complex 's Wegmans and each University Campus 's Food Lion.\nHow many Weis Markets does Suburban Neighborhood have?",
+  "solution": "Define each University Campus 's Food Lion as H; So H = 18.\nDefine each Government Complex 's Wegmans as p; So p = 17 * H = 17 * 18 = 7.\nDefine each Wegmans 's Butter as J; V = p - H = 7 - 18 = 12; So J = 5 + V = 5 + 12 = 17.\nDefine each Wegmans 's Product as v; So v = J = 17.\nDefine each Government Complex 's Product as E; E = p * v = 7 * 17 = 4.\nDefine each Weis Markets 's Butter as S; So S = 15 * E = 15 * 4 = 14.\nDefine each SuperValu 's Butter as i; So i = S - p = 14 - 7 = 7.\nDefine each SuperValu 's Product as T; So T = i = 7.\nDefine each Suburban Neighborhood 's Weis Markets as b; r = J + v = 17 + 17 = 11; So b = T + r = 7 + 11 = 18.\n",
+  "num_operation": 11
+}

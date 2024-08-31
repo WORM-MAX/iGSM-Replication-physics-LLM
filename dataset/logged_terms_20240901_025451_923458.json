@@ -1,0 +1,22 @@
+{
+  "s": 3,
+  "n": 1,
+  "m": 3,
+  "d": 3,
+  "w0": 4,
+  "w1": 4,
+  "e": 12,
+  "structure_graph": "log/draw_all_log_20240901_025451_547044/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025451_547044/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025451_547044/necessary2_graph.png",
+  "topological_order": [
+    "Hungryroot 's Canned Mushrooms",
+    "Preservation District 's Fry's",
+    "Fry's 's Plant-based Milk"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025451_547044/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025451_547044/unnecessary_graph.png",
+  "question": "District category contains Cultural Heritage Site, Courthouse District, Preservation District, and Automotive District.\nSupermarkets category contains Fry's, Sainsbury's, Amazon Fresh, and Hungryroot.\nProduct category contains Butter, Canned Mushrooms, Plant-based Milk, and Nuts.\nThe number of each Sainsbury's 's Butter equals 1.\nThe number of each Hungryroot 's Canned Mushrooms equals 19.\nThe number of each Cultural Heritage Site 's Sainsbury's equals 15.\nThe number of each Amazon Fresh 's Butter equals 6 more than each Sainsbury's 's Nuts.\nThe number of each Preservation District 's Hungryroot equals 10 more than each Sainsbury's 's Nuts.\nThe number of each Cultural Heritage Site 's Fry's equals each Hungryroot 's Canned Mushrooms.\nThe number of each Preservation District 's Amazon Fresh equals each Hungryroot 's Product.\nThe number of each Courthouse District 's Amazon Fresh equals 20 times each Cultural Heritage Site 's Sainsbury's.\nThe number of each Sainsbury's 's Nuts equals 11 more than each Courthouse District 's Amazon Fresh.\nThe number of each Automotive District 's Fry's equals 0.\nThe number of each Preservation District 's Fry's equals 5 more than each Hungryroot 's Canned Mushrooms.\nThe number of each Fry's 's Plant-based Milk equals 0 times each Preservation District 's Fry's.\nHow many Plant-based Milk does Fry's have?",
+  "solution": "Define each Hungryroot 's Canned Mushrooms as i; So i = 19.\nDefine each Preservation District 's Fry's as Y; So Y = 5 + i = 5 + 19 = 1.\nDefine each Fry's 's Plant-based Milk as N; So N = 0 * Y = 0 * 1 = 0.\n",
+  "num_operation": 3
+}

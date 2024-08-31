@@ -1,0 +1,24 @@
+{
+  "s": 10,
+  "n": 7,
+  "m": 7,
+  "d": 2,
+  "w0": 3,
+  "w1": 4,
+  "e": 16,
+  "structure_graph": "log/draw_all_log_20240901_020009_107250/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_020009_107250/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_020009_107250/necessary2_graph.png",
+  "topological_order": [
+    "Market District 's Hannaford",
+    "Market District 's Tesco",
+    "Market District 's The Fresh Market",
+    "Market District 's Aldi (Germany)",
+    "Market District 's Supermarkets"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_020009_107250/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_020009_107250/unnecessary_graph.png",
+  "question": "District category contains Suburban Neighborhood, Market District, Academic District, and Business District.\nSupermarkets category contains Aldi (Germany), Hannaford, The Fresh Market, and Tesco.\nThe number of each Business District 's Hannaford equals each Suburban Neighborhood 's Tesco.\nThe number of each Market District 's Aldi (Germany) equals 20 more than the sum of each Market District 's Hannaford, each Market District 's The Fresh Market, and each Market District 's Tesco.\nThe number of each Market District 's Hannaford equals 1.\nThe number of each Business District 's Tesco equals 16.\nThe number of each Suburban Neighborhood 's The Fresh Market equals 9.\nThe number of each Academic District 's Tesco equals 3 more than the difference of each Business District 's Tesco and each Suburban Neighborhood 's Hannaford.\nThe number of each Academic District 's The Fresh Market equals 14 times each Market District 's The Fresh Market.\nThe number of each Business District 's The Fresh Market equals 7 times each Academic District 's Aldi (Germany).\nThe number of each Suburban Neighborhood 's Aldi (Germany) equals the sum of each Academic District 's The Fresh Market and each Academic District 's Hannaford.\nThe number of each Suburban Neighborhood 's Hannaford equals the difference of each Academic District 's Aldi (Germany) and each Business District 's The Fresh Market.\nThe number of each Market District 's Tesco equals 9 times each Market District 's Hannaford.\nThe number of each Suburban Neighborhood 's Tesco equals 21 more than the sum of each Market District 's Tesco, each Academic District 's The Fresh Market, and each Suburban Neighborhood 's Hannaford.\nThe number of each Academic District 's Aldi (Germany) equals 4.\nThe number of each Business District 's Aldi (Germany) equals the difference of each Suburban Neighborhood 's Hannaford and each Business District 's The Fresh Market.\nThe number of each Market District 's The Fresh Market equals 6 more than the difference of each Market District 's Hannaford and each Market District 's Tesco.\nThe number of each Academic District 's Hannaford equals the sum of each Market District 's Supermarkets and each Market District 's Tesco.\nHow many Supermarkets does Market District have?",
+  "solution": "Define each Market District 's Hannaford as p; So p = 1.\nDefine each Market District 's Tesco as Z; So Z = 9 * p = 9 * 1 = 9.\nDefine each Market District 's The Fresh Market as M; l = p - Z = 1 - 9 = 15; So M = 6 + l = 6 + 15 = 21.\nDefine each Market District 's Aldi (Germany) as P; N = M + p = 21 + 1 = 22; B = Z + N = 9 + 22 = 8; So P = 20 + B = 20 + 8 = 5.\nDefine each Market District 's Supermarkets as W; Y = M + P = 21 + 5 = 3; t = Y + Z = 3 + 9 = 12; So W = p + t = 1 + 12 = 13.\n",
+  "num_operation": 10
+}

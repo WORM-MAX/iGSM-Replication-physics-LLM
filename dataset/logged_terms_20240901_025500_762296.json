@@ -1,0 +1,25 @@
+{
+  "s": 6,
+  "n": 5,
+  "m": 6,
+  "d": 4,
+  "w0": 4,
+  "w1": 4,
+  "e": 14,
+  "structure_graph": "log/draw_all_log_20240901_025500_330759/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025500_330759/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025500_330759/necessary2_graph.png",
+  "topological_order": [
+    "E.Leclerc 's Sour Cream",
+    "Croissants 's Chili Powder",
+    "E.Leclerc 's Product",
+    "Learning Hub 's E.Leclerc",
+    "Learning Hub 's Product",
+    "Kroger 's Butter"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025500_330759/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025500_330759/unnecessary_graph.png",
+  "question": "District category contains Historic Downtown, Learning Hub, School District, and Institute District.\nSupermarkets category contains E.Leclerc, Boxed, Kroger, and Walmart Grocery.\nProduct category contains Canned Chili, Butter, Croissants, and Sour Cream.\nIngredient category contains Cloves, Cornmeal, Corn Oil, and Chili Powder.\nThe number of each School District 's Boxed equals the difference of each Learning Hub 's Product and each Canned Chili 's Chili Powder.\nThe number of each Kroger 's Sour Cream equals 22.\nThe number of each E.Leclerc 's Sour Cream equals 5.\nThe number of each Historic Downtown 's E.Leclerc equals 11.\nThe number of each Institute District 's Kroger equals 22 more than each Kroger 's Sour Cream.\nThe number of each Institute District 's Walmart Grocery equals the sum of each Learning Hub 's E.Leclerc and each Kroger 's Product.\nThe number of each Canned Chili 's Chili Powder equals 16.\nThe number of each Sour Cream 's Cornmeal equals 19.\nThe number of each Walmart Grocery 's Butter equals the sum of each Learning Hub 's Supermarkets and each E.Leclerc 's Sour Cream.\nThe number of each Boxed 's Croissants equals each Sour Cream 's Cornmeal.\nThe number of each Butter 's Cloves equals 8.\nThe number of each Croissants 's Chili Powder equals each E.Leclerc 's Sour Cream.\nThe number of each Kroger 's Butter equals 7 times each Learning Hub 's Product.\nThe number of each Learning Hub 's E.Leclerc equals 4 more than each Croissants 's Chili Powder.\nHow many Butter does Kroger have?",
+  "solution": "Define each E.Leclerc 's Sour Cream as Q; So Q = 5.\nDefine each Croissants 's Chili Powder as w; So w = Q = 5.\nDefine each E.Leclerc 's Product as y; So y = Q = 5.\nDefine each Learning Hub 's E.Leclerc as d; So d = 4 + w = 4 + 5 = 9.\nDefine each Learning Hub 's Product as f; f = d * y = 9 * 5 = 22.\nDefine each Kroger 's Butter as c; So c = 7 * f = 7 * 22 = 16.\n",
+  "num_operation": 6
+}

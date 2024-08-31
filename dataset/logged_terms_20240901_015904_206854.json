@@ -1,0 +1,26 @@
+{
+  "s": 7,
+  "n": 7,
+  "m": 7,
+  "d": 3,
+  "w0": 3,
+  "w1": 4,
+  "e": 6,
+  "structure_graph": "log/draw_all_log_20240901_015903_761120/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_015903_761120/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_015903_761120/necessary2_graph.png",
+  "topological_order": [
+    "Gelson's Markets 's Wine",
+    "College Town 's Gelson's Markets",
+    "Gelson's Markets 's Product",
+    "College Town 's Product",
+    "Walmart Grocery 's Wine",
+    "Archaeological District 's Walmart Grocery",
+    "Archaeological District 's Supermarkets"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_015903_761120/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_015903_761120/unnecessary_graph.png",
+  "question": "District category contains Archaeological District, College Town, and Academic District.\nSupermarkets category contains Gelson's Markets, Sainsbury's, and Walmart Grocery.\nProduct category contains Sour Cream, Croissants, and Wine.\nThe number of each Gelson's Markets 's Wine equals 5.\nThe number of each Academic District 's Walmart Grocery equals each Walmart Grocery 's Wine.\nThe number of each Sainsbury's 's Croissants equals 22.\nThe number of each College Town 's Gelson's Markets equals 18 times each Gelson's Markets 's Wine.\nThe number of each Walmart Grocery 's Wine equals 12 times each College Town 's Product.\nThe number of each Archaeological District 's Walmart Grocery equals each Walmart Grocery 's Wine.\nHow many Supermarkets does Archaeological District have?",
+  "solution": "Define each Gelson's Markets 's Wine as M; So M = 5.\nDefine each College Town 's Gelson's Markets as F; So F = 18 * M = 18 * 5 = 21.\nDefine each Gelson's Markets 's Product as K; So K = M = 5.\nDefine each College Town 's Product as f; f = K * F = 5 * 21 = 13.\nDefine each Walmart Grocery 's Wine as x; So x = 12 * f = 12 * 13 = 18.\nDefine each Archaeological District 's Walmart Grocery as h; So h = x = 18.\nDefine each Archaeological District 's Supermarkets as m; So m = h = 18.\n",
+  "num_operation": 7
+}

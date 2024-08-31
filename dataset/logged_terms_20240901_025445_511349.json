@@ -1,0 +1,33 @@
+{
+  "s": 14,
+  "n": 14,
+  "m": 14,
+  "d": 4,
+  "w0": 4,
+  "w1": 4,
+  "e": 12,
+  "structure_graph": "log/draw_all_log_20240901_025445_038805/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025445_038805/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025445_038805/necessary2_graph.png",
+  "topological_order": [
+    "Canned Peas 's Lard",
+    "Fairway Market 's Canned Peas",
+    "Warehouse District 's 99 Cents Only Stores",
+    "Canned Peas 's Ingredient",
+    "Ancient City 's Fairway Market",
+    "Fairway Market 's Ingredient",
+    "Ancient City 's Ingredient",
+    "99 Cents Only Stores 's Plant-based Milk",
+    "99 Cents Only Stores 's Product",
+    "Warehouse District 's Product",
+    "Plant-based Milk 's Lard",
+    "Plant-based Milk 's Ingredient",
+    "99 Cents Only Stores 's Ingredient",
+    "Warehouse District 's Ingredient"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025445_038805/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025445_038805/unnecessary_graph.png",
+  "question": "District category contains Warehouse District, Ancient City, Library District, and Student Housing.\nSupermarkets category contains Lulu Hypermarket, Fairway Market, Eataly, and 99 Cents Only Stores.\nProduct category contains Plant-based Milk, Canned Peas, Canned Fish, and Bread.\nIngredient category contains Lard, Honey, Mayonnaise, and Parsley.\nThe number of each 99 Cents Only Stores 's Plant-based Milk equals 7 times each Ancient City 's Ingredient.\nThe number of each Canned Fish 's Parsley equals the sum of each Student Housing 's Lulu Hypermarket and each Lulu Hypermarket 's Bread.\nThe number of each Lulu Hypermarket 's Bread equals 1.\nThe number of each Plant-based Milk 's Lard equals each Warehouse District 's Product.\nThe number of each Eataly 's Plant-based Milk equals each Lulu Hypermarket 's Bread.\nThe number of each Student Housing 's Lulu Hypermarket equals each Lulu Hypermarket 's Bread.\nThe number of each Warehouse District 's 99 Cents Only Stores equals each Fairway Market 's Canned Peas.\nThe number of each Canned Peas 's Lard equals 4.\nThe number of each Library District 's 99 Cents Only Stores equals 5 times the difference of each Student Housing 's Supermarkets and each Fairway Market 's Canned Peas.\nThe number of each Ancient City 's Fairway Market equals 11.\nThe number of each Bread 's Parsley equals 4 times the difference of each Plant-based Milk 's Ingredient and each Canned Peas 's Ingredient.\nThe number of each Fairway Market 's Canned Peas equals 16 times each Canned Peas 's Lard.\nHow many Ingredient does Warehouse District have?",
+  "solution": "Define each Canned Peas 's Lard as Q; So Q = 4.\nDefine each Fairway Market 's Canned Peas as O; So O = 16 * Q = 16 * 4 = 18.\nDefine each Warehouse District 's 99 Cents Only Stores as G; So G = O = 18.\nDefine each Canned Peas 's Ingredient as X; So X = Q = 4.\nDefine each Ancient City 's Fairway Market as s; So s = 11.\nDefine each Fairway Market 's Ingredient as U; U = O * X = 18 * 4 = 3.\nDefine each Ancient City 's Ingredient as N; N = U * s = 3 * 11 = 10.\nDefine each 99 Cents Only Stores 's Plant-based Milk as R; So R = 7 * N = 7 * 10 = 1.\nDefine each 99 Cents Only Stores 's Product as I; So I = R = 1.\nDefine each Warehouse District 's Product as g; g = I * G = 1 * 18 = 18.\nDefine each Plant-based Milk 's Lard as f; So f = g = 18.\nDefine each Plant-based Milk 's Ingredient as e; So e = f = 18.\nDefine each 99 Cents Only Stores 's Ingredient as S; S = R * e = 1 * 18 = 18.\nDefine each Warehouse District 's Ingredient as c; c = S * G = 18 * 18 = 2.\n",
+  "num_operation": 14
+}

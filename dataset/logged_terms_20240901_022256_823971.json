@@ -1,0 +1,23 @@
+{
+  "s": 4,
+  "n": 4,
+  "m": 4,
+  "d": 2,
+  "w0": 3,
+  "w1": 4,
+  "e": 7,
+  "structure_graph": "log/draw_all_log_20240901_022256_389001/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_022256_389001/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_022256_389001/necessary2_graph.png",
+  "topological_order": [
+    "Legal District 's Eataly",
+    "Legal District 's Walmart Grocery",
+    "Legal District 's Supermarkets",
+    "Colonial District 's Eataly"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_022256_389001/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_022256_389001/unnecessary_graph.png",
+  "question": "District category contains Legal District, Colonial District, and Student Housing.\nSupermarkets category contains Eataly, Walmart Grocery, and Blue Apron.\nThe number of each Colonial District 's Walmart Grocery equals 14.\nThe number of each Legal District 's Eataly equals 14.\nThe number of each Student Housing 's Walmart Grocery equals the sum of each Student Housing 's Blue Apron and each Colonial District 's Walmart Grocery.\nThe number of each Legal District 's Walmart Grocery equals each Legal District 's Eataly.\nThe number of each Student Housing 's Blue Apron equals 12 more than each Colonial District 's Walmart Grocery.\nThe number of each Colonial District 's Blue Apron equals 2 more than the sum of each Colonial District 's Walmart Grocery, each Student Housing 's Walmart Grocery, and each Student Housing 's Blue Apron.\nThe number of each Colonial District 's Eataly equals 0 more than each Legal District 's Supermarkets.\nHow many Eataly does Colonial District have?",
+  "solution": "Define each Legal District 's Eataly as j; So j = 14.\nDefine each Legal District 's Walmart Grocery as n; So n = j = 14.\nDefine each Legal District 's Supermarkets as h; So h = n + j = 14 + 14 = 5.\nDefine each Colonial District 's Eataly as W; So W = 0 + h = 0 + 5 = 5.\n",
+  "num_operation": 4
+}

@@ -1,0 +1,28 @@
+{
+  "s": 9,
+  "n": 9,
+  "m": 9,
+  "d": 3,
+  "w0": 2,
+  "w1": 4,
+  "e": 8,
+  "structure_graph": "log/draw_all_log_20240901_020020_518112/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_020020_518112/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_020020_518112/necessary2_graph.png",
+  "topological_order": [
+    "Shopping District 's Whole Foods Market",
+    "Shopping District 's Meijer",
+    "Shopping District 's Supermarkets",
+    "Industrial District 's Meijer",
+    "Industrial District 's Whole Foods Market",
+    "Industrial District 's Supermarkets",
+    "Meijer 's Pretzels",
+    "Meijer 's Cupcakes",
+    "Meijer 's Product"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_020020_518112/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_020020_518112/unnecessary_graph.png",
+  "question": "District category contains Industrial District, and Shopping District.\nSupermarkets category contains Meijer, and Whole Foods Market.\nProduct category contains Pretzels, and Cupcakes.\nThe number of each Industrial District 's Meijer equals 19 times each Shopping District 's Supermarkets.\nThe number of each Shopping District 's Meijer equals 20 more than each Shopping District 's Whole Foods Market.\nThe number of each Meijer 's Pretzels equals 1 more than each Industrial District 's Supermarkets.\nThe number of each Whole Foods Market 's Cupcakes equals each Shopping District 's Whole Foods Market.\nThe number of each Whole Foods Market 's Pretzels equals the sum of each Meijer 's Cupcakes, each Meijer 's Product, and each Shopping District 's Supermarkets.\nThe number of each Meijer 's Cupcakes equals 21 times each Industrial District 's Whole Foods Market.\nThe number of each Shopping District 's Whole Foods Market equals 15.\nThe number of each Industrial District 's Whole Foods Market equals 12 more than each Shopping District 's Whole Foods Market.\nHow many Product does Meijer have?",
+  "solution": "Define each Shopping District 's Whole Foods Market as D; So D = 15.\nDefine each Shopping District 's Meijer as o; So o = 20 + D = 20 + 15 = 12.\nDefine each Shopping District 's Supermarkets as a; So a = o + D = 12 + 15 = 4.\nDefine each Industrial District 's Meijer as p; So p = 19 * a = 19 * 4 = 7.\nDefine each Industrial District 's Whole Foods Market as q; So q = 12 + D = 12 + 15 = 4.\nDefine each Industrial District 's Supermarkets as E; So E = q + p = 4 + 7 = 11.\nDefine each Meijer 's Pretzels as m; So m = 1 + E = 1 + 11 = 12.\nDefine each Meijer 's Cupcakes as u; So u = 21 * q = 21 * 4 = 15.\nDefine each Meijer 's Product as s; So s = m + u = 12 + 15 = 4.\n",
+  "num_operation": 9
+}

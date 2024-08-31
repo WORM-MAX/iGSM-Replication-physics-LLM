@@ -1,0 +1,24 @@
+{
+  "s": 5,
+  "n": 3,
+  "m": 5,
+  "d": 2,
+  "w0": 2,
+  "w1": 2,
+  "e": 4,
+  "structure_graph": "log/draw_all_log_20240901_025510_492448/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025510_492448/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025510_492448/necessary2_graph.png",
+  "topological_order": [
+    "Civic Center 's 99 Cents Only Stores",
+    "Civic Center 's ShopRite",
+    "Civic Center 's Supermarkets",
+    "Preservation District 's 99 Cents Only Stores",
+    "Preservation District 's ShopRite"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025510_492448/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025510_492448/unnecessary_graph.png",
+  "question": "District category contains Civic Center, and Preservation District.\nSupermarkets category contains 99 Cents Only Stores, and ShopRite.\nThe number of each Civic Center 's ShopRite equals 11 times each Civic Center 's 99 Cents Only Stores.\nThe number of each Preservation District 's ShopRite equals the sum of each Preservation District 's 99 Cents Only Stores and each Civic Center 's ShopRite.\nThe number of each Preservation District 's 99 Cents Only Stores equals each Civic Center 's Supermarkets.\nThe number of each Civic Center 's 99 Cents Only Stores equals 20.\nHow many ShopRite does Preservation District have?",
+  "solution": "Define each Civic Center 's 99 Cents Only Stores as P; So P = 20.\nDefine each Civic Center 's ShopRite as d; So d = 11 * P = 11 * 20 = 13.\nDefine each Civic Center 's Supermarkets as m; So m = P + d = 20 + 13 = 10.\nDefine each Preservation District 's 99 Cents Only Stores as f; So f = m = 10.\nDefine each Preservation District 's ShopRite as U; So U = f + d = 10 + 13 = 0.\n",
+  "num_operation": 5
+}

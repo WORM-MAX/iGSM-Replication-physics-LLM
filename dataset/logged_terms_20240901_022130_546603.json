@@ -1,0 +1,24 @@
+{
+  "s": 5,
+  "n": 5,
+  "m": 5,
+  "d": 4,
+  "w0": 2,
+  "w1": 3,
+  "e": 10,
+  "structure_graph": "log/draw_all_log_20240901_022130_080612/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_022130_080612/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_022130_080612/necessary2_graph.png",
+  "topological_order": [
+    "Courthouse District 's Sprouts Farmers Market",
+    "Canned Fish 's Gelatin",
+    "Canned Fish 's Ingredient",
+    "Sprouts Farmers Market 's Canned Fish",
+    "Sprouts Farmers Market 's Ingredient"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_022130_080612/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_022130_080612/unnecessary_graph.png",
+  "question": "District category contains Courthouse District, and Manufacturing District.\nSupermarkets category contains Sam's Club, and Sprouts Farmers Market.\nProduct category contains Canned Fish, and Dried Fruit.\nIngredient category contains Relish, and Gelatin.\nThe number of each Sprouts Farmers Market 's Canned Fish equals each Courthouse District 's Sprouts Farmers Market.\nThe number of each Dried Fruit 's Gelatin equals 17.\nThe number of each Manufacturing District 's Sprouts Farmers Market equals 18.\nThe number of each Sam's Club 's Canned Fish equals 12.\nThe number of each Courthouse District 's Sam's Club equals each Sam's Club 's Canned Fish.\nThe number of each Dried Fruit 's Relish equals 0 times each Manufacturing District 's Supermarkets.\nThe number of each Canned Fish 's Gelatin equals 16 more than each Courthouse District 's Sprouts Farmers Market.\nThe number of each Sam's Club 's Dried Fruit equals the sum of each Courthouse District 's Sprouts Farmers Market, each Sprouts Farmers Market 's Product, and each Canned Fish 's Gelatin.\nThe number of each Manufacturing District 's Sam's Club equals 4 times the sum of each Canned Fish 's Ingredient, each Sprouts Farmers Market 's Product, and each Canned Fish 's Gelatin.\nThe number of each Courthouse District 's Sprouts Farmers Market equals 10.\nHow many Ingredient does Sprouts Farmers Market have?",
+  "solution": "Define each Courthouse District 's Sprouts Farmers Market as T; So T = 10.\nDefine each Canned Fish 's Gelatin as B; So B = 16 + T = 16 + 10 = 3.\nDefine each Canned Fish 's Ingredient as p; So p = B = 3.\nDefine each Sprouts Farmers Market 's Canned Fish as u; So u = T = 10.\nDefine each Sprouts Farmers Market 's Ingredient as A; A = u * p = 10 * 3 = 7.\n",
+  "num_operation": 5
+}

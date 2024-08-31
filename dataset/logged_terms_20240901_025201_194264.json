@@ -1,0 +1,24 @@
+{
+  "s": 6,
+  "n": 5,
+  "m": 5,
+  "d": 4,
+  "w0": 2,
+  "w1": 2,
+  "e": 6,
+  "structure_graph": "log/draw_all_log_20240901_025200_826090/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025200_826090/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025200_826090/necessary2_graph.png",
+  "topological_order": [
+    "Lemonade 's Parsley",
+    "Whipped Cream 's Vegetable Oil",
+    "Whipped Cream 's Ingredient",
+    "Big Lots 's Whipped Cream",
+    "Big Lots 's Ingredient"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025200_826090/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025200_826090/unnecessary_graph.png",
+  "question": "District category contains Administrative District, and Gated Community.\nSupermarkets category contains Big Lots, and Lulu Hypermarket.\nProduct category contains Whipped Cream, and Lemonade.\nIngredient category contains Parsley, and Vegetable Oil.\nThe number of each Big Lots 's Whipped Cream equals the sum of each Whipped Cream 's Ingredient, each Lemonade 's Parsley, and each Whipped Cream 's Vegetable Oil.\nThe number of each Lulu Hypermarket 's Lemonade equals 12 more than each Gated Community 's Lulu Hypermarket.\nThe number of each Administrative District 's Lulu Hypermarket equals each Gated Community 's Lulu Hypermarket.\nThe number of each Whipped Cream 's Vegetable Oil equals 11 more than each Lemonade 's Parsley.\nThe number of each Lemonade 's Parsley equals 16.\nThe number of each Gated Community 's Lulu Hypermarket equals 2.\nHow many Ingredient does Big Lots have?",
+  "solution": "Define each Lemonade 's Parsley as R; So R = 16.\nDefine each Whipped Cream 's Vegetable Oil as i; So i = 11 + R = 11 + 16 = 4.\nDefine each Whipped Cream 's Ingredient as E; So E = i = 4.\nDefine each Big Lots 's Whipped Cream as n; H = R + E = 16 + 4 = 20; So n = i + H = 4 + 20 = 1.\nDefine each Big Lots 's Ingredient as x; x = n * E = 1 * 4 = 4.\n",
+  "num_operation": 6
+}

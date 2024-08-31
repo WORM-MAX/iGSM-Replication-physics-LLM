@@ -1,0 +1,21 @@
+{
+  "s": 2,
+  "n": 2,
+  "m": 2,
+  "d": 3,
+  "w0": 2,
+  "w1": 3,
+  "e": 14,
+  "structure_graph": "log/draw_all_log_20240901_015928_264040/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_015928_264040/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_015928_264040/necessary2_graph.png",
+  "topological_order": [
+    "Piggly Wiggly 's Pudding",
+    "Colonial District 's Lidl"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_015928_264040/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_015928_264040/unnecessary_graph.png",
+  "question": "District category contains Entertainment District, Urban Residential Area, and Colonial District.\nSupermarkets category contains Publix, Piggly Wiggly, and Lidl.\nProduct category contains Pudding, Canned Artichokes, and Kefir.\nThe number of each Urban Residential Area 's Lidl equals 13 times each Piggly Wiggly 's Kefir.\nThe number of each Lidl 's Kefir equals each Entertainment District 's Publix.\nThe number of each Lidl 's Canned Artichokes equals 17 more than each Entertainment District 's Publix.\nThe number of each Piggly Wiggly 's Kefir equals 18.\nThe number of each Colonial District 's Lidl equals 6 more than each Piggly Wiggly 's Pudding.\nThe number of each Publix 's Pudding equals 1 more than the difference of each Urban Residential Area 's Lidl and each Piggly Wiggly 's Kefir.\nThe number of each Urban Residential Area 's Piggly Wiggly equals each Piggly Wiggly 's Product.\nThe number of each Entertainment District 's Piggly Wiggly equals the sum of each Urban Residential Area 's Piggly Wiggly, each Piggly Wiggly 's Product, and each Colonial District 's Lidl.\nThe number of each Piggly Wiggly 's Canned Artichokes equals 5 times each Piggly Wiggly 's Pudding.\nThe number of each Publix 's Canned Artichokes equals 12 times the difference of each Colonial District 's Lidl and each Piggly Wiggly 's Product.\nThe number of each Colonial District 's Publix equals the sum of each Piggly Wiggly 's Kefir, each Piggly Wiggly 's Pudding, and each Urban Residential Area 's Piggly Wiggly.\nThe number of each Piggly Wiggly 's Pudding equals 15.\nThe number of each Entertainment District 's Publix equals 4 times each Colonial District 's Supermarkets.\nThe number of each Lidl 's Pudding equals 4 more than the sum of each Publix 's Pudding, each Urban Residential Area 's Lidl, and each Piggly Wiggly 's Kefir.\nHow many Lidl does Colonial District have?",
+  "solution": "Define each Piggly Wiggly 's Pudding as H; So H = 15.\nDefine each Colonial District 's Lidl as B; So B = 6 + H = 6 + 15 = 21.\n",
+  "num_operation": 2
+}

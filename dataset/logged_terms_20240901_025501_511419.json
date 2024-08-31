@@ -1,0 +1,21 @@
+{
+  "s": 2,
+  "n": 2,
+  "m": 2,
+  "d": 4,
+  "w0": 4,
+  "w1": 4,
+  "e": 12,
+  "structure_graph": "log/draw_all_log_20240901_025501_138035/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025501_138035/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025501_138035/necessary2_graph.png",
+  "topological_order": [
+    "Aldi 's Juice",
+    "Aldi 's Product"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025501_138035/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025501_138035/unnecessary_graph.png",
+  "question": "District category contains Old Town, Institute District, Student Housing, and Landmark District.\nSupermarkets category contains Food 4 Less, Walmart Grocery, King Soopers, and Aldi.\nProduct category contains Canned Spinach, Cheese Puffs, Juice, and Custard.\nIngredient category contains Rice, Baking Soda, Salad Dressing, and Honey.\nThe number of each Student Housing 's Aldi equals 4.\nThe number of each Walmart Grocery 's Custard equals 12 more than the difference of each Aldi 's Juice and each Aldi 's Product.\nThe number of each Food 4 Less 's Canned Spinach equals each Institute District 's King Soopers.\nThe number of each Juice 's Rice equals 12 more than the sum of each King Soopers 's Product, each Aldi 's Juice, and each Old Town 's Supermarkets.\nThe number of each Aldi 's Juice equals 3.\nThe number of each Landmark District 's King Soopers equals the sum of each Canned Spinach 's Rice and each Institute District 's Product.\nThe number of each Old Town 's Walmart Grocery equals each Walmart Grocery 's Custard.\nThe number of each Canned Spinach 's Rice equals each Aldi 's Product.\nThe number of each Cheese Puffs 's Salad Dressing equals 18 times each Institute District 's King Soopers.\nThe number of each King Soopers 's Canned Spinach equals 9 more than each Old Town 's Supermarkets.\nThe number of each Custard 's Baking Soda equals each Cheese Puffs 's Salad Dressing.\nThe number of each Institute District 's King Soopers equals 4.\nHow many Product does Aldi have?",
+  "solution": "Define each Aldi 's Juice as D; So D = 3.\nDefine each Aldi 's Product as L; So L = D = 3.\n",
+  "num_operation": 2
+}

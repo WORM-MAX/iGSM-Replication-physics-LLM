@@ -1,0 +1,21 @@
+{
+  "s": 2,
+  "n": 2,
+  "m": 2,
+  "d": 3,
+  "w0": 3,
+  "w1": 3,
+  "e": 7,
+  "structure_graph": "log/draw_all_log_20240901_013057_331099/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_013057_331099/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_013057_331099/necessary2_graph.png",
+  "topological_order": [
+    "H-E-B 's Beef Jerky",
+    "H-E-B 's Product"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_013057_331099/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_013057_331099/unnecessary_graph.png",
+  "question": "District category contains Research and Innovation Park, Archaeological District, and High-rise Apartment Complex.\nSupermarkets category contains Mitsuwa Marketplace, H-E-B, and Eataly.\nProduct category contains Buttermilk, Beef Jerky, and Potato Chips.\nThe number of each Archaeological District 's H-E-B equals 7 more than each Mitsuwa Marketplace 's Beef Jerky.\nThe number of each High-rise Apartment Complex 's H-E-B equals 14 times each Eataly 's Potato Chips.\nThe number of each Research and Innovation Park 's Eataly equals the difference of each Eataly 's Product and each Eataly 's Potato Chips.\nThe number of each Mitsuwa Marketplace 's Beef Jerky equals each High-rise Apartment Complex 's H-E-B.\nThe number of each Eataly 's Potato Chips equals 11.\nThe number of each H-E-B 's Beef Jerky equals 4.\nThe number of each High-rise Apartment Complex 's Mitsuwa Marketplace equals 10.\nHow many Product does H-E-B have?",
+  "solution": "Define each H-E-B 's Beef Jerky as b; So b = 4.\nDefine each H-E-B 's Product as L; So L = b = 4.\n",
+  "num_operation": 2
+}

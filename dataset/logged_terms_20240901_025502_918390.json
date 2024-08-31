@@ -1,0 +1,26 @@
+{
+  "s": 13,
+  "n": 8,
+  "m": 8,
+  "d": 2,
+  "w0": 3,
+  "w1": 4,
+  "e": 6,
+  "structure_graph": "log/draw_all_log_20240901_025502_508821/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025502_508821/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025502_508821/necessary2_graph.png",
+  "topological_order": [
+    "University Campus 's Wegmans",
+    "University Campus 's Dollar General",
+    "University Campus 's Big Lots",
+    "University Campus 's Supermarkets",
+    "Research and Innovation Park 's Big Lots",
+    "Research and Innovation Park 's Dollar General",
+    "Research and Innovation Park 's Supermarkets"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025502_508821/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025502_508821/unnecessary_graph.png",
+  "question": "District category contains University Campus, Institute District, and Research and Innovation Park.\nSupermarkets category contains Wegmans, Big Lots, and Dollar General.\nThe number of each University Campus 's Big Lots equals 18 more than the difference of each University Campus 's Wegmans and each University Campus 's Dollar General.\nThe number of each Institute District 's Dollar General equals 5.\nThe number of each Research and Innovation Park 's Dollar General equals the sum of each University Campus 's Wegmans, each University Campus 's Supermarkets, each Research and Innovation Park 's Big Lots, and each University Campus 's Big Lots.\nThe number of each Research and Innovation Park 's Big Lots equals the sum of each University Campus 's Dollar General, each University Campus 's Wegmans, each University Campus 's Supermarkets, and each University Campus 's Big Lots.\nThe number of each University Campus 's Wegmans equals 7.\nThe number of each University Campus 's Dollar General equals 8 times each University Campus 's Wegmans.\nHow many Supermarkets does Research and Innovation Park have?",
+  "solution": "Define each University Campus 's Wegmans as O; So O = 7.\nDefine each University Campus 's Dollar General as g; So g = 8 * O = 8 * 7 = 10.\nDefine each University Campus 's Big Lots as P; d = O - g = 7 - 10 = 20; So P = 18 + d = 18 + 20 = 15.\nDefine each University Campus 's Supermarkets as b; X = P + g = 15 + 10 = 2; So b = O + X = 7 + 2 = 9.\nDefine each Research and Innovation Park 's Big Lots as i; a = O + g = 7 + 10 = 17; b = a + P = 17 + 15 = 9; So i = b + b = 9 + 9 = 18.\nDefine each Research and Innovation Park 's Dollar General as F; Y = P + O = 15 + 7 = 22; U = Y + i = 22 + 18 = 17; So F = b + U = 9 + 17 = 3.\nDefine each Research and Innovation Park 's Supermarkets as y; So y = F + i = 3 + 18 = 21.\n",
+  "num_operation": 13
+}

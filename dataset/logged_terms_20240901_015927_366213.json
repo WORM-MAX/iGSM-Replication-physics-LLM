@@ -1,0 +1,24 @@
+{
+  "s": 6,
+  "n": 4,
+  "m": 5,
+  "d": 3,
+  "w0": 2,
+  "w1": 4,
+  "e": 5,
+  "structure_graph": "log/draw_all_log_20240901_015926_928687/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_015926_928687/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_015926_928687/necessary2_graph.png",
+  "topological_order": [
+    "Academic District 's Giant Eagle",
+    "Gated Community 's Giant Eagle",
+    "Giant Eagle 's Hummus",
+    "Giant Eagle 's Product",
+    "Gated Community 's Product"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_015926_928687/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_015926_928687/unnecessary_graph.png",
+  "question": "District category contains Gated Community, and Academic District.\nSupermarkets category contains 99 Cents Only Stores, and Giant Eagle.\nProduct category contains Evaporated Milk, and Hummus.\nThe number of each 99 Cents Only Stores 's Hummus equals the sum of each Gated Community 's Supermarkets, each Gated Community 's Giant Eagle, and each Academic District 's Giant Eagle.\nThe number of each Giant Eagle 's Hummus equals 22 more than the sum of each Academic District 's Giant Eagle and each Gated Community 's Giant Eagle.\nThe number of each Academic District 's 99 Cents Only Stores equals each Gated Community 's Supermarkets.\nThe number of each Gated Community 's Giant Eagle equals each Academic District 's Giant Eagle.\nThe number of each Academic District 's Giant Eagle equals 2.\nHow many Product does Gated Community have?",
+  "solution": "Define each Academic District 's Giant Eagle as v; So v = 2.\nDefine each Gated Community 's Giant Eagle as S; So S = v = 2.\nDefine each Giant Eagle 's Hummus as j; d = v + S = 2 + 2 = 4; So j = 22 + d = 22 + 4 = 3.\nDefine each Giant Eagle 's Product as o; So o = j = 3.\nDefine each Gated Community 's Product as k; k = S * o = 2 * 3 = 6.\n",
+  "num_operation": 6
+}

@@ -1,0 +1,20 @@
+{
+  "s": 1,
+  "n": 1,
+  "m": 1,
+  "d": 3,
+  "w0": 3,
+  "w1": 4,
+  "e": 12,
+  "structure_graph": "log/draw_all_log_20240901_020120_611489/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_020120_611489/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_020120_611489/necessary2_graph.png",
+  "topological_order": [
+    "H-E-B 's Plant-based Cheese"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_020120_611489/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_020120_611489/unnecessary_graph.png",
+  "question": "District category contains School District, Medical District, and Research Park.\nSupermarkets category contains Stop & Shop, H-E-B, and Aldi.\nProduct category contains Plant-based Cheese, Salsa, and Yogurt Covered Raisins.\nThe number of each H-E-B 's Plant-based Cheese equals 4.\nThe number of each Medical District 's Aldi equals 17 more than each Aldi 's Yogurt Covered Raisins.\nThe number of each Aldi 's Yogurt Covered Raisins equals 15.\nThe number of each School District 's H-E-B equals 21.\nThe number of each Research Park 's Stop & Shop equals 22 more than each Research Park 's H-E-B.\nThe number of each Stop & Shop 's Plant-based Cheese equals each Medical District 's Supermarkets.\nThe number of each H-E-B 's Yogurt Covered Raisins equals 20 times the sum of each Aldi 's Yogurt Covered Raisins, each Medical District 's Aldi, and each School District 's Aldi.\nThe number of each H-E-B 's Salsa equals each Stop & Shop 's Yogurt Covered Raisins.\nThe number of each School District 's Aldi equals the sum of each Aldi 's Yogurt Covered Raisins, each Stop & Shop 's Yogurt Covered Raisins, and each Research Park 's H-E-B.\nThe number of each Aldi 's Plant-based Cheese equals 21.\nThe number of each Stop & Shop 's Yogurt Covered Raisins equals 10.\nThe number of each Research Park 's H-E-B equals 8 times each Medical District 's Aldi.\nHow many Plant-based Cheese does H-E-B have?",
+  "solution": "Define each H-E-B 's Plant-based Cheese as L; So L = 4.\n",
+  "num_operation": 1
+}

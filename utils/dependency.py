@@ -125,7 +125,7 @@ def draw_necessary2(Gnece2_d):
     """
     Constructs Gnece3_d and a random topological ordering Topo as per D.2.2.
     """
-    Gnece3_d = Gnece2_d
+    Gnece3_d = {k: list(v) for k, v in Gnece2_d.items()}
     Topo = []
 
     def next1(Topo, G_topo):
@@ -142,9 +142,6 @@ def draw_necessary2(Gnece2_d):
     def biased_random_selection(param_set):
         if not param_set:
             return None
-        
-        # Convert param_set to a list if it's not already
-        param_set = param_set
         
         # Generate a random Gaussian value
         g = np.random.normal(0, 1)
@@ -177,23 +174,23 @@ def draw_necessary2(Gnece2_d):
             param0 = random.choice(possible)
         
         Topo.insert(0, param0)
-        # for para in Topo:
-        #     print(nodetoname(para))
-        # print('end')
+
         G_topo = [a for a in Gnece3_d if a not in Topo]
         if not G_topo:
             break
-        if not list(set(next1(Topo, G_topo)).intersection(set(next2(Topo, G_topo)))):
+
+        possible_next = list(set(next1(Topo, G_topo)).intersection(set(next2(Topo, G_topo))))
+        if not possible_next:
             if isinstance(param0[1], str):
                 return (None, None)
             param1 = biased_random_selection(next2(Topo, G_topo))
             if param1 is not None:
                 Gnece3_d[param0].append(param1)
-        elif not isinstance(param0[1], str):
+        else:
             # Probability event p0
             p0 = np.random.uniform(0, 1)
             p1 = np.random.uniform(0, 1)
-            if p1 < p0:
+            if p1 < p0 and not isinstance(param0[1], str):
                 param1 = biased_random_selection(G_topo)
                 if param1 is not None:
                     Gnece3_d[param0].append(param1)
@@ -233,8 +230,8 @@ def draw_necessary3(Gnece3_d, Topo, s):
                 dep_num = cur_op[a] + 1
             dep_num = min(dep_num, len(pool))
             re = [b for b in Gnece3_d[a] if b in pool]
-            for r in re:
-                pool.remove(r)
+            if re:
+                pool.remove(re[0])
                 dep_num -= 1
             if dep_num == len(pool):
                 G_d_nece[a].extend(pool)

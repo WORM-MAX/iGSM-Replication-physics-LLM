@@ -1,0 +1,20 @@
+{
+  "s": 1,
+  "n": 1,
+  "m": 1,
+  "d": 3,
+  "w0": 2,
+  "w1": 4,
+  "e": 11,
+  "structure_graph": "log/draw_all_log_20240901_025520_440232/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025520_440232/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025520_440232/necessary2_graph.png",
+  "topological_order": [
+    "Costco 's Pudding"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025520_440232/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025520_440232/unnecessary_graph.png",
+  "question": "District category contains High School Zone, and Condo District.\nSupermarkets category contains Costco, Morrisons, and Lidl.\nProduct category contains Canned Pumpkin, Milk, and Pudding.\nThe number of each Morrisons 's Pudding equals 20.\nThe number of each Condo District 's Costco equals 6 more than each Costco 's Canned Pumpkin.\nThe number of each Condo District 's Lidl equals 12.\nThe number of each Condo District 's Morrisons equals the difference of each Costco 's Pudding and each Morrisons 's Canned Pumpkin.\nThe number of each Morrisons 's Canned Pumpkin equals 5 times each High School Zone 's Costco.\nThe number of each Costco 's Canned Pumpkin equals 18.\nThe number of each Costco 's Pudding equals 17.\nThe number of each Lidl 's Canned Pumpkin equals each Costco 's Canned Pumpkin.\nThe number of each High School Zone 's Morrisons equals 8.\nThe number of each High School Zone 's Costco equals 9 times each Costco 's Pudding.\nThe number of each High School Zone 's Lidl equals each High School Zone 's Morrisons.\nHow many Pudding does Costco have?",
+  "solution": "Define each Costco 's Pudding as W; So W = 17.\n",
+  "num_operation": 1
+}

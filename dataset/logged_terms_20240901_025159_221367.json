@@ -1,0 +1,25 @@
+{
+  "s": 6,
+  "n": 6,
+  "m": 6,
+  "d": 4,
+  "w0": 2,
+  "w1": 3,
+  "e": 9,
+  "structure_graph": "log/draw_all_log_20240901_025158_819835/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025158_819835/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025158_819835/necessary2_graph.png",
+  "topological_order": [
+    "Nuts 's Corn Oil",
+    "Nuts 's Ingredient",
+    "Misfits Market 's Nuts",
+    "Misfits Market 's Ingredient",
+    "Canned Broth 's Rice",
+    "Canned Broth 's Ingredient"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025158_819835/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025158_819835/unnecessary_graph.png",
+  "question": "District category contains Historic Neighborhood, and Media District.\nSupermarkets category contains Misfits Market, and Wegmans.\nProduct category contains Canned Broth, and Nuts.\nIngredient category contains Rice, and Corn Oil.\nThe number of each Misfits Market 's Nuts equals 20.\nThe number of each Historic Neighborhood 's Wegmans equals the difference of each Nuts 's Ingredient and each Canned Broth 's Rice.\nThe number of each Media District 's Misfits Market equals 2.\nThe number of each Wegmans 's Nuts equals 11 times each Media District 's Wegmans.\nThe number of each Media District 's Wegmans equals 4.\nThe number of each Nuts 's Corn Oil equals 13.\nThe number of each Canned Broth 's Rice equals each Misfits Market 's Ingredient.\nThe number of each Wegmans 's Canned Broth equals 9.\nThe number of each Historic Neighborhood 's Misfits Market equals each Media District 's Misfits Market.\nHow many Ingredient does Canned Broth have?",
+  "solution": "Define each Nuts 's Corn Oil as V; So V = 13.\nDefine each Nuts 's Ingredient as K; So K = V = 13.\nDefine each Misfits Market 's Nuts as D; So D = 20.\nDefine each Misfits Market 's Ingredient as Y; Y = K * D = 13 * 20 = 7.\nDefine each Canned Broth 's Rice as S; So S = Y = 7.\nDefine each Canned Broth 's Ingredient as i; So i = S = 7.\n",
+  "num_operation": 6
+}

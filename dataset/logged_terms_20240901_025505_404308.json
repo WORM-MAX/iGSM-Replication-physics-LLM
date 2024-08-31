@@ -1,0 +1,20 @@
+{
+  "s": 1,
+  "n": 1,
+  "m": 1,
+  "d": 2,
+  "w0": 2,
+  "w1": 4,
+  "e": 9,
+  "structure_graph": "log/draw_all_log_20240901_025505_074115/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025505_074115/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025505_074115/necessary2_graph.png",
+  "topological_order": [
+    "Historic Neighborhood 's Food 4 Less"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025505_074115/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025505_074115/unnecessary_graph.png",
+  "question": "District category contains Historic Neighborhood, Civic Center, and Entertainment District.\nSupermarkets category contains Target, Food 4 Less, and Morrisons.\nThe number of each Entertainment District 's Target equals 3.\nThe number of each Historic Neighborhood 's Morrisons equals 15 more than the sum of each Civic Center 's Morrisons, each Civic Center 's Food 4 Less, and each Entertainment District 's Target.\nThe number of each Civic Center 's Food 4 Less equals 14.\nThe number of each Historic Neighborhood 's Target equals 8.\nThe number of each Civic Center 's Target equals the sum of each Historic Neighborhood 's Food 4 Less and each Historic Neighborhood 's Target.\nThe number of each Civic Center 's Morrisons equals each Entertainment District 's Target.\nThe number of each Entertainment District 's Morrisons equals the sum of each Historic Neighborhood 's Food 4 Less and each Civic Center 's Morrisons.\nThe number of each Entertainment District 's Food 4 Less equals each Historic Neighborhood 's Food 4 Less.\nThe number of each Historic Neighborhood 's Food 4 Less equals 21.\nHow many Food 4 Less does Historic Neighborhood have?",
+  "solution": "Define each Historic Neighborhood 's Food 4 Less as E; So E = 21.\n",
+  "num_operation": 1
+}

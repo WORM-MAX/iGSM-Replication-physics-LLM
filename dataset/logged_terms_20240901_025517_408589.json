@@ -1,0 +1,20 @@
+{
+  "s": 1,
+  "n": 1,
+  "m": 1,
+  "d": 3,
+  "w0": 2,
+  "w1": 4,
+  "e": 7,
+  "structure_graph": "log/draw_all_log_20240901_025517_079686/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025517_079686/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025517_079686/necessary2_graph.png",
+  "topological_order": [
+    "Market District 's Safeway"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025517_079686/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025517_079686/unnecessary_graph.png",
+  "question": "District category contains Landmark District, and Market District.\nSupermarkets category contains Safeway, and Dollar General.\nProduct category contains Condensed Milk, and Croissants.\nThe number of each Safeway 's Croissants equals 10 times the sum of each Safeway 's Condensed Milk and each Dollar General 's Croissants.\nThe number of each Market District 's Safeway equals 18.\nThe number of each Landmark District 's Safeway equals 9.\nThe number of each Market District 's Dollar General equals 7.\nThe number of each Landmark District 's Dollar General equals the difference of each Market District 's Safeway and each Market District 's Dollar General.\nThe number of each Safeway 's Condensed Milk equals 19.\nThe number of each Dollar General 's Croissants equals 3.\nHow many Safeway does Market District have?",
+  "solution": "Define each Market District 's Safeway as d; So d = 18.\n",
+  "num_operation": 1
+}

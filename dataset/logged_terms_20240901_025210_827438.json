@@ -1,0 +1,20 @@
+{
+  "s": 1,
+  "n": 1,
+  "m": 1,
+  "d": 2,
+  "w0": 3,
+  "w1": 4,
+  "e": 15,
+  "structure_graph": "log/draw_all_log_20240901_025210_459053/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025210_459053/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025210_459053/necessary2_graph.png",
+  "topological_order": [
+    "Diplomatic Quarter 's Eataly"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025210_459053/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025210_459053/unnecessary_graph.png",
+  "question": "District category contains Diplomatic Quarter, Gated Community, Tech Park, and High-rise Apartment Complex.\nSupermarkets category contains Fry's, Eataly, 99 Cents Only Stores, and Target.\nThe number of each Diplomatic Quarter 's Fry's equals the sum of each High-rise Apartment Complex 's Fry's, each Gated Community 's Fry's, and each Tech Park 's Fry's.\nThe number of each Tech Park 's Eataly equals each Diplomatic Quarter 's Fry's.\nThe number of each Gated Community 's Target equals 20.\nThe number of each High-rise Apartment Complex 's Target equals each Gated Community 's 99 Cents Only Stores.\nThe number of each High-rise Apartment Complex 's Fry's equals 0 times the sum of each Gated Community 's Fry's and each Tech Park 's Fry's.\nThe number of each Gated Community 's Fry's equals 3.\nThe number of each Diplomatic Quarter 's 99 Cents Only Stores equals 19 times each Tech Park 's Fry's.\nThe number of each High-rise Apartment Complex 's Eataly equals 14 times the difference of each Gated Community 's Fry's and each Diplomatic Quarter 's Target.\nThe number of each Gated Community 's 99 Cents Only Stores equals 5.\nThe number of each Tech Park 's Target equals the sum of each Gated Community 's Fry's and each High-rise Apartment Complex 's Fry's.\nThe number of each Tech Park 's 99 Cents Only Stores equals 5 more than each Gated Community 's Fry's.\nThe number of each Diplomatic Quarter 's Target equals the sum of each Tech Park 's Fry's, each Diplomatic Quarter 's Eataly, and each Tech Park 's 99 Cents Only Stores.\nThe number of each High-rise Apartment Complex 's 99 Cents Only Stores equals the sum of each Gated Community 's Supermarkets, each High-rise Apartment Complex 's Fry's, each Tech Park 's Eataly, and each Tech Park 's 99 Cents Only Stores.\nThe number of each Diplomatic Quarter 's Eataly equals 15.\nThe number of each Tech Park 's Fry's equals each Gated Community 's Fry's.\nHow many Eataly does Diplomatic Quarter have?",
+  "solution": "Define each Diplomatic Quarter 's Eataly as p; So p = 15.\n",
+  "num_operation": 1
+}

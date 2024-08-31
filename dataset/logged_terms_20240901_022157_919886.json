@@ -1,0 +1,29 @@
+{
+  "s": 12,
+  "n": 5,
+  "m": 10,
+  "d": 4,
+  "w0": 2,
+  "w1": 4,
+  "e": 10,
+  "structure_graph": "log/draw_all_log_20240901_022157_504524/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_022157_504524/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_022157_504524/necessary2_graph.png",
+  "topological_order": [
+    "Historic Downtown 's Eataly",
+    "Historic Downtown 's Sam's Club",
+    "Doughnuts 's Shortening",
+    "Eataly 's Doughnuts",
+    "Eataly 's Sports Drinks",
+    "Sam's Club 's Sports Drinks",
+    "Sam's Club 's Doughnuts",
+    "Sam's Club 's Product",
+    "Automotive District 's Sam's Club",
+    "Automotive District 's Product"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_022157_504524/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_022157_504524/unnecessary_graph.png",
+  "question": "District category contains Historic Downtown, and Automotive District.\nSupermarkets category contains Sam's Club, and Eataly.\nProduct category contains Sports Drinks, and Doughnuts.\nIngredient category contains Salt, and Shortening.\nThe number of each Historic Downtown 's Sam's Club equals 18 times each Historic Downtown 's Eataly.\nThe number of each Eataly 's Sports Drinks equals each Eataly 's Doughnuts.\nThe number of each Sports Drinks 's Shortening equals 5.\nThe number of each Sam's Club 's Sports Drinks equals the sum of each Eataly 's Doughnuts, each Eataly 's Sports Drinks, and each Doughnuts 's Shortening.\nThe number of each Eataly 's Doughnuts equals 19 more than each Doughnuts 's Shortening.\nThe number of each Doughnuts 's Salt equals each Sam's Club 's Product.\nThe number of each Automotive District 's Sam's Club equals 7 times each Eataly 's Doughnuts.\nThe number of each Historic Downtown 's Eataly equals 5.\nThe number of each Sam's Club 's Doughnuts equals each Sam's Club 's Sports Drinks.\nThe number of each Doughnuts 's Shortening equals 7 more than the difference of each Historic Downtown 's Sam's Club and each Historic Downtown 's Eataly.\nHow many Product does Automotive District have?",
+  "solution": "Define each Historic Downtown 's Eataly as o; So o = 5.\nDefine each Historic Downtown 's Sam's Club as I; So I = 18 * o = 18 * 5 = 21.\nDefine each Doughnuts 's Shortening as c; Y = I - o = 21 - 5 = 16; So c = 7 + Y = 7 + 16 = 0.\nDefine each Eataly 's Doughnuts as H; So H = 19 + c = 19 + 0 = 19.\nDefine each Eataly 's Sports Drinks as q; So q = H = 19.\nDefine each Sam's Club 's Sports Drinks as C; x = c + H = 0 + 19 = 19; So C = q + x = 19 + 19 = 15.\nDefine each Sam's Club 's Doughnuts as K; So K = C = 15.\nDefine each Sam's Club 's Product as U; So U = C + K = 15 + 15 = 7.\nDefine each Automotive District 's Sam's Club as O; So O = 7 * H = 7 * 19 = 18.\nDefine each Automotive District 's Product as h; h = O * U = 18 * 7 = 11.\n",
+  "num_operation": 12
+}

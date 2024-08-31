@@ -18,3 +18,5 @@ Grade-School Math and the Hidden Reasoning Process https://arxiv.org/abs/2407.20
 - log folder contains images for each question including both successful and failed attempts
 
 - waiting for data evaluation to see if the generation is successful
+
+- evalution: not yet finished; through initail trials, it shows system prompt is necessary

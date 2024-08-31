@@ -1,0 +1,32 @@
+{
+  "s": 13,
+  "n": 11,
+  "m": 13,
+  "d": 3,
+  "w0": 3,
+  "w1": 4,
+  "e": 10,
+  "structure_graph": "log/draw_all_log_20240901_022253_019528/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_022253_019528/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_022253_019528/necessary2_graph.png",
+  "topological_order": [
+    "Walmart Grocery 's Canned Pasta",
+    "Walmart Grocery 's Product",
+    "Business District 's Walmart Grocery",
+    "Business District 's Product",
+    "Old Town 's Meijer",
+    "Central Market 's Canned Pasta",
+    "Old Town 's Hy-Vee",
+    "Hy-Vee 's Bread",
+    "Meijer 's Bread",
+    "Meijer 's Energy Drinks",
+    "Meijer 's Product",
+    "Embassy Row 's Central Market",
+    "Embassy Row 's Supermarkets"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_022253_019528/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_022253_019528/unnecessary_graph.png",
+  "question": "District category contains Condo District, Business District, Embassy Row, and Old Town.\nSupermarkets category contains Central Market, Walmart Grocery, Hy-Vee, and Meijer.\nProduct category contains Energy Drinks, Yogurt, Canned Pasta, and Bread.\nThe number of each Central Market 's Canned Pasta equals the difference of each Old Town 's Meijer and each Business District 's Product.\nThe number of each Hy-Vee 's Bread equals 12 times each Old Town 's Hy-Vee.\nThe number of each Condo District 's Hy-Vee equals each Meijer 's Bread.\nThe number of each Meijer 's Energy Drinks equals 16 times each Business District 's Product.\nThe number of each Old Town 's Hy-Vee equals each Central Market 's Canned Pasta.\nThe number of each Meijer 's Bread equals 5 times each Hy-Vee 's Bread.\nThe number of each Embassy Row 's Central Market equals 2 times each Meijer 's Product.\nThe number of each Walmart Grocery 's Canned Pasta equals 15.\nThe number of each Business District 's Walmart Grocery equals the sum of each Walmart Grocery 's Product and each Walmart Grocery 's Canned Pasta.\nThe number of each Old Town 's Meijer equals 4 times each Business District 's Product.\nHow many Supermarkets does Embassy Row have?",
+  "solution": "Define each Walmart Grocery 's Canned Pasta as V; So V = 15.\nDefine each Walmart Grocery 's Product as r; So r = V = 15.\nDefine each Business District 's Walmart Grocery as c; So c = r + V = 15 + 15 = 7.\nDefine each Business District 's Product as b; b = r * c = 15 * 7 = 13.\nDefine each Old Town 's Meijer as L; So L = 4 * b = 4 * 13 = 6.\nDefine each Central Market 's Canned Pasta as n; So n = L - b = 6 - 13 = 16.\nDefine each Old Town 's Hy-Vee as y; So y = n = 16.\nDefine each Hy-Vee 's Bread as N; So N = 12 * y = 12 * 16 = 8.\nDefine each Meijer 's Bread as j; So j = 5 * N = 5 * 8 = 17.\nDefine each Meijer 's Energy Drinks as A; So A = 16 * b = 16 * 13 = 1.\nDefine each Meijer 's Product as Q; So Q = A + j = 1 + 17 = 18.\nDefine each Embassy Row 's Central Market as u; So u = 2 * Q = 2 * 18 = 13.\nDefine each Embassy Row 's Supermarkets as K; So K = u = 13.\n",
+  "num_operation": 13
+}

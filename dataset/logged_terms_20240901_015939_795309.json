@@ -1,0 +1,30 @@
+{
+  "s": 14,
+  "n": 10,
+  "m": 11,
+  "d": 3,
+  "w0": 4,
+  "w1": 4,
+  "e": 16,
+  "structure_graph": "log/draw_all_log_20240901_015939_264917/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_015939_264917/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_015939_264917/necessary2_graph.png",
+  "topological_order": [
+    "High-rise Apartment Complex 's Auchan",
+    "Auchan 's Alcoholic Beverages",
+    "Auchan 's Canned Mushrooms",
+    "Auchan 's Product",
+    "Medical District 's Auchan",
+    "Senior Living Community 's Blue Apron",
+    "Blue Apron 's Canned Mushrooms",
+    "Blue Apron 's Pizza Dough",
+    "Blue Apron 's Product",
+    "Senior Living Community 's Lidl",
+    "Senior Living Community 's Supermarkets"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_015939_264917/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_015939_264917/unnecessary_graph.png",
+  "question": "District category contains Medical District, Senior Living Community, Legal District, and High-rise Apartment Complex.\nSupermarkets category contains Lidl, Auchan, Food 4 Less, and Blue Apron.\nProduct category contains Pizza Dough, Canned Mushrooms, Alcoholic Beverages, and Pudding.\nThe number of each Legal District 's Lidl equals the sum of each Food 4 Less 's Canned Mushrooms, each Lidl 's Pudding, and each Legal District 's Auchan.\nThe number of each Legal District 's Auchan equals 5.\nThe number of each Food 4 Less 's Canned Mushrooms equals 20 times each Legal District 's Auchan.\nThe number of each Auchan 's Canned Mushrooms equals the difference of each High-rise Apartment Complex 's Auchan and each Auchan 's Alcoholic Beverages.\nThe number of each Medical District 's Auchan equals each Auchan 's Product.\nThe number of each Blue Apron 's Pizza Dough equals 1 more than the difference of each Auchan 's Alcoholic Beverages and each Senior Living Community 's Blue Apron.\nThe number of each Lidl 's Pizza Dough equals the difference of each Senior Living Community 's Lidl and each Medical District 's Auchan.\nThe number of each High-rise Apartment Complex 's Auchan equals 10.\nThe number of each Lidl 's Pudding equals 11.\nThe number of each Medical District 's Blue Apron equals 12.\nThe number of each Auchan 's Alcoholic Beverages equals each High-rise Apartment Complex 's Auchan.\nThe number of each Blue Apron 's Canned Mushrooms equals 11 more than the sum of each Medical District 's Auchan and each Auchan 's Canned Mushrooms.\nThe number of each Senior Living Community 's Blue Apron equals 4 more than the difference of each Medical District 's Auchan and each High-rise Apartment Complex 's Auchan.\nThe number of each Legal District 's Food 4 Less equals each Auchan 's Alcoholic Beverages.\nThe number of each Medical District 's Food 4 Less equals each High-rise Apartment Complex 's Supermarkets.\nThe number of each Senior Living Community 's Lidl equals 18 more than each Blue Apron 's Product.\nHow many Supermarkets does Senior Living Community have?",
+  "solution": "Define each High-rise Apartment Complex 's Auchan as M; So M = 10.\nDefine each Auchan 's Alcoholic Beverages as K; So K = M = 10.\nDefine each Auchan 's Canned Mushrooms as W; So W = M - K = 10 - 0 = 0.\nDefine each Auchan 's Product as a; So a = W + K = 0 + 0 = 0.\nDefine each Medical District 's Auchan as k; So k = a = 0.\nDefine each Senior Living Community 's Blue Apron as A; W = k - M = 0 - 10 = 13; So A = 4 + W = 4 + 13 = 17.\nDefine each Blue Apron 's Canned Mushrooms as j; A = k + W = 0 + 13 = 13; So j = 11 + A = 11 + 13 = 1.\nDefine each Blue Apron 's Pizza Dough as r; q = K - A = 0 - 13 = 10; So r = 1 + q = 1 + 10 = 11.\nDefine each Blue Apron 's Product as Q; So Q = j + r = 1 + 11 = 12.\nDefine each Senior Living Community 's Lidl as B; So B = 18 + Q = 18 + 12 = 7.\nDefine each Senior Living Community 's Supermarkets as E; So E = A + B = 13 + 7 = 20.\n",
+  "num_operation": 14
+}

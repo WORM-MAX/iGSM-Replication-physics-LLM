@@ -1,0 +1,24 @@
+{
+  "s": 5,
+  "n": 5,
+  "m": 5,
+  "d": 3,
+  "w0": 3,
+  "w1": 3,
+  "e": 7,
+  "structure_graph": "log/draw_all_log_20240901_022142_068784/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_022142_068784/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_022142_068784/necessary2_graph.png",
+  "topological_order": [
+    "Suburban Neighborhood 's Shipt",
+    "Shipt 's Granola Bars",
+    "Manufacturing District 's Shipt",
+    "Shipt 's Product",
+    "Manufacturing District 's Product"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_022142_068784/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_022142_068784/unnecessary_graph.png",
+  "question": "District category contains Research Park, Manufacturing District, and Suburban Neighborhood.\nSupermarkets category contains Sainsbury's, Shipt, and Misfits Market.\nProduct category contains Flatbreads, Crackers, and Granola Bars.\nThe number of each Sainsbury's 's Granola Bars equals 10.\nThe number of each Misfits Market 's Flatbreads equals each Suburban Neighborhood 's Supermarkets.\nThe number of each Manufacturing District 's Shipt equals each Shipt 's Granola Bars.\nThe number of each Suburban Neighborhood 's Sainsbury's equals 16 times each Research Park 's Product.\nThe number of each Research Park 's Shipt equals 6.\nThe number of each Shipt 's Granola Bars equals 18 more than each Suburban Neighborhood 's Shipt.\nThe number of each Suburban Neighborhood 's Shipt equals 10.\nHow many Product does Manufacturing District have?",
+  "solution": "Define each Suburban Neighborhood 's Shipt as G; So G = 10.\nDefine each Shipt 's Granola Bars as E; So E = 18 + G = 18 + 10 = 5.\nDefine each Manufacturing District 's Shipt as l; So l = E = 5.\nDefine each Shipt 's Product as c; So c = E = 5.\nDefine each Manufacturing District 's Product as N; N = c * l = 5 * 5 = 2.\n",
+  "num_operation": 5
+}

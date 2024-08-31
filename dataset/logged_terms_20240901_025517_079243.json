@@ -1,0 +1,20 @@
+{
+  "s": 1,
+  "n": 1,
+  "m": 1,
+  "d": 2,
+  "w0": 2,
+  "w1": 2,
+  "e": 4,
+  "structure_graph": "log/draw_all_log_20240901_025516_735869/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025516_735869/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025516_735869/necessary2_graph.png",
+  "topological_order": [
+    "High-rise Apartment Complex 's Blue Apron"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025516_735869/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025516_735869/unnecessary_graph.png",
+  "question": "District category contains High-rise Apartment Complex, and High School Zone.\nSupermarkets category contains Meijer, and Blue Apron.\nThe number of each High-rise Apartment Complex 's Blue Apron equals 14.\nThe number of each High School Zone 's Blue Apron equals each High-rise Apartment Complex 's Blue Apron.\nThe number of each High School Zone 's Meijer equals the sum of each High-rise Apartment Complex 's Blue Apron, each High-rise Apartment Complex 's Supermarkets, each High-rise Apartment Complex 's Meijer, and each High School Zone 's Blue Apron.\nThe number of each High-rise Apartment Complex 's Meijer equals 3.\nHow many Blue Apron does High-rise Apartment Complex have?",
+  "solution": "Define each High-rise Apartment Complex 's Blue Apron as y; So y = 14.\n",
+  "num_operation": 1
+}

@@ -1,0 +1,31 @@
+{
+  "s": 12,
+  "n": 11,
+  "m": 12,
+  "d": 4,
+  "w0": 3,
+  "w1": 3,
+  "e": 9,
+  "structure_graph": "log/draw_all_log_20240901_015932_099518/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_015932_099518/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_015932_099518/necessary2_graph.png",
+  "topological_order": [
+    "Entertainment District 's Walmart Grocery",
+    "Condo District 's PriceRite",
+    "Smoothies 's Nutmeg",
+    "PriceRite 's Smoothies",
+    "Smoothies 's Ingredient",
+    "PriceRite 's Ingredient",
+    "Condo District 's Ingredient",
+    "Walmart Grocery 's Beer",
+    "Walmart Grocery 's Product",
+    "Courthouse District 's PriceRite",
+    "Courthouse District 's Ingredient",
+    "Food 4 Less 's Beer"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_015932_099518/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_015932_099518/unnecessary_graph.png",
+  "question": "District category contains Condo District, Courthouse District, and Entertainment District.\nSupermarkets category contains Walmart Grocery, PriceRite, and Food 4 Less.\nProduct category contains Beer, Canned Pineapple, and Smoothies.\nIngredient category contains Sorghum, Corn Oil, and Nutmeg.\nThe number of each Canned Pineapple 's Corn Oil equals 13 times each Beer 's Sorghum.\nThe number of each Food 4 Less 's Beer equals 4 more than each Courthouse District 's Ingredient.\nThe number of each Smoothies 's Nutmeg equals 18 times each Condo District 's PriceRite.\nThe number of each PriceRite 's Smoothies equals each Smoothies 's Nutmeg.\nThe number of each Beer 's Sorghum equals 3.\nThe number of each Condo District 's PriceRite equals 21 times each Entertainment District 's Walmart Grocery.\nThe number of each Walmart Grocery 's Beer equals 10 times each Condo District 's Ingredient.\nThe number of each Entertainment District 's Walmart Grocery equals 9.\nThe number of each Courthouse District 's PriceRite equals the sum of each Walmart Grocery 's Product and each Smoothies 's Ingredient.\nHow many Beer does Food 4 Less have?",
+  "solution": "Define each Entertainment District 's Walmart Grocery as c; So c = 9.\nDefine each Condo District 's PriceRite as Q; So Q = 21 * c = 21 * 9 = 5.\nDefine each Smoothies 's Nutmeg as K; So K = 18 * Q = 18 * 5 = 21.\nDefine each PriceRite 's Smoothies as C; So C = K = 21.\nDefine each Smoothies 's Ingredient as F; So F = K = 21.\nDefine each PriceRite 's Ingredient as v; v = C * F = 21 * 21 = 4.\nDefine each Condo District 's Ingredient as H; H = v * Q = 4 * 5 = 20.\nDefine each Walmart Grocery 's Beer as Z; So Z = 10 * H = 10 * 20 = 16.\nDefine each Walmart Grocery 's Product as d; So d = Z = 16.\nDefine each Courthouse District 's PriceRite as O; So O = d + F = 16 + 21 = 14.\nDefine each Courthouse District 's Ingredient as w; w = v * O = 4 * 14 = 10.\nDefine each Food 4 Less 's Beer as T; So T = 4 + w = 4 + 10 = 14.\n",
+  "num_operation": 12
+}

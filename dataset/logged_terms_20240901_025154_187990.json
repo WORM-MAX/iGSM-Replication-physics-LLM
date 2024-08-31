@@ -1,0 +1,21 @@
+{
+  "s": 2,
+  "n": 2,
+  "m": 2,
+  "d": 4,
+  "w0": 2,
+  "w1": 3,
+  "e": 13,
+  "structure_graph": "log/draw_all_log_20240901_025153_813383/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025153_813383/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025153_813383/necessary2_graph.png",
+  "topological_order": [
+    "Flavored Water 's Muesli",
+    "Flavored Water 's Ingredient"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025153_813383/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025153_813383/unnecessary_graph.png",
+  "question": "District category contains Institute District, Ancient City, and Restaurant District.\nSupermarkets category contains Fairway Market, Bristol Farms, and FreshDirect.\nProduct category contains Plant-based Cheese, Flavored Water, and Muffins.\nIngredient category contains Polenta, Muesli, and Sriracha.\nThe number of each Flavored Water 's Muesli equals 13.\nThe number of each Plant-based Cheese 's Polenta equals 14.\nThe number of each Ancient City 's FreshDirect equals each FreshDirect 's Flavored Water.\nThe number of each Bristol Farms 's Plant-based Cheese equals 1 more than each Plant-based Cheese 's Polenta.\nThe number of each Fairway Market 's Plant-based Cheese equals 14.\nThe number of each FreshDirect 's Flavored Water equals each Bristol Farms 's Plant-based Cheese.\nThe number of each Restaurant District 's Fairway Market equals the sum of each FreshDirect 's Flavored Water, each Bristol Farms 's Plant-based Cheese, each Ancient City 's FreshDirect, and each Institute District 's Fairway Market.\nThe number of each FreshDirect 's Muffins equals each Flavored Water 's Ingredient.\nThe number of each Muffins 's Polenta equals the difference of each Flavored Water 's Muesli and each Flavored Water 's Ingredient.\nThe number of each Institute District 's Bristol Farms equals 2 times each Restaurant District 's Fairway Market.\nThe number of each Institute District 's Fairway Market equals each Bristol Farms 's Plant-based Cheese.\nThe number of each Fairway Market 's Muffins equals each Muffins 's Ingredient.\nThe number of each Restaurant District 's FreshDirect equals 14.\nHow many Ingredient does Flavored Water have?",
+  "solution": "Define each Flavored Water 's Muesli as c; So c = 13.\nDefine each Flavored Water 's Ingredient as u; So u = c = 13.\n",
+  "num_operation": 2
+}

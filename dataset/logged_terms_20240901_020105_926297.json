@@ -1,0 +1,20 @@
+{
+  "s": 1,
+  "n": 1,
+  "m": 1,
+  "d": 2,
+  "w0": 2,
+  "w1": 2,
+  "e": 4,
+  "structure_graph": "log/draw_all_log_20240901_020105_540555/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_020105_540555/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_020105_540555/necessary2_graph.png",
+  "topological_order": [
+    "Shopping District 's Morrisons"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_020105_540555/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_020105_540555/unnecessary_graph.png",
+  "question": "District category contains Shopping District, and Silicon Valley.\nSupermarkets category contains Morrisons, and Big Lots.\nThe number of each Shopping District 's Morrisons equals 10.\nThe number of each Silicon Valley 's Big Lots equals 7 more than each Silicon Valley 's Morrisons.\nThe number of each Shopping District 's Big Lots equals 14 times the sum of each Silicon Valley 's Morrisons and each Silicon Valley 's Big Lots.\nThe number of each Silicon Valley 's Morrisons equals 16.\nHow many Morrisons does Shopping District have?",
+  "solution": "Define each Shopping District 's Morrisons as j; So j = 10.\n",
+  "num_operation": 1
+}

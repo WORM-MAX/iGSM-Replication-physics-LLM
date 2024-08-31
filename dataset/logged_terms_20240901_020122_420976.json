@@ -1,0 +1,23 @@
+{
+  "s": 5,
+  "n": 3,
+  "m": 5,
+  "d": 2,
+  "w0": 2,
+  "w1": 4,
+  "e": 3,
+  "structure_graph": "log/draw_all_log_20240901_020122_011037/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_020122_011037/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_020122_011037/necessary2_graph.png",
+  "topological_order": [
+    "Industrial District 's King Soopers",
+    "Cultural Heritage Site 's Aldi",
+    "Cultural Heritage Site 's Supermarkets",
+    "Industrial District 's Aldi"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_020122_011037/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_020122_011037/unnecessary_graph.png",
+  "question": "District category contains Industrial District, and Cultural Heritage Site.\nSupermarkets category contains Aldi, and King Soopers.\nThe number of each Cultural Heritage Site 's Aldi equals each Industrial District 's King Soopers.\nThe number of each Industrial District 's Aldi equals the sum of each Cultural Heritage Site 's Supermarkets, each Cultural Heritage Site 's Aldi, and each Industrial District 's King Soopers.\nThe number of each Industrial District 's King Soopers equals 2.\nHow many Aldi does Industrial District have?",
+  "solution": "Define each Industrial District 's King Soopers as b; So b = 2.\nDefine each Cultural Heritage Site 's Aldi as r; So r = b = 2.\nDefine each Cultural Heritage Site 's Supermarkets as h; So h = r = 2.\nDefine each Industrial District 's Aldi as t; H = r + b = 2 + 2 = 4; So t = h + H = 2 + 4 = 6.\n",
+  "num_operation": 5
+}

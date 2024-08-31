@@ -1,0 +1,23 @@
+{
+  "s": 4,
+  "n": 2,
+  "m": 4,
+  "d": 2,
+  "w0": 2,
+  "w1": 3,
+  "e": 5,
+  "structure_graph": "log/draw_all_log_20240901_022227_742752/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_022227_742752/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_022227_742752/necessary2_graph.png",
+  "topological_order": [
+    "Ancient City 's King Soopers",
+    "Ancient City 's Auchan",
+    "Old Town 's Aldi",
+    "Ancient City 's Aldi"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_022227_742752/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_022227_742752/unnecessary_graph.png",
+  "question": "District category contains Ancient City, and Old Town.\nSupermarkets category contains King Soopers, Auchan, and Aldi.\nThe number of each Ancient City 's Aldi equals 12 times each Old Town 's Aldi.\nThe number of each Old Town 's King Soopers equals 8.\nThe number of each Ancient City 's King Soopers equals 0.\nThe number of each Ancient City 's Auchan equals 22 more than each Ancient City 's King Soopers.\nThe number of each Old Town 's Aldi equals 21 more than each Ancient City 's Auchan.\nHow many Aldi does Ancient City have?",
+  "solution": "Define each Ancient City 's King Soopers as M; So M = 0.\nDefine each Ancient City 's Auchan as D; So D = 22 + M = 22 + 0 = 22.\nDefine each Old Town 's Aldi as v; So v = 21 + D = 21 + 22 = 20.\nDefine each Ancient City 's Aldi as g; So g = 12 * v = 12 * 20 = 10.\n",
+  "num_operation": 4
+}

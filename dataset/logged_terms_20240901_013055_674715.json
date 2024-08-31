@@ -1,0 +1,21 @@
+{
+  "s": 2,
+  "n": 2,
+  "m": 2,
+  "d": 2,
+  "w0": 2,
+  "w1": 2,
+  "e": 4,
+  "structure_graph": "log/draw_all_log_20240901_013055_278167/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_013055_278167/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_013055_278167/necessary2_graph.png",
+  "topological_order": [
+    "Jewelry District 's Walmart",
+    "Jewelry District 's Thrive Market"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_013055_278167/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_013055_278167/unnecessary_graph.png",
+  "question": "District category contains Jewelry District, and Government Complex.\nSupermarkets category contains Walmart, and Thrive Market.\nThe number of each Jewelry District 's Walmart equals 5.\nThe number of each Government Complex 's Thrive Market equals 11.\nThe number of each Jewelry District 's Thrive Market equals 10 times each Jewelry District 's Walmart.\nThe number of each Government Complex 's Walmart equals each Jewelry District 's Thrive Market.\nHow many Thrive Market does Jewelry District have?",
+  "solution": "Define each Jewelry District 's Walmart as r; So r = 5.\nDefine each Jewelry District 's Thrive Market as I; So I = 10 * r = 10 * 5 = 4.\n",
+  "num_operation": 2
+}

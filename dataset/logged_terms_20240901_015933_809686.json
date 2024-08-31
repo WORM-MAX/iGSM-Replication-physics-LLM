@@ -1,0 +1,21 @@
+{
+  "s": 2,
+  "n": 2,
+  "m": 2,
+  "d": 4,
+  "w0": 2,
+  "w1": 4,
+  "e": 7,
+  "structure_graph": "log/draw_all_log_20240901_015933_392524/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_015933_392524/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_015933_392524/necessary2_graph.png",
+  "topological_order": [
+    "Hannaford 's Pudding",
+    "Hannaford 's Product"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_015933_392524/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_015933_392524/unnecessary_graph.png",
+  "question": "District category contains Historic Neighborhood, and Business District.\nSupermarkets category contains Hannaford, and The Fresh Market.\nProduct category contains Pudding, and Liquor.\nIngredient category contains Chocolate Chips, and Jam.\nThe number of each Historic Neighborhood 's Hannaford equals the sum of each Pudding 's Chocolate Chips and each Hannaford 's Product.\nThe number of each Pudding 's Jam equals 19.\nThe number of each Hannaford 's Pudding equals 0.\nThe number of each Liquor 's Jam equals 11.\nThe number of each Pudding 's Chocolate Chips equals the difference of each Hannaford 's Pudding and each Hannaford 's Product.\nThe number of each Business District 's The Fresh Market equals 1 more than the sum of each The Fresh Market 's Pudding and each Pudding 's Jam.\nThe number of each The Fresh Market 's Pudding equals 9.\nHow many Product does Hannaford have?",
+  "solution": "Define each Hannaford 's Pudding as O; So O = 0.\nDefine each Hannaford 's Product as g; So g = O = 0.\n",
+  "num_operation": 2
+}

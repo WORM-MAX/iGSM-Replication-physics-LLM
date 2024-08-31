@@ -1,0 +1,31 @@
+{
+  "s": 15,
+  "n": 14,
+  "m": 14,
+  "d": 2,
+  "w0": 2,
+  "w1": 4,
+  "e": 10,
+  "structure_graph": "log/draw_all_log_20240901_013004_496901/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_013004_496901/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_013004_496901/necessary2_graph.png",
+  "topological_order": [
+    "Media District 's Blue Apron",
+    "Cultural Heritage Site 's Blue Apron",
+    "Cultural Heritage Site 's Tesco",
+    "Cultural Heritage Site 's The Fresh Market",
+    "Cultural Heritage Site 's Supermarkets",
+    "Media District 's The Fresh Market",
+    "University Campus 's Tesco",
+    "Media District 's Misfits Market",
+    "University Campus 's Misfits Market",
+    "University Campus 's Blue Apron",
+    "University Campus 's Supermarkets",
+    "Media District 's Tesco"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_013004_496901/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_013004_496901/unnecessary_graph.png",
+  "question": "District category contains University Campus, Cultural Heritage Site, and Media District.\nSupermarkets category contains Blue Apron, Tesco, The Fresh Market, and Misfits Market.\nThe number of each Media District 's Tesco equals 8 times each University Campus 's Supermarkets.\nThe number of each Media District 's Blue Apron equals 14.\nThe number of each University Campus 's Tesco equals the sum of each Media District 's The Fresh Market, each Cultural Heritage Site 's The Fresh Market, and each Cultural Heritage Site 's Blue Apron.\nThe number of each University Campus 's Blue Apron equals 22 more than each Cultural Heritage Site 's Blue Apron.\nThe number of each University Campus 's Misfits Market equals the sum of each Media District 's Misfits Market and each Cultural Heritage Site 's Blue Apron.\nThe number of each Cultural Heritage Site 's The Fresh Market equals 19 times each Cultural Heritage Site 's Tesco.\nThe number of each Media District 's Misfits Market equals each Cultural Heritage Site 's The Fresh Market.\nThe number of each Media District 's The Fresh Market equals 3 more than each Cultural Heritage Site 's Supermarkets.\nThe number of each Cultural Heritage Site 's Tesco equals each Cultural Heritage Site 's Blue Apron.\nThe number of each Cultural Heritage Site 's Blue Apron equals each Media District 's Blue Apron.\nHow many Tesco does Media District have?",
+  "solution": "Define each Media District 's Blue Apron as z; So z = 14.\nDefine each Cultural Heritage Site 's Blue Apron as D; So D = z = 14.\nDefine each Cultural Heritage Site 's Tesco as U; So U = D = 14.\nDefine each Cultural Heritage Site 's The Fresh Market as P; So P = 19 * U = 19 * 14 = 13.\nDefine each Cultural Heritage Site 's Supermarkets as Y; G = P + D = 13 + 14 = 4; So Y = U + G = 14 + 4 = 18.\nDefine each Media District 's The Fresh Market as H; So H = 3 + Y = 3 + 18 = 21.\nDefine each University Campus 's Tesco as o; c = D + P = 14 + 13 = 4; So o = H + c = 21 + 4 = 2.\nDefine each Media District 's Misfits Market as n; So n = P = 13.\nDefine each University Campus 's Misfits Market as G; So G = n + D = 13 + 14 = 4.\nDefine each University Campus 's Blue Apron as m; So m = 22 + D = 22 + 14 = 13.\nDefine each University Campus 's Supermarkets as l; F = G + o = 4 + 2 = 6; So l = m + F = 13 + 6 = 19.\nDefine each Media District 's Tesco as B; So B = 8 * l = 8 * 19 = 14.\n",
+  "num_operation": 15
+}

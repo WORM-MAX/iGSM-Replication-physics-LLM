@@ -1,0 +1,20 @@
+{
+  "s": 1,
+  "n": 1,
+  "m": 1,
+  "d": 2,
+  "w0": 2,
+  "w1": 4,
+  "e": 9,
+  "structure_graph": "log/draw_all_log_20240901_013037_883659/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_013037_883659/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_013037_883659/necessary2_graph.png",
+  "topological_order": [
+    "Tech Park 's Boxed"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_013037_883659/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_013037_883659/unnecessary_graph.png",
+  "question": "District category contains Senior Living Community, Tech Park, and Wall Street.\nSupermarkets category contains Dollar General, Boxed, and Auchan.\nThe number of each Wall Street 's Auchan equals the difference of each Tech Park 's Auchan and each Wall Street 's Boxed.\nThe number of each Tech Park 's Dollar General equals 8.\nThe number of each Wall Street 's Boxed equals 4.\nThe number of each Tech Park 's Boxed equals 12.\nThe number of each Tech Park 's Auchan equals 19 times each Wall Street 's Boxed.\nThe number of each Senior Living Community 's Dollar General equals 13 times the sum of each Tech Park 's Auchan, each Wall Street 's Boxed, and each Wall Street 's Auchan.\nThe number of each Senior Living Community 's Boxed equals 20.\nThe number of each Wall Street 's Dollar General equals the sum of each Wall Street 's Auchan and each Tech Park 's Boxed.\nThe number of each Senior Living Community 's Auchan equals the sum of each Wall Street 's Boxed, each Wall Street 's Dollar General, and each Tech Park 's Boxed.\nHow many Boxed does Tech Park have?",
+  "solution": "Define each Tech Park 's Boxed as z; So z = 12.\n",
+  "num_operation": 1
+}

@@ -1,0 +1,28 @@
+{
+  "s": 11,
+  "n": 11,
+  "m": 11,
+  "d": 2,
+  "w0": 2,
+  "w1": 3,
+  "e": 6,
+  "structure_graph": "log/draw_all_log_20240901_020023_535878/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_020023_535878/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_020023_535878/necessary2_graph.png",
+  "topological_order": [
+    "Preservation District 's Publix",
+    "Preservation District 's Central Market",
+    "Preservation District 's Bristol Farms",
+    "Preservation District 's Supermarkets",
+    "Entertainment District 's Publix",
+    "Entertainment District 's Central Market",
+    "Entertainment District 's Supermarkets",
+    "Dormitory District 's Publix",
+    "Dormitory District 's Supermarkets"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_020023_535878/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_020023_535878/unnecessary_graph.png",
+  "question": "District category contains Entertainment District, Dormitory District, and Preservation District.\nSupermarkets category contains Bristol Farms, Publix, and Central Market.\nThe number of each Preservation District 's Central Market equals 7 more than each Preservation District 's Publix.\nThe number of each Entertainment District 's Publix equals 12 more than each Preservation District 's Supermarkets.\nThe number of each Entertainment District 's Central Market equals each Entertainment District 's Publix.\nThe number of each Preservation District 's Publix equals 2.\nThe number of each Dormitory District 's Publix equals the sum of each Entertainment District 's Supermarkets, each Preservation District 's Supermarkets, and each Preservation District 's Bristol Farms.\nThe number of each Preservation District 's Bristol Farms equals 4 more than each Preservation District 's Central Market.\nHow many Supermarkets does Dormitory District have?",
+  "solution": "Define each Preservation District 's Publix as T; So T = 2.\nDefine each Preservation District 's Central Market as i; So i = 7 + T = 7 + 2 = 9.\nDefine each Preservation District 's Bristol Farms as q; So q = 4 + i = 4 + 9 = 13.\nDefine each Preservation District 's Supermarkets as m; e = i + q = 9 + 13 = 22; So m = T + e = 2 + 22 = 1.\nDefine each Entertainment District 's Publix as o; So o = 12 + m = 12 + 1 = 13.\nDefine each Entertainment District 's Central Market as x; So x = o = 13.\nDefine each Entertainment District 's Supermarkets as Q; So Q = x + o = 13 + 13 = 3.\nDefine each Dormitory District 's Publix as Z; l = m + q = 1 + 13 = 14; So Z = Q + l = 3 + 14 = 17.\nDefine each Dormitory District 's Supermarkets as a; So a = Z = 17.\n",
+  "num_operation": 11
+}

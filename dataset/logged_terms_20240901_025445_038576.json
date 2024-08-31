@@ -1,0 +1,24 @@
+{
+  "s": 5,
+  "n": 5,
+  "m": 5,
+  "d": 4,
+  "w0": 3,
+  "w1": 3,
+  "e": 10,
+  "structure_graph": "log/draw_all_log_20240901_025444_662181/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025444_662181/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025444_662181/necessary2_graph.png",
+  "topological_order": [
+    "Yogurt 's Muesli",
+    "Publix 's Yogurt",
+    "Yogurt 's Ingredient",
+    "Publix 's Ingredient",
+    "Coles (Australia) 's Herbal Tea"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025444_662181/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025444_662181/unnecessary_graph.png",
+  "question": "District category contains Market District, Administrative District, and Tech Park.\nSupermarkets category contains Amazon Fresh, Coles (Australia), and Publix.\nProduct category contains Yogurt, Herbal Tea, and Canned Fruits.\nIngredient category contains Nutmeg, Muesli, and Bay Leaves.\nThe number of each Canned Fruits 's Bay Leaves equals 10.\nThe number of each Administrative District 's Amazon Fresh equals 19.\nThe number of each Publix 's Yogurt equals each Yogurt 's Muesli.\nThe number of each Market District 's Coles (Australia) equals each Canned Fruits 's Bay Leaves.\nThe number of each Amazon Fresh 's Herbal Tea equals 11.\nThe number of each Market District 's Amazon Fresh equals 12 times each Canned Fruits 's Bay Leaves.\nThe number of each Tech Park 's Coles (Australia) equals 17 more than the sum of each Publix 's Product, each Coles (Australia) 's Product, and each Publix 's Ingredient.\nThe number of each Yogurt 's Muesli equals 4.\nThe number of each Coles (Australia) 's Herbal Tea equals 8 times each Publix 's Ingredient.\nThe number of each Herbal Tea 's Bay Leaves equals each Canned Fruits 's Ingredient.\nHow many Herbal Tea does Coles (Australia) have?",
+  "solution": "Define each Yogurt 's Muesli as T; So T = 4.\nDefine each Publix 's Yogurt as v; So v = T = 4.\nDefine each Yogurt 's Ingredient as j; So j = T = 4.\nDefine each Publix 's Ingredient as t; t = v * j = 4 * 4 = 16.\nDefine each Coles (Australia) 's Herbal Tea as q; So q = 8 * t = 8 * 16 = 13.\n",
+  "num_operation": 5
+}

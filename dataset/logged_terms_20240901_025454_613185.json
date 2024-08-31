@@ -1,0 +1,20 @@
+{
+  "s": 1,
+  "n": 1,
+  "m": 1,
+  "d": 4,
+  "w0": 3,
+  "w1": 3,
+  "e": 13,
+  "structure_graph": "log/draw_all_log_20240901_025454_234356/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240901_025454_234356/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240901_025454_234356/necessary2_graph.png",
+  "topological_order": [
+    "Urban Residential Area 's Central Market"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240901_025454_234356/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240901_025454_234356/unnecessary_graph.png",
+  "question": "District category contains Silicon Valley, Urban Residential Area, and Landmark District.\nSupermarkets category contains Central Market, Save-A-Lot, and Aldi.\nProduct category contains Canned Coconut Milk, Plant-based Cheese, and Gummy Candy.\nIngredient category contains Paprika, Pickles, and Sprinkles.\nThe number of each Urban Residential Area 's Aldi equals the sum of each Canned Coconut Milk 's Paprika, each Central Market 's Canned Coconut Milk, and each Gummy Candy 's Pickles.\nThe number of each Save-A-Lot 's Plant-based Cheese equals 9.\nThe number of each Aldi 's Canned Coconut Milk equals 0 times the sum of each Gummy Candy 's Pickles and each Gummy Candy 's Ingredient.\nThe number of each Gummy Candy 's Pickles equals 8.\nThe number of each Plant-based Cheese 's Paprika equals each Urban Residential Area 's Save-A-Lot.\nThe number of each Canned Coconut Milk 's Paprika equals 2.\nThe number of each Save-A-Lot 's Gummy Candy equals 12 more than each Gummy Candy 's Pickles.\nThe number of each Urban Residential Area 's Save-A-Lot equals each Canned Coconut Milk 's Paprika.\nThe number of each Urban Residential Area 's Central Market equals 19.\nThe number of each Silicon Valley 's Central Market equals 22.\nThe number of each Landmark District 's Central Market equals 20.\nThe number of each Plant-based Cheese 's Sprinkles equals 5.\nThe number of each Central Market 's Canned Coconut Milk equals each Canned Coconut Milk 's Paprika.\nHow many Central Market does Urban Residential Area have?",
+  "solution": "Define each Urban Residential Area 's Central Market as G; So G = 19.\n",
+  "num_operation": 1
+}
