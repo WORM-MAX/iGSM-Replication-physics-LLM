@@ -10,6 +10,10 @@ Background: There are 3 types of Classrooms: Music Room, Film Studio and Dance S
 
 ## Sample Question (mod 23 arithmetic)
 
+<p align="center">
+  <img src="assets/sample_structure_graph.png" alt="question structure" width="300" />
+</p>
+
 ### Question description:
 
 District category contains Financial District, Automotive District, Jewelry District, and Administrative District.
