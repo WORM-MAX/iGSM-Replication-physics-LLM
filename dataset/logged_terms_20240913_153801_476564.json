@@ -1,0 +1,32 @@
+{
+  "s": 17,
+  "n": 14,
+  "m": 15,
+  "d": 4,
+  "w0": 4,
+  "w1": 4,
+  "e": 21,
+  "structure_graph": "log/draw_all_log_20240913_153800_982174/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240913_153800_982174/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240913_153800_982174/necessary2_graph.png",
+  "topological_order": [
+    "Canned Coconut Milk 's Oats",
+    "Metro (Canada) 's Liquor",
+    "Blue Apron 's Alcoholic Beverages",
+    "Alcoholic Beverages 's Nuts",
+    "Liquor 's Oats",
+    "Liquor 's Sage",
+    "Liquor 's Ingredient",
+    "Alcoholic Beverages 's Ingredient",
+    "Metro (Canada) 's Alcoholic Beverages",
+    "Metro (Canada) 's Ingredient",
+    "Historic Neighborhood 's PriceRite",
+    "Historic Neighborhood 's Blue Apron",
+    "Historic Neighborhood 's Supermarkets"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240913_153800_982174/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240913_153800_982174/unnecessary_graph.png",
+  "question": "Background: There are 4 types of District: Historic Neighborhood, Condo District, Civic Center, and Library District.\nThere are 4 types of Supermarkets: SuperValu, Blue Apron, PriceRite, and Metro (Canada).\nThere are 4 types of Product: Alcoholic Beverages, Liquor, Wine, and Canned Coconut Milk.\nThere are 4 types of Ingredient: Sage, Oats, Grits, and Nuts.\nEach Historic Neighborhood has PriceRite and Blue Apron.\nEach Condo District has Blue Apron and SuperValu.\nEach Civic Center has Blue Apron.\nEach Library District has PriceRite, Blue Apron, and SuperValu.\nEach SuperValu has Liquor and Alcoholic Beverages.\nEach Blue Apron has Alcoholic Beverages.\nEach PriceRite has Canned Coconut Milk and Alcoholic Beverages.\nEach Metro (Canada) has Alcoholic Beverages and Liquor.\nEach Alcoholic Beverages has Nuts.\nEach Liquor has Oats and Sage.\nEach Wine has Sage.\nEach Canned Coconut Milk has Oats and Sage.\nThe number of each Condo District 's SuperValu equals 12 times the sum of each Wine 's Ingredient and each Metro (Canada) 's Ingredient.\nThe number of each Blue Apron 's Alcoholic Beverages equals the difference of each Canned Coconut Milk 's Oats and each Metro (Canada) 's Liquor.\nThe number of each Canned Coconut Milk 's Oats equals 7.\nThe number of each Historic Neighborhood 's PriceRite equals the sum of each Metro (Canada) 's Ingredient and each Liquor 's Ingredient.\nThe number of each Library District 's SuperValu equals each Wine 's Sage.\nThe number of each Alcoholic Beverages 's Nuts equals 3 more than the difference of each Blue Apron 's Alcoholic Beverages and each Metro (Canada) 's Liquor.\nThe number of each Historic Neighborhood 's Blue Apron equals 21.\nThe number of each Canned Coconut Milk 's Sage equals 8.\nThe number of each PriceRite 's Alcoholic Beverages equals each Wine 's Ingredient.\nThe number of each Wine 's Sage equals 8.\nThe number of each Liquor 's Oats equals the difference of each Blue Apron 's Alcoholic Beverages and each Alcoholic Beverages 's Nuts.\nThe number of each Liquor 's Sage equals 6 more than the difference of each Canned Coconut Milk 's Oats and each Metro (Canada) 's Liquor.\nThe number of each Library District 's Blue Apron equals 22 more than each Canned Coconut Milk 's Sage.\nThe number of each Library District 's PriceRite equals each Canned Coconut Milk 's Sage.\nThe number of each Condo District 's Blue Apron equals 1 times the difference of each Historic Neighborhood 's Blue Apron and each Liquor 's Oats.\nThe number of each SuperValu 's Alcoholic Beverages equals the sum of each Wine 's Sage and each Canned Coconut Milk 's Sage.\nThe number of each Civic Center 's Blue Apron equals 20 more than the sum of each Metro (Canada) 's Ingredient and each Blue Apron 's Product.\nThe number of each Metro (Canada) 's Liquor equals 18 times each Canned Coconut Milk 's Oats.\nThe number of each Metro (Canada) 's Alcoholic Beverages equals each Alcoholic Beverages 's Ingredient.\nThe number of each SuperValu 's Liquor equals 12.\nThe number of each PriceRite 's Canned Coconut Milk equals 5.\nHow many Supermarkets does Historic Neighborhood have?",
+  "solution": "Define each Canned Coconut Milk 's Oats as q; So q = 7.\nDefine each Metro (Canada) 's Liquor as L; So L = 18 * q = 18 * 7 = 11.\nDefine each Blue Apron 's Alcoholic Beverages as N; So N = q - L = 7 - 11 = 19.\nDefine each Alcoholic Beverages 's Nuts as R; T = N - L = 19 - 11 = 8; So R = 3 + T = 3 + 8 = 11.\nDefine each Liquor 's Oats as K; So K = N - R = 19 - 11 = 8.\nDefine each Liquor 's Sage as G; r = q - L = 7 - 11 = 19; So G = 6 + r = 6 + 19 = 2.\nDefine each Liquor 's Ingredient as n; So n = K + G = 8 + 2 = 10.\nDefine each Alcoholic Beverages 's Ingredient as i; So i = R = 11.\nDefine each Metro (Canada) 's Alcoholic Beverages as s; So s = i = 11.\nDefine each Metro (Canada) 's Ingredient as C; S = s * i = 11 * 11 = 6; i = L * n = 11 * 10 = 18; So C = S + i = 6 + 18 = 1.\nDefine each Historic Neighborhood 's PriceRite as Q; So Q = C + n = 1 + 10 = 11.\nDefine each Historic Neighborhood 's Blue Apron as T; So T = 21.\nDefine each Historic Neighborhood 's Supermarkets as v; So v = T + Q = 21 + 11 = 9.\n",
+  "num_operation": 17
+}

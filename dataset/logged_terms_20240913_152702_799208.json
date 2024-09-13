@@ -1,0 +1,28 @@
+{
+  "s": 9,
+  "n": 8,
+  "m": 9,
+  "d": 3,
+  "w0": 2,
+  "w1": 4,
+  "e": 9,
+  "structure_graph": "log/draw_all_log_20240913_152702_368560/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240913_152702_368560/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240913_152702_368560/necessary2_graph.png",
+  "topological_order": [
+    "Natural Grocers 's Alcoholic Beverages",
+    "Cultural Heritage Site 's Loblaws",
+    "Natural Grocers 's Canned Broth",
+    "Loblaws 's Alcoholic Beverages",
+    "Loblaws 's Canned Broth",
+    "Natural Grocers 's Product",
+    "Ancient City 's Loblaws",
+    "Loblaws 's Product",
+    "Ancient City 's Product"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240913_152702_368560/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240913_152702_368560/unnecessary_graph.png",
+  "question": "Background: There are 3 types of District: Ancient City, Cultural Heritage Site, and Preservation District.\nThere are 2 types of Supermarkets: Loblaws, and Natural Grocers.\nThere are 2 types of Product: Alcoholic Beverages, and Canned Broth.\nEach Ancient City has Loblaws.\nEach Cultural Heritage Site has Natural Grocers and Loblaws.\nEach Preservation District has Natural Grocers and Loblaws.\nEach Loblaws has Canned Broth and Alcoholic Beverages.\nEach Natural Grocers has Canned Broth and Alcoholic Beverages.\nThe number of each Loblaws 's Canned Broth equals 21 times each Cultural Heritage Site 's Loblaws.\nThe number of each Loblaws 's Alcoholic Beverages equals 10 more than each Cultural Heritage Site 's Loblaws.\nThe number of each Cultural Heritage Site 's Natural Grocers equals the sum of each Preservation District 's Loblaws, each Loblaws 's Product, and each Natural Grocers 's Canned Broth.\nThe number of each Cultural Heritage Site 's Loblaws equals 17 more than each Natural Grocers 's Alcoholic Beverages.\nThe number of each Natural Grocers 's Canned Broth equals the difference of each Cultural Heritage Site 's Loblaws and each Natural Grocers 's Alcoholic Beverages.\nThe number of each Preservation District 's Natural Grocers equals each Preservation District 's Loblaws.\nThe number of each Natural Grocers 's Alcoholic Beverages equals 1.\nThe number of each Ancient City 's Loblaws equals each Natural Grocers 's Product.\nThe number of each Preservation District 's Loblaws equals 11.\nHow many Product does Ancient City have?",
+  "solution": "Define each Natural Grocers 's Alcoholic Beverages as y; So y = 1.\nDefine each Cultural Heritage Site 's Loblaws as d; So d = 17 + y = 17 + 1 = 18.\nDefine each Natural Grocers 's Canned Broth as f; So f = d - y = 18 - 1 = 17.\nDefine each Loblaws 's Alcoholic Beverages as t; So t = 10 + d = 10 + 18 = 5.\nDefine each Loblaws 's Canned Broth as j; So j = 21 * d = 21 * 18 = 10.\nDefine each Natural Grocers 's Product as q; So q = f + y = 17 + 1 = 18.\nDefine each Ancient City 's Loblaws as i; So i = q = 18.\nDefine each Loblaws 's Product as z; So z = j + t = 10 + 5 = 15.\nDefine each Ancient City 's Product as w; w = i * z = 18 * 15 = 17.\n",
+  "num_operation": 9
+}

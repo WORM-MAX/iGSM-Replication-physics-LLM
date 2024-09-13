@@ -1,0 +1,24 @@
+{
+  "s": 5,
+  "n": 5,
+  "m": 5,
+  "d": 4,
+  "w0": 2,
+  "w1": 3,
+  "e": 18,
+  "structure_graph": "log/draw_all_log_20240913_152708_774422/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240913_152708_774422/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240913_152708_774422/necessary2_graph.png",
+  "topological_order": [
+    "Library District 's E.Leclerc",
+    "Bread 's Saffron",
+    "Bread 's Peanut Oil",
+    "Bread 's Ingredient",
+    "Library District 's Food 4 Less"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240913_152708_774422/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240913_152708_774422/unnecessary_graph.png",
+  "question": "Background: There are 3 types of District: Library District, Colonial District, and Tech Park.\nThere are 2 types of Supermarkets: Food 4 Less, and E.Leclerc.\nThere are 3 types of Product: Canned Artichokes, Evaporated Milk, and Bread.\nThere are 2 types of Ingredient: Saffron, and Peanut Oil.\nEach Library District has E.Leclerc and Food 4 Less.\nEach Colonial District has Food 4 Less and E.Leclerc.\nEach Tech Park has E.Leclerc and Food 4 Less.\nEach Food 4 Less has Canned Artichokes, Bread, and Evaporated Milk.\nEach E.Leclerc has Bread, Evaporated Milk, and Canned Artichokes.\nEach Canned Artichokes has Peanut Oil and Saffron.\nEach Evaporated Milk has Saffron and Peanut Oil.\nEach Bread has Peanut Oil and Saffron.\nThe number of each Food 4 Less 's Bread equals 17.\nThe number of each Bread 's Peanut Oil equals each Bread 's Saffron.\nThe number of each Library District 's E.Leclerc equals 7.\nThe number of each Bread 's Saffron equals 0 times each Library District 's E.Leclerc.\nThe number of each Tech Park 's Food 4 Less equals 3 times each Library District 's Food 4 Less.\nThe number of each Colonial District 's Food 4 Less equals 17.\nThe number of each E.Leclerc 's Bread equals the sum of each Evaporated Milk 's Peanut Oil, each E.Leclerc 's Evaporated Milk, and each Evaporated Milk 's Saffron.\nThe number of each Evaporated Milk 's Peanut Oil equals 9.\nThe number of each E.Leclerc 's Canned Artichokes equals 18 more than the sum of each Colonial District 's E.Leclerc and each Evaporated Milk 's Peanut Oil.\nThe number of each Food 4 Less 's Evaporated Milk equals 6 more than the sum of each Colonial District 's Food 4 Less, each Canned Artichokes 's Ingredient, and each Bread 's Peanut Oil.\nThe number of each Evaporated Milk 's Saffron equals the difference of each E.Leclerc 's Evaporated Milk and each Evaporated Milk 's Peanut Oil.\nThe number of each Food 4 Less 's Canned Artichokes equals each E.Leclerc 's Bread.\nThe number of each Tech Park 's E.Leclerc equals each Library District 's Supermarkets.\nThe number of each E.Leclerc 's Evaporated Milk equals 11 more than each Evaporated Milk 's Peanut Oil.\nThe number of each Canned Artichokes 's Saffron equals the sum of each Library District 's Supermarkets, each Colonial District 's E.Leclerc, each Library District 's E.Leclerc, and each Evaporated Milk 's Peanut Oil.\nThe number of each Colonial District 's E.Leclerc equals each Library District 's Supermarkets.\nThe number of each Library District 's Food 4 Less equals 6 times each Bread 's Ingredient.\nThe number of each Canned Artichokes 's Peanut Oil equals each Evaporated Milk 's Peanut Oil.\nHow many Food 4 Less does Library District have?",
+  "solution": "Define each Library District 's E.Leclerc as f; So f = 7.\nDefine each Bread 's Saffron as T; So T = 0 * f = 0 * 7 = 0.\nDefine each Bread 's Peanut Oil as F; So F = T = 0.\nDefine each Bread 's Ingredient as X; So X = T + F = 0 + 0 = 0.\nDefine each Library District 's Food 4 Less as j; So j = 6 * X = 6 * 0 = 0.\n",
+  "num_operation": 5
+}

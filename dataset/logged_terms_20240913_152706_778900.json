@@ -1,0 +1,24 @@
+{
+  "s": 5,
+  "n": 5,
+  "m": 5,
+  "d": 2,
+  "w0": 4,
+  "w1": 4,
+  "e": 8,
+  "structure_graph": "log/draw_all_log_20240913_152706_401131/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240913_152706_401131/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240913_152706_401131/necessary2_graph.png",
+  "topological_order": [
+    "Housing Estate 's WinCo Foods",
+    "Housing Estate 's HelloFresh",
+    "Housing Estate 's Supermarkets",
+    "Market District 's Coles (Australia)",
+    "Market District 's Supermarkets"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240913_152706_401131/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240913_152706_401131/unnecessary_graph.png",
+  "question": "Background: There are 4 types of District: Landmark District, Courthouse District, Housing Estate, and Market District.\nThere are 4 types of Supermarkets: Peapod, WinCo Foods, HelloFresh, and Coles (Australia).\nEach Landmark District has Coles (Australia), Peapod, and WinCo Foods.\nEach Courthouse District has WinCo Foods and HelloFresh.\nEach Housing Estate has HelloFresh and WinCo Foods.\nEach Market District has Coles (Australia).\nThe number of each Housing Estate 's WinCo Foods equals 21.\nThe number of each Courthouse District 's WinCo Foods equals 1 times each Housing Estate 's Supermarkets.\nThe number of each Landmark District 's Coles (Australia) equals 4 more than each Landmark District 's Peapod.\nThe number of each Housing Estate 's HelloFresh equals 22.\nThe number of each Courthouse District 's HelloFresh equals 3 times the sum of each Landmark District 's Peapod and each Landmark District 's Coles (Australia).\nThe number of each Market District 's Coles (Australia) equals each Housing Estate 's Supermarkets.\nThe number of each Landmark District 's WinCo Foods equals 14 more than the difference of each Landmark District 's Peapod and each Landmark District 's Coles (Australia).\nThe number of each Landmark District 's Peapod equals 16.\nHow many Supermarkets does Market District have?",
+  "solution": "Define each Housing Estate 's WinCo Foods as u; So u = 21.\nDefine each Housing Estate 's HelloFresh as K; So K = 22.\nDefine each Housing Estate 's Supermarkets as M; So M = K + u = 22 + 21 = 20.\nDefine each Market District 's Coles (Australia) as A; So A = M = 20.\nDefine each Market District 's Supermarkets as J; So J = A = 20.\n",
+  "num_operation": 5
+}

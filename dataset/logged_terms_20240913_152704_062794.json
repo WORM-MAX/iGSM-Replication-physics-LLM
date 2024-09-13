@@ -1,0 +1,22 @@
+{
+  "s": 4,
+  "n": 3,
+  "m": 3,
+  "d": 2,
+  "w0": 2,
+  "w1": 4,
+  "e": 6,
+  "structure_graph": "log/draw_all_log_20240913_152703_694164/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240913_152703_694164/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240913_152703_694164/necessary2_graph.png",
+  "topological_order": [
+    "Ancient City 's Hannaford",
+    "Ancient City 's Supermarkets",
+    "Military District 's 99 Cents Only Stores"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240913_152703_694164/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240913_152703_694164/unnecessary_graph.png",
+  "question": "Background: There are 4 types of District: Military District, Fashion District, Capitol District, and Ancient City.\nThere are 4 types of Supermarkets: Tesco, Sprouts Farmers Market, 99 Cents Only Stores, and Hannaford.\nEach Military District has Sprouts Farmers Market and 99 Cents Only Stores.\nEach Fashion District has Sprouts Farmers Market.\nEach Capitol District has Sprouts Farmers Market and Hannaford.\nEach Ancient City has Hannaford.\nThe number of each Ancient City 's Hannaford equals 4.\nThe number of each Military District 's 99 Cents Only Stores equals 22 times the sum of each Ancient City 's Supermarkets and each Ancient City 's Hannaford.\nThe number of each Military District 's Sprouts Farmers Market equals 11.\nThe number of each Capitol District 's Sprouts Farmers Market equals each Ancient City 's Supermarkets.\nThe number of each Fashion District 's Sprouts Farmers Market equals 19.\nThe number of each Capitol District 's Hannaford equals 2 more than each Military District 's Sprouts Farmers Market.\nHow many 99 Cents Only Stores does Military District have?",
+  "solution": "Define each Ancient City 's Hannaford as T; So T = 4.\nDefine each Ancient City 's Supermarkets as o; So o = T = 4.\nDefine each Military District 's 99 Cents Only Stores as b; s = o + T = 4 + 4 = 8; So b = 22 * s = 22 * 8 = 15.\n",
+  "num_operation": 4
+}

@@ -1,0 +1,21 @@
+{
+  "s": 2,
+  "n": 1,
+  "m": 2,
+  "d": 2,
+  "w0": 3,
+  "w1": 4,
+  "e": 11,
+  "structure_graph": "log/draw_all_log_20240913_153756_518519/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240913_153756_518519/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240913_153756_518519/necessary2_graph.png",
+  "topological_order": [
+    "Market District 's Safeway",
+    "Market District 's Bristol Farms"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240913_153756_518519/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240913_153756_518519/unnecessary_graph.png",
+  "question": "Background: There are 3 types of District: Market District, Institute District, and Fashion District.\nThere are 4 types of Supermarkets: Safeway, Meijer, H-E-B, and Bristol Farms.\nEach Market District has Bristol Farms, Safeway, Meijer, and H-E-B.\nEach Institute District has Safeway, H-E-B, Meijer, and Bristol Farms.\nEach Fashion District has Safeway, H-E-B, and Bristol Farms.\nThe number of each Market District 's Meijer equals 1.\nThe number of each Market District 's Bristol Farms equals 22 times each Market District 's Safeway.\nThe number of each Institute District 's Bristol Farms equals the sum of each Institute District 's H-E-B, each Fashion District 's Bristol Farms, and each Fashion District 's H-E-B.\nThe number of each Fashion District 's Bristol Farms equals each Institute District 's H-E-B.\nThe number of each Fashion District 's H-E-B equals each Market District 's Meijer.\nThe number of each Institute District 's Safeway equals the difference of each Institute District 's Meijer and each Institute District 's H-E-B.\nThe number of each Institute District 's Meijer equals 1.\nThe number of each Market District 's Safeway equals 7.\nThe number of each Fashion District 's Safeway equals the difference of each Institute District 's Bristol Farms and each Institute District 's Safeway.\nThe number of each Market District 's H-E-B equals the sum of each Institute District 's Bristol Farms, each Market District 's Safeway, and each Institute District 's Supermarkets.\nThe number of each Institute District 's H-E-B equals each Market District 's Meijer.\nHow many Bristol Farms does Market District have?",
+  "solution": "Define each Market District 's Safeway as f; So f = 7.\nDefine each Market District 's Bristol Farms as D; So D = 22 * f = 22 * 7 = 16.\n",
+  "num_operation": 2
+}

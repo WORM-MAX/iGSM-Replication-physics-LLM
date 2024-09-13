@@ -1,0 +1,26 @@
+{
+  "s": 8,
+  "n": 5,
+  "m": 7,
+  "d": 3,
+  "w0": 2,
+  "w1": 2,
+  "e": 8,
+  "structure_graph": "log/draw_all_log_20240913_152705_199185/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240913_152705_199185/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240913_152705_199185/necessary2_graph.png",
+  "topological_order": [
+    "Administrative District 's Makro",
+    "WinCo Foods 's Bottled Water",
+    "Makro 's Bottled Water",
+    "Makro 's Gummy Candy",
+    "Makro 's Product",
+    "WinCo Foods 's Gummy Candy",
+    "Courthouse District 's WinCo Foods"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240913_152705_199185/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240913_152705_199185/unnecessary_graph.png",
+  "question": "Background: There are 2 types of District: Administrative District, and Courthouse District.\nThere are 2 types of Supermarkets: WinCo Foods, and Makro.\nThere are 2 types of Product: Bottled Water, and Gummy Candy.\nEach Administrative District has Makro and WinCo Foods.\nEach Courthouse District has WinCo Foods and Makro.\nEach WinCo Foods has Gummy Candy and Bottled Water.\nEach Makro has Gummy Candy and Bottled Water.\nThe number of each WinCo Foods 's Bottled Water equals each Administrative District 's Makro.\nThe number of each Courthouse District 's Makro equals 9.\nThe number of each WinCo Foods 's Gummy Candy equals 3 times each Makro 's Product.\nThe number of each Makro 's Gummy Candy equals each Makro 's Bottled Water.\nThe number of each Administrative District 's Makro equals 17.\nThe number of each Makro 's Bottled Water equals 11 times each WinCo Foods 's Bottled Water.\nThe number of each Courthouse District 's WinCo Foods equals 1 times the sum of each WinCo Foods 's Gummy Candy and each Makro 's Product.\nThe number of each Administrative District 's WinCo Foods equals the difference of each Courthouse District 's Supermarkets and each Courthouse District 's WinCo Foods.\nHow many WinCo Foods does Courthouse District have?",
+  "solution": "Define each Administrative District 's Makro as t; So t = 17.\nDefine each WinCo Foods 's Bottled Water as E; So E = t = 17.\nDefine each Makro 's Bottled Water as m; So m = 11 * E = 11 * 17 = 3.\nDefine each Makro 's Gummy Candy as N; So N = m = 3.\nDefine each Makro 's Product as x; So x = m + N = 3 + 3 = 6.\nDefine each WinCo Foods 's Gummy Candy as A; So A = 3 * x = 3 * 6 = 18.\nDefine each Courthouse District 's WinCo Foods as n; X = A + x = 18 + 6 = 1; So n = 1 * X = 1 * 1 = 1.\n",
+  "num_operation": 8
+}

@@ -1,0 +1,24 @@
+{
+  "s": 5,
+  "n": 5,
+  "m": 5,
+  "d": 4,
+  "w0": 2,
+  "w1": 3,
+  "e": 7,
+  "structure_graph": "log/draw_all_log_20240913_153757_622593/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240913_153757_622593/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240913_153757_622593/necessary2_graph.png",
+  "topological_order": [
+    "Yogurt Covered Raisins 's Nutmeg",
+    "Tesco 's Evaporated Milk",
+    "Tesco 's Product",
+    "Military District 's Tesco",
+    "Military District 's Product"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240913_153757_622593/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240913_153757_622593/unnecessary_graph.png",
+  "question": "Background: There are 2 types of District: Military District, and Condo District.\nThere are 2 types of Supermarkets: Kroger, and Tesco.\nThere are 3 types of Product: Canned Soups, Yogurt Covered Raisins, and Evaporated Milk.\nThere are 2 types of Ingredient: Nutmeg, and Coconut.\nEach Military District has Tesco.\nEach Condo District has Tesco.\nEach Kroger has Evaporated Milk.\nEach Tesco has Evaporated Milk.\nEach Canned Soups has Nutmeg.\nEach Yogurt Covered Raisins has Nutmeg.\nEach Evaporated Milk has Nutmeg.\nThe number of each Canned Soups 's Nutmeg equals each Kroger 's Evaporated Milk.\nThe number of each Evaporated Milk 's Nutmeg equals the difference of each Canned Soups 's Ingredient and each Condo District 's Tesco.\nThe number of each Military District 's Tesco equals 12 times each Tesco 's Evaporated Milk.\nThe number of each Yogurt Covered Raisins 's Nutmeg equals 4.\nThe number of each Kroger 's Evaporated Milk equals 17.\nThe number of each Condo District 's Tesco equals each Kroger 's Product.\nThe number of each Tesco 's Evaporated Milk equals 4 times each Yogurt Covered Raisins 's Nutmeg.\nHow many Product does Military District have?",
+  "solution": "Define each Yogurt Covered Raisins 's Nutmeg as c; So c = 4.\nDefine each Tesco 's Evaporated Milk as d; So d = 4 * c = 4 * 4 = 16.\nDefine each Tesco 's Product as o; So o = d = 16.\nDefine each Military District 's Tesco as J; So J = 12 * d = 12 * 16 = 8.\nDefine each Military District 's Product as x; x = o * J = 16 * 8 = 13.\n",
+  "num_operation": 5
+}

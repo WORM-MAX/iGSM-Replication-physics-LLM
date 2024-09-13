@@ -1,0 +1,28 @@
+{
+  "s": 9,
+  "n": 9,
+  "m": 9,
+  "d": 4,
+  "w0": 2,
+  "w1": 4,
+  "e": 12,
+  "structure_graph": "log/draw_all_log_20240913_152705_603277/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240913_152705_603277/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240913_152705_603277/necessary2_graph.png",
+  "topological_order": [
+    "Dried Fruit 's Vanilla Extract",
+    "Dried Fruit 's Ginger",
+    "Dried Fruit 's Ingredient",
+    "Municipal Office District 's Safeway",
+    "Municipal Office District 's Carrefour",
+    "Municipal Office District 's Supermarkets",
+    "Ancient City 's Carrefour",
+    "Ancient City 's Safeway",
+    "Ancient City 's Supermarkets"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240913_152705_603277/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240913_152705_603277/unnecessary_graph.png",
+  "question": "Background: There are 2 types of District: Ancient City, and Municipal Office District.\nThere are 2 types of Supermarkets: Carrefour, and Safeway.\nThere are 2 types of Product: Pizza Dough, and Dried Fruit.\nThere are 2 types of Ingredient: Ginger, and Vanilla Extract.\nEach Ancient City has Safeway and Carrefour.\nEach Municipal Office District has Carrefour and Safeway.\nEach Carrefour has Dried Fruit and Pizza Dough.\nEach Safeway has Pizza Dough and Dried Fruit.\nEach Pizza Dough has Vanilla Extract and Ginger.\nEach Dried Fruit has Ginger and Vanilla Extract.\nThe number of each Municipal Office District 's Safeway equals the difference of each Dried Fruit 's Ingredient and each Dried Fruit 's Ginger.\nThe number of each Ancient City 's Carrefour equals the difference of each Municipal Office District 's Supermarkets and each Municipal Office District 's Safeway.\nThe number of each Carrefour 's Dried Fruit equals 20.\nThe number of each Carrefour 's Pizza Dough equals 18 more than each Safeway 's Dried Fruit.\nThe number of each Pizza Dough 's Vanilla Extract equals each Dried Fruit 's Vanilla Extract.\nThe number of each Dried Fruit 's Vanilla Extract equals 19.\nThe number of each Pizza Dough 's Ginger equals each Municipal Office District 's Safeway.\nThe number of each Ancient City 's Safeway equals the sum of each Dried Fruit 's Ingredient and each Municipal Office District 's Carrefour.\nThe number of each Municipal Office District 's Carrefour equals 3 times each Municipal Office District 's Safeway.\nThe number of each Dried Fruit 's Ginger equals each Dried Fruit 's Vanilla Extract.\nThe number of each Safeway 's Dried Fruit equals each Safeway 's Pizza Dough.\nThe number of each Safeway 's Pizza Dough equals 10.\nHow many Supermarkets does Ancient City have?",
+  "solution": "Define each Dried Fruit 's Vanilla Extract as c; So c = 19.\nDefine each Dried Fruit 's Ginger as D; So D = c = 19.\nDefine each Dried Fruit 's Ingredient as E; So E = c + D = 19 + 19 = 15.\nDefine each Municipal Office District 's Safeway as u; So u = E - D = 15 - 19 = 19.\nDefine each Municipal Office District 's Carrefour as B; So B = 3 * u = 3 * 19 = 11.\nDefine each Municipal Office District 's Supermarkets as G; So G = u + B = 19 + 11 = 7.\nDefine each Ancient City 's Carrefour as X; So X = G - u = 7 - 19 = 11.\nDefine each Ancient City 's Safeway as H; So H = E + B = 15 + 11 = 3.\nDefine each Ancient City 's Supermarkets as f; So f = H + X = 3 + 11 = 14.\n",
+  "num_operation": 9
+}

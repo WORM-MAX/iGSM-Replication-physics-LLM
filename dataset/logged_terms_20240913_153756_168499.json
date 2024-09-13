@@ -1,0 +1,24 @@
+{
+  "s": 7,
+  "n": 5,
+  "m": 6,
+  "d": 2,
+  "w0": 2,
+  "w1": 4,
+  "e": 4,
+  "structure_graph": "log/draw_all_log_20240913_153755_796324/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240913_153755_796324/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240913_153755_796324/necessary2_graph.png",
+  "topological_order": [
+    "Housing Estate 's HelloFresh",
+    "Cultural Heritage Site 's Weis Markets",
+    "Cultural Heritage Site 's HelloFresh",
+    "Cultural Heritage Site 's Supermarkets",
+    "Housing Estate 's Walmart Grocery"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240913_153755_796324/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240913_153755_796324/unnecessary_graph.png",
+  "question": "Background: There are 2 types of District: Housing Estate, and Cultural Heritage Site.\nThere are 4 types of Supermarkets: SuperValu, Weis Markets, Walmart Grocery, and HelloFresh.\nEach Housing Estate has Walmart Grocery and HelloFresh.\nEach Cultural Heritage Site has Weis Markets and HelloFresh.\nThe number of each Cultural Heritage Site 's HelloFresh equals 9 times the sum of each Housing Estate 's HelloFresh and each Cultural Heritage Site 's Weis Markets.\nThe number of each Housing Estate 's Walmart Grocery equals the sum of each Cultural Heritage Site 's Supermarkets, each Cultural Heritage Site 's Weis Markets, and each Cultural Heritage Site 's HelloFresh.\nThe number of each Housing Estate 's HelloFresh equals 9.\nThe number of each Cultural Heritage Site 's Weis Markets equals 1 times each Housing Estate 's HelloFresh.\nHow many Walmart Grocery does Housing Estate have?",
+  "solution": "Define each Housing Estate 's HelloFresh as n; So n = 9.\nDefine each Cultural Heritage Site 's Weis Markets as F; So F = 1 * n = 1 * 9 = 9.\nDefine each Cultural Heritage Site 's HelloFresh as V; z = n + F = 9 + 9 = 18; So V = 9 * z = 9 * 18 = 1.\nDefine each Cultural Heritage Site 's Supermarkets as A; So A = F + V = 9 + 1 = 10.\nDefine each Housing Estate 's Walmart Grocery as Z; u = V + F = 1 + 9 = 10; So Z = A + u = 10 + 10 = 20.\n",
+  "num_operation": 7
+}

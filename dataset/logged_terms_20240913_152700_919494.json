@@ -1,0 +1,28 @@
+{
+  "s": 11,
+  "n": 9,
+  "m": 10,
+  "d": 2,
+  "w0": 3,
+  "w1": 4,
+  "e": 11,
+  "structure_graph": "log/draw_all_log_20240913_152700_490163/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240913_152700_490163/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240913_152700_490163/necessary2_graph.png",
+  "topological_order": [
+    "Student Housing 's Sprouts Farmers Market",
+    "University Campus 's Amazon Fresh",
+    "University Campus 's Sprouts Farmers Market",
+    "Silicon Valley 's Vons",
+    "University Campus 's Sam's Club",
+    "University Campus 's Supermarkets",
+    "Education Park 's Vons",
+    "Education Park 's Amazon Fresh",
+    "Education Park 's Supermarkets"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240913_152700_490163/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240913_152700_490163/unnecessary_graph.png",
+  "question": "Background: There are 4 types of District: Student Housing, Education Park, University Campus, and Silicon Valley.\nThere are 4 types of Supermarkets: Sam's Club, Amazon Fresh, Sprouts Farmers Market, and Vons.\nEach Student Housing has Amazon Fresh, Sprouts Farmers Market, and Vons.\nEach Education Park has Amazon Fresh and Vons.\nEach University Campus has Amazon Fresh, Sam's Club, and Sprouts Farmers Market.\nEach Silicon Valley has Vons, Amazon Fresh, and Sam's Club.\nThe number of each Education Park 's Vons equals 17 more than each University Campus 's Supermarkets.\nThe number of each University Campus 's Sprouts Farmers Market equals 19 times the sum of each Student Housing 's Sprouts Farmers Market and each University Campus 's Amazon Fresh.\nThe number of each University Campus 's Sam's Club equals the difference of each Silicon Valley 's Vons and each Student Housing 's Sprouts Farmers Market.\nThe number of each Education Park 's Amazon Fresh equals 0 more than each University Campus 's Sam's Club.\nThe number of each Silicon Valley 's Vons equals 18 times each University Campus 's Sprouts Farmers Market.\nThe number of each Student Housing 's Sprouts Farmers Market equals 19.\nThe number of each Student Housing 's Amazon Fresh equals 6.\nThe number of each University Campus 's Amazon Fresh equals 9 times each Student Housing 's Sprouts Farmers Market.\nThe number of each Student Housing 's Vons equals each Student Housing 's Amazon Fresh.\nThe number of each Silicon Valley 's Sam's Club equals 6 times each Student Housing 's Amazon Fresh.\nThe number of each Silicon Valley 's Amazon Fresh equals each Silicon Valley 's Sam's Club.\nHow many Supermarkets does Education Park have?",
+  "solution": "Define each Student Housing 's Sprouts Farmers Market as x; So x = 19.\nDefine each University Campus 's Amazon Fresh as A; So A = 9 * x = 9 * 19 = 10.\nDefine each University Campus 's Sprouts Farmers Market as g; M = x + A = 19 + 10 = 6; So g = 19 * M = 19 * 6 = 22.\nDefine each Silicon Valley 's Vons as R; So R = 18 * g = 18 * 22 = 5.\nDefine each University Campus 's Sam's Club as Y; So Y = R - x = 5 - 19 = 9.\nDefine each University Campus 's Supermarkets as E; i = Y + g = 9 + 22 = 8; So E = A + i = 10 + 8 = 18.\nDefine each Education Park 's Vons as l; So l = 17 + E = 17 + 18 = 12.\nDefine each Education Park 's Amazon Fresh as p; So p = 0 + Y = 0 + 9 = 9.\nDefine each Education Park 's Supermarkets as b; So b = p + l = 9 + 12 = 21.\n",
+  "num_operation": 11
+}

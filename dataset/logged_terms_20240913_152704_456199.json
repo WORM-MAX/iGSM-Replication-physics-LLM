@@ -1,0 +1,23 @@
+{
+  "s": 4,
+  "n": 3,
+  "m": 4,
+  "d": 2,
+  "w0": 2,
+  "w1": 4,
+  "e": 16,
+  "structure_graph": "log/draw_all_log_20240913_152704_063038/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240913_152704_063038/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240913_152704_063038/necessary2_graph.png",
+  "topological_order": [
+    "Jewelry District 's Lidl",
+    "Jewelry District 's Sam's Club",
+    "Senior Living Community 's Family Dollar",
+    "Senior Living Community 's Sam's Club"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240913_152704_063038/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240913_152704_063038/unnecessary_graph.png",
+  "question": "Background: There are 4 types of District: Jewelry District, Ancient City, Senior Living Community, and Silicon Valley.\nThere are 4 types of Supermarkets: Vons, Family Dollar, Lidl, and Sam's Club.\nEach Jewelry District has Lidl, Sam's Club, Vons, and Family Dollar.\nEach Ancient City has Family Dollar, Sam's Club, Vons, and Lidl.\nEach Senior Living Community has Family Dollar, Vons, Lidl, and Sam's Club.\nEach Silicon Valley has Family Dollar, Lidl, Vons, and Sam's Club.\nThe number of each Jewelry District 's Sam's Club equals 18 times each Jewelry District 's Lidl.\nThe number of each Senior Living Community 's Lidl equals each Jewelry District 's Sam's Club.\nThe number of each Senior Living Community 's Family Dollar equals 2 times each Jewelry District 's Sam's Club.\nThe number of each Silicon Valley 's Sam's Club equals each Silicon Valley 's Vons.\nThe number of each Silicon Valley 's Vons equals 11.\nThe number of each Senior Living Community 's Vons equals the sum of each Senior Living Community 's Family Dollar and each Silicon Valley 's Lidl.\nThe number of each Ancient City 's Vons equals 2 times the sum of each Silicon Valley 's Vons and each Silicon Valley 's Lidl.\nThe number of each Silicon Valley 's Family Dollar equals 20 more than each Jewelry District 's Sam's Club.\nThe number of each Jewelry District 's Vons equals 22.\nThe number of each Ancient City 's Family Dollar equals 3 times each Silicon Valley 's Lidl.\nThe number of each Senior Living Community 's Sam's Club equals the sum of each Senior Living Community 's Family Dollar and each Jewelry District 's Lidl.\nThe number of each Jewelry District 's Lidl equals 8.\nThe number of each Silicon Valley 's Lidl equals 17.\nThe number of each Ancient City 's Lidl equals 10.\nThe number of each Ancient City 's Sam's Club equals the sum of each Silicon Valley 's Vons, each Jewelry District 's Lidl, and each Silicon Valley 's Lidl.\nThe number of each Jewelry District 's Family Dollar equals the sum of each Jewelry District 's Lidl, each Ancient City 's Vons, and each Senior Living Community 's Sam's Club.\nHow many Sam's Club does Senior Living Community have?",
+  "solution": "Define each Jewelry District 's Lidl as b; So b = 8.\nDefine each Jewelry District 's Sam's Club as I; So I = 18 * b = 18 * 8 = 6.\nDefine each Senior Living Community 's Family Dollar as m; So m = 2 * I = 2 * 6 = 12.\nDefine each Senior Living Community 's Sam's Club as u; So u = m + b = 12 + 8 = 20.\n",
+  "num_operation": 4
+}

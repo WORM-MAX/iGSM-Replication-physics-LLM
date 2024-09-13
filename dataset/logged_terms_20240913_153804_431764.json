@@ -1,0 +1,28 @@
+{
+  "s": 11,
+  "n": 4,
+  "m": 9,
+  "d": 2,
+  "w0": 3,
+  "w1": 3,
+  "e": 9,
+  "structure_graph": "log/draw_all_log_20240913_153804_015151/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240913_153804_015151/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240913_153804_015151/necessary2_graph.png",
+  "topological_order": [
+    "Business District 's Meijer",
+    "Student Housing 's Meijer",
+    "Senior Living Community 's Fry's",
+    "Senior Living Community 's Meijer",
+    "Student Housing 's Fry's",
+    "Business District 's E.Leclerc",
+    "Business District 's Fry's",
+    "Student Housing 's E.Leclerc",
+    "Senior Living Community 's E.Leclerc"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240913_153804_015151/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240913_153804_015151/unnecessary_graph.png",
+  "question": "Background: There are 3 types of District: Senior Living Community, Student Housing, and Business District.\nThere are 3 types of Supermarkets: Meijer, Fry's, and E.Leclerc.\nEach Senior Living Community has E.Leclerc, Meijer, and Fry's.\nEach Student Housing has Fry's, Meijer, and E.Leclerc.\nEach Business District has Meijer, Fry's, and E.Leclerc.\nThe number of each Business District 's E.Leclerc equals each Student Housing 's Fry's.\nThe number of each Senior Living Community 's Fry's equals each Student Housing 's Meijer.\nThe number of each Senior Living Community 's E.Leclerc equals the difference of each Student Housing 's E.Leclerc and each Business District 's E.Leclerc.\nThe number of each Student Housing 's E.Leclerc equals 8 times each Business District 's Fry's.\nThe number of each Senior Living Community 's Meijer equals 16 times the difference of each Senior Living Community 's Fry's and each Business District 's Meijer.\nThe number of each Business District 's Fry's equals the sum of each Business District 's E.Leclerc and each Senior Living Community 's Fry's.\nThe number of each Student Housing 's Fry's equals the sum of each Business District 's Meijer, each Senior Living Community 's Fry's, and each Senior Living Community 's Meijer.\nThe number of each Business District 's Meijer equals 1.\nThe number of each Student Housing 's Meijer equals 2 times each Business District 's Meijer.\nHow many E.Leclerc does Senior Living Community have?",
+  "solution": "Define each Business District 's Meijer as J; So J = 1.\nDefine each Student Housing 's Meijer as r; So r = 2 * J = 2 * 1 = 2.\nDefine each Senior Living Community 's Fry's as H; So H = r = 2.\nDefine each Senior Living Community 's Meijer as v; L = H - J = 2 - 1 = 1; So v = 16 * L = 16 * 1 = 16.\nDefine each Student Housing 's Fry's as Y; P = J + H = 1 + 2 = 3; So Y = v + P = 16 + 3 = 19.\nDefine each Business District 's E.Leclerc as i; So i = Y = 19.\nDefine each Business District 's Fry's as z; So z = i + H = 19 + 2 = 21.\nDefine each Student Housing 's E.Leclerc as b; So b = 8 * z = 8 * 21 = 7.\nDefine each Senior Living Community 's E.Leclerc as q; So q = b - i = 7 - 19 = 11.\n",
+  "num_operation": 11
+}

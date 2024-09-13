@@ -1,0 +1,25 @@
+{
+  "s": 9,
+  "n": 6,
+  "m": 6,
+  "d": 2,
+  "w0": 3,
+  "w1": 4,
+  "e": 3,
+  "structure_graph": "log/draw_all_log_20240913_152240_677791/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240913_152240_677791/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240913_152240_677791/necessary2_graph.png",
+  "topological_order": [
+    "Tech Park 's Thrive Market",
+    "Tech Park 's Supermarkets",
+    "Archaeological District 's Fresh Thyme Market",
+    "Archaeological District 's Supermarkets",
+    "Courthouse District 's Blue Apron",
+    "Courthouse District 's Supermarkets"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240913_152240_677791/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240913_152240_677791/unnecessary_graph.png",
+  "question": "Background: There are 3 types of District: Archaeological District, Courthouse District, and Tech Park.\nThere are 3 types of Supermarkets: Blue Apron, Fresh Thyme Market, and Thrive Market.\nEach Archaeological District has Fresh Thyme Market.\nEach Courthouse District has Blue Apron.\nEach Tech Park has Thrive Market.\nThe number of each Courthouse District 's Blue Apron equals 4 times the sum of each Archaeological District 's Fresh Thyme Market, each Archaeological District 's Supermarkets, and each Tech Park 's Thrive Market.\nThe number of each Archaeological District 's Fresh Thyme Market equals 6 more than the difference of each Tech Park 's Supermarkets and each Tech Park 's Thrive Market.\nThe number of each Tech Park 's Thrive Market equals 20.\nHow many Supermarkets does Courthouse District have?",
+  "solution": "Define each Tech Park 's Thrive Market as H; So H = 20.\nDefine each Tech Park 's Supermarkets as X; So X = H = 20.\nDefine each Archaeological District 's Fresh Thyme Market as i; L = X - H = 20 - 20 = 0; So i = 6 + L = 6 + 0 = 6.\nDefine each Archaeological District 's Supermarkets as r; So r = i = 6.\nDefine each Courthouse District 's Blue Apron as Q; f = H + i = 20 + 6 = 3; M = r + f = 6 + 3 = 9; So Q = 4 * M = 4 * 9 = 13.\nDefine each Courthouse District 's Supermarkets as j; So j = Q = 13.\n",
+  "num_operation": 9
+}

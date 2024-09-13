@@ -1,0 +1,24 @@
+{
+  "s": 6,
+  "n": 2,
+  "m": 5,
+  "d": 4,
+  "w0": 3,
+  "w1": 3,
+  "e": 9,
+  "structure_graph": "log/draw_all_log_20240913_152701_658947/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240913_152701_658947/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240913_152701_658947/necessary2_graph.png",
+  "topological_order": [
+    "Carrefour 's Fruit Snacks",
+    "Learning Hub 's Carrefour",
+    "Colonial District 's Carrefour",
+    "Pretzels 's Butter",
+    "Pretzels 's Ingredient"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240913_152701_658947/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240913_152701_658947/unnecessary_graph.png",
+  "question": "Background: There are 3 types of District: Learning Hub, Colonial District, and High-rise Apartment Complex.\nThere are 3 types of Supermarkets: Earth Fare, Lidl, and Carrefour.\nThere are 3 types of Product: Fruit Snacks, Biscuits, and Pretzels.\nThere are 3 types of Ingredient: Vinegar, Butter, and Pepper.\nEach Learning Hub has Carrefour.\nEach Colonial District has Carrefour.\nEach High-rise Apartment Complex has Earth Fare.\nEach Earth Fare has Biscuits.\nEach Lidl has Pretzels.\nEach Carrefour has Fruit Snacks.\nEach Fruit Snacks has Butter.\nEach Biscuits has Butter.\nEach Pretzels has Butter.\nThe number of each Learning Hub 's Carrefour equals 6 more than each Carrefour 's Fruit Snacks.\nThe number of each Biscuits 's Butter equals 12.\nThe number of each Lidl 's Pretzels equals 6 times each Carrefour 's Product.\nThe number of each Carrefour 's Fruit Snacks equals 20.\nThe number of each Earth Fare 's Biscuits equals 20 times each Biscuits 's Butter.\nThe number of each Pretzels 's Butter equals 8 more than each Colonial District 's Carrefour.\nThe number of each High-rise Apartment Complex 's Earth Fare equals 5.\nThe number of each Colonial District 's Carrefour equals 12 more than the sum of each Learning Hub 's Carrefour and each Carrefour 's Fruit Snacks.\nThe number of each Fruit Snacks 's Butter equals each Earth Fare 's Biscuits.\nHow many Ingredient does Pretzels have?",
+  "solution": "Define each Carrefour 's Fruit Snacks as l; So l = 20.\nDefine each Learning Hub 's Carrefour as m; So m = 6 + l = 6 + 20 = 3.\nDefine each Colonial District 's Carrefour as J; c = m + l = 3 + 20 = 0; So J = 12 + c = 12 + 0 = 12.\nDefine each Pretzels 's Butter as H; So H = 8 + J = 8 + 12 = 20.\nDefine each Pretzels 's Ingredient as k; So k = H = 20.\n",
+  "num_operation": 6
+}

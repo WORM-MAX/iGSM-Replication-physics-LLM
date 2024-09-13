@@ -1,0 +1,20 @@
+{
+  "s": 1,
+  "n": 1,
+  "m": 1,
+  "d": 4,
+  "w0": 2,
+  "w1": 2,
+  "e": 12,
+  "structure_graph": "log/draw_all_log_20240913_152700_919756/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240913_152700_919756/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240913_152700_919756/necessary2_graph.png",
+  "topological_order": [
+    "Dormitory District 's Gelson's Markets"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240913_152700_919756/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240913_152700_919756/unnecessary_graph.png",
+  "question": "Background: There are 2 types of District: Old Town, and Dormitory District.\nThere are 2 types of Supermarkets: PriceRite, and Gelson's Markets.\nThere are 2 types of Product: Canned Broth, and Soda.\nThere are 2 types of Ingredient: Oregano, and Margarine.\nEach Old Town has Gelson's Markets and PriceRite.\nEach Dormitory District has Gelson's Markets and PriceRite.\nEach PriceRite has Canned Broth and Soda.\nEach Gelson's Markets has Soda and Canned Broth.\nEach Canned Broth has Oregano and Margarine.\nEach Soda has Oregano and Margarine.\nThe number of each Canned Broth 's Margarine equals 21 more than the sum of each Soda 's Oregano and each Old Town 's PriceRite.\nThe number of each PriceRite 's Canned Broth equals the sum of each Soda 's Oregano, each Old Town 's PriceRite, and each Soda 's Margarine.\nThe number of each PriceRite 's Soda equals each Canned Broth 's Oregano.\nThe number of each Canned Broth 's Oregano equals 22.\nThe number of each Old Town 's Gelson's Markets equals the sum of each Soda 's Oregano, each Old Town 's PriceRite, and each Soda 's Margarine.\nThe number of each Dormitory District 's PriceRite equals 11.\nThe number of each Gelson's Markets 's Canned Broth equals each Dormitory District 's Gelson's Markets.\nThe number of each Soda 's Margarine equals 6.\nThe number of each Soda 's Oregano equals 9 more than each Old Town 's PriceRite.\nThe number of each Old Town 's PriceRite equals 8.\nThe number of each Gelson's Markets 's Soda equals each PriceRite 's Canned Broth.\nThe number of each Dormitory District 's Gelson's Markets equals 3.\nHow many Gelson's Markets does Dormitory District have?",
+  "solution": "Define each Dormitory District 's Gelson's Markets as i; So i = 3.\n",
+  "num_operation": 1
+}

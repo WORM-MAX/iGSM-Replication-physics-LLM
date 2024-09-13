@@ -1,0 +1,28 @@
+{
+  "s": 11,
+  "n": 7,
+  "m": 11,
+  "d": 2,
+  "w0": 3,
+  "w1": 4,
+  "e": 16,
+  "structure_graph": "log/draw_all_log_20240913_153803_128318/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240913_153803_128318/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240913_153803_128318/necessary2_graph.png",
+  "topological_order": [
+    "Industrial District 's ShopRite",
+    "Medical District 's Aldi",
+    "Diplomatic Quarter 's ShopRite",
+    "Diplomatic Quarter 's WinCo Foods",
+    "Diplomatic Quarter 's Fresh Thyme Market",
+    "Diplomatic Quarter 's Aldi",
+    "Diplomatic Quarter 's Supermarkets",
+    "Restaurant District 's WinCo Foods",
+    "Industrial District 's Aldi"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240913_153803_128318/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240913_153803_128318/unnecessary_graph.png",
+  "question": "Background: There are 4 types of District: Medical District, Restaurant District, Diplomatic Quarter, and Industrial District.\nThere are 4 types of Supermarkets: Aldi, Fresh Thyme Market, ShopRite, and WinCo Foods.\nEach Medical District has ShopRite, Aldi, Fresh Thyme Market, and WinCo Foods.\nEach Restaurant District has Fresh Thyme Market, ShopRite, Aldi, and WinCo Foods.\nEach Diplomatic Quarter has Aldi, WinCo Foods, ShopRite, and Fresh Thyme Market.\nEach Industrial District has ShopRite, Fresh Thyme Market, WinCo Foods, and Aldi.\nThe number of each Medical District 's Aldi equals 1 more than each Industrial District 's ShopRite.\nThe number of each Diplomatic Quarter 's Fresh Thyme Market equals the sum of each Diplomatic Quarter 's ShopRite and each Industrial District 's ShopRite.\nThe number of each Medical District 's WinCo Foods equals 1 times the sum of each Industrial District 's Fresh Thyme Market, each Restaurant District 's ShopRite, and each Medical District 's ShopRite.\nThe number of each Restaurant District 's WinCo Foods equals 14 times each Diplomatic Quarter 's Supermarkets.\nThe number of each Industrial District 's Fresh Thyme Market equals each Restaurant District 's ShopRite.\nThe number of each Diplomatic Quarter 's Aldi equals each Diplomatic Quarter 's WinCo Foods.\nThe number of each Restaurant District 's Aldi equals 22 times each Restaurant District 's WinCo Foods.\nThe number of each Industrial District 's Aldi equals the sum of each Restaurant District 's WinCo Foods and each Diplomatic Quarter 's Aldi.\nThe number of each Medical District 's ShopRite equals 7.\nThe number of each Restaurant District 's Fresh Thyme Market equals each Industrial District 's Supermarkets.\nThe number of each Industrial District 's WinCo Foods equals the sum of each Diplomatic Quarter 's Fresh Thyme Market, each Medical District 's Aldi, each Medical District 's Fresh Thyme Market, and each Diplomatic Quarter 's Aldi.\nThe number of each Industrial District 's ShopRite equals 11.\nThe number of each Diplomatic Quarter 's ShopRite equals 20 times each Medical District 's Aldi.\nThe number of each Restaurant District 's ShopRite equals 12.\nThe number of each Medical District 's Fresh Thyme Market equals 17.\nThe number of each Diplomatic Quarter 's WinCo Foods equals 16.\nHow many Aldi does Industrial District have?",
+  "solution": "Define each Industrial District 's ShopRite as P; So P = 11.\nDefine each Medical District 's Aldi as U; So U = 1 + P = 1 + 11 = 12.\nDefine each Diplomatic Quarter 's ShopRite as Q; So Q = 20 * U = 20 * 12 = 10.\nDefine each Diplomatic Quarter 's WinCo Foods as X; So X = 16.\nDefine each Diplomatic Quarter 's Fresh Thyme Market as e; So e = Q + P = 10 + 11 = 21.\nDefine each Diplomatic Quarter 's Aldi as l; So l = X = 16.\nDefine each Diplomatic Quarter 's Supermarkets as z; t = l + X = 16 + 16 = 9; K = t + Q = 9 + 10 = 19; So z = e + K = 21 + 19 = 17.\nDefine each Restaurant District 's WinCo Foods as a; So a = 14 * z = 14 * 17 = 8.\nDefine each Industrial District 's Aldi as b; So b = a + l = 8 + 16 = 1.\n",
+  "num_operation": 11
+}

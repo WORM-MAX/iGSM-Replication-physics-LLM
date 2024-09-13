@@ -1,0 +1,22 @@
+{
+  "s": 3,
+  "n": 3,
+  "m": 3,
+  "d": 3,
+  "w0": 4,
+  "w1": 4,
+  "e": 10,
+  "structure_graph": "log/draw_all_log_20240913_152700_026331/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240913_152700_026331/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240913_152700_026331/necessary2_graph.png",
+  "topological_order": [
+    "Civic Center 's Kroger",
+    "Civic Center 's Natural Grocers",
+    "Civic Center 's Supermarkets"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240913_152700_026331/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240913_152700_026331/unnecessary_graph.png",
+  "question": "Background: There are 4 types of District: Civic Center, Manufacturing District, Fashion District, and Cultural Heritage Site.\nThere are 4 types of Supermarkets: Natural Grocers, Kroger, Trader Joe's, and Aldi.\nThere are 4 types of Product: Canned Pumpkin, Salsa, Flatbreads, and Canned Sauces.\nEach Civic Center has Kroger and Natural Grocers.\nEach Manufacturing District has Trader Joe's.\nEach Fashion District has Aldi.\nEach Cultural Heritage Site has Natural Grocers.\nEach Natural Grocers has Canned Pumpkin and Salsa.\nEach Kroger has Flatbreads.\nEach Trader Joe's has Flatbreads.\nEach Aldi has Canned Pumpkin.\nThe number of each Natural Grocers 's Canned Pumpkin equals each Civic Center 's Natural Grocers.\nThe number of each Natural Grocers 's Salsa equals each Fashion District 's Supermarkets.\nThe number of each Civic Center 's Natural Grocers equals 21 times each Civic Center 's Kroger.\nThe number of each Fashion District 's Aldi equals 21 more than each Manufacturing District 's Trader Joe's.\nThe number of each Kroger 's Flatbreads equals 4.\nThe number of each Cultural Heritage Site 's Natural Grocers equals 16.\nThe number of each Civic Center 's Kroger equals 18.\nThe number of each Manufacturing District 's Trader Joe's equals 3.\nThe number of each Trader Joe's 's Flatbreads equals 3.\nThe number of each Aldi 's Canned Pumpkin equals each Manufacturing District 's Trader Joe's.\nHow many Supermarkets does Civic Center have?",
+  "solution": "Define each Civic Center 's Kroger as I; So I = 18.\nDefine each Civic Center 's Natural Grocers as q; So q = 21 * I = 21 * 18 = 10.\nDefine each Civic Center 's Supermarkets as m; So m = I + q = 18 + 10 = 5.\n",
+  "num_operation": 3
+}

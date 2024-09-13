@@ -1,0 +1,28 @@
+{
+  "s": 9,
+  "n": 6,
+  "m": 9,
+  "d": 3,
+  "w0": 3,
+  "w1": 4,
+  "e": 8,
+  "structure_graph": "log/draw_all_log_20240913_152704_456431/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240913_152704_456431/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240913_152704_456431/necessary2_graph.png",
+  "topological_order": [
+    "FreshDirect 's Evaporated Milk",
+    "School District 's FreshDirect",
+    "Food 4 Less 's Cupcakes",
+    "Manufacturing District 's Food 4 Less",
+    "Tesco 's Biscuits",
+    "Suburban Neighborhood 's Tesco",
+    "Tesco 's Cupcakes",
+    "Tesco 's Product",
+    "Suburban Neighborhood 's Product"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240913_152704_456431/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240913_152704_456431/unnecessary_graph.png",
+  "question": "Background: There are 3 types of District: School District, Manufacturing District, and Suburban Neighborhood.\nThere are 3 types of Supermarkets: Tesco, FreshDirect, and Food 4 Less.\nThere are 3 types of Product: Evaporated Milk, Biscuits, and Cupcakes.\nEach School District has FreshDirect and Tesco.\nEach Manufacturing District has Food 4 Less.\nEach Suburban Neighborhood has Tesco.\nEach Tesco has Cupcakes and Biscuits.\nEach FreshDirect has Evaporated Milk.\nEach Food 4 Less has Cupcakes.\nThe number of each Suburban Neighborhood 's Tesco equals the sum of each Manufacturing District 's Food 4 Less and each FreshDirect 's Evaporated Milk.\nThe number of each Manufacturing District 's Food 4 Less equals 0 times each Food 4 Less 's Cupcakes.\nThe number of each School District 's Tesco equals 12.\nThe number of each Tesco 's Cupcakes equals the difference of each Manufacturing District 's Food 4 Less and each Food 4 Less 's Cupcakes.\nThe number of each School District 's FreshDirect equals 8 times each FreshDirect 's Evaporated Milk.\nThe number of each Tesco 's Biscuits equals 6 times each Manufacturing District 's Food 4 Less.\nThe number of each Food 4 Less 's Cupcakes equals 13 more than each School District 's FreshDirect.\nThe number of each FreshDirect 's Evaporated Milk equals 7.\nHow many Product does Suburban Neighborhood have?",
+  "solution": "Define each FreshDirect 's Evaporated Milk as q; So q = 7.\nDefine each School District 's FreshDirect as M; So M = 8 * q = 8 * 7 = 10.\nDefine each Food 4 Less 's Cupcakes as a; So a = 13 + M = 13 + 10 = 0.\nDefine each Manufacturing District 's Food 4 Less as s; So s = 0 * a = 0 * 0 = 0.\nDefine each Tesco 's Biscuits as h; So h = 6 * s = 6 * 0 = 0.\nDefine each Suburban Neighborhood 's Tesco as L; So L = s + q = 0 + 7 = 7.\nDefine each Tesco 's Cupcakes as o; So o = s - a = 0 - 0 = 0.\nDefine each Tesco 's Product as g; So g = h + o = 0 + 0 = 0.\nDefine each Suburban Neighborhood 's Product as f; f = L * g = 7 * 0 = 0.\n",
+  "num_operation": 9
+}

@@ -1,0 +1,20 @@
+{
+  "s": 1,
+  "n": 1,
+  "m": 1,
+  "d": 4,
+  "w0": 2,
+  "w1": 4,
+  "e": 10,
+  "structure_graph": "log/draw_all_log_20240913_152702_032350/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240913_152702_032350/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240913_152702_032350/necessary2_graph.png",
+  "topological_order": [
+    "Cheese Puffs 's Cumin"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240913_152702_032350/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240913_152702_032350/unnecessary_graph.png",
+  "question": "Background: There are 2 types of District: High School Zone, and Dormitory District.\nThere are 2 types of Supermarkets: Boxed, and Tesco.\nThere are 2 types of Product: Croissants, and Cheese Puffs.\nThere are 2 types of Ingredient: Peanut Oil, and Cumin.\nEach High School Zone has Tesco.\nEach Dormitory District has Tesco.\nEach Boxed has Croissants and Cheese Puffs.\nEach Tesco has Croissants and Cheese Puffs.\nEach Croissants has Cumin and Peanut Oil.\nEach Cheese Puffs has Peanut Oil and Cumin.\nThe number of each Tesco 's Cheese Puffs equals each High School Zone 's Tesco.\nThe number of each Cheese Puffs 's Cumin equals 2.\nThe number of each Cheese Puffs 's Peanut Oil equals 12.\nThe number of each Boxed 's Cheese Puffs equals 21.\nThe number of each High School Zone 's Tesco equals 19 more than each Cheese Puffs 's Peanut Oil.\nThe number of each Croissants 's Peanut Oil equals the sum of each Dormitory District 's Supermarkets and each Tesco 's Croissants.\nThe number of each Tesco 's Croissants equals 2 more than each Cheese Puffs 's Cumin.\nThe number of each Dormitory District 's Tesco equals the sum of each Cheese Puffs 's Peanut Oil, each Cheese Puffs 's Cumin, each Cheese Puffs 's Ingredient, and each Tesco 's Croissants.\nThe number of each Croissants 's Cumin equals the difference of each Cheese Puffs 's Peanut Oil and each Tesco 's Cheese Puffs.\nThe number of each Boxed 's Croissants equals each Cheese Puffs 's Cumin.\nHow many Cumin does Cheese Puffs have?",
+  "solution": "Define each Cheese Puffs 's Cumin as N; So N = 2.\n",
+  "num_operation": 1
+}

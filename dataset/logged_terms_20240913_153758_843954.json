@@ -1,0 +1,33 @@
+{
+  "s": 20,
+  "n": 18,
+  "m": 18,
+  "d": 3,
+  "w0": 2,
+  "w1": 4,
+  "e": 15,
+  "structure_graph": "log/draw_all_log_20240913_153758_352268/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240913_153758_352268/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240913_153758_352268/necessary2_graph.png",
+  "topological_order": [
+    "Trader Joe's 's Popcorn",
+    "Trader Joe's 's Canned Meat",
+    "Trader Joe's 's Canned Mushrooms",
+    "Trader Joe's 's Product",
+    "Shipt 's Canned Mushrooms",
+    "Shipt 's Popcorn",
+    "Shipt 's Wine",
+    "Target 's Canned Mushrooms",
+    "Shipt 's Canned Meat",
+    "Shipt 's Product",
+    "Target 's Popcorn",
+    "Target 's Canned Meat",
+    "Target 's Product",
+    "Condo District 's Shipt"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240913_153758_352268/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240913_153758_352268/unnecessary_graph.png",
+  "question": "Background: There are 2 types of District: Gated Community, and Condo District.\nThere are 3 types of Supermarkets: Shipt, Trader Joe's, and Target.\nThere are 4 types of Product: Wine, Popcorn, Canned Meat, and Canned Mushrooms.\nEach Gated Community has Target, Trader Joe's, and Shipt.\nEach Condo District has Shipt and Trader Joe's.\nEach Shipt has Wine, Canned Mushrooms, Canned Meat, and Popcorn.\nEach Trader Joe's has Canned Mushrooms, Popcorn, and Canned Meat.\nEach Target has Canned Mushrooms, Popcorn, and Canned Meat.\nThe number of each Target 's Canned Mushrooms equals each Trader Joe's 's Product.\nThe number of each Trader Joe's 's Popcorn equals 15.\nThe number of each Shipt 's Canned Mushrooms equals each Trader Joe's 's Product.\nThe number of each Gated Community 's Shipt equals 13.\nThe number of each Gated Community 's Trader Joe's equals 13 more than each Target 's Canned Meat.\nThe number of each Target 's Canned Meat equals the sum of each Shipt 's Popcorn, each Shipt 's Product, and each Trader Joe's 's Product.\nThe number of each Condo District 's Trader Joe's equals 10 more than the sum of each Target 's Product and each Shipt 's Wine.\nThe number of each Shipt 's Canned Meat equals the sum of each Shipt 's Wine and each Target 's Canned Mushrooms.\nThe number of each Trader Joe's 's Canned Mushrooms equals 14 more than the sum of each Trader Joe's 's Canned Meat and each Trader Joe's 's Popcorn.\nThe number of each Condo District 's Shipt equals 4 times each Target 's Product.\nThe number of each Gated Community 's Target equals 22 times each Gated Community 's Shipt.\nThe number of each Trader Joe's 's Canned Meat equals 22 times each Trader Joe's 's Popcorn.\nThe number of each Shipt 's Wine equals the sum of each Shipt 's Popcorn and each Shipt 's Canned Mushrooms.\nThe number of each Shipt 's Popcorn equals each Trader Joe's 's Canned Meat.\nThe number of each Target 's Popcorn equals 3 times each Shipt 's Product.\nHow many Shipt does Condo District have?",
+  "solution": "Define each Trader Joe's 's Popcorn as V; So V = 15.\nDefine each Trader Joe's 's Canned Meat as F; So F = 22 * V = 22 * 15 = 8.\nDefine each Trader Joe's 's Canned Mushrooms as m; f = F + V = 8 + 15 = 0; So m = 14 + f = 14 + 0 = 14.\nDefine each Trader Joe's 's Product as t; G = m + V = 14 + 15 = 6; So t = F + G = 8 + 6 = 14.\nDefine each Shipt 's Canned Mushrooms as U; So U = t = 14.\nDefine each Shipt 's Popcorn as i; So i = F = 8.\nDefine each Shipt 's Wine as N; So N = i + U = 8 + 14 = 22.\nDefine each Target 's Canned Mushrooms as E; So E = t = 14.\nDefine each Shipt 's Canned Meat as G; So G = N + E = 22 + 14 = 13.\nDefine each Shipt 's Product as n; e = i + G = 8 + 13 = 21; k = e + N = 21 + 22 = 20; So n = U + k = 14 + 20 = 11.\nDefine each Target 's Popcorn as l; So l = 3 * n = 3 * 11 = 10.\nDefine each Target 's Canned Meat as A; C = i + n = 8 + 11 = 19; So A = t + C = 14 + 19 = 10.\nDefine each Target 's Product as g; S = E + l = 14 + 10 = 1; So g = A + S = 10 + 1 = 11.\nDefine each Condo District 's Shipt as S; So S = 4 * g = 4 * 11 = 21.\n",
+  "num_operation": 20
+}

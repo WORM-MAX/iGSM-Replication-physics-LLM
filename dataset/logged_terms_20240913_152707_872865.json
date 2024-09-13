@@ -1,0 +1,20 @@
+{
+  "s": 1,
+  "n": 1,
+  "m": 1,
+  "d": 4,
+  "w0": 2,
+  "w1": 4,
+  "e": 7,
+  "structure_graph": "log/draw_all_log_20240913_152707_549032/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240913_152707_549032/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240913_152707_549032/necessary2_graph.png",
+  "topological_order": [
+    "Sprouts Farmers Market 's Butter"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240913_152707_549032/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240913_152707_549032/unnecessary_graph.png",
+  "question": "Background: There are 2 types of District: Housing Estate, and Military District.\nThere are 3 types of Supermarkets: Sprouts Farmers Market, Central Market, and Auchan.\nThere are 2 types of Product: Butter, and Pudding.\nThere are 2 types of Ingredient: Peanut Butter, and Parsley.\nEach Housing Estate has Central Market.\nEach Military District has Auchan.\nEach Sprouts Farmers Market has Butter.\nEach Central Market has Butter.\nEach Auchan has Butter.\nEach Butter has Parsley.\nEach Pudding has Peanut Butter.\nThe number of each Auchan 's Butter equals 10.\nThe number of each Sprouts Farmers Market 's Butter equals 4.\nThe number of each Military District 's Auchan equals 16 times the sum of each Butter 's Parsley and each Central Market 's Butter.\nThe number of each Housing Estate 's Central Market equals 7 more than the sum of each Military District 's Auchan, each Butter 's Parsley, and each Central Market 's Butter.\nThe number of each Central Market 's Butter equals 11.\nThe number of each Pudding 's Peanut Butter equals 18 more than the sum of each Butter 's Parsley, each Central Market 's Butter, and each Military District 's Auchan.\nThe number of each Butter 's Parsley equals 9.\nHow many Butter does Sprouts Farmers Market have?",
+  "solution": "Define each Sprouts Farmers Market 's Butter as k; So k = 4.\n",
+  "num_operation": 1
+}

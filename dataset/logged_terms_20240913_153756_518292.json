@@ -1,0 +1,23 @@
+{
+  "s": 5,
+  "n": 2,
+  "m": 4,
+  "d": 2,
+  "w0": 4,
+  "w1": 4,
+  "e": 6,
+  "structure_graph": "log/draw_all_log_20240913_153756_168742/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240913_153756_168742/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240913_153756_168742/necessary2_graph.png",
+  "topological_order": [
+    "Archaeological District 's Makro",
+    "Archaeological District 's Costco",
+    "High-rise Apartment Complex 's Makro",
+    "Suburban Neighborhood 's Metro (Canada)"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240913_153756_168742/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240913_153756_168742/unnecessary_graph.png",
+  "question": "Background: There are 4 types of District: Single-family Homes, Suburban Neighborhood, High-rise Apartment Complex, and Archaeological District.\nThere are 4 types of Supermarkets: Vons, Costco, Metro (Canada), and Makro.\nEach Single-family Homes has Metro (Canada).\nEach Suburban Neighborhood has Metro (Canada).\nEach High-rise Apartment Complex has Costco and Makro.\nEach Archaeological District has Costco and Makro.\nThe number of each Single-family Homes 's Metro (Canada) equals 13.\nThe number of each Archaeological District 's Makro equals 22.\nThe number of each Suburban Neighborhood 's Metro (Canada) equals the sum of each Archaeological District 's Costco, each Archaeological District 's Makro, and each High-rise Apartment Complex 's Makro.\nThe number of each High-rise Apartment Complex 's Makro equals 9 more than each Archaeological District 's Costco.\nThe number of each Archaeological District 's Costco equals 0 times each Archaeological District 's Makro.\nThe number of each High-rise Apartment Complex 's Costco equals 10.\nHow many Metro (Canada) does Suburban Neighborhood have?",
+  "solution": "Define each Archaeological District 's Makro as g; So g = 22.\nDefine each Archaeological District 's Costco as n; So n = 0 * g = 0 * 22 = 0.\nDefine each High-rise Apartment Complex 's Makro as s; So s = 9 + n = 9 + 0 = 9.\nDefine each Suburban Neighborhood 's Metro (Canada) as H; F = g + n = 22 + 0 = 22; So H = s + F = 9 + 22 = 8.\n",
+  "num_operation": 5
+}

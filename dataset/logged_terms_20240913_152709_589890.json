@@ -1,0 +1,26 @@
+{
+  "s": 8,
+  "n": 7,
+  "m": 7,
+  "d": 4,
+  "w0": 2,
+  "w1": 3,
+  "e": 10,
+  "structure_graph": "log/draw_all_log_20240913_152709_193103/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240913_152709_193103/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240913_152709_193103/necessary2_graph.png",
+  "topological_order": [
+    "Medical District 's Thrive Market",
+    "Thrive Market 's Lemonade",
+    "Thrive Market 's Fruit Snacks",
+    "Thrive Market 's Product",
+    "Medical District 's Product",
+    "Fruit Snacks 's Oats",
+    "Lemonade 's Peanut Butter"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240913_152709_193103/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240913_152709_193103/unnecessary_graph.png",
+  "question": "Background: There are 2 types of District: Capitol District, and Medical District.\nThere are 2 types of Supermarkets: Thrive Market, and Stop & Shop.\nThere are 2 types of Product: Lemonade, and Fruit Snacks.\nThere are 2 types of Ingredient: Peanut Butter, and Oats.\nEach Capitol District has Stop & Shop.\nEach Medical District has Thrive Market.\nEach Thrive Market has Lemonade and Fruit Snacks.\nEach Stop & Shop has Fruit Snacks and Lemonade.\nEach Lemonade has Oats and Peanut Butter.\nEach Fruit Snacks has Oats and Peanut Butter.\nThe number of each Stop & Shop 's Lemonade equals each Capitol District 's Stop & Shop.\nThe number of each Thrive Market 's Lemonade equals each Medical District 's Thrive Market.\nThe number of each Lemonade 's Oats equals 11.\nThe number of each Stop & Shop 's Fruit Snacks equals each Thrive Market 's Fruit Snacks.\nThe number of each Capitol District 's Stop & Shop equals 18 times the sum of each Medical District 's Product, each Thrive Market 's Fruit Snacks, and each Medical District 's Supermarkets.\nThe number of each Lemonade 's Peanut Butter equals 5 times the difference of each Fruit Snacks 's Oats and each Thrive Market 's Lemonade.\nThe number of each Thrive Market 's Fruit Snacks equals 18 more than each Medical District 's Thrive Market.\nThe number of each Fruit Snacks 's Oats equals 14 more than each Medical District 's Product.\nThe number of each Medical District 's Thrive Market equals 9.\nThe number of each Fruit Snacks 's Peanut Butter equals 15.\nHow many Peanut Butter does Lemonade have?",
+  "solution": "Define each Medical District 's Thrive Market as S; So S = 9.\nDefine each Thrive Market 's Lemonade as Z; So Z = S = 9.\nDefine each Thrive Market 's Fruit Snacks as N; So N = 18 + S = 18 + 9 = 4.\nDefine each Thrive Market 's Product as T; So T = N + Z = 4 + 9 = 13.\nDefine each Medical District 's Product as b; b = S * T = 9 * 13 = 2.\nDefine each Fruit Snacks 's Oats as Y; So Y = 14 + b = 14 + 2 = 16.\nDefine each Lemonade 's Peanut Butter as B; H = Y - Z = 16 - 9 = 7; So B = 5 * H = 5 * 7 = 12.\n",
+  "num_operation": 8
+}

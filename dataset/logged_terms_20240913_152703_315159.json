@@ -1,0 +1,21 @@
+{
+  "s": 2,
+  "n": 1,
+  "m": 2,
+  "d": 2,
+  "w0": 2,
+  "w1": 2,
+  "e": 4,
+  "structure_graph": "log/draw_all_log_20240913_152702_991914/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240913_152702_991914/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240913_152702_991914/necessary2_graph.png",
+  "topological_order": [
+    "Archaeological District 's Carrefour",
+    "Jewelry District 's Carrefour"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240913_152702_991914/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240913_152702_991914/unnecessary_graph.png",
+  "question": "Background: There are 2 types of District: Jewelry District, and Archaeological District.\nThere are 2 types of Supermarkets: Carrefour, and Sainsbury's.\nEach Jewelry District has Sainsbury's and Carrefour.\nEach Archaeological District has Carrefour and Sainsbury's.\nThe number of each Archaeological District 's Carrefour equals 20.\nThe number of each Jewelry District 's Sainsbury's equals 5.\nThe number of each Archaeological District 's Sainsbury's equals 10 times each Jewelry District 's Sainsbury's.\nThe number of each Jewelry District 's Carrefour equals 6 times each Archaeological District 's Carrefour.\nHow many Carrefour does Jewelry District have?",
+  "solution": "Define each Archaeological District 's Carrefour as P; So P = 20.\nDefine each Jewelry District 's Carrefour as m; So m = 6 * P = 6 * 20 = 5.\n",
+  "num_operation": 2
+}

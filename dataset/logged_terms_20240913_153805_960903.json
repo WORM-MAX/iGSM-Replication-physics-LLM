@@ -1,0 +1,20 @@
+{
+  "s": 1,
+  "n": 1,
+  "m": 1,
+  "d": 3,
+  "w0": 2,
+  "w1": 4,
+  "e": 8,
+  "structure_graph": "log/draw_all_log_20240913_153805_617136/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240913_153805_617136/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240913_153805_617136/necessary2_graph.png",
+  "topological_order": [
+    "College Town 's Shipt"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240913_153805_617136/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240913_153805_617136/unnecessary_graph.png",
+  "question": "Background: There are 3 types of District: Shopping District, College Town, and Wall Street.\nThere are 4 types of Supermarkets: Shipt, Morrisons, Gelson's Markets, and King Soopers.\nThere are 3 types of Product: Evaporated Milk, Canned Sauces, and Custard.\nEach Shopping District has Gelson's Markets.\nEach College Town has Shipt and Gelson's Markets.\nEach Wall Street has Shipt.\nEach Shipt has Custard.\nEach Morrisons has Canned Sauces.\nEach Gelson's Markets has Custard.\nEach King Soopers has Custard.\nThe number of each Gelson's Markets 's Custard equals 20.\nThe number of each Shipt 's Custard equals 5.\nThe number of each College Town 's Shipt equals 13.\nThe number of each King Soopers 's Custard equals 5 more than each Morrisons 's Canned Sauces.\nThe number of each Wall Street 's Shipt equals each College Town 's Shipt.\nThe number of each Morrisons 's Canned Sauces equals 16.\nThe number of each Shopping District 's Gelson's Markets equals 1 times each Morrisons 's Product.\nThe number of each College Town 's Gelson's Markets equals each Morrisons 's Canned Sauces.\nHow many Shipt does College Town have?",
+  "solution": "Define each College Town 's Shipt as C; So C = 13.\n",
+  "num_operation": 1
+}

@@ -12,7 +12,7 @@ def load_dataset(file_path):
 
 def query_llm(question):
 
-    prompt = f"""Solve the following problem step by step. At the end, clearly state the final answer as a single integer between 0 and 22.
+    prompt = f""" TODO: add prompt here
 
 Problem: {question}
 

@@ -1,0 +1,21 @@
+{
+  "s": 2,
+  "n": 2,
+  "m": 2,
+  "d": 3,
+  "w0": 2,
+  "w1": 3,
+  "e": 15,
+  "structure_graph": "log/draw_all_log_20240913_153759_955016/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240913_153759_955016/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240913_153759_955016/necessary2_graph.png",
+  "topological_order": [
+    "Mitsuwa Marketplace 's Canned Pasta",
+    "Silicon Valley 's Loblaws"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240913_153759_955016/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240913_153759_955016/unnecessary_graph.png",
+  "question": "Background: There are 3 types of District: Condo District, Research and Innovation Park, and Silicon Valley.\nThere are 3 types of Supermarkets: Loblaws, Mitsuwa Marketplace, and Hannaford.\nThere are 3 types of Product: Buns, Canned Pasta, and Pastries.\nEach Condo District has Hannaford and Loblaws.\nEach Research and Innovation Park has Mitsuwa Marketplace and Hannaford.\nEach Silicon Valley has Mitsuwa Marketplace, Loblaws, and Hannaford.\nEach Loblaws has Buns, Pastries, and Canned Pasta.\nEach Mitsuwa Marketplace has Buns, Canned Pasta, and Pastries.\nEach Hannaford has Pastries and Buns.\nThe number of each Mitsuwa Marketplace 's Canned Pasta equals 17.\nThe number of each Hannaford 's Buns equals each Mitsuwa Marketplace 's Pastries.\nThe number of each Hannaford 's Pastries equals each Condo District 's Supermarkets.\nThe number of each Silicon Valley 's Mitsuwa Marketplace equals 15.\nThe number of each Research and Innovation Park 's Hannaford equals 11.\nThe number of each Mitsuwa Marketplace 's Buns equals 19 times each Condo District 's Loblaws.\nThe number of each Condo District 's Hannaford equals the sum of each Mitsuwa Marketplace 's Buns, each Condo District 's Loblaws, and each Research and Innovation Park 's Mitsuwa Marketplace.\nThe number of each Silicon Valley 's Hannaford equals each Condo District 's Loblaws.\nThe number of each Loblaws 's Canned Pasta equals 3 times the difference of each Mitsuwa Marketplace 's Pastries and each Loblaws 's Pastries.\nThe number of each Mitsuwa Marketplace 's Pastries equals each Condo District 's Loblaws.\nThe number of each Condo District 's Loblaws equals 8.\nThe number of each Silicon Valley 's Loblaws equals 3 more than each Mitsuwa Marketplace 's Canned Pasta.\nThe number of each Research and Innovation Park 's Mitsuwa Marketplace equals 5.\nThe number of each Loblaws 's Buns equals 2.\nThe number of each Loblaws 's Pastries equals 21.\nHow many Loblaws does Silicon Valley have?",
+  "solution": "Define each Mitsuwa Marketplace 's Canned Pasta as C; So C = 17.\nDefine each Silicon Valley 's Loblaws as M; So M = 3 + C = 3 + 17 = 20.\n",
+  "num_operation": 2
+}

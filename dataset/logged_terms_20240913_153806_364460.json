@@ -1,0 +1,27 @@
+{
+  "s": 9,
+  "n": 8,
+  "m": 8,
+  "d": 3,
+  "w0": 4,
+  "w1": 4,
+  "e": 11,
+  "structure_graph": "log/draw_all_log_20240913_153805_961145/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240913_153805_961145/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240913_153805_961145/necessary2_graph.png",
+  "topological_order": [
+    "Industrial District 's Shipt",
+    "Embassy Row 's Hy-Vee",
+    "Embassy Row 's Supermarkets",
+    "Shipt 's Rice Cakes",
+    "Shipt 's Buns",
+    "Wall Street 's Shipt",
+    "Shipt 's Product",
+    "Wall Street 's Product"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240913_153805_961145/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240913_153805_961145/unnecessary_graph.png",
+  "question": "Background: There are 4 types of District: Wall Street, Industrial District, Embassy Row, and Capitol District.\nThere are 4 types of Supermarkets: Auchan, ShopRite, Shipt, and Hy-Vee.\nThere are 4 types of Product: Energy Drinks, Buns, Rice Cakes, and Cookies.\nEach Wall Street has Shipt.\nEach Industrial District has Shipt and Auchan.\nEach Embassy Row has Hy-Vee.\nEach Capitol District has ShopRite.\nEach Auchan has Energy Drinks and Rice Cakes.\nEach ShopRite has Energy Drinks.\nEach Shipt has Buns and Rice Cakes.\nEach Hy-Vee has Energy Drinks.\nThe number of each Capitol District 's ShopRite equals 10.\nThe number of each Auchan 's Energy Drinks equals 3 times the sum of each Industrial District 's Shipt, each Shipt 's Rice Cakes, and each Embassy Row 's Supermarkets.\nThe number of each Industrial District 's Shipt equals 19.\nThe number of each Embassy Row 's Hy-Vee equals 20 times each Industrial District 's Shipt.\nThe number of each Hy-Vee 's Energy Drinks equals each Capitol District 's ShopRite.\nThe number of each ShopRite 's Energy Drinks equals 22.\nThe number of each Wall Street 's Shipt equals 22 times the difference of each Embassy Row 's Supermarkets and each Shipt 's Buns.\nThe number of each Shipt 's Rice Cakes equals each Embassy Row 's Hy-Vee.\nThe number of each Auchan 's Rice Cakes equals 20.\nThe number of each Shipt 's Buns equals each Embassy Row 's Supermarkets.\nThe number of each Industrial District 's Auchan equals each Wall Street 's Supermarkets.\nHow many Product does Wall Street have?",
+  "solution": "Define each Industrial District 's Shipt as N; So N = 19.\nDefine each Embassy Row 's Hy-Vee as G; So G = 20 * N = 20 * 19 = 12.\nDefine each Embassy Row 's Supermarkets as m; So m = G = 12.\nDefine each Shipt 's Rice Cakes as d; So d = G = 12.\nDefine each Shipt 's Buns as O; So O = m = 12.\nDefine each Wall Street 's Shipt as r; F = m - O = 12 - 12 = 0; So r = 22 * F = 22 * 0 = 0.\nDefine each Shipt 's Product as a; So a = d + O = 12 + 12 = 1.\nDefine each Wall Street 's Product as p; p = r * a = 0 * 1 = 0.\n",
+  "num_operation": 9
+}

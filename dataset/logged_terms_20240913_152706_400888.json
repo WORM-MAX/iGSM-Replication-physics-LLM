@@ -1,0 +1,23 @@
+{
+  "s": 4,
+  "n": 2,
+  "m": 4,
+  "d": 3,
+  "w0": 2,
+  "w1": 4,
+  "e": 9,
+  "structure_graph": "log/draw_all_log_20240913_152706_025997/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240913_152706_025997/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240913_152706_025997/necessary2_graph.png",
+  "topological_order": [
+    "Tesco 's Yogurt Covered Raisins",
+    "Municipal Office District 's Carrefour",
+    "Tesco 's Cottage Cheese",
+    "Lidl 's Yogurt Covered Raisins"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240913_152706_025997/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240913_152706_025997/unnecessary_graph.png",
+  "question": "Background: There are 2 types of District: Municipal Office District, and Urban Residential Area.\nThere are 3 types of Supermarkets: Lidl, Tesco, and Carrefour.\nThere are 2 types of Product: Cottage Cheese, and Yogurt Covered Raisins.\nEach Municipal Office District has Lidl and Carrefour.\nEach Urban Residential Area has Carrefour and Tesco.\nEach Lidl has Cottage Cheese and Yogurt Covered Raisins.\nEach Tesco has Cottage Cheese and Yogurt Covered Raisins.\nEach Carrefour has Cottage Cheese.\nThe number of each Carrefour 's Cottage Cheese equals 11 times each Tesco 's Product.\nThe number of each Municipal Office District 's Carrefour equals 1 times each Tesco 's Yogurt Covered Raisins.\nThe number of each Urban Residential Area 's Carrefour equals 7 times the sum of each Tesco 's Yogurt Covered Raisins and each Tesco 's Cottage Cheese.\nThe number of each Tesco 's Yogurt Covered Raisins equals 9.\nThe number of each Municipal Office District 's Lidl equals each Lidl 's Yogurt Covered Raisins.\nThe number of each Tesco 's Cottage Cheese equals the sum of each Municipal Office District 's Carrefour and each Tesco 's Yogurt Covered Raisins.\nThe number of each Lidl 's Cottage Cheese equals 19.\nThe number of each Lidl 's Yogurt Covered Raisins equals 21 more than each Tesco 's Cottage Cheese.\nThe number of each Urban Residential Area 's Tesco equals each Tesco 's Product.\nHow many Yogurt Covered Raisins does Lidl have?",
+  "solution": "Define each Tesco 's Yogurt Covered Raisins as X; So X = 9.\nDefine each Municipal Office District 's Carrefour as q; So q = 1 * X = 1 * 9 = 9.\nDefine each Tesco 's Cottage Cheese as s; So s = q + X = 9 + 9 = 18.\nDefine each Lidl 's Yogurt Covered Raisins as U; So U = 21 + s = 21 + 18 = 16.\n",
+  "num_operation": 4
+}

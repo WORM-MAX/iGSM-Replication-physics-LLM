@@ -1,0 +1,30 @@
+{
+  "s": 12,
+  "n": 11,
+  "m": 11,
+  "d": 4,
+  "w0": 3,
+  "w1": 4,
+  "e": 16,
+  "structure_graph": "log/draw_all_log_20240913_152708_293766/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240913_152708_293766/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240913_152708_293766/necessary2_graph.png",
+  "topological_order": [
+    "Legislative District 's SuperValu",
+    "Custard 's Ginger",
+    "Custard 's Ingredient",
+    "Single-family Homes 's Aldi",
+    "Aldi 's Custard",
+    "Aldi 's Bagels",
+    "Aldi 's Product",
+    "Single-family Homes 's Product",
+    "SuperValu 's Greek Yogurt",
+    "SuperValu 's Custard",
+    "SuperValu 's Product"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240913_152708_293766/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240913_152708_293766/unnecessary_graph.png",
+  "question": "Background: There are 3 types of District: Single-family Homes, Administrative District, and Legislative District.\nThere are 3 types of Supermarkets: Whole Foods Market, SuperValu, and Aldi.\nThere are 3 types of Product: Custard, Greek Yogurt, and Bagels.\nThere are 3 types of Ingredient: Pasta, Ginger, and Canola Oil.\nEach Single-family Homes has Aldi.\nEach Administrative District has SuperValu and Aldi.\nEach Legislative District has Aldi, Whole Foods Market, and SuperValu.\nEach Whole Foods Market has Bagels.\nEach SuperValu has Custard and Greek Yogurt.\nEach Aldi has Bagels and Custard.\nEach Custard has Ginger.\nEach Greek Yogurt has Ginger and Canola Oil.\nEach Bagels has Canola Oil and Ginger.\nThe number of each Single-family Homes 's Aldi equals 14 times each Custard 's Ingredient.\nThe number of each SuperValu 's Custard equals 16 times each Aldi 's Custard.\nThe number of each Custard 's Ginger equals 3 more than each Legislative District 's SuperValu.\nThe number of each Greek Yogurt 's Ginger equals 7.\nThe number of each Whole Foods Market 's Bagels equals the sum of each Single-family Homes 's Supermarkets and each SuperValu 's Greek Yogurt.\nThe number of each Administrative District 's Aldi equals 7.\nThe number of each Legislative District 's SuperValu equals 16.\nThe number of each Administrative District 's SuperValu equals 1.\nThe number of each Aldi 's Custard equals 2 times the difference of each Single-family Homes 's Aldi and each Custard 's Ginger.\nThe number of each Bagels 's Canola Oil equals each Single-family Homes 's Supermarkets.\nThe number of each Greek Yogurt 's Canola Oil equals 17.\nThe number of each Legislative District 's Aldi equals each Greek Yogurt 's Canola Oil.\nThe number of each SuperValu 's Greek Yogurt equals the difference of each Single-family Homes 's Product and each Aldi 's Bagels.\nThe number of each Aldi 's Bagels equals the difference of each Single-family Homes 's Aldi and each Custard 's Ingredient.\nThe number of each Legislative District 's Whole Foods Market equals the difference of each Legislative District 's Aldi and each Greek Yogurt 's Canola Oil.\nThe number of each Bagels 's Ginger equals the sum of each Bagels 's Canola Oil, each SuperValu 's Custard, and each Aldi 's Product.\nHow many Product does SuperValu have?",
+  "solution": "Define each Legislative District 's SuperValu as C; So C = 16.\nDefine each Custard 's Ginger as h; So h = 3 + C = 3 + 16 = 19.\nDefine each Custard 's Ingredient as T; So T = h = 19.\nDefine each Single-family Homes 's Aldi as Q; So Q = 14 * T = 14 * 19 = 13.\nDefine each Aldi 's Custard as n; o = Q - h = 13 - 19 = 17; So n = 2 * o = 2 * 17 = 11.\nDefine each Aldi 's Bagels as J; So J = Q - T = 13 - 19 = 17.\nDefine each Aldi 's Product as V; So V = J + n = 17 + 11 = 5.\nDefine each Single-family Homes 's Product as i; i = Q * V = 13 * 5 = 19.\nDefine each SuperValu 's Greek Yogurt as N; So N = i - J = 19 - 17 = 2.\nDefine each SuperValu 's Custard as x; So x = 16 * n = 16 * 11 = 15.\nDefine each SuperValu 's Product as K; So K = N + x = 2 + 15 = 17.\n",
+  "num_operation": 12
+}

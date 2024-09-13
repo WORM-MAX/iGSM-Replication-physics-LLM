@@ -27,8 +27,8 @@ category = list(items_flatten.keys())
 
 
 # Example usage:
-op_max = 15
-ip_max = 20
+op_max = 30
+ip_max = 28
 
-for _ in tqdm(range(100), desc="Generating graphs"):
+for _ in tqdm(range(25), desc="Generating graphs"):
     G_d, Gnece_d, Topo = DrawAll(op_max, ip_max, items_flatten, category)

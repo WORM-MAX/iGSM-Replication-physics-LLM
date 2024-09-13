@@ -1,0 +1,32 @@
+{
+  "s": 13,
+  "n": 13,
+  "m": 13,
+  "d": 3,
+  "w0": 4,
+  "w1": 4,
+  "e": 8,
+  "structure_graph": "log/draw_all_log_20240913_153801_476878/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240913_153801_476878/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240913_153801_476878/necessary2_graph.png",
+  "topological_order": [
+    "Learning Hub 's Dollar General",
+    "Learning Hub 's Supermarkets",
+    "Giant Eagle 's Canned Soups",
+    "Giant Eagle 's Product",
+    "Education Park 's Giant Eagle",
+    "Education Park 's Product",
+    "Shopping District 's SuperValu",
+    "Shopping District 's Supermarkets",
+    "Dollar General 's Cream",
+    "Dollar General 's Product",
+    "Learning Hub 's Product",
+    "Warehouse District 's Dollar General",
+    "Warehouse District 's Product"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240913_153801_476878/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240913_153801_476878/unnecessary_graph.png",
+  "question": "Background: There are 4 types of District: Education Park, Warehouse District, Learning Hub, and Shopping District.\nThere are 4 types of Supermarkets: Dollar General, Giant Eagle, WinCo Foods, and SuperValu.\nThere are 4 types of Product: Sparkling Water, Kefir, Cream, and Canned Soups.\nEach Education Park has Giant Eagle.\nEach Warehouse District has Dollar General.\nEach Learning Hub has Dollar General.\nEach Shopping District has SuperValu.\nEach Dollar General has Cream.\nEach Giant Eagle has Canned Soups.\nEach WinCo Foods has Cream.\nEach SuperValu has Kefir.\nThe number of each Education Park 's Giant Eagle equals 6.\nThe number of each Learning Hub 's Dollar General equals 0.\nThe number of each Giant Eagle 's Canned Soups equals each Learning Hub 's Supermarkets.\nThe number of each Dollar General 's Cream equals the difference of each Shopping District 's Supermarkets and each Education Park 's Giant Eagle.\nThe number of each WinCo Foods 's Cream equals 12 times the difference of each Warehouse District 's Product and each Giant Eagle 's Product.\nThe number of each SuperValu 's Kefir equals 0.\nThe number of each Warehouse District 's Dollar General equals 0 times each Learning Hub 's Product.\nThe number of each Shopping District 's SuperValu equals 7 times each Education Park 's Product.\nHow many Product does Warehouse District have?",
+  "solution": "Define each Learning Hub 's Dollar General as X; So X = 0.\nDefine each Learning Hub 's Supermarkets as i; So i = X = 0.\nDefine each Giant Eagle 's Canned Soups as f; So f = i = 0.\nDefine each Giant Eagle 's Product as m; So m = f = 0.\nDefine each Education Park 's Giant Eagle as v; So v = 6.\nDefine each Education Park 's Product as C; C = m * v = 0 * 6 = 0.\nDefine each Shopping District 's SuperValu as V; So V = 7 * C = 7 * 0 = 0.\nDefine each Shopping District 's Supermarkets as S; So S = V = 0.\nDefine each Dollar General 's Cream as T; So T = S - v = 0 - 6 = 17.\nDefine each Dollar General 's Product as Y; So Y = T = 17.\nDefine each Learning Hub 's Product as B; B = X * Y = 0 * 17 = 0.\nDefine each Warehouse District 's Dollar General as u; So u = 0 * B = 0 * 0 = 0.\nDefine each Warehouse District 's Product as H; H = u * Y = 0 * 17 = 0.\n",
+  "num_operation": 13
+}

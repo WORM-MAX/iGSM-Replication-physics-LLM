@@ -1,0 +1,21 @@
+{
+  "s": 2,
+  "n": 2,
+  "m": 2,
+  "d": 3,
+  "w0": 2,
+  "w1": 4,
+  "e": 6,
+  "structure_graph": "log/draw_all_log_20240913_152704_856857/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240913_152704_856857/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240913_152704_856857/necessary2_graph.png",
+  "topological_order": [
+    "Kroger 's Lemonade",
+    "Kroger 's Product"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240913_152704_856857/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240913_152704_856857/unnecessary_graph.png",
+  "question": "Background: There are 3 types of District: Institute District, Municipal Office District, and Legal District.\nThere are 2 types of Supermarkets: Metro (Canada), and Kroger.\nThere are 2 types of Product: Canned Artichokes, and Lemonade.\nEach Institute District has Kroger.\nEach Municipal Office District has Metro (Canada).\nEach Legal District has Kroger.\nEach Metro (Canada) has Lemonade and Canned Artichokes.\nEach Kroger has Lemonade.\nThe number of each Metro (Canada) 's Canned Artichokes equals 10.\nThe number of each Legal District 's Kroger equals the sum of each Municipal Office District 's Supermarkets, each Kroger 's Lemonade, and each Metro (Canada) 's Canned Artichokes.\nThe number of each Institute District 's Kroger equals each Kroger 's Product.\nThe number of each Municipal Office District 's Metro (Canada) equals each Kroger 's Product.\nThe number of each Metro (Canada) 's Lemonade equals 15.\nThe number of each Kroger 's Lemonade equals 12.\nHow many Product does Kroger have?",
+  "solution": "Define each Kroger 's Lemonade as i; So i = 12.\nDefine each Kroger 's Product as b; So b = i = 12.\n",
+  "num_operation": 2
+}

@@ -1,0 +1,27 @@
+{
+  "s": 8,
+  "n": 4,
+  "m": 8,
+  "d": 4,
+  "w0": 3,
+  "w1": 3,
+  "e": 20,
+  "structure_graph": "log/draw_all_log_20240913_153803_582575/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240913_153803_582575/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240913_153803_582575/necessary2_graph.png",
+  "topological_order": [
+    "Fruit Snacks 's Cereal",
+    "Pastries 's Cereal",
+    "Arts District 's Lulu Hypermarket",
+    "Buns 's Garlic Powder",
+    "Carrefour 's Pastries",
+    "Pastries 's Buckwheat",
+    "Courthouse District 's Carrefour",
+    "Carrefour 's Buns"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240913_153803_582575/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240913_153803_582575/unnecessary_graph.png",
+  "question": "Background: There are 3 types of District: Courthouse District, Arts District, and Military District.\nThere are 3 types of Supermarkets: Carrefour, Lulu Hypermarket, and Earth Fare.\nThere are 3 types of Product: Buns, Pastries, and Fruit Snacks.\nThere are 3 types of Ingredient: Garlic Powder, Cereal, and Buckwheat.\nEach Courthouse District has Carrefour, Earth Fare, and Lulu Hypermarket.\nEach Arts District has Carrefour and Lulu Hypermarket.\nEach Military District has Carrefour, Lulu Hypermarket, and Earth Fare.\nEach Carrefour has Pastries and Buns.\nEach Lulu Hypermarket has Buns, Fruit Snacks, and Pastries.\nEach Earth Fare has Fruit Snacks.\nEach Buns has Buckwheat and Garlic Powder.\nEach Pastries has Cereal, Garlic Powder, and Buckwheat.\nEach Fruit Snacks has Cereal.\nThe number of each Courthouse District 's Earth Fare equals each Military District 's Earth Fare.\nThe number of each Arts District 's Carrefour equals each Military District 's Earth Fare.\nThe number of each Pastries 's Garlic Powder equals 19 more than the sum of each Earth Fare 's Product, each Pastries 's Cereal, and each Military District 's Earth Fare.\nThe number of each Arts District 's Lulu Hypermarket equals 12 times each Pastries 's Cereal.\nThe number of each Earth Fare 's Fruit Snacks equals 14 times each Fruit Snacks 's Ingredient.\nThe number of each Carrefour 's Pastries equals each Buns 's Garlic Powder.\nThe number of each Pastries 's Buckwheat equals 0 times each Carrefour 's Pastries.\nThe number of each Buns 's Buckwheat equals 22.\nThe number of each Pastries 's Cereal equals 3 more than each Fruit Snacks 's Cereal.\nThe number of each Military District 's Carrefour equals 11.\nThe number of each Military District 's Lulu Hypermarket equals the difference of each Carrefour 's Product and each Pastries 's Cereal.\nThe number of each Fruit Snacks 's Cereal equals 22.\nThe number of each Courthouse District 's Lulu Hypermarket equals 22.\nThe number of each Buns 's Garlic Powder equals each Arts District 's Lulu Hypermarket.\nThe number of each Lulu Hypermarket 's Pastries equals each Buns 's Buckwheat.\nThe number of each Carrefour 's Buns equals 11 more than each Courthouse District 's Carrefour.\nThe number of each Military District 's Earth Fare equals 18 times each Buns 's Buckwheat.\nThe number of each Lulu Hypermarket 's Fruit Snacks equals the sum of each Carrefour 's Buns, each Carrefour 's Product, each Earth Fare 's Fruit Snacks, and each Military District 's Lulu Hypermarket.\nThe number of each Courthouse District 's Carrefour equals 2 times each Pastries 's Buckwheat.\nThe number of each Lulu Hypermarket 's Buns equals 16.\nHow many Buns does Carrefour have?",
+  "solution": "Define each Fruit Snacks 's Cereal as u; So u = 22.\nDefine each Pastries 's Cereal as j; So j = 3 + u = 3 + 22 = 2.\nDefine each Arts District 's Lulu Hypermarket as c; So c = 12 * j = 12 * 2 = 1.\nDefine each Buns 's Garlic Powder as R; So R = c = 1.\nDefine each Carrefour 's Pastries as x; So x = R = 1.\nDefine each Pastries 's Buckwheat as D; So D = 0 * x = 0 * 1 = 0.\nDefine each Courthouse District 's Carrefour as s; So s = 2 * D = 2 * 0 = 0.\nDefine each Carrefour 's Buns as T; So T = 11 + s = 11 + 0 = 11.\n",
+  "num_operation": 8
+}

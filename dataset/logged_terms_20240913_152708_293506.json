@@ -1,0 +1,28 @@
+{
+  "s": 9,
+  "n": 9,
+  "m": 9,
+  "d": 4,
+  "w0": 2,
+  "w1": 2,
+  "e": 11,
+  "structure_graph": "log/draw_all_log_20240913_152707_873121/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240913_152707_873121/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240913_152707_873121/necessary2_graph.png",
+  "topological_order": [
+    "Makro 's Canned Sauces",
+    "Makro 's Product",
+    "Plant-based Milk 's Couscous",
+    "Plant-based Milk 's Soy Sauce",
+    "Plant-based Milk 's Ingredient",
+    "Canned Sauces 's Soy Sauce",
+    "Canned Sauces 's Couscous",
+    "Canned Sauces 's Ingredient",
+    "Makro 's Ingredient"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240913_152707_873121/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240913_152707_873121/unnecessary_graph.png",
+  "question": "Background: There are 2 types of District: Market District, and High-rise Apartment Complex.\nThere are 2 types of Supermarkets: E.Leclerc, and Makro.\nThere are 2 types of Product: Canned Sauces, and Plant-based Milk.\nThere are 2 types of Ingredient: Couscous, and Soy Sauce.\nEach Market District has Makro and E.Leclerc.\nEach High-rise Apartment Complex has Makro and E.Leclerc.\nEach E.Leclerc has Plant-based Milk and Canned Sauces.\nEach Makro has Canned Sauces.\nEach Canned Sauces has Couscous and Soy Sauce.\nEach Plant-based Milk has Soy Sauce and Couscous.\nThe number of each Canned Sauces 's Couscous equals 12 times each Plant-based Milk 's Soy Sauce.\nThe number of each Plant-based Milk 's Couscous equals each Makro 's Product.\nThe number of each High-rise Apartment Complex 's E.Leclerc equals the difference of each E.Leclerc 's Canned Sauces and each Makro 's Ingredient.\nThe number of each Market District 's Makro equals 19.\nThe number of each Makro 's Canned Sauces equals 8.\nThe number of each E.Leclerc 's Plant-based Milk equals 0 more than the sum of each Makro 's Product, each Plant-based Milk 's Ingredient, and each High-rise Apartment Complex 's Makro.\nThe number of each Plant-based Milk 's Soy Sauce equals each Makro 's Product.\nThe number of each Market District 's E.Leclerc equals 17.\nThe number of each Canned Sauces 's Soy Sauce equals 15 more than each Plant-based Milk 's Ingredient.\nThe number of each E.Leclerc 's Canned Sauces equals 9.\nThe number of each High-rise Apartment Complex 's Makro equals 0 times the difference of each Market District 's E.Leclerc and each Canned Sauces 's Couscous.\nHow many Ingredient does Makro have?",
+  "solution": "Define each Makro 's Canned Sauces as R; So R = 8.\nDefine each Makro 's Product as P; So P = R = 8.\nDefine each Plant-based Milk 's Couscous as W; So W = P = 8.\nDefine each Plant-based Milk 's Soy Sauce as l; So l = P = 8.\nDefine each Plant-based Milk 's Ingredient as N; So N = l + W = 8 + 8 = 16.\nDefine each Canned Sauces 's Soy Sauce as y; So y = 15 + N = 15 + 16 = 8.\nDefine each Canned Sauces 's Couscous as b; So b = 12 * l = 12 * 8 = 4.\nDefine each Canned Sauces 's Ingredient as K; So K = y + b = 8 + 4 = 12.\nDefine each Makro 's Ingredient as d; d = K * R = 12 * 8 = 4.\n",
+  "num_operation": 9
+}

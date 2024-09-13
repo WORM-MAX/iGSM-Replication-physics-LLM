@@ -1,0 +1,25 @@
+{
+  "s": 6,
+  "n": 6,
+  "m": 6,
+  "d": 4,
+  "w0": 3,
+  "w1": 4,
+  "e": 14,
+  "structure_graph": "log/draw_all_log_20240913_153757_205915/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240913_153757_205915/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240913_153757_205915/necessary2_graph.png",
+  "topological_order": [
+    "Buns 's Sweetened Condensed Milk",
+    "Publix 's Buns",
+    "Buns 's Ingredient",
+    "Fashion District 's Publix",
+    "Publix 's Ingredient",
+    "Fashion District 's Ingredient"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240913_153757_205915/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240913_153757_205915/unnecessary_graph.png",
+  "question": "Background: There are 3 types of District: Market District, Warehouse District, and Fashion District.\nThere are 3 types of Supermarkets: Fairway Market, Publix, and Grocery Outlet.\nThere are 4 types of Product: Buns, Juice, Popcorn, and Canned Meat.\nThere are 4 types of Ingredient: Worcestershire Sauce, Polenta, Peanut Oil, and Sweetened Condensed Milk.\nEach Market District has Fairway Market.\nEach Warehouse District has Publix and Grocery Outlet.\nEach Fashion District has Publix.\nEach Fairway Market has Buns.\nEach Publix has Buns.\nEach Grocery Outlet has Juice and Buns.\nEach Buns has Sweetened Condensed Milk.\nEach Juice has Worcestershire Sauce and Polenta.\nEach Popcorn has Sweetened Condensed Milk and Peanut Oil.\nEach Canned Meat has Polenta.\nThe number of each Juice 's Polenta equals 2.\nThe number of each Canned Meat 's Polenta equals each Warehouse District 's Publix.\nThe number of each Market District 's Fairway Market equals 4.\nThe number of each Popcorn 's Sweetened Condensed Milk equals 11 more than the sum of each Juice 's Polenta and each Market District 's Supermarkets.\nThe number of each Grocery Outlet 's Buns equals each Market District 's Supermarkets.\nThe number of each Warehouse District 's Grocery Outlet equals 9 more than each Buns 's Sweetened Condensed Milk.\nThe number of each Popcorn 's Peanut Oil equals the sum of each Juice 's Worcestershire Sauce, each Market District 's Fairway Market, and each Juice 's Polenta.\nThe number of each Juice 's Worcestershire Sauce equals 4.\nThe number of each Warehouse District 's Publix equals each Market District 's Fairway Market.\nThe number of each Fairway Market 's Buns equals 5 more than each Buns 's Ingredient.\nThe number of each Fashion District 's Publix equals each Buns 's Ingredient.\nThe number of each Buns 's Sweetened Condensed Milk equals 8.\nThe number of each Publix 's Buns equals 22.\nThe number of each Grocery Outlet 's Juice equals each Juice 's Worcestershire Sauce.\nHow many Ingredient does Fashion District have?",
+  "solution": "Define each Buns 's Sweetened Condensed Milk as C; So C = 8.\nDefine each Publix 's Buns as c; So c = 22.\nDefine each Buns 's Ingredient as F; So F = C = 8.\nDefine each Fashion District 's Publix as q; So q = F = 8.\nDefine each Publix 's Ingredient as d; d = c * F = 22 * 8 = 15.\nDefine each Fashion District 's Ingredient as g; g = q * d = 8 * 15 = 5.\n",
+  "num_operation": 6
+}

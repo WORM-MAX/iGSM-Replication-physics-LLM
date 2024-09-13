@@ -1,0 +1,31 @@
+{
+  "s": 14,
+  "n": 14,
+  "m": 14,
+  "d": 4,
+  "w0": 2,
+  "w1": 3,
+  "e": 7,
+  "structure_graph": "log/draw_all_log_20240913_153800_338688/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240913_153800_338688/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240913_153800_338688/necessary2_graph.png",
+  "topological_order": [
+    "WinCo Foods 's Nuts",
+    "WinCo Foods 's Granola Bars",
+    "WinCo Foods 's Product",
+    "Granola Bars 's Butter",
+    "Nuts 's Butter",
+    "Nuts 's Ingredient",
+    "Granola Bars 's Ingredient",
+    "WinCo Foods 's Ingredient",
+    "Fashion District 's WinCo Foods",
+    "Fashion District 's Ingredient",
+    "Arts District 's WinCo Foods",
+    "Arts District 's Ingredient"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240913_153800_338688/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240913_153800_338688/unnecessary_graph.png",
+  "question": "Background: There are 2 types of District: Arts District, and Fashion District.\nThere are 2 types of Supermarkets: Fresh Thyme Market, and WinCo Foods.\nThere are 2 types of Product: Granola Bars, and Nuts.\nThere are 2 types of Ingredient: Bay Leaves, and Butter.\nEach Arts District has WinCo Foods.\nEach Fashion District has WinCo Foods.\nEach Fresh Thyme Market has Nuts.\nEach WinCo Foods has Nuts and Granola Bars.\nEach Granola Bars has Butter.\nEach Nuts has Butter.\nThe number of each Fresh Thyme Market 's Nuts equals each Granola Bars 's Butter.\nThe number of each Arts District 's WinCo Foods equals 6 times each Fashion District 's Ingredient.\nThe number of each Granola Bars 's Butter equals 3 more than each WinCo Foods 's Product.\nThe number of each Nuts 's Butter equals 9 more than each WinCo Foods 's Nuts.\nThe number of each Fashion District 's WinCo Foods equals 15 more than each WinCo Foods 's Granola Bars.\nThe number of each WinCo Foods 's Granola Bars equals 13 times each WinCo Foods 's Nuts.\nThe number of each WinCo Foods 's Nuts equals 20.\nHow many Ingredient does Arts District have?",
+  "solution": "Define each WinCo Foods 's Nuts as i; So i = 20.\nDefine each WinCo Foods 's Granola Bars as x; So x = 13 * i = 13 * 20 = 7.\nDefine each WinCo Foods 's Product as e; So e = x + i = 7 + 20 = 4.\nDefine each Granola Bars 's Butter as T; So T = 3 + e = 3 + 4 = 7.\nDefine each Nuts 's Butter as R; So R = 9 + i = 9 + 20 = 6.\nDefine each Nuts 's Ingredient as u; So u = R = 6.\nDefine each Granola Bars 's Ingredient as V; So V = T = 7.\nDefine each WinCo Foods 's Ingredient as g; x = x * u = 19 * 6 = 19; W = V * i = 7 * 20 = 2; So g = x + W = 19 + 2 = 21.\nDefine each Fashion District 's WinCo Foods as M; So M = 15 + x = 15 + 19 = 11.\nDefine each Fashion District 's Ingredient as S; S = g * M = 21 * 11 = 1.\nDefine each Arts District 's WinCo Foods as Q; So Q = 6 * S = 6 * 1 = 6.\nDefine each Arts District 's Ingredient as y; y = Q * g = 6 * 21 = 11.\n",
+  "num_operation": 14
+}

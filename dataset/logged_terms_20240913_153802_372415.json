@@ -1,0 +1,29 @@
+{
+  "s": 16,
+  "n": 9,
+  "m": 10,
+  "d": 3,
+  "w0": 2,
+  "w1": 4,
+  "e": 10,
+  "structure_graph": "log/draw_all_log_20240913_153801_935198/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240913_153801_935198/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240913_153801_935198/necessary2_graph.png",
+  "topological_order": [
+    "Senior Living Community 's Walmart",
+    "Senior Living Community 's Fairway Market",
+    "Senior Living Community 's Supermarkets",
+    "College Town 's Fairway Market",
+    "College Town 's Walmart",
+    "College Town 's Supermarkets",
+    "Walmart 's Cookies",
+    "Walmart 's Canned Pumpkin",
+    "Walmart 's Product",
+    "Fairway Market 's Cookies"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240913_153801_935198/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240913_153801_935198/unnecessary_graph.png",
+  "question": "Background: There are 3 types of District: College Town, Senior Living Community, and Dormitory District.\nThere are 2 types of Supermarkets: Fairway Market, and Walmart.\nThere are 2 types of Product: Cookies, and Canned Pumpkin.\nEach College Town has Walmart and Fairway Market.\nEach Senior Living Community has Walmart and Fairway Market.\nEach Dormitory District has Fairway Market and Walmart.\nEach Fairway Market has Canned Pumpkin and Cookies.\nEach Walmart has Cookies and Canned Pumpkin.\nThe number of each Fairway Market 's Canned Pumpkin equals each Dormitory District 's Fairway Market.\nThe number of each Dormitory District 's Fairway Market equals 11.\nThe number of each Senior Living Community 's Walmart equals 13.\nThe number of each College Town 's Walmart equals the sum of each Senior Living Community 's Fairway Market and each Senior Living Community 's Supermarkets.\nThe number of each Walmart 's Canned Pumpkin equals 5 more than the sum of each Senior Living Community 's Fairway Market, each Senior Living Community 's Walmart, and each College Town 's Walmart.\nThe number of each College Town 's Fairway Market equals 1 more than each Senior Living Community 's Supermarkets.\nThe number of each Walmart 's Cookies equals 7 more than the sum of each Senior Living Community 's Fairway Market, each Senior Living Community 's Supermarkets, and each College Town 's Supermarkets.\nThe number of each Dormitory District 's Walmart equals 5 times each Dormitory District 's Fairway Market.\nThe number of each Senior Living Community 's Fairway Market equals 10 more than each Senior Living Community 's Walmart.\nThe number of each Fairway Market 's Cookies equals 6 times the sum of each Walmart 's Product, each College Town 's Supermarkets, and each College Town 's Walmart.\nHow many Cookies does Fairway Market have?",
+  "solution": "Define each Senior Living Community 's Walmart as f; So f = 13.\nDefine each Senior Living Community 's Fairway Market as p; So p = 10 + f = 10 + 13 = 0.\nDefine each Senior Living Community 's Supermarkets as o; So o = f + p = 13 + 0 = 13.\nDefine each College Town 's Fairway Market as W; So W = 1 + o = 1 + 13 = 14.\nDefine each College Town 's Walmart as Q; So Q = p + o = 0 + 13 = 13.\nDefine each College Town 's Supermarkets as B; So B = Q + W = 13 + 14 = 4.\nDefine each Walmart 's Cookies as c; w = p + o = 0 + 13 = 13; o = B + w = 4 + 13 = 17; So c = 7 + o = 7 + 17 = 1.\nDefine each Walmart 's Canned Pumpkin as m; p = f + Q = 13 + 13 = 3; Y = p + p = 3 + 3 = 6; So m = 5 + Y = 5 + 6 = 11.\nDefine each Walmart 's Product as v; So v = c + m = 1 + 11 = 12.\nDefine each Fairway Market 's Cookies as O; V = Q + B = 13 + 4 = 17; r = v + V = 12 + 17 = 6; So O = 6 * r = 6 * 6 = 13.\n",
+  "num_operation": 16
+}

@@ -505,7 +505,7 @@ def DrawAll(op_max, ip_max, items_flatten, category, force=False):
     unnecessary_file = os.path.join(log_folder, "unnecessary_graph.png")
     visualize_dependency_graph(G_d, title="Unnecessary Graph", filename=unnecessary_file)
     write_log(f"Unnecessary graph saved to: {unnecessary_file}")
-    structure_des = structure_description(Layers, category)
+    structure_des = structure_description(Layers, adj_list, category)
     question, solution, num_operation = question_solution(G_d, Gnece_d, Topo, category)
     # Write question and solution to log
     write_log("\nQuestion:")

@@ -1,0 +1,25 @@
+{
+  "s": 8,
+  "n": 7,
+  "m": 7,
+  "d": 2,
+  "w0": 2,
+  "w1": 3,
+  "e": 9,
+  "structure_graph": "log/draw_all_log_20240913_152703_315385/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240913_152703_315385/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240913_152703_315385/necessary2_graph.png",
+  "topological_order": [
+    "Capitol District 's Boxed",
+    "Restaurant District 's Trader Joe's",
+    "Restaurant District 's Auchan",
+    "Restaurant District 's Boxed",
+    "Restaurant District 's Supermarkets",
+    "Capitol District 's Auchan"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240913_152703_315385/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240913_152703_315385/unnecessary_graph.png",
+  "question": "Background: There are 3 types of District: Civic Center, Restaurant District, and Capitol District.\nThere are 3 types of Supermarkets: Boxed, Trader Joe's, and Auchan.\nEach Civic Center has Trader Joe's, Boxed, and Auchan.\nEach Restaurant District has Boxed, Auchan, and Trader Joe's.\nEach Capitol District has Trader Joe's, Boxed, and Auchan.\nThe number of each Civic Center 's Trader Joe's equals 11.\nThe number of each Capitol District 's Boxed equals 14.\nThe number of each Restaurant District 's Trader Joe's equals 1.\nThe number of each Capitol District 's Auchan equals 22 times each Restaurant District 's Supermarkets.\nThe number of each Capitol District 's Trader Joe's equals each Civic Center 's Auchan.\nThe number of each Restaurant District 's Auchan equals 7 more than the sum of each Capitol District 's Boxed and each Restaurant District 's Trader Joe's.\nThe number of each Restaurant District 's Boxed equals each Restaurant District 's Auchan.\nThe number of each Civic Center 's Auchan equals 12.\nThe number of each Civic Center 's Boxed equals 11 more than each Restaurant District 's Supermarkets.\nHow many Auchan does Capitol District have?",
+  "solution": "Define each Capitol District 's Boxed as h; So h = 14.\nDefine each Restaurant District 's Trader Joe's as s; So s = 1.\nDefine each Restaurant District 's Auchan as R; T = h + s = 14 + 1 = 15; So R = 7 + T = 7 + 15 = 22.\nDefine each Restaurant District 's Boxed as O; So O = R = 22.\nDefine each Restaurant District 's Supermarkets as u; c = O + s = 22 + 1 = 0; So u = R + c = 22 + 0 = 22.\nDefine each Capitol District 's Auchan as Q; So Q = 22 * u = 22 * 22 = 1.\n",
+  "num_operation": 8
+}

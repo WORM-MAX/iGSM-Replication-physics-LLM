@@ -1,0 +1,21 @@
+{
+  "s": 2,
+  "n": 2,
+  "m": 2,
+  "d": 2,
+  "w0": 3,
+  "w1": 4,
+  "e": 11,
+  "structure_graph": "log/draw_all_log_20240913_152706_779157/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240913_152706_779157/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240913_152706_779157/necessary2_graph.png",
+  "topological_order": [
+    "Condo District 's Sainsbury's",
+    "Colonial District 's Sainsbury's"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240913_152706_779157/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240913_152706_779157/unnecessary_graph.png",
+  "question": "Background: There are 3 types of District: Fashion District, Colonial District, and Condo District.\nThere are 4 types of Supermarkets: Aldi, Instacart, Lulu Hypermarket, and Sainsbury's.\nEach Fashion District has Lulu Hypermarket, Sainsbury's, Instacart, and Aldi.\nEach Colonial District has Sainsbury's, Instacart, and Aldi.\nEach Condo District has Lulu Hypermarket, Instacart, Sainsbury's, and Aldi.\nThe number of each Colonial District 's Sainsbury's equals 20 more than each Condo District 's Sainsbury's.\nThe number of each Colonial District 's Instacart equals 7 more than each Condo District 's Lulu Hypermarket.\nThe number of each Fashion District 's Aldi equals 15 times the sum of each Colonial District 's Instacart, each Condo District 's Lulu Hypermarket, and each Fashion District 's Lulu Hypermarket.\nThe number of each Colonial District 's Aldi equals the sum of each Fashion District 's Aldi, each Condo District 's Lulu Hypermarket, each Colonial District 's Instacart, and each Fashion District 's Lulu Hypermarket.\nThe number of each Condo District 's Aldi equals the difference of each Fashion District 's Lulu Hypermarket and each Condo District 's Lulu Hypermarket.\nThe number of each Fashion District 's Instacart equals 2.\nThe number of each Condo District 's Sainsbury's equals 13.\nThe number of each Fashion District 's Lulu Hypermarket equals 0 more than the sum of each Condo District 's Lulu Hypermarket and each Colonial District 's Instacart.\nThe number of each Fashion District 's Sainsbury's equals 5.\nThe number of each Condo District 's Lulu Hypermarket equals 14.\nThe number of each Condo District 's Instacart equals 7.\nHow many Sainsbury's does Colonial District have?",
+  "solution": "Define each Condo District 's Sainsbury's as n; So n = 13.\nDefine each Colonial District 's Sainsbury's as D; So D = 20 + n = 20 + 13 = 10.\n",
+  "num_operation": 2
+}

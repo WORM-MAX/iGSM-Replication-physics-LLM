@@ -1,0 +1,30 @@
+{
+  "s": 12,
+  "n": 9,
+  "m": 12,
+  "d": 3,
+  "w0": 3,
+  "w1": 4,
+  "e": 6,
+  "structure_graph": "log/draw_all_log_20240913_153755_400082/structure_graph.png",
+  "necessary1_graph": "log/draw_all_log_20240913_153755_400082/necessary1_graph.png",
+  "necessary2_graph": "log/draw_all_log_20240913_153755_400082/necessary2_graph.png",
+  "topological_order": [
+    "Academic District 's Fry's",
+    "Single-family Homes 's Central Market",
+    "Central Market 's Dried Fruit",
+    "Central Market 's Product",
+    "Single-family Homes 's Product",
+    "Fry's 's Milk",
+    "Dormitory District 's Target",
+    "Dormitory District 's Supermarkets",
+    "Target 's Milk",
+    "Target 's Product",
+    "Dormitory District 's Product"
+  ],
+  "necessary3_graph": "log/draw_all_log_20240913_153755_400082/necessary3_graph.png",
+  "unnecessary_graph": "log/draw_all_log_20240913_153755_400082/unnecessary_graph.png",
+  "question": "Background: There are 3 types of District: Academic District, Dormitory District, and Single-family Homes.\nThere are 3 types of Supermarkets: Target, Fry's, and Central Market.\nThere are 3 types of Product: Scones, Dried Fruit, and Milk.\nEach Academic District has Fry's.\nEach Dormitory District has Target.\nEach Single-family Homes has Central Market.\nEach Target has Milk.\nEach Fry's has Milk.\nEach Central Market has Dried Fruit.\nThe number of each Academic District 's Fry's equals 2.\nThe number of each Dormitory District 's Target equals each Fry's 's Milk.\nThe number of each Fry's 's Milk equals 5 times the difference of each Single-family Homes 's Product and each Central Market 's Dried Fruit.\nThe number of each Central Market 's Dried Fruit equals each Single-family Homes 's Central Market.\nThe number of each Target 's Milk equals the difference of each Dormitory District 's Supermarkets and each Fry's 's Milk.\nThe number of each Single-family Homes 's Central Market equals each Academic District 's Fry's.\nHow many Product does Dormitory District have?",
+  "solution": "Define each Academic District 's Fry's as O; So O = 2.\nDefine each Single-family Homes 's Central Market as P; So P = O = 2.\nDefine each Central Market 's Dried Fruit as N; So N = P = 2.\nDefine each Central Market 's Product as x; So x = N = 2.\nDefine each Single-family Homes 's Product as m; m = P * x = 2 * 2 = 4.\nDefine each Fry's 's Milk as Z; R = m - N = 4 - 2 = 2; So Z = 5 * R = 5 * 2 = 10.\nDefine each Dormitory District 's Target as o; So o = Z = 10.\nDefine each Dormitory District 's Supermarkets as X; So X = o = 10.\nDefine each Target 's Milk as E; So E = X - Z = 10 - 10 = 0.\nDefine each Target 's Product as B; So B = E = 0.\nDefine each Dormitory District 's Product as z; z = o * B = 10 * 0 = 0.\n",
+  "num_operation": 12
+}

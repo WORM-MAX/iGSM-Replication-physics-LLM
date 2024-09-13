@@ -293,8 +293,16 @@ def question_solution(G_d, Gnece_d, Topo, category,front=False):
         num_operation += len(item) - 1
     return question, solution, num_operation
 
-def structure_description(Layers, category):
-    structure_description = ""
+def structure_description(Layers, adj_list, category):
+    structure_description = "Background: "
     for i in range(len(Layers)):
-        structure_description += f"{category[i]} category contains " + ", ".join([item.item_name for item in Layers[i][:-1]]) + f", and {Layers[i][-1].item_name}.\n"
+        structure_description += f"There are {len(Layers[i])} types of {category[i]}: " + ", ".join([item.item_name for item in Layers[i][:-1]]) + f", and {Layers[i][-1].item_name}.\n"
+    for key, value in adj_list.items():
+        if len(value) == 1:
+            structure_description += f"Each {key.item_name} has {value[0].item_name}.\n"
+        elif len(value) == 2:
+            structure_description += f"Each {key.item_name} has {value[0].item_name} and {value[1].item_name}.\n"
+        else:
+            structure_description += f"Each {key.item_name} has " + ", ".join([item.item_name for item in value[:-1]]) + f", and {value[-1].item_name}.\n"
+    
     return structure_description
